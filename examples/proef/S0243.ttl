@@ -1,0 +1,5 @@
+@prefix schema: <http://schema.org/> .
+
+<https://gen.example.com/proef/S0243> a schema:ArchiveComponent ;
+    schema:name "BS Lemsterland Ovl. Reg 1894 nr. 27 (dd. 7-4-1894)" .
+

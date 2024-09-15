@@ -1,0 +1,9 @@
+@prefix pico: <https://personsincontext.org/model/> .
+@prefix schema: <http://schema.org/> .
+
+<https://gen.example.com/proef/I1055435256> a pico:PersonReconstruction ;
+    schema:children <https://gen.example.com/proef/I1055435244> ;
+    schema:gender schema:Female ;
+    schema:name "Rinske Wytzes" ;
+    schema:spouse <https://gen.example.com/proef/I1055435252> .
+

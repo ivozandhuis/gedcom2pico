@@ -1,0 +1,4 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+
+<https://gen.example.com/proef/F0039> a bio:Marriage .
+

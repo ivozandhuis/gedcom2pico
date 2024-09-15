@@ -1,0 +1,9 @@
+@prefix pico: <https://personsincontext.org/model/> .
+@prefix schema: <http://schema.org/> .
+
+<https://gen.example.com/proef/I1055435183> a pico:PersonReconstruction ;
+    schema:children <https://gen.example.com/proef/I999004299> ;
+    schema:gender schema:Female ;
+    schema:name "Janke Oedses" ;
+    schema:spouse <https://gen.example.com/proef/I1055435180> .
+

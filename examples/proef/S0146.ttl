@@ -1,0 +1,5 @@
+@prefix schema: <http://schema.org/> .
+
+<https://gen.example.com/proef/S0146> a schema:ArchiveComponent ;
+    schema:name "DTB Trouwregister Hervormde gemeente Gorredijk nr. 559, 1699 - 1811" .
+
