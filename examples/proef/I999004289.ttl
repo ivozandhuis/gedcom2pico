@@ -1,12 +1,12 @@
 @prefix pico: <https://personsincontext.org/model/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
-@prefix schema: <http://schema.org/> .
+@prefix sdo: <https://schema.org/> .
 
 <https://gen.example.com/proef/I999004289> a pico:PersonReconstruction ;
-    schema:gender schema:Female ;
-    schema:name "Renske Pieters van der Werf" ;
     prov:wasDerivedFrom [ a pico:PersonObservation ;
-            prov:hadPrimarySource <https://gen.example.com/proef/S0042> ],
+            prov:hadPrimarySource <https://gen.example.com/proef/S0243> ],
         [ a pico:PersonObservation ;
-            prov:hadPrimarySource <https://gen.example.com/proef/S0243> ] .
+            prov:hadPrimarySource <https://gen.example.com/proef/S0042> ] ;
+    sdo:gender sdo:Female ;
+    sdo:name "Renske Pieters van der Werf" .
 

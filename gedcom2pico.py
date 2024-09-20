@@ -11,7 +11,7 @@ from gedcom.element.source import SourceElement
 from gedcom.element.family import FamilyElement
 from gedcom.parser import Parser
 
-from rdflib import Graph, URIRef, Literal, BNode, Namespace, RDF, PROV
+from rdflib import Graph, URIRef, Literal, BNode, Namespace, RDF, PROV, SDO
 
 # Initialize file handling
 name = 'proef'
@@ -23,7 +23,6 @@ except: pass
 # Initialize rdflib variables
 baseUri = 'https://gen.example.com/' + name + '/'
 PICO = Namespace('https://personsincontext.org/model/')
-SCHEMA = Namespace('http://schema.org/')
 BIO = Namespace('http://purl.org/vocab/bio/0.1/')
 
 # Initialize the parser
@@ -53,7 +52,7 @@ for element in root_child_elements:
     # Create a Graph
     g = Graph()
     g.bind("pico", PICO)
-    g.bind("schema", SCHEMA)
+    g.bind("sdo", SDO)
     g.bind("prov", PROV)
     g.bind("bio", BIO)
 
@@ -68,7 +67,7 @@ for element in root_child_elements:
 
         # schema:name
         (first, last) = element.get_name()
-        g.add((subject, SCHEMA.name, Literal(first + " " + last)))
+        g.add((subject, SDO.name, Literal(first + " " + last)))
 
         # prov:wasDerivedFrom
         list = element.get_sources_by_tag_and_values(tag = gedcom.tags.GEDCOM_TAG_BIRTH)
@@ -87,29 +86,29 @@ for element in root_child_elements:
         # schema:spouse
         for spouse in gedcom_parser.get_spouses(element):
             pointer = spouse.get_pointer()[1:-1]
-            g.add((subject, SCHEMA.spouse, URIRef(baseUri + pointer)))
+            g.add((subject, SDO.spouse, URIRef(baseUri + pointer)))
 
         #schema:children
         for child in gedcom_parser.get_children(element):
             pointer = child.get_pointer()[1:-1]
-            g.add((subject, SCHEMA.children, URIRef(baseUri + pointer)))
+            g.add((subject, SDO.children, URIRef(baseUri + pointer)))
 
         # schema:gender
         gender = element.get_gender()
         if gender == 'F':
-            g.add((subject, SCHEMA.gender, SCHEMA.Female))
+            g.add((subject, SDO.gender, SDO.Female))
         elif gender == 'M':
-            g.add((subject, SCHEMA.gender, SCHEMA.Male))
+            g.add((subject, SDO.gender, SDO.Male))
             
 
     # Handle SOUR
     elif isinstance(element, SourceElement):
         # rdf:type
-        g.add((subject, RDF.type, SCHEMA.ArchiveComponent))
+        g.add((subject, RDF.type, SDO.ArchiveComponent))
 
         # schema:name
         title = element.get_title()
-        g.add((subject, SCHEMA.name, Literal(title)))
+        g.add((subject, SDO.name, Literal(title)))
 
         # schema:url
         child_elements = element.get_child_elements()
@@ -117,7 +116,7 @@ for element in root_child_elements:
             tag = child_element.get_tag()
             if tag == "NOTE":
                 url = url_dict[child_element.get_value()[1:-1]]
-                g.add((subject, SCHEMA.url, Literal(url)))
+                g.add((subject, SDO.url, Literal(url)))
 
     # Handle FAM
     elif isinstance(element, FamilyElement):

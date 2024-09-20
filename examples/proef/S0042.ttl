@@ -1,7 +1,7 @@
-@prefix schema: <http://schema.org/> .
+@prefix sdo: <https://schema.org/> .
 
-<https://gen.example.com/proef/S0042> a schema:ArchiveComponent ;
-    schema:name "BS Opsterland Geb. Reg 1816" ;
-    schema:url "https://allefriezen.nl/zoeken/deeds/573ace76-6f44-389f-666d-4c81bb13ed88",
+<https://gen.example.com/proef/S0042> a sdo:ArchiveComponent ;
+    sdo:name "BS Opsterland Geb. Reg 1816" ;
+    sdo:url "https://allefriezen.nl/zoeken/deeds/573ace76-6f44-389f-666d-4c81bb13ed88",
         "https://www.openarchieven.nl/frl:573ace76-6f44-389f-666d-4c81bb13ed88" .
 

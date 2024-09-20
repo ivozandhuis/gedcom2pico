@@ -1,5 +1,5 @@
-@prefix schema: <http://schema.org/> .
+@prefix sdo: <https://schema.org/> .
 
-<https://gen.example.com/proef/S0118> a schema:ArchiveComponent ;
-    schema:name "BS Sneek Huw. Reg. 1838 nr 26 (dd. 20-5-1838)" .
+<https://gen.example.com/proef/S0118> a sdo:ArchiveComponent ;
+    sdo:name "BS Sneek Huw. Reg. 1838 nr 26 (dd. 20-5-1838)" .
 

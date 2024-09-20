@@ -1,5 +1,5 @@
-@prefix schema: <http://schema.org/> .
+@prefix sdo: <https://schema.org/> .
 
-<https://gen.example.com/proef/S0146> a schema:ArchiveComponent ;
-    schema:name "DTB Trouwregister Hervormde gemeente Gorredijk nr. 559, 1699 - 1811" .
+<https://gen.example.com/proef/S0146> a sdo:ArchiveComponent ;
+    sdo:name "DTB Trouwregister Hervormde gemeente Gorredijk nr. 559, 1699 - 1811" .
 

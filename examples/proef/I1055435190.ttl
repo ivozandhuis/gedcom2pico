@@ -1,9 +1,9 @@
 @prefix pico: <https://personsincontext.org/model/> .
-@prefix schema: <http://schema.org/> .
+@prefix sdo: <https://schema.org/> .
 
 <https://gen.example.com/proef/I1055435190> a pico:PersonReconstruction ;
-    schema:children <https://gen.example.com/proef/I1055435183> ;
-    schema:gender schema:Female ;
-    schema:name "Ybeltje Jaspers" ;
-    schema:spouse <https://gen.example.com/proef/I1055435187> .
+    sdo:children <https://gen.example.com/proef/I1055435183> ;
+    sdo:gender sdo:Female ;
+    sdo:name "Ybeltje Jaspers" ;
+    sdo:spouse <https://gen.example.com/proef/I1055435187> .
 
