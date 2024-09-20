@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/proef/S0076> a sdo:ArchiveComponent ;
+    sdo:name "DTB Gorredijk Trouwregister Hervormde gemeente (dd. 1774-06-05)" ;
+    sdo:url "https://allefriezen.nl/zoeken/deeds/3ab860b6-862b-4565-8078-098089f34f2a" .
+

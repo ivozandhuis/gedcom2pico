@@ -4,9 +4,9 @@
 
 <https://gen.example.com/proef/I999004289> a pico:PersonReconstruction ;
     prov:wasDerivedFrom [ a pico:PersonObservation ;
-            prov:hadPrimarySource <https://gen.example.com/proef/S0243> ],
+            prov:hadPrimarySource <https://gen.example.com/proef/S0042> ],
         [ a pico:PersonObservation ;
-            prov:hadPrimarySource <https://gen.example.com/proef/S0042> ] ;
+            prov:hadPrimarySource <https://gen.example.com/proef/S0243> ] ;
     sdo:gender sdo:Female ;
     sdo:name "Renske Pieters van der Werf" .
 

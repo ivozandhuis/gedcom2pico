@@ -1,7 +1,10 @@
 @prefix pico: <https://personsincontext.org/model/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix sdo: <https://schema.org/> .
 
 <https://gen.example.com/proef/I999004299> a pico:PersonReconstruction ;
+    prov:wasDerivedFrom [ a pico:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/proef/S0083> ] ;
     sdo:children <https://gen.example.com/proef/I999004289> ;
     sdo:gender sdo:Female ;
     sdo:name "Oetske Lammerts Blaauw" ;

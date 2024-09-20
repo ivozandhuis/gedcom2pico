@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/proef/S0088> a sdo:ArchiveComponent ;
+    sdo:name "DTB Langezwaag Kortezwaag Luxwoude Trouwregister Hervormde gemeente (dd. 25-06-1743)" ;
+    sdo:url "https://allefriezen.nl/zoeken/deeds/7a35afda-4644-4950-9f5d-ab710e63382a" .
+

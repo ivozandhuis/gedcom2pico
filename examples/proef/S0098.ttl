@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/proef/S0098> a sdo:ArchiveComponent ;
+    sdo:name "DTB Gorredijk register van begravenen (dd. 28-12-1792)" ;
+    sdo:url "https://allefriezen.nl/zoeken/deeds/aebdf74b-27ba-482d-9c70-c3ea9bdd31da" .
+

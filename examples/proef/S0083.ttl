@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/proef/S0083> a sdo:ArchiveComponent ;
+    sdo:name "BS Opsterland Ovl. Reg. 1864 nr 201" ;
+    sdo:url "https://allefriezen.nl/zoeken/deeds/26250a2f-39a1-c768-07aa-d12a85d3f0da" .
+

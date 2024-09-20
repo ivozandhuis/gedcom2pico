@@ -2,10 +2,10 @@
 1 SOUR Gramps
 2 VERS 5.1.5
 2 NAME Gramps
-1 DATE 15 SEP 2024
-2 TIME 17:31:11
+1 DATE 20 SEP 2024
+2 TIME 14:49:17
 1 SUBM @SUBM@
-1 FILE /home/ivo/Desktop/gedcom2pico/examples/proef.ged
+1 FILE /home/ivo/Documents/git/ivozandhuis/gedcom2pico/examples/proef.ged
 1 COPR Copyright (c) 2024 .
 1 GEDC
 2 VERS 5.5.1
@@ -19,12 +19,10 @@
 2 GIVN Lammert Hendriks
 2 SURN Blaauw
 1 SEX M
-1 FACT 1055435180
-2 TYPE RIN
 1 FAMS @F0415@
 1 CHAN
-2 DATE 1 AUG 2024
-3 TIME 14:59:19
+2 DATE 20 SEP 2024
+3 TIME 11:52:47
 0 @I1055435183@ INDI
 1 NAME Janke /Oedses/
 2 GIVN Janke
@@ -76,20 +74,23 @@
 2 SURN van der Werf
 1 SEX M
 1 BIRT
+2 DATE 2 MAY 1750
+2 PLAC Gorredijk
+2 SOUR @S0085@
+1 BAPM
 2 DATE 15 MAY 1750
 2 PLAC Gorredijk
-1 DEAT Y
-1 BAPM
-2 DATE 17 MAY 1750
+2 SOUR @S0085@
+1 BURI
+2 DATE 23 MAR 1792
 2 PLAC Gorredijk
-1 FACT 1055435244
-2 TYPE RIN
+2 SOUR @S0055@
 1 FAMC @F0423@
 2 PEDI birth
 1 FAMS @F0422@
 1 CHAN
-2 DATE 1 AUG 2024
-3 TIME 15:00:20
+2 DATE 20 SEP 2024
+3 TIME 12:21:07
 0 @I1055435245@ INDI
 1 NAME Geeske /Pieters/
 2 GIVN Geeske
@@ -110,42 +111,34 @@
 1 SEX M
 1 BIRT
 2 PLAC Gorredijk
-1 DEAT Y
+1 BURI
+2 DATE 5 JAN 1770
+2 PLAC Gorredijk
+2 SOUR @S0087@
 1 OCCU landmeter
 1 FACT 1055435252
 2 TYPE RIN
-1 FAMC @F0620@
-2 PEDI birth
 1 FAMS @F0423@
 1 NOTE @N0495@
 1 CHAN
-2 DATE 1 AUG 2024
-3 TIME 15:00:10
+2 DATE 20 SEP 2024
+3 TIME 12:33:48
 0 @I1055435256@ INDI
 1 NAME Rinske /Wytzes/
 2 GIVN Rinske
 2 SURN Wytzes
 1 SEX F
-1 BIRT
-2 PLAC Kortezwaag
+1 BURI
+2 DATE 28 DEC 1792
+2 PLAC Gorredijk
+2 SOUR @S0090@
+2 SOUR @S0098@
 1 FACT 1055435256
 2 TYPE RIN
 1 FAMS @F0423@
 1 CHAN
-2 DATE 1 AUG 2024
-3 TIME 15:00:23
-0 @I1072555456@ INDI
-1 NAME Siebe /Goitses/
-2 GIVN Siebe
-2 SURN Goitses
-1 SEX M
-1 FACT 1072555456
-2 TYPE RIN
-1 FAMS @F0620@
-1 NOTE @N0439@
-1 CHAN
-2 DATE 1 AUG 2024
-3 TIME 14:59:34
+2 DATE 20 SEP 2024
+3 TIME 12:24:50
 0 @I999004289@ INDI
 1 NAME Renske Pieters /van der Werf/
 2 GIVN Renske Pieters
@@ -160,40 +153,43 @@
 2 PLAC Lemmer
 2 SOUR @S0243@
 1 OCCU dienstmeid
-1 FACT 999004289
-2 TYPE RIN
 1 FAMC @F0046@
 2 PEDI birth
 1 FAMS @F0039@
 1 NOTE @N0642@
-1 NOTE @N0643@
 1 CHAN
-2 DATE 31 JUL 2024
-3 TIME 15:58:27
+2 DATE 20 SEP 2024
+3 TIME 11:36:20
 0 @I999004298@ INDI
 1 NAME Pieter Joukes /van der Werf/
 2 GIVN Pieter Joukes
 2 SURN van der Werf
 1 SEX M
 1 BIRT
-2 DATE 19 JUL 1780
+2 DATE 19 JUN 1780
 2 PLAC Gorredijk
 2 NOTE @N0641@
+2 SOUR @S0045@
 1 DEAT
 2 DATE 28 FEB 1864
 2 PLAC Opsterland
+2 SOUR @S0009@
+3 NOTE @N0771@
 1 BAPM
+2 DATE 6 JUL 1780
+2 PLAC Gorredijk
+2 SOUR @S0045@
+1 CONF
 2 DATE 26 JAN 1816
 2 PLAC Gorredijk
+2 SOUR @S0030@
 1 OCCU schippersknecht
-1 FACT 999004298
-2 TYPE RIN
 1 FAMC @F0422@
 2 PEDI birth
 1 FAMS @F0046@
 1 CHAN
-2 DATE 31 JUL 2024
-3 TIME 15:58:27
+2 DATE 20 SEP 2024
+3 TIME 11:36:01
 0 @I999004299@ INDI
 1 NAME Oetske Lammerts /Blaauw/
 2 GIVN Oetske Lammerts
@@ -205,14 +201,14 @@
 1 DEAT
 2 DATE 15 NOV 1864
 2 PLAC Lippenhuizen
-1 FACT 999004299
-2 TYPE RIN
+2 SOUR @S0083@
+3 NOTE @N0778@
 1 FAMC @F0415@
 2 PEDI birth
 1 FAMS @F0046@
 1 CHAN
-2 DATE 31 JUL 2024
-3 TIME 15:47:45
+2 DATE 20 SEP 2024
+3 TIME 11:35:45
 0 @F0039@ FAM
 1 WIFE @I999004289@
 1 MARR
@@ -233,9 +229,10 @@
 2 PLAC Gorredijk
 2 SOUR @S0146@
 1 CHIL @I999004289@
+1 SOUR @S0084@
 1 CHAN
-2 DATE 7 JAN 2024
-3 TIME 11:24:54
+2 DATE 20 SEP 2024
+3 TIME 11:24:03
 0 @F0415@ FAM
 1 HUSB @I1055435180@
 1 WIFE @I1055435183@
@@ -262,9 +259,11 @@
 2 DATE 5 JUN 1774
 2 PLAC Gorredijk
 1 CHIL @I999004298@
+1 SOUR @S0067@
+1 SOUR @S0076@
 1 CHAN
-2 DATE 7 JAN 2024
-3 TIME 11:24:54
+2 DATE 20 SEP 2024
+3 TIME 11:16:15
 0 @F0423@ FAM
 1 HUSB @I1055435252@
 1 WIFE @I1055435256@
@@ -273,15 +272,22 @@
 2 DATE 25 JUN 1743
 2 PLAC Kortezwaag
 1 CHIL @I1055435244@
+1 SOUR @S0088@
 1 CHAN
-2 DATE 7 JAN 2024
-3 TIME 11:24:54
-0 @F0620@ FAM
-1 HUSB @I1072555456@
-1 CHIL @I1055435252@
+2 DATE 20 SEP 2024
+3 TIME 12:21:07
+0 @S0009@ SOUR
+1 TITL BS Opsterland Ovl. Reg. 1864 nr. 44 (1864-02-29)
+1 NOTE @N0767@
 1 CHAN
-2 DATE 7 JAN 2024
-3 TIME 11:24:54
+2 DATE 20 SEP 2024
+3 TIME 10:51:08
+0 @S0030@ SOUR
+1 TITL DTB Gorredijk Lidmatenregister Herv. Gemeente (dd. 1816-01-26)
+1 NOTE @N0769@
+1 CHAN
+2 DATE 20 SEP 2024
+3 TIME 12:40:45
 0 @S0042@ SOUR
 1 TITL BS Opsterland Geb. Reg 1816
 1 NOTE @N0758@
@@ -289,81 +295,88 @@
 1 CHAN
 2 DATE 15 SEP 2024
 3 TIME 14:57:27
+0 @S0045@ SOUR
+1 TITL DTB Gorredijk Doopboek Herv. gem. (dd. 1780-07-16)
+1 NOTE @N0770@
+1 CHAN
+2 DATE 20 SEP 2024
+3 TIME 12:36:25
+0 @S0055@ SOUR
+1 TITL DTB Gorredijk Register van begravenen (dd. 1792-03-23)
+1 NOTE @N0772@
+1 CHAN
+2 DATE 20 SEP 2024
+3 TIME 12:40:36
+0 @S0067@ SOUR
+1 TITL DTB Trouwregister Hervormde gemeente Heerenveen (dd. 1774-06-05)
+1 NOTE @N0773@
+1 CHAN
+2 DATE 20 SEP 2024
+3 TIME 11:14:33
+0 @S0076@ SOUR
+1 TITL DTB Gorredijk Trouwregister Hervormde gemeente (dd. 1774-06-05)
+1 NOTE @N0774@
+1 CHAN
+2 DATE 20 SEP 2024
+3 TIME 12:37:46
+0 @S0083@ SOUR
+1 TITL BS Opsterland Ovl. Reg. 1864 nr 201
+1 NOTE @N0775@
+1 CHAN
+2 DATE 20 SEP 2024
+3 TIME 11:19:49
+0 @S0084@ SOUR
+1 TITL DTB Gorredijk Trouwregister Hervormde gemeente (dd. 1809-01-15)
+1 NOTE @N0777@
+1 CHAN
+2 DATE 20 SEP 2024
+3 TIME 12:37:56
+0 @S0085@ SOUR
+1 TITL DTB Gorredijk Doopboek Herv. gem. (dd. 1750-05-15)
+1 NOTE @N0779@
+1 CHAN
+2 DATE 20 SEP 2024
+3 TIME 12:36:16
+0 @S0087@ SOUR
+1 TITL DTB Gorredijk Diaconierekeningboek fol. 289
+1 NOTE @N0780@
+1 CHAN
+2 DATE 20 SEP 2024
+3 TIME 12:36:06
+0 @S0088@ SOUR
+1 TITL DTB Langezwaag Kortezwaag Luxwoude Trouwregister Hervormde gemeente (dd
+2 CONC . 25-06-1743)
+1 NOTE @N0781@
+1 CHAN
+2 DATE 20 SEP 2024
+3 TIME 12:37:31
+0 @S0090@ SOUR
+1 TITL DTB Gorredijk Diaconierekeningboek  (dd. 28-12-1792)
+1 NOTE @N0783@
+1 CHAN
+2 DATE 20 SEP 2024
+3 TIME 12:35:56
+0 @S0098@ SOUR
+1 TITL DTB Gorredijk register van begravenen (dd. 28-12-1792)
+1 NOTE @N0784@
+1 CHAN
+2 DATE 20 SEP 2024
+3 TIME 12:40:59
 0 @S0118@ SOUR
 1 TITL BS Sneek Huw. Reg. 1838 nr 26 (dd. 20-5-1838)
 1 CHAN
 2 DATE 4 AUG 2024
 3 TIME 14:32:49
 0 @S0146@ SOUR
-1 TITL DTB Trouwregister Hervormde gemeente Gorredijk nr. 559, 1699 - 1811
+1 TITL DTB Gorredijk Trouwregister Hervormde gemeente nr. 559, 1699 - 1811
 1 CHAN
-2 DATE 5 AUG 2024
-3 TIME 09:25:58
+2 DATE 20 SEP 2024
+3 TIME 12:38:08
 0 @S0243@ SOUR
 1 TITL BS Lemsterland Ovl. Reg 1894 nr. 27 (dd. 7-4-1894)
 1 CHAN
 2 DATE 7 AUG 2024
 3 TIME 16:22:27
-0 @N0439@ NOTE [http://www.xs4all.nl/~avangeld/Jan%20van%20Gelderen.htm]
-1 CONT 
-1 CONT 80 Siebe Goitses, geboren omstreeks 1670. Siebe is overleden na 1738, on
-1 CONC geveer 68 jaar oud.
-1 CONT Notitie bij Siebe: Uit de stemkohieren 1728 m.b.t. stem 10: "Sijbe Goijt
-1 CONC ses 1/3 part hornleger en stem, selfs bruiker.
-1 CONT De Ed. Heer oud Grietman Augustinus Lycklama à Nijeholt mede 1/3 sate e
-1 CONC n stem, bruiker is Sijtse Wijbis. Sijtse Wijbis de resterende 1/3 part s
-1 CONC athe en stem, selfs bruiker tesamen een zathe en stem."
-1 CONT Van 1698 tot en met 1738 eigenaar van perceel 1 van floreen 10 ("een der
-1 CONC de part sate en stem, vrij van floreen.") en deels van perceel 11 ("ee
-1 CONC n sathe, strekkende van de vaart in`t Coningsdiept"). In 1698 "Hans Rint
-1 CONC ies 1/6 Jan Rinties 1/6, Geeske Rinses 1/3, makende met Sijbe Goytsens 1
-1 CONC /3 part , soo tesamen een sathe", in 1708 en 1718: "Hans Rintses 1/3, Ja
-1 CONC n Rintses 1/3, makende met Sijbe Goijtse gerechtigheit een geheele sath
-1 CONC e uit" , in 1728: "Oud Grietman A. Lycklama à Nijeholt en Sijtse Wijbe
-1 CONC s samen 2/3 part, makende met Sijbe Goijtses geregtigheid een geheele za
-1 CONC the"en in 1738: "Grietman Livius Suffidus Lycklama à Nijeholt met Sijts
-1 CONC e Wijbes samen 2/3 part, makende met Sijbe Goitsens gerechtigheit een ge
-1 CONC hele sate".
-1 CONT Uit de reëelkohieren 1713, m.b.t. stem 8 (in De Buiren): "Deze man heef
-1 CONC t 8 a 9 kleijne kinderen, moet sijn kost met timmeren winnen, kan daaro
-1 CONC m niets meer missen na het oordeel van het Geregte."
-1 CONT Uit de kerkboekhouding: "10-06-1704 - (39) Sijbe Goijtses, mr. timmerma
-1 CONC n tot Ureterp wegens geleverde materialen en verdiend arbeidsloon aan d
-1 CONC e school tot Ureterp. 22,16,00" en "19-05-1709 (7) Sijbe Goijtses wegen
-1 CONC s verdiend arbeidsloon aan Tiese Jans gebruikende huisinge tot Selmien
-1 CONC . 07,14,00" en "tussen 29-12-1709 en 5-1-1710 (12) Sijbe Goijtses wegen
-1 CONC s verdient arbeidsloon ten tijde Hendrik Teeckes kerkvoogd is geweest al
-1 CONC s vervallen aan de kerk te Ureterp. 25,01,00"
-1 CONT Beroep:
-1 CONT 		meester-timmerman 	  	[bron: Ryksargyf DTBL]
-1 CONT Hij trouwde op ± 27 jarige leeftijd op een onbekende dag in juli 1697 i
-1 CONC n Ureterp (Ops, Fr). Het huwelijk werd aangegaan met:
-1 CONT 81 Grietje Siebens, ongeveer 27 jaar oud, geboren omstreeks 1670.
-1 CONT 
-1 CONT Notitie bij het huwelijk van Siebe en Grietje: Hij van Ureterp, zij va
-1 CONC n Niebert.
-1 CONT Kinderen van Siebe en Grietje:
-1 CONT 
-1 CONT     I. Aijse, geboren op een onbekende dag in oktober 1698 in Ureterp (O
-1 CONC ps, Fr). Hij is gedoopt op een onbekende dag in oktober 1698 in Ureter
-1 CONC p (Ops, Fr). Aijse is overleden vóór zondag 1 november 1705, ten hoogst
-1 CONC e 7 jaar oud.
-1 CONT     II. Martje, geboren op een onbekende dag in januari 1700 in Ureter
-1 CONC p (Ops, Fr). Zij is gedoopt op donderdag 7 januari 1700 in Ureterp (Ops
-1 CONC , Fr).
-1 CONT     III. Hendrik, geboren op een onbekende dag in mei 1702 in Ureterp (O
-1 CONC ps, Fr). Hij is gedoopt op zondag 14 mei 1702 in Ureterp (Ops, Fr).
-1 CONT     IV. Aijse, geboren op een onbekende dag in oktober 1705 in Ureterp (
-1 CONC Ops, Fr). Hij is gedoopt op zondag 1 november 1705 in Ureterp (Ops, Fr)
-1 CONC . Aijse is overleden vóór maandag 1 augustus 1712 in Ureterp (Ops, Fr)
-1 CONC , ten hoogste 6 jaar oud.
-1 CONT     V. Rutger (Zie 40)
-1 CONT     VI. Aijse, geboren op een onbekende dag in augustus 1712 in Ureter
-1 CONC p (Ops, Fr). Hij is gedoopt op een onbekende dag in augustus 1712 in Ure
-1 CONC terp (Ops, Fr).
-1 CONT     VII. Antje, geboren op een onbekende dag in augustus 1712 in Ureter
-1 CONC p (Ops, Fr). Zij is gedoopt op een onbekende dag in augustus 1712 in Ure
-1 CONC terp (Ops, Fr).
 0 @N0495@ NOTE Quotisatiekohieren 1749 
 1 CONT 
 1 CONT Ruth Sybes, Opsterland
@@ -446,13 +459,39 @@
 1 CONT Toegangsnr.  : 26
 1 CONT Inventarisnr.: 97075
 1 CONT Repertoirenr.: 118 d.d. 10 augustus 1884
-0 @N0643@ NOTE Records not imported into INDI (individual) Gramps ID I999004289:
-1 CONT 
-1 CONT Line ignored as not understood                                      Lin
-1 CONC e 25741: 2 _ALDFAER_TIME 09:00:00
 0 @N0700@ NOTE Geboortedatum wordt hier in oktober genoemd.
 0 @N0758@ NOTE url: https://allefriezen.nl/zoeken/deeds/573ace76-6f44-389f-666d-4c
 1 CONC 81bb13ed88
 0 @N0763@ NOTE url: https://www.openarchieven.nl/frl:573ace76-6f44-389f-666d-4c81b
 1 CONC b13ed88
+0 @N0767@ NOTE url: https://www.openarchieven.nl/frl:8f998b40-9d13-1861-62fe-feb66
+1 CONC 7283688
+0 @N0769@ NOTE url: https://www.openarchieven.nl/frl:62e671d5-7099-4851-9fb2-18abe
+1 CONC 21efe3d
+0 @N0770@ NOTE url: https://allefriezen.nl/zoeken/deeds/0fc3b3dd-4518-4d54-90eb-b6
+1 CONC 327de0c607
+0 @N0771@ NOTE url: https://www.openarchieven.nl/frl:8f998b40-9d13-1861-62fe-feb66
+1 CONC 7283688
+0 @N0772@ NOTE url: https://allefriezen.nl/zoeken/deeds/1c64df4d-8abc-4594-9a11-4c
+1 CONC 90f513b8e9
+0 @N0773@ NOTE url: https://allefriezen.nl/zoeken/deeds/8fe08ff0-49da-4407-b435-cc
+1 CONC 16664b9e92
+0 @N0774@ NOTE url: https://allefriezen.nl/zoeken/deeds/3ab860b6-862b-4565-8078-09
+1 CONC 8089f34f2a
+0 @N0775@ NOTE url: https://allefriezen.nl/zoeken/deeds/26250a2f-39a1-c768-07aa-d1
+1 CONC 2a85d3f0da
+0 @N0777@ NOTE url: https://allefriezen.nl/zoeken/deeds/8bd6830f-d022-4e3c-89bf-62
+1 CONC 98e1d61162
+0 @N0778@ NOTE url: https://allefriezen.nl/zoeken/deeds/26250a2f-39a1-c768-07aa-d1
+1 CONC 2a85d3f0da
+0 @N0779@ NOTE url: https://allefriezen.nl/zoeken/deeds/0ff2ccb3-a0ff-41a1-a5ec-eb
+1 CONC a8b8c8282e
+0 @N0780@ NOTE url: https://allefriezen.nl/zoeken/deeds/6c4cf9a2-8308-40ad-99ed-5e
+1 CONC 60cd6772fc
+0 @N0781@ NOTE url: https://allefriezen.nl/zoeken/deeds/7a35afda-4644-4950-9f5d-ab
+1 CONC 710e63382a
+0 @N0783@ NOTE url: https://allefriezen.nl/zoeken/deeds/f2fde0a8-09ec-41b2-b6bf-14
+1 CONC aec5805eaa
+0 @N0784@ NOTE url: https://allefriezen.nl/zoeken/deeds/aebdf74b-27ba-482d-9c70-c3
+1 CONC ea9bdd31da
 0 TRLR

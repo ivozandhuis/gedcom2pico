@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/proef/S0090> a sdo:ArchiveComponent ;
+    sdo:name "DTB Gorredijk Diaconierekeningboek  (dd. 28-12-1792)" ;
+    sdo:url "https://allefriezen.nl/zoeken/deeds/f2fde0a8-09ec-41b2-b6bf-14aec5805eaa" .
+
