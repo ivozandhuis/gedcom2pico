@@ -2,8 +2,8 @@
 1 SOUR Gramps
 2 VERS 5.1.5
 2 NAME Gramps
-1 DATE 20 SEP 2024
-2 TIME 14:49:17
+1 DATE 22 SEP 2024
+2 TIME 15:04:20
 1 SUBM @SUBM@
 1 FILE /home/ivo/Documents/git/ivozandhuis/gedcom2pico/examples/proef.ged
 1 COPR Copyright (c) 2024 .
@@ -69,9 +69,9 @@
 2 DATE 1 AUG 2024
 3 TIME 14:59:42
 0 @I1055435244@ INDI
-1 NAME Jouke Rutgers /van der Werf/
-2 GIVN Jouke Rutgers
-2 SURN van der Werf
+1 NAME Jouke /Rutgers/
+2 GIVN Jouke
+2 SURN Rutgers
 1 SEX M
 1 BIRT
 2 DATE 2 MAY 1750
@@ -90,20 +90,22 @@
 1 FAMS @F0422@
 1 CHAN
 2 DATE 20 SEP 2024
-3 TIME 12:21:07
+3 TIME 12:54:09
 0 @I1055435245@ INDI
 1 NAME Geeske /Pieters/
 2 GIVN Geeske
 2 SURN Pieters
 1 SEX F
-1 BIRT
-2 PLAC Heerenveen
+1 DEAT
+2 DATE 30 AUG 1827
+2 PLAC Gorredijk
+2 SOUR @S0102@
 1 FACT 1055435245
 2 TYPE RIN
 1 FAMS @F0422@
 1 CHAN
-2 DATE 1 AUG 2024
-3 TIME 14:59:58
+2 DATE 22 SEP 2024
+3 TIME 09:25:01
 0 @I1055435252@ INDI
 1 NAME Rutger /Sybes/
 2 GIVN Rutger
@@ -174,7 +176,6 @@
 2 DATE 28 FEB 1864
 2 PLAC Opsterland
 2 SOUR @S0009@
-3 NOTE @N0771@
 1 BAPM
 2 DATE 6 JUL 1780
 2 PLAC Gorredijk
@@ -227,7 +228,7 @@
 2 TYPE religious
 2 DATE 15 JAN 1809
 2 PLAC Gorredijk
-2 SOUR @S0146@
+2 SOUR @S0084@
 1 CHIL @I999004289@
 1 SOUR @S0084@
 1 CHAN
@@ -279,15 +280,17 @@
 0 @S0009@ SOUR
 1 TITL BS Opsterland Ovl. Reg. 1864 nr. 44 (1864-02-29)
 1 NOTE @N0767@
+1 NOTE @N0800@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 10:51:08
+2 DATE 22 SEP 2024
+3 TIME 09:59:45
 0 @S0030@ SOUR
 1 TITL DTB Gorredijk Lidmatenregister Herv. Gemeente (dd. 1816-01-26)
 1 NOTE @N0769@
+1 NOTE @N0796@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 12:40:45
+2 DATE 22 SEP 2024
+3 TIME 09:43:32
 0 @S0042@ SOUR
 1 TITL BS Opsterland Geb. Reg 1816
 1 NOTE @N0758@
@@ -298,15 +301,17 @@
 0 @S0045@ SOUR
 1 TITL DTB Gorredijk Doopboek Herv. gem. (dd. 1780-07-16)
 1 NOTE @N0770@
+1 NOTE @N0793@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 12:36:25
+2 DATE 22 SEP 2024
+3 TIME 09:39:44
 0 @S0055@ SOUR
 1 TITL DTB Gorredijk Register van begravenen (dd. 1792-03-23)
 1 NOTE @N0772@
+1 NOTE @N0795@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 12:40:36
+2 DATE 22 SEP 2024
+3 TIME 09:43:01
 0 @S0067@ SOUR
 1 TITL DTB Trouwregister Hervormde gemeente Heerenveen (dd. 1774-06-05)
 1 NOTE @N0773@
@@ -316,33 +321,38 @@
 0 @S0076@ SOUR
 1 TITL DTB Gorredijk Trouwregister Hervormde gemeente (dd. 1774-06-05)
 1 NOTE @N0774@
+1 NOTE @N0798@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 12:37:46
+2 DATE 22 SEP 2024
+3 TIME 09:45:22
 0 @S0083@ SOUR
 1 TITL BS Opsterland Ovl. Reg. 1864 nr 201
 1 NOTE @N0775@
+1 NOTE @N0789@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 11:19:49
+2 DATE 22 SEP 2024
+3 TIME 09:29:38
 0 @S0084@ SOUR
 1 TITL DTB Gorredijk Trouwregister Hervormde gemeente (dd. 1809-01-15)
 1 NOTE @N0777@
+1 NOTE @N0799@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 12:37:56
+2 DATE 22 SEP 2024
+3 TIME 09:47:57
 0 @S0085@ SOUR
 1 TITL DTB Gorredijk Doopboek Herv. gem. (dd. 1750-05-15)
 1 NOTE @N0779@
+1 NOTE @N0792@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 12:36:16
+2 DATE 22 SEP 2024
+3 TIME 09:38:36
 0 @S0087@ SOUR
 1 TITL DTB Gorredijk Diaconierekeningboek fol. 289
 1 NOTE @N0780@
+1 NOTE @N0791@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 12:36:06
+2 DATE 22 SEP 2024
+3 TIME 09:32:28
 0 @S0088@ SOUR
 1 TITL DTB Langezwaag Kortezwaag Luxwoude Trouwregister Hervormde gemeente (dd
 2 CONC . 25-06-1743)
@@ -353,25 +363,29 @@
 0 @S0090@ SOUR
 1 TITL DTB Gorredijk Diaconierekeningboek  (dd. 28-12-1792)
 1 NOTE @N0783@
+1 NOTE @N0790@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 12:35:56
+2 DATE 22 SEP 2024
+3 TIME 09:31:34
 0 @S0098@ SOUR
 1 TITL DTB Gorredijk register van begravenen (dd. 28-12-1792)
 1 NOTE @N0784@
+1 NOTE @N0797@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 12:40:59
+2 DATE 22 SEP 2024
+3 TIME 09:44:19
+0 @S0102@ SOUR
+1 TITL BS Opsterland Ovl. Reg. 1827 fol. 39
+1 NOTE @N0786@
+1 NOTE @N0787@
+1 CHAN
+2 DATE 22 SEP 2024
+3 TIME 09:27:06
 0 @S0118@ SOUR
 1 TITL BS Sneek Huw. Reg. 1838 nr 26 (dd. 20-5-1838)
 1 CHAN
 2 DATE 4 AUG 2024
 3 TIME 14:32:49
-0 @S0146@ SOUR
-1 TITL DTB Gorredijk Trouwregister Hervormde gemeente nr. 559, 1699 - 1811
-1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 12:38:08
 0 @S0243@ SOUR
 1 TITL BS Lemsterland Ovl. Reg 1894 nr. 27 (dd. 7-4-1894)
 1 CHAN
@@ -470,8 +484,6 @@
 1 CONC 21efe3d
 0 @N0770@ NOTE url: https://allefriezen.nl/zoeken/deeds/0fc3b3dd-4518-4d54-90eb-b6
 1 CONC 327de0c607
-0 @N0771@ NOTE url: https://www.openarchieven.nl/frl:8f998b40-9d13-1861-62fe-feb66
-1 CONC 7283688
 0 @N0772@ NOTE url: https://allefriezen.nl/zoeken/deeds/1c64df4d-8abc-4594-9a11-4c
 1 CONC 90f513b8e9
 0 @N0773@ NOTE url: https://allefriezen.nl/zoeken/deeds/8fe08ff0-49da-4407-b435-cc
@@ -494,4 +506,31 @@
 1 CONC aec5805eaa
 0 @N0784@ NOTE url: https://allefriezen.nl/zoeken/deeds/aebdf74b-27ba-482d-9c70-c3
 1 CONC ea9bdd31da
+0 @N0786@ NOTE url: https://allefriezen.nl/zoeken/deeds/54fe7332-7c0c-125e-58ea-4c
+1 CONC ea3b48deb9
+0 @N0787@ NOTE url: https://www.openarchieven.nl/frl:54fe7332-7c0c-125e-58ea-4cea3
+1 CONC b48deb9
+0 @N0789@ NOTE url: https://www.openarchieven.nl/frl:26250a2f-39a1-c768-07aa-d12a8
+1 CONC 5d3f0da
+1 CONT 
+0 @N0790@ NOTE url: https://www.openarchieven.nl/frl:f2fde0a8-09ec-41b2-b6bf-14aec
+1 CONC 5805eaa
+0 @N0791@ NOTE url: https://www.openarchieven.nl/frl:6c4cf9a2-8308-40ad-99ed-5e60c
+1 CONC d6772fc
+0 @N0792@ NOTE url: https://www.openarchieven.nl/frl:0ff2ccb3-a0ff-41a1-a5ec-eba8b
+1 CONC 8c8282e
+0 @N0793@ NOTE url: https://www.openarchieven.nl/frl:0fc3b3dd-4518-4d54-90eb-b6327
+1 CONC de0c607
+0 @N0795@ NOTE url: https://www.openarchieven.nl/frl:1c64df4d-8abc-4594-9a11-4c90f
+1 CONC 513b8e9
+0 @N0796@ NOTE url: https://allefriezen.nl/zoeken/deeds/62e671d5-7099-4851-9fb2-18
+1 CONC abe21efe3d
+0 @N0797@ NOTE url: https://www.openarchieven.nl/frl:aebdf74b-27ba-482d-9c70-c3ea9
+1 CONC bdd31da
+0 @N0798@ NOTE url: https://www.openarchieven.nl/frl:3ab860b6-862b-4565-8078-09808
+1 CONC 9f34f2a
+0 @N0799@ NOTE url: https://www.openarchieven.nl/frl:8bd6830f-d022-4e3c-89bf-6298e
+1 CONC 1d61162
+0 @N0800@ NOTE url: https://allefriezen.nl/zoeken/deeds/8f998b40-9d13-1861-62fe-fe
+1 CONC b667283688
 0 TRLR

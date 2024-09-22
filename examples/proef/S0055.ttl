@@ -2,5 +2,6 @@
 
 <https://gen.example.com/proef/S0055> a sdo:ArchiveComponent ;
     sdo:name "DTB Gorredijk Register van begravenen (dd. 1792-03-23)" ;
-    sdo:url "https://allefriezen.nl/zoeken/deeds/1c64df4d-8abc-4594-9a11-4c90f513b8e9" .
+    sdo:url "https://allefriezen.nl/zoeken/deeds/1c64df4d-8abc-4594-9a11-4c90f513b8e9",
+        "https://www.openarchieven.nl/frl:1c64df4d-8abc-4594-9a11-4c90f513b8e9" .
 

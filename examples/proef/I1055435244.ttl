@@ -7,6 +7,6 @@
             prov:hadPrimarySource <https://gen.example.com/proef/S0085> ] ;
     sdo:children <https://gen.example.com/proef/I999004298> ;
     sdo:gender sdo:Male ;
-    sdo:name "Jouke Rutgers van der Werf" ;
+    sdo:name "Jouke Rutgers" ;
     sdo:spouse <https://gen.example.com/proef/I1055435245> .
 

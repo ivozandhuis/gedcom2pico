@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/proef/S0102> a sdo:ArchiveComponent ;
+    sdo:name "BS Opsterland Ovl. Reg. 1827 fol. 39" ;
+    sdo:url "https://allefriezen.nl/zoeken/deeds/54fe7332-7c0c-125e-58ea-4cea3b48deb9",
+        "https://www.openarchieven.nl/frl:54fe7332-7c0c-125e-58ea-4cea3b48deb9" .
+

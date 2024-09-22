@@ -2,5 +2,6 @@
 
 <https://gen.example.com/proef/S0045> a sdo:ArchiveComponent ;
     sdo:name "DTB Gorredijk Doopboek Herv. gem. (dd. 1780-07-16)" ;
-    sdo:url "https://allefriezen.nl/zoeken/deeds/0fc3b3dd-4518-4d54-90eb-b6327de0c607" .
+    sdo:url "https://allefriezen.nl/zoeken/deeds/0fc3b3dd-4518-4d54-90eb-b6327de0c607",
+        "https://www.openarchieven.nl/frl:0fc3b3dd-4518-4d54-90eb-b6327de0c607" .
 

@@ -2,5 +2,6 @@
 
 <https://gen.example.com/proef/S0087> a sdo:ArchiveComponent ;
     sdo:name "DTB Gorredijk Diaconierekeningboek fol. 289" ;
-    sdo:url "https://allefriezen.nl/zoeken/deeds/6c4cf9a2-8308-40ad-99ed-5e60cd6772fc" .
+    sdo:url "https://allefriezen.nl/zoeken/deeds/6c4cf9a2-8308-40ad-99ed-5e60cd6772fc",
+        "https://www.openarchieven.nl/frl:6c4cf9a2-8308-40ad-99ed-5e60cd6772fc" .
 

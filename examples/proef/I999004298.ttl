@@ -4,9 +4,9 @@
 
 <https://gen.example.com/proef/I999004298> a pico:PersonReconstruction ;
     prov:wasDerivedFrom [ a pico:PersonObservation ;
-            prov:hadPrimarySource <https://gen.example.com/proef/S0045> ],
+            prov:hadPrimarySource <https://gen.example.com/proef/S0009> ],
         [ a pico:PersonObservation ;
-            prov:hadPrimarySource <https://gen.example.com/proef/S0009> ] ;
+            prov:hadPrimarySource <https://gen.example.com/proef/S0045> ] ;
     sdo:children <https://gen.example.com/proef/I999004289> ;
     sdo:gender sdo:Male ;
     sdo:name "Pieter Joukes van der Werf" ;
