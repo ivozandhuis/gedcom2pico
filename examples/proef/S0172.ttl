@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/proef/S0172> a sdo:ArchiveComponent ;
+    sdo:name "Topografische kaarten van Nederland vóór 1750 : handgetekende en gedrukte kaarten, aanwezig in de Nederlandse rijksarchieven" .
+

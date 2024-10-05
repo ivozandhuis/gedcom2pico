@@ -1,5 +1,6 @@
 @prefix sdo: <https://schema.org/> .
 
 <https://gen.example.com/proef/S0118> a sdo:ArchiveComponent ;
-    sdo:name "BS Sneek Huw. Reg. 1838 nr 26 (dd. 20-5-1838)" .
+    sdo:name "BS Sneek Huw. Reg. 1838 nr. 26 (dd. 20-5-1838)" ;
+    sdo:url "https://www.openarchieven.nl/frl:8b325e43-3fc3-31dd-4e3a-f9d3abcf8689" .
 

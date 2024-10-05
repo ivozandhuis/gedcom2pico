@@ -1,5 +1,6 @@
 @prefix sdo: <https://schema.org/> .
 
 <https://gen.example.com/proef/S0243> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Ovl. Reg 1894 nr. 27 (dd. 7-4-1894)" .
+    sdo:name "BS Lemsterland Ovl. Reg. 1894 nr. 27 (dd. 7-4-1894)" ;
+    sdo:url "https://www.openarchieven.nl/frl:ed1af8a1-5125-f506-bc8e-7b8d84aec705" .
 

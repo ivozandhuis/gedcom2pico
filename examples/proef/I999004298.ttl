@@ -5,6 +5,8 @@
 
 <https://gen.example.com/proef/I999004298> a pico:PersonReconstruction ;
     prov:wasDerivedFrom [ a pico:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/proef/S0143> ],
+        [ a pico:PersonObservation ;
             prov:hadPrimarySource <https://gen.example.com/proef/S0009> ],
         [ a pico:PersonObservation ;
             prov:hadPrimarySource <https://gen.example.com/proef/S0128> ],

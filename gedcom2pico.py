@@ -35,7 +35,14 @@ def date_converter(gedcom_date: str):
         year = date[0]
         ISOdate = year
 
-    return ISOdate
+    if len(ISOdate) == 10:
+        datatype = XSD.date
+    elif len(ISOdate) == 4:
+        datatype = XSD.gYear
+    else: 
+        datatype = ""
+
+    return [ISOdate, datatype]
 
 
 # Initialize file handling
@@ -98,12 +105,8 @@ for element in root_child_elements:
         birth_date = element.get_birth_date()
         if birth_date != "":
             ISOdate = date_converter(birth_date)
-            if len(ISOdate) == 10:
-                datatype = XSD.date
-                g.add((subject, SDO.birthDate, Literal(ISOdate, datatype = datatype)))
-            elif len(ISOdate) == 4:
-                datatype = XSD.gYear
-                g.add((subject, SDO.birthDate, Literal(ISOdate, datatype = datatype)))
+            if len(ISOdate[0]) > 0:
+                g.add((subject, SDO.birthDate, Literal(ISOdate[0], datatype = ISOdate[1])))
 
         # sdo:birthPlace
         birth_place = element.get_birth_place()
@@ -114,11 +117,8 @@ for element in root_child_elements:
         death_date = element.get_death_date()
         if death_date != "":
             ISOdate = date_converter(death_date)
-            if len(ISOdate) == 10:
-                datatype = XSD.date
-            elif len(ISOdate) == 4:
-                datatype = XSD.gYear
-            g.add((subject, SDO.deathDate, Literal(ISOdate, datatype = datatype)))
+            if len(ISOdate[0]) > 0:
+                g.add((subject, SDO.deathDate, Literal(ISOdate[0], datatype = ISOdate[1])))
 
         # sdo:deathPlace
         death_place = element.get_death_place()
@@ -181,8 +181,24 @@ for element in root_child_elements:
 
     # Handle FAM
     elif isinstance(element, FamilyElement):
-        # rdf:type
-        g.add((subject, RDF.type, BIO.Marriage))
+        child_elements = element.get_child_elements()
+        for child_element in child_elements:
+            tag = child_element.get_tag()
+            if tag == "MARR":
+                grandchild_elements = child_element.get_child_elements()
+                for grandchild_element in grandchild_elements:
+                    tag = grandchild_element.get_tag()
+                    if tag == "DATE":
+                        # rdf:type
+                        g.add((subject, RDF.type, BIO.Marriage))
+                        # bio:date
+                        ISOdate = date_converter(grandchild_element.get_value())
+                        if len(ISOdate[0]) > 0:
+                            g.add((subject, BIO.date, Literal(ISOdate[0], datatype = ISOdate[1])))
+
+                    if tag == "PLAC":
+                        # bio:place
+                        g.add((subject, BIO.place, Literal(grandchild_element.get_value())))
 
     else:
         pass

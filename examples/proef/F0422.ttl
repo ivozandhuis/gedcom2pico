@@ -1,4 +1,7 @@
 @prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<https://gen.example.com/proef/F0422> a bio:Marriage .
+<https://gen.example.com/proef/F0422> a bio:Marriage ;
+    bio:date "1774-06-05"^^xsd:date ;
+    bio:place "Gorredijk" .
 

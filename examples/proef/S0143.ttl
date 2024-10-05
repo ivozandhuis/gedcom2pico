@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/proef/S0143> a sdo:ArchiveComponent ;
+    sdo:name "BS Gorredijk Aktes van Naamaanneming 1812" ;
+    sdo:url "https://allefriezen.nl/zoeken/deeds/9f118d3d-dfe4-4119-aa18-f0ddee886406" .
+

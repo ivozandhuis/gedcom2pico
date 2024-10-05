@@ -2,8 +2,8 @@
 1 SOUR Gramps
 2 VERS 5.1.5
 2 NAME Gramps
-1 DATE 22 SEP 2024
-2 TIME 16:23:04
+1 DATE 5 OCT 2024
+2 TIME 18:33:11
 1 SUBM @SUBM@
 1 FILE /home/ivo/Documents/git/ivozandhuis/gedcom2pico/examples/proef.ged
 1 COPR Copyright (c) 2024 .
@@ -121,10 +121,12 @@
 1 FACT 1055435252
 2 TYPE RIN
 1 FAMS @F0423@
+1 SOUR @S0172@
+2 PAGE kaartnr. 50
 1 NOTE @N0495@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 12:33:48
+2 DATE 24 SEP 2024
+3 TIME 15:55:37
 0 @I1055435256@ INDI
 1 NAME Rinske /Wytzes/
 2 GIVN Rinske
@@ -189,9 +191,10 @@
 2 PEDI birth
 1 FAMS @F0046@
 1 SOUR @S0128@
+1 SOUR @S0143@
 1 CHAN
-2 DATE 22 SEP 2024
-3 TIME 14:05:30
+2 DATE 23 SEP 2024
+3 TIME 18:07:42
 0 @I999004299@ INDI
 1 NAME Oetske Lammerts /Blaauw/
 2 GIVN Oetske Lammerts
@@ -210,8 +213,8 @@
 1 FAMS @F0046@
 1 SOUR @S0106@
 1 CHAN
-2 DATE 22 SEP 2024
-3 TIME 13:37:01
+2 DATE 5 OCT 2024
+3 TIME 16:32:02
 0 @F0039@ FAM
 1 WIFE @I999004289@
 1 MARR
@@ -243,8 +246,8 @@
 2 TYPE unknown
 1 CHIL @I999004299@
 1 CHAN
-2 DATE 7 JAN 2024
-3 TIME 11:24:51
+2 DATE 5 OCT 2024
+3 TIME 16:32:02
 0 @F0416@ FAM
 1 HUSB @I1055435187@
 1 WIFE @I1055435190@
@@ -294,12 +297,12 @@
 2 DATE 22 SEP 2024
 3 TIME 09:43:32
 0 @S0042@ SOUR
-1 TITL BS Opsterland Geb. Reg 1816
+1 TITL BS Opsterland Geb. Reg. 1816
 1 NOTE @N0758@
 1 NOTE @N0763@
 1 CHAN
-2 DATE 15 SEP 2024
-3 TIME 14:57:27
+2 DATE 22 SEP 2024
+3 TIME 19:30:55
 0 @S0045@ SOUR
 1 TITL DTB Gorredijk Doopboek Herv. gem. (dd. 1780-07-16)
 1 NOTE @N0770@
@@ -315,11 +318,11 @@
 2 DATE 22 SEP 2024
 3 TIME 09:43:01
 0 @S0067@ SOUR
-1 TITL DTB Trouwregister Hervormde gemeente Heerenveen (dd. 1774-06-05)
+1 TITL DTB Heerenveen Trouwregister Hervormde gemeente (dd. 1774-06-05)
 1 NOTE @N0773@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 11:14:33
+2 DATE 1 OCT 2024
+3 TIME 16:33:33
 0 @S0076@ SOUR
 1 TITL DTB Gorredijk Trouwregister Hervormde gemeente (dd. 1774-06-05)
 1 NOTE @N0774@
@@ -370,12 +373,12 @@
 2 DATE 22 SEP 2024
 3 TIME 09:31:34
 0 @S0098@ SOUR
-1 TITL DTB Gorredijk register van begravenen (dd. 28-12-1792)
+1 TITL DTB Gorredijk Register van begravenen (dd. 28-12-1792)
 1 NOTE @N0784@
 1 NOTE @N0797@
 1 CHAN
-2 DATE 22 SEP 2024
-3 TIME 09:44:19
+2 DATE 1 OCT 2024
+3 TIME 16:37:15
 0 @S0102@ SOUR
 1 TITL BS Opsterland Ovl. Reg. 1827 fol. 39
 1 NOTE @N0786@
@@ -391,22 +394,38 @@
 2 DATE 22 SEP 2024
 3 TIME 13:36:52
 0 @S0118@ SOUR
-1 TITL BS Sneek Huw. Reg. 1838 nr 26 (dd. 20-5-1838)
+1 TITL BS Sneek Huw. Reg. 1838 nr. 26 (dd. 20-5-1838)
+1 NOTE @N1006@
 1 CHAN
-2 DATE 4 AUG 2024
-3 TIME 14:32:49
+2 DATE 5 OCT 2024
+3 TIME 11:41:41
 0 @S0128@ SOUR
-1 TITL Notarieel Archief, Heerenveen, Minuut-akten 1820, record number 301 (vol
-2 CONC macht dd. 9-12-1820)
+1 TITL NA, Heerenveen, Minuut-akten 1820, record number 301 (volmacht dd. 9-12-
+2 CONC 1820)
 1 NOTE @N0809@
 1 CHAN
 2 DATE 22 SEP 2024
-3 TIME 14:05:24
-0 @S0243@ SOUR
-1 TITL BS Lemsterland Ovl. Reg 1894 nr. 27 (dd. 7-4-1894)
+3 TIME 14:30:50
+0 @S0143@ SOUR
+1 TITL BS Gorredijk Aktes van Naamaanneming 1812
+1 NOTE @N0810@
 1 CHAN
-2 DATE 7 AUG 2024
-3 TIME 16:22:27
+2 DATE 23 SEP 2024
+3 TIME 18:07:39
+0 @S0172@ SOUR
+1 TITL Topografische kaarten van Nederland vóór 1750 : handgetekende en gedru
+2 CONC kte kaarten, aanwezig in de Nederlandse rijksarchieven
+1 AUTH Y.M. Donkersloot - de Vrij
+1 PUBL Groningen, 1981
+1 CHAN
+2 DATE 24 SEP 2024
+3 TIME 15:55:15
+0 @S0243@ SOUR
+1 TITL BS Lemsterland Ovl. Reg. 1894 nr. 27 (dd. 7-4-1894)
+1 NOTE @N0940@
+1 CHAN
+2 DATE 2 OCT 2024
+3 TIME 20:19:16
 0 @N0495@ NOTE Quotisatiekohieren 1749 
 1 CONT 
 1 CONT Ruth Sybes, Opsterland
@@ -555,4 +574,10 @@
 1 CONC cc00533
 0 @N0809@ NOTE url: https://www.openarchieven.nl/frl:d6f531fa-3b5b-41b0-be3f-30095
 1 CONC 77317cc
+0 @N0810@ NOTE url: https://allefriezen.nl/zoeken/deeds/9f118d3d-dfe4-4119-aa18-f0
+1 CONC ddee886406
+0 @N0940@ NOTE url: https://www.openarchieven.nl/frl:ed1af8a1-5125-f506-bc8e-7b8d8
+1 CONC 4aec705
+0 @N1006@ NOTE url: https://www.openarchieven.nl/frl:8b325e43-3fc3-31dd-4e3a-f9d3a
+1 CONC bcf8689
 0 TRLR
