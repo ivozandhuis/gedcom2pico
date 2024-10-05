@@ -3,5 +3,7 @@
 
 <https://gen.example.com/proef/F0423> a bio:Marriage ;
     bio:date "1743-06-25"^^xsd:date ;
+    bio:partner <https://gen.example.com/proef/I1055435252>,
+        <https://gen.example.com/proef/I1055435256> ;
     bio:place "Kortezwaag" .
 

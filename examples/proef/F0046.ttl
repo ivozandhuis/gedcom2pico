@@ -3,5 +3,7 @@
 
 <https://gen.example.com/proef/F0046> a bio:Marriage ;
     bio:date "1809-01-15"^^xsd:date ;
+    bio:partner <https://gen.example.com/proef/I999004298>,
+        <https://gen.example.com/proef/I999004299> ;
     bio:place "Gorredijk" .
 

@@ -182,19 +182,41 @@ for element in root_child_elements:
     # Handle FAM
     elif isinstance(element, FamilyElement):
         child_elements = element.get_child_elements()
+
+        # read partners
+        pointer_husb = ""
+        pointer_wife = ""
+        for child_element in child_elements:
+            tag = child_element.get_tag()
+            if tag == "HUSB":
+                pointer_husb = child_element.get_value()[1:-1]
+
+            if tag == "WIFE":
+                pointer_wife = child_element.get_value()[1:-1]
+
+        # read marriage date and place
         for child_element in child_elements:
             tag = child_element.get_tag()
             if tag == "MARR":
                 grandchild_elements = child_element.get_child_elements()
                 for grandchild_element in grandchild_elements:
                     tag = grandchild_element.get_tag()
+
                     if tag == "DATE":
                         # rdf:type
                         g.add((subject, RDF.type, BIO.Marriage))
+
                         # bio:date
                         ISOdate = date_converter(grandchild_element.get_value())
                         if len(ISOdate[0]) > 0:
                             g.add((subject, BIO.date, Literal(ISOdate[0], datatype = ISOdate[1])))
+
+                        # bio:partner
+                        if len(pointer_husb) > 0:
+                            g.add((subject, BIO.partner, URIRef(baseUri + pointer_husb)))
+
+                        if len(pointer_wife) > 0:    
+                            g.add((subject, BIO.partner, URIRef(baseUri + pointer_wife)))
 
                     if tag == "PLAC":
                         # bio:place

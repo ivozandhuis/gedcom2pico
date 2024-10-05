@@ -3,5 +3,6 @@
 
 <https://gen.example.com/proef/F0039> a bio:Marriage ;
     bio:date "1838-05-20"^^xsd:date ;
+    bio:partner <https://gen.example.com/proef/I999004289> ;
     bio:place "Sneek" .
 

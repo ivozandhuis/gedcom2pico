@@ -5,9 +5,9 @@
 
 <https://gen.example.com/proef/I999004289> a pico:PersonReconstruction ;
     prov:wasDerivedFrom [ a pico:PersonObservation ;
-            prov:hadPrimarySource <https://gen.example.com/proef/S0243> ],
+            prov:hadPrimarySource <https://gen.example.com/proef/S0042> ],
         [ a pico:PersonObservation ;
-            prov:hadPrimarySource <https://gen.example.com/proef/S0042> ] ;
+            prov:hadPrimarySource <https://gen.example.com/proef/S0243> ] ;
     sdo:birthDate "1816-09-11"^^xsd:date ;
     sdo:birthPlace "Gorredijk" ;
     sdo:deathDate "1894-04-07"^^xsd:date ;

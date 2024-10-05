@@ -5,13 +5,13 @@
 
 <https://gen.example.com/proef/I999004298> a pico:PersonReconstruction ;
     prov:wasDerivedFrom [ a pico:PersonObservation ;
-            prov:hadPrimarySource <https://gen.example.com/proef/S0143> ],
+            prov:hadPrimarySource <https://gen.example.com/proef/S0045> ],
         [ a pico:PersonObservation ;
-            prov:hadPrimarySource <https://gen.example.com/proef/S0009> ],
+            prov:hadPrimarySource <https://gen.example.com/proef/S0143> ],
         [ a pico:PersonObservation ;
             prov:hadPrimarySource <https://gen.example.com/proef/S0128> ],
         [ a pico:PersonObservation ;
-            prov:hadPrimarySource <https://gen.example.com/proef/S0045> ] ;
+            prov:hadPrimarySource <https://gen.example.com/proef/S0009> ] ;
     sdo:birthDate "1780-06-19"^^xsd:date ;
     sdo:birthPlace "Gorredijk" ;
     sdo:children <https://gen.example.com/proef/I999004289> ;
