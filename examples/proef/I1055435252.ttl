@@ -1,7 +1,11 @@
-@prefix pico: <https://personsincontext.org/model/> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix sdo: <https://schema.org/> .
 
 <https://gen.example.com/proef/I1055435252> a pico:PersonReconstruction ;
+    prov:wasDerivedFrom [ a pico:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/proef/S0087> ] ;
+    sdo:birthPlace "Gorredijk" ;
     sdo:children <https://gen.example.com/proef/I1055435244> ;
     sdo:gender sdo:Male ;
     sdo:name "Rutger Sybes" ;

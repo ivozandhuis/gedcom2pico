@@ -1,8 +1,12 @@
-@prefix pico: <https://personsincontext.org/model/> .
+@prefix pico: <https://personsincontext.org/model#> .
 @prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://gen.example.com/proef/I1055435187> a pico:PersonReconstruction ;
+    sdo:birthPlace "De Knijpe" ;
     sdo:children <https://gen.example.com/proef/I1055435183> ;
+    sdo:deathDate "1737-09-11"^^xsd:date ;
+    sdo:deathPlace "De Knijpe" ;
     sdo:gender sdo:Male ;
     sdo:name "Oeds Jans" ;
     sdo:spouse <https://gen.example.com/proef/I1055435190> .

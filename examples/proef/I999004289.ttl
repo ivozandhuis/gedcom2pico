@@ -1,12 +1,17 @@
-@prefix pico: <https://personsincontext.org/model/> .
+@prefix pico: <https://personsincontext.org/model#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://gen.example.com/proef/I999004289> a pico:PersonReconstruction ;
     prov:wasDerivedFrom [ a pico:PersonObservation ;
             prov:hadPrimarySource <https://gen.example.com/proef/S0042> ],
         [ a pico:PersonObservation ;
             prov:hadPrimarySource <https://gen.example.com/proef/S0243> ] ;
+    sdo:birthDate "1816-09-11"^^xsd:date ;
+    sdo:birthPlace "Gorredijk" ;
+    sdo:deathDate "1894-04-07"^^xsd:date ;
+    sdo:deathPlace "Lemmer" ;
     sdo:gender sdo:Female ;
     sdo:name "Renske Pieters van der Werf" .
 

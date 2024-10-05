@@ -1,4 +1,4 @@
-@prefix pico: <https://personsincontext.org/model/> .
+@prefix pico: <https://personsincontext.org/model#> .
 @prefix sdo: <https://schema.org/> .
 
 <https://gen.example.com/proef/I1055435190> a pico:PersonReconstruction ;

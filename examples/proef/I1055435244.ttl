@@ -1,10 +1,15 @@
-@prefix pico: <https://personsincontext.org/model/> .
+@prefix pico: <https://personsincontext.org/model#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://gen.example.com/proef/I1055435244> a pico:PersonReconstruction ;
     prov:wasDerivedFrom [ a pico:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/proef/S0055> ],
+        [ a pico:PersonObservation ;
             prov:hadPrimarySource <https://gen.example.com/proef/S0085> ] ;
+    sdo:birthDate "1750-05-02"^^xsd:date ;
+    sdo:birthPlace "Gorredijk" ;
     sdo:children <https://gen.example.com/proef/I999004298> ;
     sdo:gender sdo:Male ;
     sdo:name "Jouke Rutgers" ;

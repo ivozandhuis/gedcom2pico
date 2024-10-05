@@ -1,7 +1,10 @@
-@prefix pico: <https://personsincontext.org/model/> .
+@prefix pico: <https://personsincontext.org/model#> .
 @prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://gen.example.com/proef/I1055435183> a pico:PersonReconstruction ;
+    sdo:birthDate "1748"^^xsd:gYear ;
+    sdo:birthPlace "Benedenknijpe" ;
     sdo:children <https://gen.example.com/proef/I999004299> ;
     sdo:gender sdo:Female ;
     sdo:name "Janke Oedses" ;

@@ -1,11 +1,17 @@
-@prefix pico: <https://personsincontext.org/model/> .
+@prefix pico: <https://personsincontext.org/model#> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://gen.example.com/proef/I999004299> a pico:PersonReconstruction ;
     prov:wasDerivedFrom [ a pico:PersonObservation ;
-            prov:hadPrimarySource <https://gen.example.com/proef/S0083> ] ;
+            prov:hadPrimarySource <https://gen.example.com/proef/S0083> ],
+        [ a pico:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/proef/S0106> ] ;
+    sdo:birthPlace "Knijpe" ;
     sdo:children <https://gen.example.com/proef/I999004289> ;
+    sdo:deathDate "1864-11-15"^^xsd:date ;
+    sdo:deathPlace "Lippenhuizen" ;
     sdo:gender sdo:Female ;
     sdo:name "Oetske Lammerts Blaauw" ;
     sdo:spouse <https://gen.example.com/proef/I999004298> .

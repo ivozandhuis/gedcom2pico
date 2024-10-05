@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/proef/S0128> a sdo:ArchiveComponent ;
+    sdo:name "Notarieel Archief, Heerenveen, Minuut-akten 1820, record number 301 (volmacht dd. 9-12-1820)" ;
+    sdo:url "https://www.openarchieven.nl/frl:d6f531fa-3b5b-41b0-be3f-3009577317cc" .
+

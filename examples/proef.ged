@@ -3,7 +3,7 @@
 2 VERS 5.1.5
 2 NAME Gramps
 1 DATE 22 SEP 2024
-2 TIME 15:04:20
+2 TIME 16:23:04
 1 SUBM @SUBM@
 1 FILE /home/ivo/Documents/git/ivozandhuis/gedcom2pico/examples/proef.ged
 1 COPR Copyright (c) 2024 .
@@ -188,9 +188,10 @@
 1 FAMC @F0422@
 2 PEDI birth
 1 FAMS @F0046@
+1 SOUR @S0128@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 11:36:01
+2 DATE 22 SEP 2024
+3 TIME 14:05:30
 0 @I999004299@ INDI
 1 NAME Oetske Lammerts /Blaauw/
 2 GIVN Oetske Lammerts
@@ -207,9 +208,10 @@
 1 FAMC @F0415@
 2 PEDI birth
 1 FAMS @F0046@
+1 SOUR @S0106@
 1 CHAN
-2 DATE 20 SEP 2024
-3 TIME 11:35:45
+2 DATE 22 SEP 2024
+3 TIME 13:37:01
 0 @F0039@ FAM
 1 WIFE @I999004289@
 1 MARR
@@ -381,11 +383,25 @@
 1 CHAN
 2 DATE 22 SEP 2024
 3 TIME 09:27:06
+0 @S0106@ SOUR
+1 TITL MvS Heerenveen 1824 nr. 427
+1 NOTE @N0807@
+1 NOTE @N0808@
+1 CHAN
+2 DATE 22 SEP 2024
+3 TIME 13:36:52
 0 @S0118@ SOUR
 1 TITL BS Sneek Huw. Reg. 1838 nr 26 (dd. 20-5-1838)
 1 CHAN
 2 DATE 4 AUG 2024
 3 TIME 14:32:49
+0 @S0128@ SOUR
+1 TITL Notarieel Archief, Heerenveen, Minuut-akten 1820, record number 301 (vol
+2 CONC macht dd. 9-12-1820)
+1 NOTE @N0809@
+1 CHAN
+2 DATE 22 SEP 2024
+3 TIME 14:05:24
 0 @S0243@ SOUR
 1 TITL BS Lemsterland Ovl. Reg 1894 nr. 27 (dd. 7-4-1894)
 1 CHAN
@@ -533,4 +549,10 @@
 1 CONC 1d61162
 0 @N0800@ NOTE url: https://allefriezen.nl/zoeken/deeds/8f998b40-9d13-1861-62fe-fe
 1 CONC b667283688
+0 @N0807@ NOTE url: https://allefriezen.nl/zoeken/deeds/d9285c88-14d1-49ee-80db-6e
+1 CONC 9d6cc00533
+0 @N0808@ NOTE url: https://www.openarchieven.nl/frl:d9285c88-14d1-49ee-80db-6e9d6
+1 CONC cc00533
+0 @N0809@ NOTE url: https://www.openarchieven.nl/frl:d6f531fa-3b5b-41b0-be3f-30095
+1 CONC 77317cc
 0 TRLR

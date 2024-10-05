@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/proef/S0106> a sdo:ArchiveComponent ;
+    sdo:name "MvS Heerenveen 1824 nr. 427" ;
+    sdo:url "https://allefriezen.nl/zoeken/deeds/d9285c88-14d1-49ee-80db-6e9d6cc00533",
+        "https://www.openarchieven.nl/frl:d9285c88-14d1-49ee-80db-6e9d6cc00533" .
+
