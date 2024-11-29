@@ -1,0 +1,29 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0055> owl:sameAs oa:record_frl_1c64df4d-8abc-4594-9a11-4c90f513b8e9 .
+
+oa:record_frl_1c64df4d-8abc-4594-9a11-4c90f513b8e9_Person_6b05a8f6-64ad-441c-8811-7b5ab438912f a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_1c64df4d-8abc-4594-9a11-4c90f513b8e9 ;
+    pico:hasRole "other:Begraven" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:givenName "Jouke" ;
+            pnv:literalName "Jouke Ruts" ;
+            pnv:patronym "Ruts" ] ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jouke" ;
+    sdo:name "Jouke Ruts" .
+
+oa:record_frl_1c64df4d-8abc-4594-9a11-4c90f513b8e9 a sdo:ArchiveComponent ;
+    sdo:additionalType "DTB Begraven" ;
+    sdo:dateCreated "1792-03-23"^^xsd:date ;
+    sdo:dateModified "2022-11-14"^^xsd:date ;
+    sdo:locationCreated "Opsterland" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Collectie Doop-, Trouw-, Begraaf- en Lidmaatboeken (DTBL) - Tresoar, Deel: 0554a, Pe..., (toegangsnr. 28), inv.nr. 0554a, register van begravenen Gorredijk, "@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/1c64df4d-8abc-4594-9a11-4c90f513b8e9" .
+

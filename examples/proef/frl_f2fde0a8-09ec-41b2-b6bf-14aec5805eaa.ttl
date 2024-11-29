@@ -1,0 +1,31 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0090> owl:sameAs oa:record_frl_f2fde0a8-09ec-41b2-b6bf-14aec5805eaa .
+
+oa:record_frl_f2fde0a8-09ec-41b2-b6bf-14aec5805eaa_Person_7c807b71-0297-4d3d-90e5-17abe409cf97 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_f2fde0a8-09ec-41b2-b6bf-14aec5805eaa ;
+    pico:hasRole "Overledene" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:givenName "Rutger" ;
+            pnv:literalName "Rutger Sybes" ;
+            pnv:patronym "Sybes" ] ;
+    sdo:deathDate "1792-12-28"^^xsd:date ;
+    sdo:deathPlace "Opsterland" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Rutger" ;
+    sdo:name "Rutger Sybes" .
+
+oa:record_frl_f2fde0a8-09ec-41b2-b6bf-14aec5805eaa a sdo:ArchiveComponent ;
+    sdo:additionalType "DTB Begraven" ;
+    sdo:dateCreated "1792-12-28"^^xsd:date ;
+    sdo:dateModified "2022-11-14"^^xsd:date ;
+    sdo:locationCreated "Opsterland" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Hervormde gemeente Gorredijk - Tresoar, Deel: 24, Periode: 1774-1797, (toegangsnr. 244-27), inv.nr. 24, Diaconierekeningboek Gorredijk, "@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/f2fde0a8-09ec-41b2-b6bf-14aec5805eaa" .
+

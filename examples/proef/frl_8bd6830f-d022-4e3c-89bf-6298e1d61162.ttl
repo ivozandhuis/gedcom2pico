@@ -1,0 +1,44 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0084> owl:sameAs oa:record_frl_8bd6830f-d022-4e3c-89bf-6298e1d61162 .
+
+oa:record_frl_8bd6830f-d022-4e3c-89bf-6298e1d61162_Person_66ef328c-262b-4d91-94ef-325e62f1bd17 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_8bd6830f-d022-4e3c-89bf-6298e1d61162 ;
+    pico:hasRole "Bruid" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:givenName "Oetske" ;
+            pnv:literalName "Oetske Lammerts" ;
+            pnv:patronym "Lammerts" ] ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Oetske" ;
+    sdo:name "Oetske Lammerts" ;
+    sdo:parent oa:record_frl_8bd6830f-d022-4e3c-89bf-6298e1d61162 ;
+    sdo:spouse oa:record_frl_8bd6830f-d022-4e3c-89bf-6298e1d61162_Person_e1f43271-4df6-40fc-8cd0-79ba084fb9c7 .
+
+oa:record_frl_8bd6830f-d022-4e3c-89bf-6298e1d61162_Person_e1f43271-4df6-40fc-8cd0-79ba084fb9c7 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_8bd6830f-d022-4e3c-89bf-6298e1d61162 ;
+    pico:hasRole "Bruidegom" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:givenName "Pieter" ;
+            pnv:literalName "Pieter Joukes" ;
+            pnv:patronym "Joukes" ] ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pieter" ;
+    sdo:name "Pieter Joukes" ;
+    sdo:parent oa:record_frl_8bd6830f-d022-4e3c-89bf-6298e1d61162 ;
+    sdo:spouse oa:record_frl_8bd6830f-d022-4e3c-89bf-6298e1d61162_Person_66ef328c-262b-4d91-94ef-325e62f1bd17 .
+
+oa:record_frl_8bd6830f-d022-4e3c-89bf-6298e1d61162 a sdo:ArchiveComponent ;
+    sdo:additionalType "DTB Trouwen" ;
+    sdo:dateCreated "1809-01-15"^^xsd:date ;
+    sdo:dateModified "2022-08-12"^^xsd:date ;
+    sdo:locationCreated "Opsterland" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Collectie doop-, trouw-, lidmaten- begraafboeken - Tresoar, Deel: 0559, Periode: 169..., (toegangsnr. 28), inv.nr. 0559, Trouwregister Hervormde gemeente Gorredijk, "@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/8bd6830f-d022-4e3c-89bf-6298e1d61162" .
+

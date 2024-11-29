@@ -1,0 +1,45 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0128> owl:sameAs oa:record_frl_d6f531fa-3b5b-41b0-be3f-3009577317cc .
+
+oa:record_frl_d6f531fa-3b5b-41b0-be3f-3009577317cc_Person_69424a43-7e76-4293-8dd6-ee6f0f73204e a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_d6f531fa-3b5b-41b0-be3f-3009577317cc ;
+    pico:hasRole "other:Vermeld" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Werf" ;
+            pnv:givenName "Pieter" ;
+            pnv:literalName "Pieter Joukes van der Werf" ;
+            pnv:patronym "Joukes" ;
+            pnv:surnamePrefix "van der" ] ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pieter" ;
+    sdo:name "Pieter Joukes van der Werf" .
+
+oa:record_frl_d6f531fa-3b5b-41b0-be3f-3009577317cc_Person_6f35f455-063f-4092-9eed-dd3deebd8793 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_d6f531fa-3b5b-41b0-be3f-3009577317cc ;
+    pico:hasRole "other:Vermeld" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Blaauw" ;
+            pnv:givenName "Aaltje" ;
+            pnv:literalName "Aaltje Lammerts Blaauw" ;
+            pnv:patronym "Lammerts" ] ;
+    sdo:familyName "Blaauw" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Aaltje" ;
+    sdo:name "Aaltje Lammerts Blaauw" .
+
+oa:record_frl_d6f531fa-3b5b-41b0-be3f-3009577317cc a sdo:ArchiveComponent ;
+    sdo:additionalType "Notariële archieven" ;
+    sdo:dateCreated "1820-12-01"^^xsd:date ;
+    sdo:dateModified "1970-01-01"^^xsd:date ;
+    sdo:locationCreated "Heerenveen" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Notarieel archief - Tresoar, Deel: 055018, Periode: 1820, (toegangsnr. 26), inv.nr. 055018, Minuut-akten 1820, 00301"@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/d6f531fa-3b5b-41b0-be3f-3009577317cc" .
+

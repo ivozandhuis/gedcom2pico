@@ -1,0 +1,51 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0045> owl:sameAs oa:record_frl_0fc3b3dd-4518-4d54-90eb-b6327de0c607 .
+
+oa:record_frl_0fc3b3dd-4518-4d54-90eb-b6327de0c607_Person_52dbeacc-912b-4b4e-8c1f-1a68ac90bf9f a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_0fc3b3dd-4518-4d54-90eb-b6327de0c607 ;
+    pico:hasRole "Dopeling" ;
+    sdo:birthPlace "Gorredijk" ;
+    sdo:givenName "Pieter" ;
+    sdo:name "Pieter" .
+
+oa:record_frl_0fc3b3dd-4518-4d54-90eb-b6327de0c607_Person_712da947-3abd-430f-9134-1f738b171911 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_0fc3b3dd-4518-4d54-90eb-b6327de0c607 ;
+    pico:hasRole "Vader" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:givenName "Jouke" ;
+            pnv:literalName "Jouke Rutgers" ;
+            pnv:patronym "Rutgers" ] ;
+    sdo:children oa:record_frl_0fc3b3dd-4518-4d54-90eb-b6327de0c607 ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jouke" ;
+    sdo:name "Jouke Rutgers" ;
+    sdo:spouse oa:record_frl_0fc3b3dd-4518-4d54-90eb-b6327de0c607_Person_73d86566-6edb-4c83-b997-a0c21dcf3f2f .
+
+oa:record_frl_0fc3b3dd-4518-4d54-90eb-b6327de0c607_Person_73d86566-6edb-4c83-b997-a0c21dcf3f2f a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_0fc3b3dd-4518-4d54-90eb-b6327de0c607 ;
+    pico:hasRole "Moeder" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:givenName "Geeske" ;
+            pnv:literalName "Geeske Pieters" ;
+            pnv:patronym "Pieters" ] ;
+    sdo:children oa:record_frl_0fc3b3dd-4518-4d54-90eb-b6327de0c607 ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Geeske" ;
+    sdo:name "Geeske Pieters" ;
+    sdo:spouse oa:record_frl_0fc3b3dd-4518-4d54-90eb-b6327de0c607_Person_712da947-3abd-430f-9134-1f738b171911 .
+
+oa:record_frl_0fc3b3dd-4518-4d54-90eb-b6327de0c607 a sdo:ArchiveComponent ;
+    sdo:additionalType "DTB Dopen" ;
+    sdo:dateCreated "1780-07-16"^^xsd:date ;
+    sdo:dateModified "2022-08-10"^^xsd:date ;
+    sdo:locationCreated "Opsterland" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Collectie doop-, trouw-, lidmaten- begraafboeken - Tresoar, Deel: 0558, Periode: 169..., (toegangsnr. 28), inv.nr. 0558, Doopboek Herv. gem. Gorredijk, "@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/0fc3b3dd-4518-4d54-90eb-b6327de0c607" .
+

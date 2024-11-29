@@ -1,0 +1,22 @@
+# Finds persons that are not connected to anyone.
+
+PREFIX sdo: <https://schema.org/>
+PREFIX pico: <https://personsincontext.org/model#>
+select * where {
+    ?person a pico:PersonReconstruction ;
+    	sdo:name ?name .
+    
+    FILTER NOT EXISTS {
+        ?person sdo:spouse ?spouse .
+    }
+
+    FILTER NOT EXISTS {
+        ?person sdo:children ?children .
+    }
+
+    FILTER NOT EXISTS {
+        ?parent sdo:children ?person .
+    }
+
+    
+} 

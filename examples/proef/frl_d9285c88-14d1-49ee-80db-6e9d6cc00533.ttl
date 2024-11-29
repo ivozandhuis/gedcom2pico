@@ -1,0 +1,36 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0106> owl:sameAs oa:record_frl_d9285c88-14d1-49ee-80db-6e9d6cc00533 .
+
+oa:record_frl_d9285c88-14d1-49ee-80db-6e9d6cc00533_Person_57ba96e3-04c9-4c1e-ba35-a3dd2d94c8e0 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_d9285c88-14d1-49ee-80db-6e9d6cc00533 ;
+    pico:hasRole "Overledene" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Blaauw" ;
+            pnv:givenName "Aaltje" ;
+            pnv:literalName "Aaltje Lammerts Blaauw" ;
+            pnv:patronym "Lammerts" ] ;
+    sdo:deathDate "1824-11-30"^^xsd:date ;
+    sdo:deathPlace "Benedenknijpe" ;
+    sdo:familyName "Blaauw" ;
+    sdo:givenName "Aaltje" ;
+    sdo:name "Aaltje Lammerts Blaauw" .
+
+oa:record_frl_d9285c88-14d1-49ee-80db-6e9d6cc00533 a sdo:ArchiveComponent ;
+    sdo:additionalType "Memories van Successie" ;
+    sdo:associatedMedia [ a sdo:ImageObject ;
+            sdo:embedUrl "http://allefriezen.nl/zoeken/deeds/d9285c88-14d1-49ee-80db-6e9d6cc00533" ;
+            sdo:position "1" ;
+            sdo:thumbnail "https://tresoar-images.memorix.nl/frl/thumb/250x250/NL-0400410000%2FNL-0400410000_42%2FNL-0400410000_42_08010%2FNL-0400410000_42_08010_000001.jp2" ;
+            sdo:url "https://tresoar-images.memorix.nl/frl/thumb/640x480/NL-0400410000%2FNL-0400410000_42%2FNL-0400410000_42_08010%2FNL-0400410000_42_08010_000001.jp2" ] ;
+    sdo:dateModified "2018-08-08"^^xsd:date ;
+    sdo:locationCreated "Heerenveen" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Memories van successie - Tresoar, Deel: 8010, Periode: 1826-1828, (toegangsnr. 42), inv.nr. 8010, Memories kantoor Heerenveen, 427"@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/d9285c88-14d1-49ee-80db-6e9d6cc00533" .
+

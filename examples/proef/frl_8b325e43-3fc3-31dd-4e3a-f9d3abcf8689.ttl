@@ -1,0 +1,119 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0118> owl:sameAs oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689 .
+
+oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689Event1- a bio:Marriage ;
+    bio:date "1838-05-20"^^xsd:date ;
+    bio:partner oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_8030ba06-7ccc-90e4-c07a-a59c6f00a5ce,
+        oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_ec6bef73-e6d1-58ea-209c-f5c8bc9ab736 ;
+    bio:place "Sneek" ;
+    prov:hadPrimarySource oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689 .
+
+oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_dff7dc7a-65a1-bf90-a40a-9c16c7800884 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689 ;
+    pico:hasRole "Moeder van de bruidegom" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Daniels" ;
+            pnv:givenName "Grietje" ;
+            pnv:literalName "Grietje Johannes Daniels" ;
+            pnv:patronym "Johannes" ] ;
+    sdo:children oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_ec6bef73-e6d1-58ea-209c-f5c8bc9ab736 ;
+    sdo:familyName "Daniels" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Grietje" ;
+    sdo:name "Grietje Johannes Daniels" ;
+    sdo:spouse oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_55af03fd-6e16-e8e1-7af8-d0a0c1765671 .
+
+oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_e3245cd7-d2ee-45da-122c-c4b48d4b15a4 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689 ;
+    pico:hasRole "Moeder van de bruid" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:givenName "Oedske" ;
+            pnv:literalName "Oedske Lammerts" ;
+            pnv:patronym "Lammerts" ] ;
+    sdo:children oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_8030ba06-7ccc-90e4-c07a-a59c6f00a5ce ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Oedske" ;
+    sdo:name "Oedske Lammerts" ;
+    sdo:spouse oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_5e9d2939-336c-80de-3227-23a3b620f670 .
+
+oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_55af03fd-6e16-e8e1-7af8-d0a0c1765671 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689 ;
+    pico:hasRole "Vader van de bruidegom" ;
+    sdo:children oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_ec6bef73-e6d1-58ea-209c-f5c8bc9ab736 ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Johannes" ;
+    sdo:name "Johannes Wagenmakers" ;
+    sdo:spouse oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_dff7dc7a-65a1-bf90-a40a-9c16c7800884 .
+
+oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_5e9d2939-336c-80de-3227-23a3b620f670 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689 ;
+    pico:hasRole "Vader van de bruid" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Werf" ;
+            pnv:givenName "Pieter" ;
+            pnv:literalName "Pieter Joukes van der Werf" ;
+            pnv:patronym "Joukes" ;
+            pnv:surnamePrefix "van der" ] ;
+    sdo:children oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_8030ba06-7ccc-90e4-c07a-a59c6f00a5ce ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pieter" ;
+    sdo:name "Pieter Joukes van der Werf" ;
+    sdo:spouse oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_e3245cd7-d2ee-45da-122c-c4b48d4b15a4 .
+
+oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_8030ba06-7ccc-90e4-c07a-a59c6f00a5ce a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689 ;
+    pico:hasAge "21 jaar" ;
+    pico:hasRole "Bruid" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Werf" ;
+            pnv:givenName "Rinske" ;
+            pnv:literalName "Rinske van der Werf" ;
+            pnv:surnamePrefix "van der" ] ;
+    sdo:birthPlace "Gorredijk" ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Rinske" ;
+    sdo:name "Rinske van der Werf" ;
+    sdo:parent oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_5e9d2939-336c-80de-3227-23a3b620f670 ;
+    sdo:spouse oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_ec6bef73-e6d1-58ea-209c-f5c8bc9ab736 .
+
+oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_ec6bef73-e6d1-58ea-209c-f5c8bc9ab736 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689 ;
+    pico:hasAge "20 jaar" ;
+    pico:hasRole "Bruidegom" ;
+    sdo:birthPlace "Sneek" ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Johannes" ;
+    sdo:name "Johannes Wagenmakers" ;
+    sdo:parent oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_55af03fd-6e16-e8e1-7af8-d0a0c1765671 ;
+    sdo:spouse oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689_Person_8030ba06-7ccc-90e4-c07a-a59c6f00a5ce .
+
+oa:record_frl_8b325e43-3fc3-31dd-4e3a-f9d3abcf8689 a sdo:ArchiveComponent ;
+    sdo:additionalType <https://terms.personsincontext.org/sourcetypes/552> ;
+    sdo:associatedMedia [ a sdo:ImageObject ;
+            sdo:embedUrl "http://allefriezen.nl/zoeken/deeds/8b325e43-3fc3-31dd-4e3a-f9d3abcf8689" ;
+            sdo:position "1" ;
+            sdo:thumbnail "https://tresoar-images.memorix.nl/frl/thumb/250x250/184376d7-5c06-32d8-70c9-17d53a4131cd.jpg" ;
+            sdo:url "https://tresoar-images.memorix.nl/frl/thumb/640x480/184376d7-5c06-32d8-70c9-17d53a4131cd.jpg" ],
+        [ a sdo:ImageObject ;
+            sdo:embedUrl "http://allefriezen.nl/zoeken/deeds/8b325e43-3fc3-31dd-4e3a-f9d3abcf8689" ;
+            sdo:position "2" ;
+            sdo:thumbnail "https://tresoar-images.memorix.nl/frl/thumb/250x250/NL-0400410000%2FNL-0400410000_30-34%2FNL-0400410000_30-34_4031%2FNL-0400410000_30-34_4031_000026_0001.jp2" ;
+            sdo:url "https://tresoar-images.memorix.nl/frl/thumb/640x480/NL-0400410000%2FNL-0400410000_30-34%2FNL-0400410000_30-34_4031%2FNL-0400410000_30-34_4031_000026_0001.jp2" ] ;
+    sdo:dateCreated "1838-05-20"^^xsd:date ;
+    sdo:dateModified "2019-08-30"^^xsd:date ;
+    sdo:locationCreated "Sneek" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Burgerlijke Stand Sneek - Tresoar, Bron: boek, Deel: 2008, Periode: 1838, (toegangsnr. 30-34), inv.nr. 2008, Huwelijksregister 1838, 0026"@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/8b325e43-3fc3-31dd-4e3a-f9d3abcf8689" .
+

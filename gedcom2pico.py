@@ -14,7 +14,7 @@ from gedcom.parser import Parser
 from rdflib import Graph, URIRef, Literal, BNode, Namespace, RDF, PROV, SDO, XSD
 
 
-def date_converter(gedcom_date: str):
+def get_ISOdate(gedcom_date: str):
     month_dict = {"JAN":"01","FEB":"02","MAR":"03","APR":"04","MAY":"05","JUN":"06",
                     "JUL":"07","AUG":"08","SEP":"09","OCT":"10","NOV":"11","DEC":"12"}
     date = gedcom_date.split(' ')
@@ -45,8 +45,20 @@ def date_converter(gedcom_date: str):
     return [ISOdate, datatype]
 
 
+def get_ISOyear(gedcom_date: str):
+    date = gedcom_date.split(' ')
+    date.reverse()
+    ISOyear = date[0]
+    if len(ISOyear) == 4:
+        datatype = XSD.gYear
+    else: 
+        datatype = ""
+
+    return [ISOyear, datatype]
+
+
 # Initialize file handling
-name = 'proef'
+name = 'export'
 file_path = 'examples/' + name + '.ged'
 dir = 'examples/' + name + '/'
 try: os.makedirs(dir)
@@ -94,6 +106,8 @@ for element in root_child_elements:
 
     # Handle INDI
     if isinstance(element, IndividualElement):
+        child_elements = element.get_child_elements()
+
         # rdf:type
         g.add((subject, RDF.type, PICO.PersonReconstruction))
 
@@ -104,7 +118,7 @@ for element in root_child_elements:
         # sdo:birthDate
         birth_date = element.get_birth_date()
         if birth_date != "":
-            ISOdate = date_converter(birth_date)
+            ISOdate = get_ISOdate(birth_date)
             if len(ISOdate[0]) > 0:
                 g.add((subject, SDO.birthDate, Literal(ISOdate[0], datatype = ISOdate[1])))
 
@@ -116,7 +130,7 @@ for element in root_child_elements:
         # sdo:deathDate
         death_date = element.get_death_date()
         if death_date != "":
-            ISOdate = date_converter(death_date)
+            ISOdate = get_ISOdate(death_date)
             if len(ISOdate[0]) > 0:
                 g.add((subject, SDO.deathDate, Literal(ISOdate[0], datatype = ISOdate[1])))
 
@@ -125,12 +139,36 @@ for element in root_child_elements:
         if death_place != "":
             g.add((subject, SDO.deathPlace, Literal(death_place)))
 
+        # read baptism date as sdo:birthDate and burial as sdo:deathDate
+        for child_element in child_elements:
+            tag = child_element.get_tag()
+            if tag == "BAPM":
+                grandchild_elements = child_element.get_child_elements()
+                for grandchild_element in grandchild_elements:
+                    tag = grandchild_element.get_tag()
+
+                    if tag == "DATE":
+                        # sdo:birthDate (only take the year from the baptism as birthdate)
+                        ISOyear = get_ISOyear(grandchild_element.get_value())
+                        if len(ISOyear[0]) > 0:
+                            g.add((subject, SDO.birthDate, Literal(ISOyear[0], datatype = ISOyear[1])))
+
+            if tag == "BURI":
+                grandchild_elements = child_element.get_child_elements()
+                for grandchild_element in grandchild_elements:
+                    tag = grandchild_element.get_tag()
+
+                    if tag == "DATE":
+                        # sdo:deathDate (only take the year from the burial as deathdate)
+                        ISOyear = get_ISOyear(grandchild_element.get_value())
+                        if len(ISOyear[0]) > 0:
+                            g.add((subject, SDO.deathDate, Literal(ISOyear[0], datatype = ISOyear[1])))
+
         # prov:wasDerivedFrom
         list = element.get_sources_by_tag_and_values(tag = gedcom.tags.GEDCOM_TAG_BIRTH)
         list = list + element.get_sources_by_tag_and_values(tag = gedcom.tags.GEDCOM_TAG_DEATH)
         list = list + element.get_sources_by_tag_and_values(tag = gedcom.tags.GEDCOM_TAG_BURIAL)
 
-        child_elements = element.get_child_elements()
         for child_element in child_elements:
             tag = child_element.get_tag()
             if tag == 'SOUR': list.append(child_element)
@@ -176,8 +214,10 @@ for element in root_child_elements:
         for child_element in child_elements:
             tag = child_element.get_tag()
             if tag == "NOTE":
-                url = url_dict[child_element.get_value()[1:-1]]
-                g.add((subject, SDO.url, Literal(url)))
+                value = child_element.get_value()[1:-1]
+                if value in url_dict:
+                    url = url_dict[value]
+                    g.add((subject, SDO.url, Literal(url)))
 
     # Handle FAM
     elif isinstance(element, FamilyElement):
@@ -202,14 +242,10 @@ for element in root_child_elements:
                 for grandchild_element in grandchild_elements:
                     tag = grandchild_element.get_tag()
 
-                    if tag == "DATE":
+                    # only generate a bio:Marriage if DATE or PLAC is available
+                    if tag == "DATE" or tag == "PLAC":
                         # rdf:type
                         g.add((subject, RDF.type, BIO.Marriage))
-
-                        # bio:date
-                        ISOdate = date_converter(grandchild_element.get_value())
-                        if len(ISOdate[0]) > 0:
-                            g.add((subject, BIO.date, Literal(ISOdate[0], datatype = ISOdate[1])))
 
                         # bio:partner
                         if len(pointer_husb) > 0:
@@ -217,6 +253,12 @@ for element in root_child_elements:
 
                         if len(pointer_wife) > 0:    
                             g.add((subject, BIO.partner, URIRef(baseUri + pointer_wife)))
+
+                    if tag == "DATE":
+                        # bio:date
+                        ISOdate = get_ISOdate(grandchild_element.get_value())
+                        if len(ISOdate[0]) > 0:
+                            g.add((subject, BIO.date, Literal(ISOdate[0], datatype = ISOdate[1])))
 
                     if tag == "PLAC":
                         # bio:place

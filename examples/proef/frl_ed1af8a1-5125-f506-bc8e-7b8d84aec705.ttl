@@ -1,0 +1,71 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0243> owl:sameAs oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705 .
+
+oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705_Person_135e023d-a5f2-b010-d83c-da0f1b305fc6 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705 ;
+    pico:hasAge "77 jaar" ;
+    pico:hasRole "Overledene" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Werf" ;
+            pnv:givenName "Rensche" ;
+            pnv:literalName "Rensche van der Werf" ;
+            pnv:surnamePrefix "van der" ] ;
+    sdo:deathDate "1894-04-07"^^xsd:date ;
+    sdo:deathPlace "Lemmer" ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Rensche" ;
+    sdo:name "Rensche van der Werf" .
+
+oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705_Person_f53bbcd6-72bc-49ef-a1ed-01abf7df0653 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705 ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Johannes" ;
+    sdo:name "Johannes Wagenmakers" .
+
+oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705_Person_a223563e-decd-4244-98bf-0287d40dad54 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705 ;
+    pico:hasRole "Vader" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Werf" ;
+            pnv:givenName "Pieter" ;
+            pnv:literalName "Pieter van der Werf" ;
+            pnv:surnamePrefix "van der" ] ;
+    sdo:children oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705 ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pieter" ;
+    sdo:name "Pieter van der Werf" ;
+    sdo:spouse oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705_Person_ef92a799-6c15-4311-b0e4-389f3090c462 .
+
+oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705_Person_ef92a799-6c15-4311-b0e4-389f3090c462 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705 ;
+    pico:hasRole "Moeder" ;
+    sdo:children oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705 ;
+    sdo:familyName "Blaauw" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Oetsche" ;
+    sdo:name "Oetsche Blaauw" ;
+    sdo:spouse oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705_Person_a223563e-decd-4244-98bf-0287d40dad54 .
+
+oa:record_frl_ed1af8a1-5125-f506-bc8e-7b8d84aec705 a sdo:ArchiveComponent ;
+    sdo:additionalType <https://terms.personsincontext.org/sourcetypes/553> ;
+    sdo:associatedMedia [ a sdo:ImageObject ;
+            sdo:embedUrl "http://allefriezen.nl/zoeken/deeds/ed1af8a1-5125-f506-bc8e-7b8d84aec705" ;
+            sdo:position "1" ;
+            sdo:thumbnail "https://tresoar-images.memorix.nl/frl/thumb/250x250/c06af536-5a07-d15f-88cc-ec899eb3a7d4.jpg" ;
+            sdo:url "https://tresoar-images.memorix.nl/frl/thumb/640x480/c06af536-5a07-d15f-88cc-ec899eb3a7d4.jpg" ] ;
+    sdo:dateCreated "1894-04-01"^^xsd:date ;
+    sdo:dateModified "2019-08-30"^^xsd:date ;
+    sdo:locationCreated "Lemsterland" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Burgerlijke Stand Lemsterland - Tresoar, Bron: boek, Deel: 3020, Periode: 1894, (toegangsnr. 30-24), inv.nr. 3020, Overlijdensregister 1894, 0027"@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/ed1af8a1-5125-f506-bc8e-7b8d84aec705" .
+

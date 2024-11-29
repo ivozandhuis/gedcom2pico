@@ -1,0 +1,47 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0102> owl:sameAs oa:record_frl_54fe7332-7c0c-125e-58ea-4cea3b48deb9 .
+
+oa:record_frl_54fe7332-7c0c-125e-58ea-4cea3b48deb9_Person_29baf309-2ea8-ea31-4cf7-c5c83738e349 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_54fe7332-7c0c-125e-58ea-4cea3b48deb9 ;
+    pico:hasAge "75 jaar" ;
+    pico:hasRole "Overledene" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:givenName "Geesje" ;
+            pnv:literalName "Geesje Pieters" ;
+            pnv:patronym "Pieters" ] ;
+    sdo:deathDate "1827-08-30"^^xsd:date ;
+    sdo:deathPlace "Gorredijk" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Geesje" ;
+    sdo:name "Geesje Pieters" .
+
+oa:record_frl_54fe7332-7c0c-125e-58ea-4cea3b48deb9_Person_e57b1ddb-7831-4751-8279-090d99cbeecc a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_54fe7332-7c0c-125e-58ea-4cea3b48deb9 ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:givenName "Jouke" ;
+            pnv:literalName "Jouke Ruts" ;
+            pnv:patronym "Ruts" ] ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jouke" ;
+    sdo:name "Jouke Ruts" .
+
+oa:record_frl_54fe7332-7c0c-125e-58ea-4cea3b48deb9 a sdo:ArchiveComponent ;
+    sdo:additionalType <https://terms.personsincontext.org/sourcetypes/553> ;
+    sdo:associatedMedia [ a sdo:ImageObject ;
+            sdo:embedUrl "http://allefriezen.nl/zoeken/deeds/54fe7332-7c0c-125e-58ea-4cea3b48deb9" ;
+            sdo:position "1" ;
+            sdo:thumbnail "https://tresoar-images.memorix.nl/frl/thumb/250x250/6c027fcc-30d2-81f1-9012-bacb86200e12.jpg" ;
+            sdo:url "https://tresoar-images.memorix.nl/frl/thumb/640x480/6c027fcc-30d2-81f1-9012-bacb86200e12.jpg" ] ;
+    sdo:dateCreated "1827-09-01"^^xsd:date ;
+    sdo:dateModified "2019-08-20"^^xsd:date ;
+    sdo:locationCreated "Opsterland" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Burgerlijke Stand Opsterland - Tresoar, Bron: boek, Deel: 3009, Periode: 1827, (toegangsnr. 30-28), inv.nr. 3009, Overlijdensregister 1827, 039, "@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/54fe7332-7c0c-125e-58ea-4cea3b48deb9" .
+

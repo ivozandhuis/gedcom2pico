@@ -1,0 +1,37 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0030> owl:sameAs oa:record_frl_62e671d5-7099-4851-9fb2-18abe21efe3d .
+
+oa:record_frl_62e671d5-7099-4851-9fb2-18abe21efe3d_Person_696d7d51-d960-4116-837c-4b774abc6a90 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_62e671d5-7099-4851-9fb2-18abe21efe3d ;
+    pico:hasRole "other:Lidmaat" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Werf" ;
+            pnv:givenName "Pieter" ;
+            pnv:literalName "Pieter Joukes van der Werf" ;
+            pnv:patronym "Joukes" ;
+            pnv:surnamePrefix "van der" ] ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pieter" ;
+    sdo:name "Pieter Joukes van der Werf" .
+
+oa:record_frl_62e671d5-7099-4851-9fb2-18abe21efe3d a sdo:ArchiveComponent ;
+    sdo:additionalType "other:DTB Lidmaten" ;
+    sdo:associatedMedia [ a sdo:ImageObject ;
+            sdo:embedUrl "http://allefriezen.nl/zoeken/deeds/62e671d5-7099-4851-9fb2-18abe21efe3d" ;
+            sdo:position "1" ;
+            sdo:thumbnail "https://tresoar-images.memorix.nl/frl/thumb/250x250/NL-0400410000%2FNL-0400410000_28%2FNL-0400410000_28_0560%2FNL-0400410000_28_0560_000047.jp2" ;
+            sdo:url "https://tresoar-images.memorix.nl/frl/thumb/640x480/NL-0400410000%2FNL-0400410000_28%2FNL-0400410000_28_0560%2FNL-0400410000_28_0560_000047.jp2" ] ;
+    sdo:dateCreated "1816-01-26"^^xsd:date ;
+    sdo:dateModified "2022-08-11"^^xsd:date ;
+    sdo:locationCreated "Opsterland" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Collectie doop-, trouw-, lidmaten- begraafboeken - Tresoar, Deel: 560, Periode: 1698..., (toegangsnr. 28), inv.nr. 560, Lidmatenregister Herv. Gemeente Gorredijk, "@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/62e671d5-7099-4851-9fb2-18abe21efe3d" .
+

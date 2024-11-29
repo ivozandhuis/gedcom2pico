@@ -1,0 +1,29 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0098> owl:sameAs oa:record_frl_aebdf74b-27ba-482d-9c70-c3ea9bdd31da .
+
+oa:record_frl_aebdf74b-27ba-482d-9c70-c3ea9bdd31da_Person_e19715d2-8c94-44d2-8d05-b9796ed46ede a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_aebdf74b-27ba-482d-9c70-c3ea9bdd31da ;
+    pico:hasRole "other:Begraven" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:givenName "Rut" ;
+            pnv:literalName "Rut Siebes" ;
+            pnv:patronym "Siebes" ] ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Rut" ;
+    sdo:name "Rut Siebes" .
+
+oa:record_frl_aebdf74b-27ba-482d-9c70-c3ea9bdd31da a sdo:ArchiveComponent ;
+    sdo:additionalType "DTB Begraven" ;
+    sdo:dateCreated "1792-12-28"^^xsd:date ;
+    sdo:dateModified "2022-11-14"^^xsd:date ;
+    sdo:locationCreated "Opsterland" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Collectie Doop-, Trouw-, Begraaf- en Lidmaatboeken (DTBL) - Tresoar, Deel: 0554a, Pe..., (toegangsnr. 28), inv.nr. 0554a, register van begravenen Gorredijk, "@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/aebdf74b-27ba-482d-9c70-c3ea9bdd31da" .
+

@@ -1,0 +1,71 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0083> owl:sameAs oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da .
+
+oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da_Person_3955f3cb-f5f0-1c69-9728-7b8d10782001 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da ;
+    pico:hasAge "83 jaar" ;
+    pico:hasRole "Overledene" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Blaauw" ;
+            pnv:givenName "Oedske" ;
+            pnv:literalName "Oedske Lammerts Blaauw" ;
+            pnv:patronym "Lammerts" ] ;
+    sdo:deathDate "1864-11-15"^^xsd:date ;
+    sdo:deathPlace "Lippenhuizen" ;
+    sdo:familyName "Blaauw" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Oedske" ;
+    sdo:name "Oedske Lammerts Blaauw" .
+
+oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da_Person_528a3901-b770-4611-9628-36b2541f9888 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Werf" ;
+            pnv:givenName "Pieter" ;
+            pnv:literalName "Pieter Joukes van der Werf" ;
+            pnv:patronym "Joukes" ;
+            pnv:surnamePrefix "van der" ] ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pieter" ;
+    sdo:name "Pieter Joukes van der Werf" .
+
+oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da_Person_8cdc4bec-dd4a-4fe4-878d-d7b52ba4ec81 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da ;
+    pico:hasRole "Vader" ;
+    sdo:children oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da ;
+    sdo:familyName "Blaauw" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Lammert" ;
+    sdo:name "Lammert Blaauw" ;
+    sdo:spouse oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da_Person_c0220dae-d5d6-466f-adc1-8b1617dc5666 .
+
+oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da_Person_c0220dae-d5d6-466f-adc1-8b1617dc5666 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da ;
+    pico:hasRole "Moeder" ;
+    sdo:children oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Janke" ;
+    sdo:name "Janke" ;
+    sdo:spouse oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da_Person_8cdc4bec-dd4a-4fe4-878d-d7b52ba4ec81 .
+
+oa:record_frl_26250a2f-39a1-c768-07aa-d12a85d3f0da a sdo:ArchiveComponent ;
+    sdo:additionalType <https://terms.personsincontext.org/sourcetypes/553> ;
+    sdo:associatedMedia [ a sdo:ImageObject ;
+            sdo:embedUrl "http://allefriezen.nl/zoeken/deeds/26250a2f-39a1-c768-07aa-d12a85d3f0da" ;
+            sdo:position "1" ;
+            sdo:thumbnail "https://tresoar-images.memorix.nl/frl/thumb/250x250/781b6727-b2ae-5085-df80-61450c2e6f60.jpg" ;
+            sdo:url "https://tresoar-images.memorix.nl/frl/thumb/640x480/781b6727-b2ae-5085-df80-61450c2e6f60.jpg" ] ;
+    sdo:dateCreated "1864-11-16"^^xsd:date ;
+    sdo:dateModified "2019-08-29"^^xsd:date ;
+    sdo:locationCreated "Opsterland" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Burgerlijke Stand Opsterland - Tresoar, Bron: boek, Deel: 3020, Periode: 1864, (toegangsnr. 30-28), inv.nr. 3020, Overlijdensregister 1864, 0201"@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/26250a2f-39a1-c768-07aa-d12a85d3f0da" .
+

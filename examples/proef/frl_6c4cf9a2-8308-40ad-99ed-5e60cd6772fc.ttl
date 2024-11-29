@@ -1,0 +1,31 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0087> owl:sameAs oa:record_frl_6c4cf9a2-8308-40ad-99ed-5e60cd6772fc .
+
+oa:record_frl_6c4cf9a2-8308-40ad-99ed-5e60cd6772fc_Person_be648b0f-9a31-4f00-8461-bfc4841ce38b a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_6c4cf9a2-8308-40ad-99ed-5e60cd6772fc ;
+    pico:hasRole "Overledene" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:givenName "Rut" ;
+            pnv:literalName "Rut Zijbes" ;
+            pnv:patronym "Zijbes" ] ;
+    sdo:deathDate "1770-01-05"^^xsd:date ;
+    sdo:deathPlace "Opsterland" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Rut" ;
+    sdo:name "Rut Zijbes" .
+
+oa:record_frl_6c4cf9a2-8308-40ad-99ed-5e60cd6772fc a sdo:ArchiveComponent ;
+    sdo:additionalType "DTB Begraven" ;
+    sdo:dateCreated "1770-01-01"^^xsd:date ;
+    sdo:dateModified "2022-11-14"^^xsd:date ;
+    sdo:locationCreated "Opsterland" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Hervormde gemeente Gorredijk - Tresoar, Deel: 23, Periode: 1756-1775, (toegangsnr. 244-27), inv.nr. 23, Diaconierekeningboek Gorredijk, 289, "@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/6c4cf9a2-8308-40ad-99ed-5e60cd6772fc" .
+

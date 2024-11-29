@@ -1,0 +1,117 @@
+# Gives persons that should be removed for privacy reasons
+# Following rules according to Coret 
+# (https://www.genealogieonline.nl/help/item.php/5)
+# (My additions to these rules between '[]')
+
+PREFIX bio: <http://purl.org/vocab/bio/0.1/>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX sdo: <https://schema.org/>
+PREFIX pico: <https://personsincontext.org/model#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT * WHERE {
+    ?person a pico:PersonReconstruction ;
+    	sdo:name ?name .
+
+	# er is een datum van overlijden/begraven bekend
+    FILTER NOT EXISTS {
+        ?person sdo:deathDate ?death_date .
+    }   
+    
+    # de persoon is meer dan 110 jaar geleden geboren
+    FILTER NOT EXISTS {
+        ?person sdo:birthDate ?birth_date .
+        FILTER(YEAR(?birth_date) < 1914)
+    }
+
+    # de persoon heeft een echtgeno(o)t(e) die meer dan 120 jaar geleden is geboren [of overleden]
+    FILTER NOT EXISTS {
+        ?person sdo:spouse ?spouse1 .
+        ?spouse1 sdo:birthDate ?spouse_birth_date .
+        FILTER(YEAR(?spouse_birth_date) < 1904)
+    }
+    FILTER NOT EXISTS {
+        ?person sdo:spouse ?spouse2 .
+        ?spouse2 sdo:deathDate ?spouse_death_date .
+        FILTER(YEAR(?spouse_death_date) < 1904)
+    }
+
+	# de persoon is meer dan 90 jaar geleden getrouwd
+    FILTER NOT EXISTS {
+        ?marriage a bio:Marriage ;
+        	bio:date ?marriage_date ;
+        	bio:partner ?person .
+        FILTER(YEAR(?marriage_date) < 1934)    
+    }
+   
+	# de persoon heeft kinderen die meer dan 70 jaar geleden zijn getrouwd
+    FILTER NOT EXISTS {
+        ?person sdo:children ?child . 
+        ?marriage a bio:Marriage ;
+        	bio:date ?marriage_date ;
+        	bio:partner ?child .
+        FILTER(YEAR(?marriage_date) < 1954)    
+    }
+
+    # de vader of moeder van de persoon meer dan 180 jaar geleden is getrouwd
+    FILTER NOT EXISTS {
+        ?parent sdo:children ?person . 
+        ?marriage a bio:Marriage ;
+        	bio:date ?marriage_date ;
+        	bio:partner ?parent .
+        FILTER(YEAR(?marriage_date) < 1844)    
+    }
+
+    # de vader of moeder meer dan 100 jaar geleden is begraven/overleden [of geboren]
+    FILTER NOT EXISTS {
+        ?parent1 sdo:children ?person .
+        ?parent1 sdo:deathDate ?parent_death_date .
+        FILTER(YEAR(?parent_death_date) < 1924)
+    } 
+    FILTER NOT EXISTS {
+        ?parent2 sdo:children ?person .
+        ?parent2 sdo:birthDate ?parent_birth_date .
+        FILTER(YEAR(?parent_birth_date) < 1904)
+    } 
+   
+	# de persoon heeft kinderen die meer dan 100 jaar geleden 
+    # zijn geboren/gedoopt/overleden/begraven
+    FILTER NOT EXISTS {
+        ?person sdo:children ?child1 .
+        ?child1 sdo:birthDate ?child_birth_date .
+        FILTER(YEAR(?child_birth_date) < 1924)
+    } 
+    FILTER NOT EXISTS {
+        ?person sdo:children ?child2 .
+        ?child2 sdo:deathDate ?child_death_date .
+        FILTER(YEAR(?child_death_date) < 1924)
+    } 
+    
+	# één van de broers of zussen van de persoon meer dan 100 jaar geleden 
+    # zijn geboren/gedoopt [110 jaar] /overleden/begraven
+    FILTER NOT EXISTS {
+        ?parent1 sdo:children ?person ;
+        		 sdo:children ?sibling1 .
+        ?sibling1 sdo:birthDate ?sibling_birth_date .
+        FILTER(YEAR(?sibling_birth_date) < 1914)
+    }
+    FILTER NOT EXISTS {
+        ?parent2 sdo:children ?person ;
+        		 sdo:children ?sibling2 .
+        ?sibling2 sdo:deathDate ?sibling_death_date .
+        FILTER(YEAR(?sibling_death_date) < 1924)
+    }
+
+    # wanneer een persoon 85 jaar geleden is geboren/overleden 
+    # dan wordt verondersteld dan alle directe voorouders van deze persoon ook al zijn overleden
+    FILTER NOT EXISTS {
+        ?person sdo:children+ ?descendant1 .
+        ?descendant1 sdo:birthDate ?descendant_birth_date .
+        FILTER(YEAR(?descendant_birth_date) < 1940)
+    }
+    FILTER NOT EXISTS {
+        ?person sdo:children+ ?descendant2 .
+        ?descendant2 sdo:deathDate ?descendant_death_date .
+        FILTER(YEAR(?descendant_death_date) < 1940)
+    }
+} 

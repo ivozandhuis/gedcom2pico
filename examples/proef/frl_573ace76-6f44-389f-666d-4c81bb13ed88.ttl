@@ -1,0 +1,68 @@
+@prefix oa: <https://www.openarchieven.nl/id/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pico: <https://personsincontext.org/model#> .
+@prefix pnv: <https://w3id.org/pnv#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/proef/S0042> owl:sameAs oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88 .
+
+oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88_Person_c0985124-4eb9-c83d-84b5-671b567d528f a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88 ;
+    pico:hasRole "Moeder" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:givenName "Oedske" ;
+            pnv:literalName "Oedske Lammerts" ;
+            pnv:patronym "Lammerts" ] ;
+    sdo:children oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88_Person_5d3dca44-35af-17d7-d5f8-503cb3c50902 ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Oedske" ;
+    sdo:name "Oedske Lammerts" ;
+    sdo:spouse oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88_Person_2ff42688-7140-f4f3-e031-d5c3141db1c8 .
+
+oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88_Person_2ff42688-7140-f4f3-e031-d5c3141db1c8 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88 ;
+    pico:hasRole "Vader" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Werf" ;
+            pnv:givenName "Pieter" ;
+            pnv:literalName "Pieter Joukes van der Werf" ;
+            pnv:patronym "Joukes" ;
+            pnv:surnamePrefix "van der" ] ;
+    sdo:children oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88_Person_5d3dca44-35af-17d7-d5f8-503cb3c50902 ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pieter" ;
+    sdo:name "Pieter Joukes van der Werf" ;
+    sdo:spouse oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88_Person_c0985124-4eb9-c83d-84b5-671b567d528f .
+
+oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88_Person_5d3dca44-35af-17d7-d5f8-503cb3c50902 a pico:PersonObservation ;
+    prov:hadPrimarySource oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88 ;
+    pico:hasRole "Kind" ;
+    sdo:additionalName [ a pnv:PersonName ;
+            pnv:baseSurname "Werf" ;
+            pnv:givenName "Rinske" ;
+            pnv:literalName "Rinske van der Werf" ;
+            pnv:surnamePrefix "van der" ] ;
+    sdo:birthDate "1816-10-11"^^xsd:date ;
+    sdo:birthPlace "" ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Rinske" ;
+    sdo:name "Rinske van der Werf" ;
+    sdo:parent oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88_Person_2ff42688-7140-f4f3-e031-d5c3141db1c8 .
+
+oa:record_frl_573ace76-6f44-389f-666d-4c81bb13ed88 a sdo:ArchiveComponent ;
+    sdo:additionalType <https://terms.personsincontext.org/sourcetypes/551> ;
+    sdo:associatedMedia [ a sdo:ImageObject ;
+            sdo:embedUrl "http://allefriezen.nl/zoeken/deeds/573ace76-6f44-389f-666d-4c81bb13ed88" ;
+            sdo:position "1" ;
+            sdo:thumbnail "https://tresoar-images.memorix.nl/frl/thumb/250x250/a4b1e66f-7179-0050-32c1-bb5bfabb9c93.jpg" ;
+            sdo:url "https://tresoar-images.memorix.nl/frl/thumb/640x480/a4b1e66f-7179-0050-32c1-bb5bfabb9c93.jpg" ] ;
+    sdo:dateCreated "1816-10-12"^^xsd:date ;
+    sdo:dateModified "2019-08-20"^^xsd:date ;
+    sdo:locationCreated "Opsterland" ;
+    sdo:name "AlleFriezen (Leeuwarden), Archiefnaam: Burgerlijke Stand Opsterland - Tresoar, Bron: boek, Deel: 1003, Periode: 1816, (toegangsnr. 30-28), inv.nr. 1003, Geboorteregister 1816 Gorredijk, 021, "@nl ;
+    sdo:url "http://allefriezen.nl/zoeken/deeds/573ace76-6f44-389f-666d-4c81bb13ed88" .
+
