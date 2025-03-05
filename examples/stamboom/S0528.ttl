@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0528> a sdo:ArchiveComponent ;
+    sdo:name "Nieuwsblad van het Noorden 23-01-1901" ;
+    sdo:url "https://resolver.kb.nl/resolve?urn=ddd:010895131:mpeg21:a0058" .
+

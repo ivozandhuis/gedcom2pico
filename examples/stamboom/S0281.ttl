@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0281> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Ovl. Reg. 1913 nr. 49 (dd. 8-7-1913)" ;
+    sdo:url "https://www.openarchieven.nl/hco:FE6CDD06-506A-49E2-847C-3542BAEDD723" .
+

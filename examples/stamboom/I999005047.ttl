@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005047> a picom:PersonReconstruction ;
+    sdo:birthDate "1875-04-07"^^xsd:date ;
+    sdo:birthPlace "Heerde (Markluiden)" ;
+    sdo:deathDate "1951"^^xsd:gYear ;
+    sdo:deathPlace "Heerde" ;
+    sdo:familyName "Zandhuis" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Willempje" ;
+    sdo:name "Willempje Zandhuis" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005048> .
+

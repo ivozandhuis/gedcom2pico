@@ -1,0 +1,25 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004325> a picom:PersonReconstruction ;
+    sdo:birthDate "1777-11-09"^^xsd:date ;
+    sdo:birthPlace "Roden (Ter Heijl)" ;
+    sdo:children <https://gen.example.com/stamboom/I0249>,
+        <https://gen.example.com/stamboom/I0250>,
+        <https://gen.example.com/stamboom/I0251>,
+        <https://gen.example.com/stamboom/I0252>,
+        <https://gen.example.com/stamboom/I0253>,
+        <https://gen.example.com/stamboom/I0254>,
+        <https://gen.example.com/stamboom/I0255>,
+        <https://gen.example.com/stamboom/I999004308>,
+        <https://gen.example.com/stamboom/I999004560> ;
+    sdo:deathDate "1842-09-27"^^xsd:date ;
+    sdo:deathPlace "Roden" ;
+    sdo:familyName "Harms" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Jantje" ;
+    sdo:name "Jantje Harms" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004324>,
+        <https://gen.example.com/stamboom/I999004586> .
+

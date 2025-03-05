@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005082> a picom:PersonReconstruction ;
+    sdo:birthDate "1918-09-10"^^xsd:date ;
+    sdo:birthPlace "Poeldijk" ;
+    sdo:deathDate "2003-06-26"^^xsd:date ;
+    sdo:deathPlace "Den Haag" ;
+    sdo:familyName "Meijer" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jacobus Wilhelmus Johannes" ;
+    sdo:name "Jacobus Wilhelmus Johannes Meijer" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005085> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0116> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Huw. Reg. 1885 nr. 24 (dd. 15-5-1885)" ;
+    sdo:url "https://www.openarchieven.nl/frl:4cd2f0d7-cf05-0226-7849-c7bd58b57463" .
+

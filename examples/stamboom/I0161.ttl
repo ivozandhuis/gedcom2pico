@@ -1,0 +1,23 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0161> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0749> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0728> ] ;
+    sdo:birthDate "1828-06-18"^^xsd:date ;
+    sdo:birthPlace "Leiden" ;
+    sdo:deathDate "1895-06-10"^^xsd:date ;
+    sdo:deathPlace "Leiden" ;
+    sdo:familyName "Boucquaert" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Eugenius Desiderius" ;
+    sdo:name "Eugenius Desiderius Boucquaert" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0170>,
+        <https://gen.example.com/stamboom/I0171>,
+        <https://gen.example.com/stamboom/I0176>,
+        <https://gen.example.com/stamboom/I0177> .
+

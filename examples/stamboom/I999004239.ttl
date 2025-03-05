@@ -1,0 +1,19 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004239> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1774-04-18"^^xsd:date ;
+            bio:place "Heerde" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004230> ;
+    sdo:deathDate "1850-07-18"^^xsd:date ;
+    sdo:deathPlace "Heerde" ;
+    sdo:familyName "van Lohuizen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jan" ;
+    sdo:hasOccupation "schoenmaker" ;
+    sdo:name "Jan van Lohuizen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004240> .
+

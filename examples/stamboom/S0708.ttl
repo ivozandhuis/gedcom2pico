@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0708> a sdo:ArchiveComponent ;
+    sdo:name "BS Oud-Valkenburg Huw. Reg. 1850 nr. 1 (dd. 4-1-1850)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:0e97ee38-9f65-7c09-9e1e-cffa0bd0019a" .
+

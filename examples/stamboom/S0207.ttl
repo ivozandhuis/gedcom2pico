@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0207> a sdo:ArchiveComponent ;
+    sdo:name "BS Diepenveen Ovl. Reg. 1873 nr. 2 (dd. 11-1-1873)" ;
+    sdo:url "https://www.openarchieven.nl/hco:9980BF48-1D45-431A-8AC6-1DF4FE44D386" .
+

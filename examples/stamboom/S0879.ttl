@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0879> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Ovl. Reg. 1864 fol. 23 (dd. 15-10-1864)" ;
+    sdo:url "https://www.openarchieven.nl/frl:6ac1d934-6bce-ee7b-faeb-3b5f356bee3f" .
+

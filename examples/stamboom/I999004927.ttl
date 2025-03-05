@@ -1,0 +1,17 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004927> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1713-08-20"^^xsd:date ;
+            bio:place "Gouda" ] ;
+    sdo:deathDate "1774-08-18"^^xsd:date ;
+    sdo:deathPlace "Gouda" ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Marrigje" ;
+    sdo:name "Marrigje van der Sloot" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004928> .
+

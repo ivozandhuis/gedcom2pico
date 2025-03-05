@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0933> a sdo:ArchiveComponent ;
+    sdo:name "CAO Persoonskaart SLAG, Hermannus (1882-1962)" .
+

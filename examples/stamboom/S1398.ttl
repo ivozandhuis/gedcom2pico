@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1398> a sdo:ArchiveComponent ;
+    sdo:name "BS Alphen a/d Rijn Ovl. Reg. 1940 nr. 44" ;
+    sdo:url "https://www.openarchieven.nl/hua:0599049A-81A7-4525-B57E-25A349643866" .
+

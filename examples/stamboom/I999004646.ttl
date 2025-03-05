@@ -1,0 +1,20 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004646> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1785-04-02"^^xsd:date ;
+            bio:place "Wouw" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1253> ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1260> ] ;
+    sdo:deathDate "1812-11-19"^^xsd:date ;
+    sdo:deathPlace "Steenbergen" ;
+    sdo:familyName "Binken" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Anna Cornelia" ;
+    sdo:name "Anna Cornelia Binken" .
+

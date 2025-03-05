@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0002> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Geb. Reg. 1846 nr. 46 (dd. 9-6-1846)" ;
+    sdo:url "https://www.openarchieven.nl/hco:2BA0C4EB-7E4F-4DEA-83E7-CCD15685338F" .
+

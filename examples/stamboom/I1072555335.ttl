@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1072555335> a picom:PersonReconstruction ;
+    sdo:familyName "Rötgerinck" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Geertruida" ;
+    sdo:name "Geertruida Rötgerinck" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005193> .
+

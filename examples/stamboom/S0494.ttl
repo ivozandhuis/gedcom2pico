@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0494> a sdo:ArchiveComponent ;
+    sdo:name "BS Dalfsen Huw. Reg. 1838 nr. 8 (dd. 21-4-1838)" ;
+    sdo:url "https://www.openarchieven.nl/hco:61F636AF-C1F1-4FDF-9F46-A356B04AA120" .
+

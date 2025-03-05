@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0456> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Geb. Reg. 1881 nr. 18 (dd. 17-2-1881)" .
+

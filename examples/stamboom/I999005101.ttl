@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005101> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0286> ] ;
+    sdo:birthDate "1766"^^xsd:gYear ;
+    sdo:birthPlace "Raalte" ;
+    sdo:children <https://gen.example.com/stamboom/I999005099> ;
+    sdo:deathDate "1839-08-12"^^xsd:date ;
+    sdo:deathPlace "Wijhe" ;
+    sdo:familyName "Langkamp" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Gerritdina Teunissen" ;
+    sdo:hasOccupation "boerin" ;
+    sdo:name "Gerritdina Teunissen Langkamp" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005100> .
+

@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0187> a sdo:ArchiveComponent ;
+    sdo:name "BS Alphen a/d Rijn Huw. Reg. 1902 nr. 9" .
+

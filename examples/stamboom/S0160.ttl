@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0160> a sdo:ArchiveComponent ;
+    sdo:name "BS Borne Huw. Reg. 1846 nr. 22 (dd. 18-11-1846)" ;
+    sdo:url "https://www.openarchieven.nl/hco:81AF012A-93AC-4F22-AD32-17ADE9C5C739" .
+

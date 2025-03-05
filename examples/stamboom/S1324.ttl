@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1324> a sdo:ArchiveComponent ;
+    sdo:name "BS 's Gravenzande Ovl. Reg. 1825 nr. 22" ;
+    sdo:url "https://www.openarchieven.nl/haw:9b36ec2f-9f70-4cb4-a66b-0f8dcdacb4f5" .
+

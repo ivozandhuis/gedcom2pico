@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1068662506> a picom:PersonReconstruction ;
+    sdo:deathDate "1980-12-23"^^xsd:date ;
+    sdo:familyName "van der Zee" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Tjitte" ;
+    sdo:name "Tjitte van der Zee" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1068662484> .
+

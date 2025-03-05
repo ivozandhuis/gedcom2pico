@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0950> a sdo:ArchiveComponent ;
+    sdo:name "BS Roermond Geb. Reg. 1906 nr. 7 (dd. 8-1-1906)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:5976489f-ddee-5edc-b004-b8f7d9933522" .
+

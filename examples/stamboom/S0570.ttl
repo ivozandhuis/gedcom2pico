@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0570> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Geb. Reg. 1818 nr. 63 (dd. 14-12-1818)" ;
+    sdo:url "https://www.openarchieven.nl/hco:A3ED17E6-3647-4BFF-B7F5-FD8ECCB64F2F" .
+

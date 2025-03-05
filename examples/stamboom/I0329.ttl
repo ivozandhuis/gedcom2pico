@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0329> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1269> ] ;
+    sdo:birthDate "1815-07-25"^^xsd:date ;
+    sdo:birthPlace "Steenbergen" ;
+    sdo:familyName "Binken" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Joanna Cornelia" ;
+    sdo:name "Joanna Cornelia Binken" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0332> .
+

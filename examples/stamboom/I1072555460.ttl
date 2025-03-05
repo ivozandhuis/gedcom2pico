@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1072555460> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1072555458>,
+        <https://gen.example.com/stamboom/I1072555461>,
+        <https://gen.example.com/stamboom/I1072555462>,
+        <https://gen.example.com/stamboom/I1072555463>,
+        <https://gen.example.com/stamboom/I1072555464> ;
+    sdo:familyName "" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Aeltgen Gerritsdr." ;
+    sdo:name "Aeltgen Gerritsdr. " ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555459> .
+

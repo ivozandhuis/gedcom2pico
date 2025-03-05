@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1335> a sdo:ArchiveComponent ;
+    sdo:name "BS 's Gravenzande 1815 nr. 13 (dd. 15-3-1815)" ;
+    sdo:url "https://www.openarchieven.nl/haw:bc81ee55-2bd7-42d9-be65-a16dc7b031b2" .
+

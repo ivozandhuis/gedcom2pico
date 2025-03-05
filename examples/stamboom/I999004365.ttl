@@ -1,0 +1,18 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004365> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1792-04-18"^^xsd:date ;
+            bio:place "Zwammerdam" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004353> ;
+    sdo:deathDate "1833-11-01"^^xsd:date ;
+    sdo:deathPlace "Zwammerdam" ;
+    sdo:familyName "Hommels" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Willemijntje" ;
+    sdo:name "Willemijntje Hommels" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004364> .
+

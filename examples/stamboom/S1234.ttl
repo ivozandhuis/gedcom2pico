@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1234> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1840 nr. 317 (dd. 25-5-1840)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:41061d6d-ff99-477d-d64e-0651229fedc6" .
+

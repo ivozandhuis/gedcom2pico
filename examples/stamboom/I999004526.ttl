@@ -1,0 +1,32 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004526> a picom:PersonReconstruction ;
+    bio:event [ a bio:Burial ;
+            bio:date "1900-01-24"^^xsd:date ;
+            bio:place "Oldebroek" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0374> ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0374> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0361> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0973> ] ;
+    sdo:birthDate "1825-08-21"^^xsd:date ;
+    sdo:birthPlace "Heerde (Markluiden)" ;
+    sdo:children <https://gen.example.com/stamboom/I999005508>,
+        <https://gen.example.com/stamboom/I999005516>,
+        <https://gen.example.com/stamboom/I999005517>,
+        <https://gen.example.com/stamboom/I999005518> ;
+    sdo:deathDate "1900-01-20"^^xsd:date ;
+    sdo:deathPlace "Doornspijk" ;
+    sdo:familyName "Zandhuis" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Teuntje" ;
+    sdo:name "Teuntje Zandhuis" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005506>,
+        <https://gen.example.com/stamboom/I999005514> .
+

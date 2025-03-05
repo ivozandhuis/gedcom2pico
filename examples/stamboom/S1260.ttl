@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1260> a sdo:ArchiveComponent ;
+    sdo:name "BS Steenbergen Ovl. Reg. 1812 nr. 86 (dd. 19-11-1812)" ;
+    sdo:url "https://www.openarchieven.nl/wba:425f28a3-9317-c3d5-03d3-335db5287551" .
+

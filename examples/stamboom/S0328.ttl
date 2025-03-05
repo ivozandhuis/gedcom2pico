@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0328> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1867 nr. 78 (dd. 24-1-1867)" ;
+    sdo:url "https://www.openarchieven.nl/elo:99941664-56df-5e20-4271-c357dfc858ab" .
+

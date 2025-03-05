@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0232> a picom:PersonReconstruction ;
+    sdo:birthDate "1918-09-27"^^xsd:date ;
+    sdo:birthPlace "Den Haag (Loosduinen)" ;
+    sdo:deathDate "1962-12-25"^^xsd:date ;
+    sdo:deathPlace "Den Haag" ;
+    sdo:familyName "van der Laan" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Petrus Adrianus" ;
+    sdo:name "Petrus Adrianus van der Laan" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005212> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0963> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Huw. Reg. 1918 nr. 7 (dd. 6-4-1918)" ;
+    sdo:url "https://www.openarchieven.nl/hco:FC726A13-EC84-4A74-BDD1-7076904F8A73" .
+

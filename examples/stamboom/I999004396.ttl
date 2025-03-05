@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004396> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004373>,
+        <https://gen.example.com/stamboom/I999004663>,
+        <https://gen.example.com/stamboom/I999004664>,
+        <https://gen.example.com/stamboom/I999004665>,
+        <https://gen.example.com/stamboom/I999004666> ;
+    sdo:familyName "Ockerse" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Joannes Jansse" ;
+    sdo:name "Joannes Jansse Ockerse" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004397> .
+

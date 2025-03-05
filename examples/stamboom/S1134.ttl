@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1134> a sdo:ArchiveComponent ;
+    sdo:name "BS Roden Ovl. Reg. 1823 nr. 6 (dd. 26-2-1823)" ;
+    sdo:url "https://www.openarchieven.nl/dar:fb8d516a-46a6-4ceb-819b-8502e6c542d9" .
+

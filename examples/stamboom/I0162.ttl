@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0162> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0729> ] ;
+    sdo:birthDate "1830-05-18"^^xsd:date ;
+    sdo:birthPlace "Leiden" ;
+    sdo:familyName "Boucquaert" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Constantia Josephina" ;
+    sdo:name "Constantia Josephina Boucquaert" .
+

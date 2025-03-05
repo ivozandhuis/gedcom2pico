@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1314> a sdo:ArchiveComponent ;
+    sdo:name "BS 's Gravenzande Ovl. Reg. 1935 nr. 59" ;
+    sdo:url "https://www.openarchieven.nl/haw:27d18398-a64d-4f87-9ab1-84d53d615bae" .
+

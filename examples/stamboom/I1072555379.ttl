@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555379> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0255> ] ;
+    sdo:birthDate "1762-10-15"^^xsd:date ;
+    sdo:birthPlace "Naaldwijk" ;
+    sdo:children <https://gen.example.com/stamboom/I999005255> ;
+    sdo:deathDate "1849-07-01"^^xsd:date ;
+    sdo:deathPlace "Monster" ;
+    sdo:familyName "van der Valk" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Cornelia Arisz." ;
+    sdo:name "Cornelia Arisz. van der Valk" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555378> .
+

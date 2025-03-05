@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0893> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Geb. Reg. 1806 nr. 468 (dd. 28-7-1806)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:7c23170f-8d28-c2f2-b3df-cc21a18c704f" .
+

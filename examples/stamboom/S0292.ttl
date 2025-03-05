@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0292> a sdo:ArchiveComponent ;
+    sdo:name "BS Olst Ovl. Reg. 1853 nr. 66 (dd. 8-10-1853)" .
+

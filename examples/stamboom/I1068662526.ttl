@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1068662526> a picom:PersonReconstruction ;
+    sdo:birthDate "1926-02-18"^^xsd:date ;
+    sdo:birthPlace "Almelo" ;
+    sdo:deathDate "2011-10-12"^^xsd:date ;
+    sdo:deathPlace "Wouw" ;
+    sdo:familyName "Waanders" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hendrikus Martinus Gerardus" ;
+    sdo:name "Hendrikus Martinus Gerardus Waanders" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1068662498> .
+

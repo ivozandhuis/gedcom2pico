@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004857> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004389>,
+        <https://gen.example.com/stamboom/I999004858>,
+        <https://gen.example.com/stamboom/I999004859>,
+        <https://gen.example.com/stamboom/I999004860>,
+        <https://gen.example.com/stamboom/I999004861>,
+        <https://gen.example.com/stamboom/I999004862> ;
+    sdo:familyName "de Jong" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Catharina" ;
+    sdo:name "Catharina de Jong" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004856> .
+

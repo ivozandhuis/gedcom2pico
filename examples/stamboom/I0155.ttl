@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0155> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0715> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0797> ] ;
+    sdo:birthDate "1837-01-02"^^xsd:date ;
+    sdo:birthPlace "Oud-Valkenburg" ;
+    sdo:deathDate "1869-06-24"^^xsd:date ;
+    sdo:deathPlace "Oud-Valkenburg" ;
+    sdo:familyName "Scheres" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pieter Willem" ;
+    sdo:name "Pieter Willem Scheres" .
+

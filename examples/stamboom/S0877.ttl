@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0877> a sdo:ArchiveComponent ;
+    sdo:name "BS Balk Ovl. Reg. 1924 nr. 37 (dd. 23-4-1924)" ;
+    sdo:url "https://www.openarchieven.nl/frl:23131b11-1cc9-c543-a9ae-ce0b078ea0da" .
+

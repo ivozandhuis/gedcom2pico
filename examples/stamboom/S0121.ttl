@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0121> a sdo:ArchiveComponent ;
+    sdo:name "BS Heerde Huw. Reg. 1845 nr. 17 (dd. 3-5-1845)" ;
+    sdo:url "https://www.openarchieven.nl/gld:7763C5E7-AF7C-417D-AC13-48C71F08E804" .
+

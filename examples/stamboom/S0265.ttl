@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0265> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Ovl. Reg. 1927 nr. 7 (dd. 24-1-1927)" ;
+    sdo:url "https://www.openarchieven.nl/hco:0CD2A416-E77E-45AE-AC49-96805ADD2913" .
+

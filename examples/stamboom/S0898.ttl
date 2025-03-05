@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0898> a sdo:ArchiveComponent ;
+    sdo:name "BS Oude Pekela Geb. Reg. 1845 nr. 32 (dd. 11-3-1845)" ;
+    sdo:url "https://www.openarchieven.nl/gra:9fb075ea-98fb-b38b-9f6f-0fdc7ff943a9" .
+

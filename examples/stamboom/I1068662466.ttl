@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1068662466> a picom:PersonReconstruction ;
+    sdo:familyName "Kieftenbeld" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Johannes Hermanus" ;
+    sdo:name "Johannes Hermanus Kieftenbeld" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1068662459> .
+

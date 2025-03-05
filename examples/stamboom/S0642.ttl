@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0642> a sdo:ArchiveComponent ;
+    sdo:name "DTB Nieuwe Pekela Doop- en trouwboek 1762-1811 (dd. 21-8-1803)" ;
+    sdo:url "https://www.openarchieven.nl/gra:4e9b5522-c032-5fd6-203d-c8f869394778" .
+

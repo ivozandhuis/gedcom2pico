@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555375> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0253> ] ;
+    sdo:birthDate "1766"^^xsd:gYear ;
+    sdo:birthPlace "Wateringen" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555166> ;
+    sdo:deathDate "1853-03-29"^^xsd:date ;
+    sdo:deathPlace "Wateringen" ;
+    sdo:familyName "Braamkamp" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Aplonia" ;
+    sdo:name "Aplonia Braamkamp" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555374> .
+

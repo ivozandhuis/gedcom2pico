@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0733> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1840 nr. 29 (dd. 11-1-1840)" ;
+    sdo:url "https://www.openarchieven.nl/elo:36d57166-c76a-c13a-8203-b8205e3b6629" .
+

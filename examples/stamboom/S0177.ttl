@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0177> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ovl. Reg. 1927 nr. 36 (dd. 29-01-1927)" ;
+    sdo:url "https://www.openarchieven.nl/hco:73523321-606E-4D93-B615-8E9604A72F25" .
+

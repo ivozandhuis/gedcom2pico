@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0100> a sdo:ArchiveComponent ;
+    sdo:name "BS Rijswijk Geb. Reg. 1815 nr. 10" ;
+    sdo:url "https://www.openarchieven.nl/ade:8f2c251a-4024-11e5-b661-0b3668565449" .
+

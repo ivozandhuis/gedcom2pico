@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0780> a sdo:ArchiveComponent ;
+    sdo:name "BS Idaarderadeel Ovl. Reg. 1900 nr. 26 (dd. 19-2-1900)" ;
+    sdo:url "https://www.openarchieven.nl/frl:3d949bc1-d8f8-1ede-1516-40a796a8eb8d" .
+

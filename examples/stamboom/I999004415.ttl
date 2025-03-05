@@ -1,0 +1,33 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004415> a picom:PersonReconstruction ;
+    bio:event [ a bio:Burial ;
+            bio:date "1951-09-10"^^xsd:date ;
+            bio:place "Roermond" ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0935> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0019> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0209> ] ;
+    sdo:birthDate "1866-02-21"^^xsd:date ;
+    sdo:birthPlace "Valkenburg (Sibbe)" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555483>,
+        <https://gen.example.com/stamboom/I999004473>,
+        <https://gen.example.com/stamboom/I999004714>,
+        <https://gen.example.com/stamboom/I999004715>,
+        <https://gen.example.com/stamboom/I999004716>,
+        <https://gen.example.com/stamboom/I999004717>,
+        <https://gen.example.com/stamboom/I999004718> ;
+    sdo:deathDate "1951-09-07"^^xsd:date ;
+    sdo:deathPlace "Roermond" ;
+    sdo:familyName "Lambricks" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Anna Maria" ;
+    sdo:name "Anna Maria Lambricks" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004414> .
+

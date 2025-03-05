@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0208> a sdo:ArchiveComponent ;
+    sdo:name "BS Roermond Ovl. Reg. 1925 nr. 169 (dd. 30-11-1925)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:b0975341-1347-2a02-e5c8-70fce4593268" .
+

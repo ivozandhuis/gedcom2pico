@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0679> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Geb. Reg. 1838 nr. 38 (dd. 25-5-1838)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:1f2ccef9-5351-4866-8af1-3b46025fe891" .
+

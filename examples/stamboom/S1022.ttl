@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1022> a sdo:ArchiveComponent ;
+    sdo:name "BS Bodegraven Ovl. Reg. 1849 nr. 32 (dd. 16-3-1849)" ;
+    sdo:url "https://www.openarchieven.nl/rel:b03d6b1d-b319-2f35-cf90-4eb64b8045c4" .
+

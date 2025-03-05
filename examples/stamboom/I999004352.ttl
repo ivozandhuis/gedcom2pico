@@ -1,0 +1,27 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004352> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0199> ] ;
+    sdo:birthDate "1817-02-01"^^xsd:date ;
+    sdo:birthPlace "Oude Tonge" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555325>,
+        <https://gen.example.com/stamboom/I1072555489>,
+        <https://gen.example.com/stamboom/I1072555490>,
+        <https://gen.example.com/stamboom/I1072555492>,
+        <https://gen.example.com/stamboom/I1072555493>,
+        <https://gen.example.com/stamboom/I1072555494>,
+        <https://gen.example.com/stamboom/I999004347> ;
+    sdo:deathDate "1858-11-10"^^xsd:date ;
+    sdo:deathPlace "Aarlanderveen" ;
+    sdo:familyName "Binken" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Petrus Laurentius" ;
+    sdo:hasOccupation "timmerman" ;
+    sdo:name "Petrus Laurentius Binken" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004353>,
+        <https://gen.example.com/stamboom/I999004616> .
+

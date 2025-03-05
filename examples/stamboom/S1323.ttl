@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1323> a sdo:ArchiveComponent ;
+    sdo:name "BS 's Gravenzande Geb. Reg. 1825 nr. 35 (dd. 4-9-1825)" ;
+    sdo:url "https://www.openarchieven.nl/haw:148905da-cd9d-464b-88b3-02d669a622e7" .
+

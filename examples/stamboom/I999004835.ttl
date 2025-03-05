@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004835> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004811>,
+        <https://gen.example.com/stamboom/I999004837>,
+        <https://gen.example.com/stamboom/I999004838>,
+        <https://gen.example.com/stamboom/I999004839> ;
+    sdo:familyName "van Heiningen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jan Roelen" ;
+    sdo:name "Jan Roelen van Heiningen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004836> .
+

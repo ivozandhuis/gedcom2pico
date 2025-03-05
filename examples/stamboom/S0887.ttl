@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0887> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Ovl. Reg. 1828 nr. 431 (dd. 25-11-1828)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:3fb350d6-e949-2cdf-700b-f57a5d17c2bb" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1125> a sdo:ArchiveComponent ;
+    sdo:name "DTB Midwolde en Leek Doop- en trouwboek fol. 116" ;
+    sdo:url "https://www.openarchieven.nl/gra:62c98073-7a59-2308-be94-3cf9659a4d48" .
+

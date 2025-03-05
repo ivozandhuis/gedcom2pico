@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0626> a sdo:ArchiveComponent ;
+    sdo:name "BS Den Haag Ovl. Reg. 1969 nr. A2609 (dd. 23-12-1969)" ;
+    sdo:url "https://www.openarchieven.nl/hga:5533DA26-8356-46C7-A010-FB8D054D2A7F" .
+

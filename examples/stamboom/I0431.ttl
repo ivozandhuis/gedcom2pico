@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0431> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1454> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1438> ] ;
+    sdo:birthDate "1824-12-28"^^xsd:date ;
+    sdo:birthPlace "Raalte (Ramele)" ;
+    sdo:deathDate "1892-03-05"^^xsd:date ;
+    sdo:deathPlace "Heino" ;
+    sdo:familyName "Smeenk" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Gerritjen" ;
+    sdo:name "Gerritjen Smeenk" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0442>,
+        <https://gen.example.com/stamboom/I0443> .
+

@@ -1,0 +1,22 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0338> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1292> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1313> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1312> ] ;
+    sdo:birthDate "1867-04-10"^^xsd:date ;
+    sdo:birthPlace "'s-Gravenzande" ;
+    sdo:deathDate "1926-06-12"^^xsd:date ;
+    sdo:deathPlace "Delft" ;
+    sdo:familyName "Westhoff" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Goserina" ;
+    sdo:name "Goserina Westhoff" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0348> .
+

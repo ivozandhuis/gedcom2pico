@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0111> a sdo:ArchiveComponent ;
+    sdo:name "BS Olst Huw. Reg. 1910 nr. 21" ;
+    sdo:url "https://www.openarchieven.nl/hco:E9EADDA6-1B69-4393-9047-C534C348298D" .
+

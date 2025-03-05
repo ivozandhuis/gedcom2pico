@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0278> a picom:PersonReconstruction ;
+    sdo:familyName "Scholten" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Petrus Raphael Jozef" ;
+    sdo:name "Petrus Raphael Jozef Scholten" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0273> .
+

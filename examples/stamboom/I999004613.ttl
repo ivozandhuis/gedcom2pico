@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004613> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1021> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1022> ] ;
+    sdo:birthDate "1848-12-22"^^xsd:date ;
+    sdo:birthPlace "Bodegraven" ;
+    sdo:deathDate "1849-03-15"^^xsd:date ;
+    sdo:deathPlace "Bodegraven" ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Bastiaan" ;
+    sdo:name "Bastiaan van der Sloot" .
+

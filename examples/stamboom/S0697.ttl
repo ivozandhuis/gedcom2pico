@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0697> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijlre Geb. Reg. 1829 nr. 26 (dd. 2-8-1829)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:df2444c3-161f-b9a9-1305-13e5795594d0" .
+

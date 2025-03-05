@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0486> a sdo:ArchiveComponent ;
+    sdo:name "BS Deventer Ovl. Reg. 1934 nr. 182 (dd. 14-5-1934)" ;
+    sdo:url "https://www.openarchieven.nl/hco:D85FD82D-94E8-43FB-AB00-57D65220C940" .
+

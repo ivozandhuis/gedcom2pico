@@ -1,0 +1,22 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0158> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0742> ] ;
+    sdo:children <https://gen.example.com/stamboom/I0163>,
+        <https://gen.example.com/stamboom/I0164>,
+        <https://gen.example.com/stamboom/I0165>,
+        <https://gen.example.com/stamboom/I0166>,
+        <https://gen.example.com/stamboom/I0167>,
+        <https://gen.example.com/stamboom/I0168> ;
+    sdo:deathDate "1867-04-20"^^xsd:date ;
+    sdo:deathPlace "Leiden" ;
+    sdo:familyName "Bos" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Johannes" ;
+    sdo:name "Johannes Bos" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005221> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1239> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Huw. Reg. 1852 nr. 136 (dd. 31-7-1852)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:5185528c-33e9-95c3-13c8-ffc60149a007" .
+

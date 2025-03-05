@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1188> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1871 nr. 591 (dd. 20-9-1871)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:33dd159a-4bef-45be-c0a9-856e89a03299" .
+

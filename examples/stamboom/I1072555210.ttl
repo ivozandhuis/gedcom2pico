@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1072555210> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1072555208>,
+        <https://gen.example.com/stamboom/I1072555211> ;
+    sdo:familyName "Corstiens" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Elisabeth" ;
+    sdo:name "Elisabeth Corstiens" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555209> .
+

@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004444> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004436>,
+        <https://gen.example.com/stamboom/I999004755>,
+        <https://gen.example.com/stamboom/I999004756>,
+        <https://gen.example.com/stamboom/I999004757>,
+        <https://gen.example.com/stamboom/I999004758>,
+        <https://gen.example.com/stamboom/I999004759>,
+        <https://gen.example.com/stamboom/I999004760>,
+        <https://gen.example.com/stamboom/I999004761> ;
+    sdo:deathDate "1792-10-16"^^xsd:date ;
+    sdo:deathPlace "Oud-Valkenburg" ;
+    sdo:familyName "Scheres" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Henricus" ;
+    sdo:name "Henricus Scheres" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004445> .
+

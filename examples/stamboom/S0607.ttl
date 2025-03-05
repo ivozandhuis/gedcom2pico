@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0607> a sdo:ArchiveComponent ;
+    sdo:name "BS Epe Huw. Reg. 1856 nr. 36 (dd. 20-9-1856)" ;
+    sdo:url "https://www.openarchieven.nl/gld:C0C85D17-F036-4A4C-92FB-16F42AEE5227" .
+

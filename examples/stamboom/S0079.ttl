@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0079> a sdo:ArchiveComponent ;
+    sdo:name "BS Rijssen Geb. Reg. 1814 nr. 103 (dd. 13-12-1814)" ;
+    sdo:url "https://www.openarchieven.nl/hco:E6925A4B-63F4-4888-AAD5-C621AF8FCAD1" .
+

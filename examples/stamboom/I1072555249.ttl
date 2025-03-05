@@ -1,0 +1,23 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555249> a picom:PersonReconstruction ;
+    bio:event [ a bio:Burial ;
+            bio:date "1652-01-11"^^xsd:date ;
+            bio:place "Sluipwijk" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0339> ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0339> ] ;
+    sdo:children <https://gen.example.com/stamboom/I1072555248>,
+        <https://gen.example.com/stamboom/I1072555467> ;
+    sdo:deathPlace "Sluipwijk" ;
+    sdo:familyName "" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Martijntje Maertensdr" ;
+    sdo:name "Martijntje Maertensdr " ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555465>,
+        <https://gen.example.com/stamboom/I1072555466> .
+

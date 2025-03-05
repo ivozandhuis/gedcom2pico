@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0600> a sdo:ArchiveComponent ;
+    sdo:name "BS Heerde Geb. Reg. 1853 nr. 115 (dd. 29-8-1853)" ;
+    sdo:url "https://www.openarchieven.nl/gld:736C2DCD-B41B-4226-A1F3-51283E8AD481" .
+

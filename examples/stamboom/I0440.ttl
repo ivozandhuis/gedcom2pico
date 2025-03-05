@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0440> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1455> ] ;
+    sdo:deathDate "1897-12-24"^^xsd:date ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "Smeenk" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jan" ;
+    sdo:name "Jan Smeenk" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0441> .
+

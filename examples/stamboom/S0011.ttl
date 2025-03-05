@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0011> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Geb. Reg. 1850 nr. 45 (dd. 18-6-1850)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:7b168eb9-079d-4cf5-b10b-196e61d9165c" .
+

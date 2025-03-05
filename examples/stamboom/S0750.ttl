@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0750> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1931 nr. 2" ;
+    sdo:url "https://www.openarchieven.nl/elo:4e43157e-cbd2-8752-a559-be7d59cdb57a" .
+

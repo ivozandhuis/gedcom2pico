@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1295> a sdo:ArchiveComponent ;
+    sdo:name "BS 's Gravenzande Geb. Reg. 1870 nr. 145 (dd. 27-9-1870)" ;
+    sdo:url "https://www.openarchieven.nl/haw:000f2795-b178-4afb-0855-142611b12cac" .
+

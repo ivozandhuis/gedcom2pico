@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1361> a sdo:ArchiveComponent ;
+    sdo:name "BS Maasland Ovl. Reg. 1887 nr. 27" ;
+    sdo:url "https://hdl.handle.net/21.12115/NL-DtAD132848556" .
+

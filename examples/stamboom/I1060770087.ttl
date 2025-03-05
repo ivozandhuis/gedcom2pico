@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1060770087> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1060770047> ;
+    sdo:familyName "van de Salm" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Annetje Willems" ;
+    sdo:name "Annetje Willems van de Salm" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060770084> .
+

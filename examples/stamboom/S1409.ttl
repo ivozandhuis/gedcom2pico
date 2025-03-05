@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1409> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Huw. Reg. 1867 nr. 11" ;
+    sdo:url "https://www.openarchieven.nl/frl:10dd8bc2-651b-00b8-50f5-0e2b1c2f8529" .
+

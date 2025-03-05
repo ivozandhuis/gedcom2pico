@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1068535769> a picom:PersonReconstruction ;
+    sdo:familyName "Vurens" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Reinier Antonius" ;
+    sdo:name "Reinier Antonius Vurens" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1068535726> .
+

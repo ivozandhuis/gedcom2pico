@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1113> a sdo:ArchiveComponent ;
+    sdo:name "BS Leek Geb. Reg. 1820 nr. 111 (dd. 13-10-1820)" ;
+    sdo:url "https://www.openarchieven.nl/gra:41f09cac-c427-5018-38ed-6c0a795046e7" .
+

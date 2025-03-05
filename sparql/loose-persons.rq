@@ -1,4 +1,4 @@
-# Finds persons that are not connected to anyone.
+# Finds individuals that are not connected to anyone.
 
 PREFIX sdo: <https://schema.org/>
 PREFIX pico: <https://personsincontext.org/model#>

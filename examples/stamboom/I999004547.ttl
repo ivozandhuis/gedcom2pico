@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004547> a picom:PersonReconstruction ;
+    sdo:birthDate "1926-10-29"^^xsd:date ;
+    sdo:birthPlace "Lemmer" ;
+    sdo:deathDate "2016-05-08"^^xsd:date ;
+    sdo:deathPlace "Wijhe" ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Janke" ;
+    sdo:name "Janke Wagenmakers" .
+

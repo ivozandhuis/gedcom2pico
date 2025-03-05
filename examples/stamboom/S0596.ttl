@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0596> a sdo:ArchiveComponent ;
+    sdo:name "ORA Olst Momberstellingen 1778-1800, fol. 10" ;
+    sdo:url "https://proxy.archieven.nl/20/0042D58AA4E44DF89547A6E510B67B89" .
+

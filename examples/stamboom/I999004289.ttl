@@ -1,0 +1,31 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004289> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0243> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0042> ] ;
+    sdo:birthDate "1816-10-11"^^xsd:date ;
+    sdo:birthPlace "Gorredijk" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555187>,
+        <https://gen.example.com/stamboom/I1072555188>,
+        <https://gen.example.com/stamboom/I1072555189>,
+        <https://gen.example.com/stamboom/I1072555190>,
+        <https://gen.example.com/stamboom/I1072555191>,
+        <https://gen.example.com/stamboom/I1072555192>,
+        <https://gen.example.com/stamboom/I1072555193>,
+        <https://gen.example.com/stamboom/I1072555194>,
+        <https://gen.example.com/stamboom/I1072555195>,
+        <https://gen.example.com/stamboom/I999004284> ;
+    sdo:deathDate "1894-04-07"^^xsd:date ;
+    sdo:deathPlace "Lemmer" ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Renske Pieters" ;
+    sdo:hasOccupation "dienstmeid" ;
+    sdo:name "Renske Pieters van der Werf" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004288> .
+

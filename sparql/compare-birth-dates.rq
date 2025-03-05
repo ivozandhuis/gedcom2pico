@@ -1,0 +1,20 @@
+# Find individuals with difference between birth date in birth certificate and the date in the reconstruction.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX pico: <https://personsincontext.org/model#>
+PREFIX sdo: <https://schema.org/>
+
+select ?pr ?pr_birth_date ?po_birth_date where {
+	?pr sdo:birthDate ?pr_birth_date ;
+        prov:wasDerivedFrom ?bn_po .
+
+    ?bn_po prov:hadPrimarySource/owl:sameAs ?source .
+
+    ?source sdo:additionalType <https://terms.personsincontext.org/551> .
+    
+    ?po prov:hadPrimarySource ?source ;
+    	sdo:birthDate ?po_birth_date .
+  
+    FILTER(?pr_birth_date != ?po_birth_date)
+} 

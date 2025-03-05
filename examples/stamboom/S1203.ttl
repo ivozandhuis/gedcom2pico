@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1203> a sdo:ArchiveComponent ;
+    sdo:name "Rotterdamsch nieuwsblad 15-06-1904" ;
+    sdo:url "https://resolver.kb.nl/resolve?urn=KBDDD02:000202741:mpeg21:a0052" .
+

@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004611> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1018> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1019> ] ;
+    sdo:birthDate "1844-08-13"^^xsd:date ;
+    sdo:birthPlace "Bodegraven" ;
+    sdo:deathDate "1844-11-28"^^xsd:date ;
+    sdo:deathPlace "Bodegraven" ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Krijn" ;
+    sdo:name "Krijn van der Sloot" .
+

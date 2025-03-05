@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1215> a sdo:ArchiveComponent ;
+    sdo:name "DTB 's-Hertogenbosch RK Doopboek Cathrien Kerk dd. 10-5-1801" ;
+    sdo:url "https://hdl.handle.net/21.12121/749588328" .
+

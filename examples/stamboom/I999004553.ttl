@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004553> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0397> ] ;
+    sdo:birthDate "1899-07-09"^^xsd:date ;
+    sdo:birthPlace "Lemmer" ;
+    sdo:deathDate "1982-07-23"^^xsd:date ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pieter" ;
+    sdo:name "Pieter Wagenmakers" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0049> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0078> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Geb. Reg. 1847 nr. 37 (dd. 19-6-1847)" ;
+    sdo:url "https://www.openarchieven.nl/hco:C9ED70CE-4B63-4DC7-A5BF-624834F7B652" .
+

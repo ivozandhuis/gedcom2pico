@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0404> a sdo:ArchiveComponent ;
+    sdo:name "BS Groningen Ovl. Reg. 1951 nr. 484 (dd. 24-3-1951)" ;
+    sdo:url "https://www.openarchieven.nl/gra:df19c690-ed87-5ff8-52ba-f01965de93ed" .
+

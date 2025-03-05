@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004330> a picom:PersonReconstruction ;
+    sdo:birthDate "1726"^^xsd:gYear ;
+    sdo:birthPlace "Surhuisterveen" ;
+    sdo:children <https://gen.example.com/stamboom/I999004325> ;
+    sdo:deathDate "1806-09-07"^^xsd:date ;
+    sdo:deathPlace "Roden" ;
+    sdo:familyName "Roelofs" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Harm" ;
+    sdo:name "Harm Roelofs" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004331> .
+

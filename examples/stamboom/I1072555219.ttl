@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555219> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0755> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0754> ] ;
+    sdo:birthDate "1833-09-24"^^xsd:date ;
+    sdo:birthPlace "Lemmer" ;
+    sdo:deathDate "1915-02-04"^^xsd:date ;
+    sdo:deathPlace "Lemmer" ;
+    sdo:familyName "Boon" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jan" ;
+    sdo:hasOccupation "verwer" ;
+    sdo:name "Jan Boon" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555188> .
+

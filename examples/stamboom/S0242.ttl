@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0242> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Ovl. Reg. 1901 nr. 4 (dd. 7-1-1901)" ;
+    sdo:url "https://www.openarchieven.nl/frl:92dfca9c-4f5f-16ff-a6f9-7c5ac888cbd0" .
+

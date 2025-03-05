@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1276> a sdo:ArchiveComponent ;
+    sdo:name "DTB Wouw Reg. van gehuwden (dd. 23-1-1763)" ;
+    sdo:url "https://www.openarchieven.nl/wba:69d70e64-bbd1-146a-705e-fc2fe03a0ac7" .
+

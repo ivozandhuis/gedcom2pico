@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0071> a sdo:ArchiveComponent ;
+    sdo:name "BS Olst Geb. Reg. 1826 nr. 103 (dd. 30-12-1826)" ;
+    sdo:url "https://www.openarchieven.nl/hco:F82E3F6B-E0A7-4A60-A3A4-8CADA8F4C988" .
+

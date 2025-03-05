@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0853> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1841 nr. 127 (dd. 31-1-1841)" ;
+    sdo:url "https://www.openarchieven.nl/elo:ab06396a-4c70-5c31-62ec-799a6ff879e5" .
+

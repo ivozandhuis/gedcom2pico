@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0663> a sdo:ArchiveComponent ;
+    sdo:name "BS Haarlem Huw. Reg. 1831 nr. 86 (dd. 16-11-1831)" ;
+    sdo:url "https://www.openarchieven.nl/nha:8E416614-C666-42C2-91F1-356A8AE29E2D" .
+

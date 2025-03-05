@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555228> a picom:PersonReconstruction ;
+    sdo:birthDate "1848-02-10"^^xsd:date ;
+    sdo:birthPlace "Warga" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555229>,
+        <https://gen.example.com/stamboom/I1072555230>,
+        <https://gen.example.com/stamboom/I1072555231>,
+        <https://gen.example.com/stamboom/I1072555232>,
+        <https://gen.example.com/stamboom/I1072555233>,
+        <https://gen.example.com/stamboom/I1072555234> ;
+    sdo:deathDate "1926-03-30"^^xsd:date ;
+    sdo:deathPlace "Oosterlittens" ;
+    sdo:familyName "Popkes" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Janke Pieters" ;
+    sdo:name "Janke Pieters Popkes" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555191> .
+

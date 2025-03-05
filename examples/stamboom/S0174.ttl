@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0174> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Gravenzande Huw. Reg. 1858 nr. 19 (dd. 4-12-1858)" ;
+    sdo:url "https://www.openarchieven.nl/haw:f5bb6d95-e2f7-4863-0850-080cc9f71192" .
+

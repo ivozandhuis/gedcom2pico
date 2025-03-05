@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0290> a sdo:ArchiveComponent ;
+    sdo:name "BS Olst Ovl. Reg. 1892 nr. 78 (dd. 24-8-1892)" ;
+    sdo:url "https://www.openarchieven.nl/hco:2186C829-2CED-4378-A9F3-960741244C40" .
+

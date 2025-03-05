@@ -1,0 +1,18 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1072555150> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1057686502>,
+        <https://gen.example.com/stamboom/I1072555152>,
+        <https://gen.example.com/stamboom/I1072555153>,
+        <https://gen.example.com/stamboom/I1072555154>,
+        <https://gen.example.com/stamboom/I1072555155>,
+        <https://gen.example.com/stamboom/I1072555156>,
+        <https://gen.example.com/stamboom/I1072555157> ;
+    sdo:familyName "van Haastert" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Leonardus Johannes" ;
+    sdo:hasOccupation "tapper" ;
+    sdo:name "Leonardus Johannes van Haastert" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555151> .
+

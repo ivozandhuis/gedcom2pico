@@ -1,0 +1,27 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004299> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0106> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0083> ] ;
+    sdo:birthPlace "Knijpe" ;
+    sdo:children <https://gen.example.com/stamboom/I1055435159>,
+        <https://gen.example.com/stamboom/I1055435162>,
+        <https://gen.example.com/stamboom/I1055435164>,
+        <https://gen.example.com/stamboom/I1055435166>,
+        <https://gen.example.com/stamboom/I1055435169>,
+        <https://gen.example.com/stamboom/I1055435171>,
+        <https://gen.example.com/stamboom/I1055435173>,
+        <https://gen.example.com/stamboom/I999004289> ;
+    sdo:deathDate "1864-11-15"^^xsd:date ;
+    sdo:deathPlace "Lippenhuizen" ;
+    sdo:familyName "Blaauw" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Oetske Lammerts" ;
+    sdo:name "Oetske Lammerts Blaauw" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004298> .
+

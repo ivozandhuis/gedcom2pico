@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0929> a sdo:ArchiveComponent ;
+    sdo:name "CAO Persoonskaart WAGENMAKERS, Jan Lammert (1893-1982)" .
+

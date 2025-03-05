@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0280> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1179> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1180> ] ;
+    sdo:birthDate "1868-06-05"^^xsd:date ;
+    sdo:birthPlace "Oud-Valkenburg" ;
+    sdo:deathDate "1868-09-25"^^xsd:date ;
+    sdo:deathPlace "Oud-Valkenburg" ;
+    sdo:familyName "Lambricks" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Winandus Hubertus" ;
+    sdo:name "Winandus Hubertus Lambricks" .
+

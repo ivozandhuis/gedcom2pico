@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004824> a picom:PersonReconstruction ;
+    sdo:birthPlace "Nieuwkoop" ;
+    sdo:children <https://gen.example.com/stamboom/I999004812>,
+        <https://gen.example.com/stamboom/I999004826>,
+        <https://gen.example.com/stamboom/I999004827>,
+        <https://gen.example.com/stamboom/I999004828>,
+        <https://gen.example.com/stamboom/I999004829>,
+        <https://gen.example.com/stamboom/I999004830>,
+        <https://gen.example.com/stamboom/I999004831>,
+        <https://gen.example.com/stamboom/I999004832>,
+        <https://gen.example.com/stamboom/I999004833>,
+        <https://gen.example.com/stamboom/I999004834> ;
+    sdo:familyName "Klijn" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Dirck Janse" ;
+    sdo:name "Dirck Janse Klijn" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004825> .
+

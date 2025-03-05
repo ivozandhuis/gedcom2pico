@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0348> a picom:PersonReconstruction ;
+    sdo:familyName "van der Hout" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Eliza" ;
+    sdo:name "Eliza van der Hout" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0338> .
+

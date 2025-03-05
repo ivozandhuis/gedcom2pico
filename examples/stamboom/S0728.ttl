@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0728> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1828 nr. 680 (dd. 18-6-1828)" ;
+    sdo:url "https://www.openarchieven.nl/elo:12d8e75e-2eca-c2ad-9f3e-87612cb3b0c4" .
+

@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004520> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1042> ] ;
+    sdo:birthDate "1815-10-21"^^xsd:date ;
+    sdo:birthPlace "Heerde (Markluiden)" ;
+    sdo:children <https://gen.example.com/stamboom/I999005037>,
+        <https://gen.example.com/stamboom/I999005579> ;
+    sdo:deathDate "1859-09-14"^^xsd:date ;
+    sdo:deathPlace "Heerde" ;
+    sdo:familyName "Zandhuis" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Janna" ;
+    sdo:name "Janna Zandhuis" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004527> .
+

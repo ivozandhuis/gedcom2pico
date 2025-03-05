@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004410> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1072555367>,
+        <https://gen.example.com/stamboom/I1072555368>,
+        <https://gen.example.com/stamboom/I999004402>,
+        <https://gen.example.com/stamboom/I999004711>,
+        <https://gen.example.com/stamboom/I999004712>,
+        <https://gen.example.com/stamboom/I999004713> ;
+    sdo:familyName "Bincken" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Waltherus" ;
+    sdo:name "Waltherus Bincken" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004411> .
+

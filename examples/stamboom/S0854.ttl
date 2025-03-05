@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0854> a sdo:ArchiveComponent ;
+    sdo:name "MR Leiden 1842 nr. 57" ;
+    sdo:url "https://www.openarchieven.nl/elo:7939f8e8-11d7-4574-88cf-c2330e4f74ec" .
+

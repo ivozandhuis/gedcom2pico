@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0307> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Ovl. Reg. 1848 nr. 29 (dd. 11-3-1848)" ;
+    sdo:url "https://www.openarchieven.nl/hco:A6596CEE-E059-4C1A-B128-07B3EB70CF7F" .
+

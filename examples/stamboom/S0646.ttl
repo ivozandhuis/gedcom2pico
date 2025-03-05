@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0646> a sdo:ArchiveComponent ;
+    sdo:name "BS Oude Pekela Ovl. Reg. 1814 nr. 4 (dd. 22-1-1814)" ;
+    sdo:url "https://www.openarchieven.nl/gra:88f33890-278e-1fe2-b510-e3566736a00a" .
+

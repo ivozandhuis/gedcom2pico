@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0934> a sdo:ArchiveComponent ;
+    sdo:name "CAO Persoonskaart MEIJER, Geziena Hendrika (1885-1981)" .
+

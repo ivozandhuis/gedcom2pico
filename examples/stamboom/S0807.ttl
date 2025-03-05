@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0807> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Huw. Reg. 1915 nr. 26 (dd. 16-11-1915)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:b6d673bc-d52d-4c51-bf46-58cf053cd774" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0547> a sdo:ArchiveComponent ;
+    sdo:name "Leidsche Courant 13-07-1942 | pagina 3" ;
+    sdo:url "https://leiden.courant.nu/issue/LC/1942-07-13/edition/0/page/3" .
+

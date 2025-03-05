@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0296> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1901 nr. 604 (dd. 8-6-1901)" ;
+    sdo:url "https://www.openarchieven.nl/elo:541c72d4-8cdf-d5b7-4876-8c8d018d2222" .
+

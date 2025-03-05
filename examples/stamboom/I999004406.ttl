@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004406> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004390>,
+        <https://gen.example.com/stamboom/I999004695>,
+        <https://gen.example.com/stamboom/I999004696>,
+        <https://gen.example.com/stamboom/I999004697>,
+        <https://gen.example.com/stamboom/I999004699>,
+        <https://gen.example.com/stamboom/I999004700>,
+        <https://gen.example.com/stamboom/I999004701>,
+        <https://gen.example.com/stamboom/I999004702>,
+        <https://gen.example.com/stamboom/I999004703> ;
+    sdo:familyName "Delfgau" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jacobus Hermansz" ;
+    sdo:name "Jacobus Hermansz Delfgau" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004407>,
+        <https://gen.example.com/stamboom/I999004698> .
+

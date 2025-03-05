@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555246> a picom:PersonReconstruction ;
+    sdo:birthDate "1845-03-11"^^xsd:date ;
+    sdo:birthPlace "Groningen" ;
+    sdo:deathDate "1917-01-18"^^xsd:date ;
+    sdo:deathPlace "Amsterdam" ;
+    sdo:familyName "van Kregten" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Jacoba" ;
+    sdo:name "Jacoba van Kregten" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555194> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1015> a sdo:ArchiveComponent ;
+    sdo:name "BS Bodegraven Ovl. Reg. 1839 nr. 55 (dd. 23-10-1839)" ;
+    sdo:url "https://www.openarchieven.nl/rel:24dce01b-0a10-48e8-91a4-1bac1ed28d70" .
+

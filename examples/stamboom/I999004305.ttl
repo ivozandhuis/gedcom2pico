@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004305> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0753> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0752> ] ;
+    sdo:birthDate "1817-01-04"^^xsd:date ;
+    sdo:birthPlace "Balk" ;
+    sdo:children <https://gen.example.com/stamboom/I999004294> ;
+    sdo:deathDate "1878-12-30"^^xsd:date ;
+    sdo:deathPlace "Balk" ;
+    sdo:familyName "Betsema" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Janna Johannes" ;
+    sdo:name "Janna Johannes Betsema" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004304> .
+

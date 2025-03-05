@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0015> a sdo:ArchiveComponent ;
+    sdo:name "DTB Holten Doopboek Ger. Kerk  fol. 12 (38)" .
+

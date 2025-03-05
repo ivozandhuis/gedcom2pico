@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005156> a picom:PersonReconstruction ;
+    sdo:birthDate "1780"^^xsd:gYear ;
+    sdo:birthPlace "Hengelo" ;
+    sdo:children <https://gen.example.com/stamboom/I999005155> ;
+    sdo:deathDate "1844-02-09"^^xsd:date ;
+    sdo:deathPlace "Bornerbroek" ;
+    sdo:familyName "Slag" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Berend-Jan" ;
+    sdo:hasOccupation "boerwerker" ;
+    sdo:name "Berend-Jan Slag" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005157> .
+

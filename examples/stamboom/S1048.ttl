@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1048> a sdo:ArchiveComponent ;
+    sdo:name "BS Naaldwijk Geb. Reg. 1859 nr. 93 (dd. 9-8-1859)" ;
+    sdo:url "https://www.openarchieven.nl/haw:f388aafa-3cb3-46c2-a5f9-3f605a3f41de" .
+

@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0037> a picom:PersonReconstruction ;
+    sdo:familyName "Lubberts" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Berendina Hendrika" ;
+    sdo:name "Berendina Hendrika Lubberts" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004506> .
+

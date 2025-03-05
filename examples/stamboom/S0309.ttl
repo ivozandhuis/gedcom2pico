@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0309> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Stad Ovl. Reg. 1912 nr. 21 (dd. 2-2-1912)" ;
+    sdo:url "https://www.openarchieven.nl/hco:102DE9AD-A714-4BBA-9B86-A20701B795BF" .
+

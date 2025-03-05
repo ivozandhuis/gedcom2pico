@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004464> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004458>,
+        <https://gen.example.com/stamboom/I999004785>,
+        <https://gen.example.com/stamboom/I999004786>,
+        <https://gen.example.com/stamboom/I999004787> ;
+    sdo:familyName "Heuts" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hubertus" ;
+    sdo:name "Hubertus Heuts" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004465> .
+

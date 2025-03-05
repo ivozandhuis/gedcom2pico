@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0299> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1841 nr. 773 (dd. 10-9-1841)" ;
+    sdo:url "https://www.openarchieven.nl/elo:c403deeb-b400-c28f-64a2-d1d163554323" .
+

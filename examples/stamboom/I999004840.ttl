@@ -1,0 +1,23 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004840> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1811-10-07"^^xsd:date ;
+            bio:place "Reeuwijk" ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0674> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0661> ] ;
+    sdo:birthDate "1811-10-06"^^xsd:date ;
+    sdo:birthPlace "Boskoop" ;
+    sdo:deathDate "1827-05-17"^^xsd:date ;
+    sdo:deathPlace "Boskoop" ;
+    sdo:familyName "Brand" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Catharina" ;
+    sdo:name "Catharina Brand" .
+

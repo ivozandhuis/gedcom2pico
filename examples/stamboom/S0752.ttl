@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0752> a sdo:ArchiveComponent ;
+    sdo:name "BS Gaasterland Geb. Reg. 1817 nr. 3 (5-1-1817)" ;
+    sdo:url "https://www.openarchieven.nl/frl:40a10058-35b8-7ff3-7d46-39c788e52c4f" .
+

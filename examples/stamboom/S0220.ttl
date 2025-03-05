@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0220> a sdo:ArchiveComponent ;
+    sdo:name "BS Apeldoorn Geb. Reg. 1818 nr. 95 (dd. 12-10-1818)" ;
+    sdo:url "https://www.openarchieven.nl/hua:D16A6E84-98E4-42A9-B1CD-F4285C7C677B" .
+

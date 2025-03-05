@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0162> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Huw. Reg. 1850 nr. 17" ;
+    sdo:url "https://www.openarchieven.nl/hco:365CF680-A039-4D03-9DDB-BF45C14C616B" .
+

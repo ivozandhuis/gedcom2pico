@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0392> a sdo:ArchiveComponent ;
+    sdo:name "BS Zwolle Ovl. Reg. 1941 nr. 23 (dd. 9-1-1941)" ;
+    sdo:url "https://www.openarchieven.nl/hco:93691A40-1E5C-4667-A8AD-D2D475CD9EC9" .
+

@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999005539> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999005527> ;
+    sdo:familyName "Klein Balder" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Janna" ;
+    sdo:name "Janna Klein Balder" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005538> .
+

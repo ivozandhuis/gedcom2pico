@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1030> a sdo:ArchiveComponent ;
+    sdo:name "BS Delft Ovl. Reg. 1873 nr. 580" ;
+    sdo:url "https://www.openarchieven.nl/ade:62514380-4025-11e5-bdf7-abfa9cec3a51" .
+

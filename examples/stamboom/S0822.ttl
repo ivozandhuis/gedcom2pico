@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0822> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1860 nr. 217 (dd. 26-2-1860)" ;
+    sdo:url "https://www.openarchieven.nl/elo:9784cd49-fe0b-f2f1-e4f4-8934df3c0525" .
+

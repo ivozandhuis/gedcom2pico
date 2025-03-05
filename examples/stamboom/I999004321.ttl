@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004321> a picom:PersonReconstruction ;
+    sdo:birthPlace "Oude Pekela" ;
+    sdo:children <https://gen.example.com/stamboom/I999004318> ;
+    sdo:deathDate "1856-12-05"^^xsd:date ;
+    sdo:deathPlace "Oude Pekela" ;
+    sdo:familyName "(de) Haan" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Jantje Pieters" ;
+    sdo:name "Jantje Pieters (de) Haan" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004320> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1101> a sdo:ArchiveComponent ;
+    sdo:name "BS Leek Huw. Reg. 1843 nr. 13 (dd. 30-4-1843)" ;
+    sdo:url "https://www.openarchieven.nl/gra:cb2df4a0-d259-00af-66f0-b9e32aa47ba5" .
+

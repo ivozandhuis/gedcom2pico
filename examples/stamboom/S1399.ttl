@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1399> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1940 nr. 861" ;
+    sdo:url "https://www.openarchieven.nl/elo:2ffde55a-6bdf-242d-8731-b7b78478085d" .
+

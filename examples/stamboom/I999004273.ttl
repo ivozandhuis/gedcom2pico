@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004273> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I0427>,
+        <https://gen.example.com/stamboom/I999004248> ;
+    sdo:deathDate "1810-06-26"^^xsd:date ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "van der Sluis" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Willem Jansen" ;
+    sdo:name "Willem Jansen van der Sluis" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004274> .
+

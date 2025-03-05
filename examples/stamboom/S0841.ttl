@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0841> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1821 nr. 1026 (dd. 18-11-1821)" ;
+    sdo:url "https://www.openarchieven.nl/elo:2eb15749-753b-5384-6e1e-d511d135d2b6" .
+

@@ -1,0 +1,20 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005007> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1713-07-11"^^xsd:date ;
+            bio:place "Gouda" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999005008>,
+        <https://gen.example.com/stamboom/I999005009>,
+        <https://gen.example.com/stamboom/I999005010>,
+        <https://gen.example.com/stamboom/I999005012>,
+        <https://gen.example.com/stamboom/I999005013> ;
+    sdo:familyName "Vis" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Aplonia" ;
+    sdo:name "Aplonia Vis" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004915> .
+

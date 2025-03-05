@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0142> a sdo:ArchiveComponent ;
+    sdo:name "DTB Krommenie Trouwboek RK" .
+

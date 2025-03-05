@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0881> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Huw. Reg. 1805 nr. 241 (dd. 9-5-1805)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:6764ce0f-0009-7bb0-7599-47e4e6fa2b9e" .
+

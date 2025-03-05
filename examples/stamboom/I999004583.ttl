@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004583> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0903> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0904> ] ;
+    sdo:birthDate "1837-08-31"^^xsd:date ;
+    sdo:birthPlace "Oude Pekela" ;
+    sdo:deathDate "1837-09-27"^^xsd:date ;
+    sdo:deathPlace "Oude Pekela" ;
+    sdo:familyName "Hateboer" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Fredrik" ;
+    sdo:name "Fredrik Hateboer" .
+

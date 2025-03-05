@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1158> a sdo:ArchiveComponent ;
+    sdo:name "BS Monster Geb. Reg. 1896 nr. 69 (dd. 5-5-1896)" ;
+    sdo:url "https://www.openarchieven.nl/haw:11eb754d-ff29-4b59-b271-3cbba76bfa64" .
+

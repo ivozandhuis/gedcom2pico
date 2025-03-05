@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1091> a sdo:ArchiveComponent ;
+    sdo:name "BS Leek Geb. Reg. 1873 nr. 137 (dd. 4-10-1873)" ;
+    sdo:url "https://www.openarchieven.nl/gra:40601363-315d-0905-0248-b2ccc45f9c43" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1311> a sdo:ArchiveComponent ;
+    sdo:name "BS 's Gravenhage Ovl. Reg. 1917 nr. 2963 (dd. 31-7-1917)" ;
+    sdo:url "https://www.openarchieven.nl/hga:624CF7C2-83BE-4B15-9D7E-DB6E16F92F68" .
+

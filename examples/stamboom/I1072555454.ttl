@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555454> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0506> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0505> ] ;
+    sdo:birthDate "1892-09-28"^^xsd:date ;
+    sdo:birthPlace "Naaldwijk" ;
+    sdo:deathDate "1892-12-31"^^xsd:date ;
+    sdo:deathPlace "Naaldwijk" ;
+    sdo:familyName "Bouwhuizen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jacobus Wilhelmus" ;
+    sdo:name "Jacobus Wilhelmus Bouwhuizen" .
+

@@ -1,0 +1,13 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555325> a picom:PersonReconstruction ;
+    sdo:birthDate "1853"^^xsd:gYear ;
+    sdo:deathDate "1858-10-07"^^xsd:date ;
+    sdo:deathPlace "Aarlanderveen" ;
+    sdo:familyName "Binken" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Cornelis" ;
+    sdo:name "Cornelis Binken" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0677> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Geb. Reg. 1837 nr. 32 (dd. 22-5-1837)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:7620f440-2a75-4b9f-b052-b4842fe58000" .
+

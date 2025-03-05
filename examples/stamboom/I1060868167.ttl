@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1060868167> a picom:PersonReconstruction ;
+    sdo:birthDate "1735-04-29"^^xsd:date ;
+    sdo:birthPlace "Katlijk" ;
+    sdo:children <https://gen.example.com/stamboom/I1060868108> ;
+    sdo:familyName "Wytzes" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Tjebele" ;
+    sdo:name "Tjebele Wytzes" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060868170> .
+

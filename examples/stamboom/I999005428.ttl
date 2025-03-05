@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005428> a picom:PersonReconstruction ;
+    sdo:birthDate "1935-08-21"^^xsd:date ;
+    sdo:birthPlace "Raalte" ;
+    sdo:deathDate "2023-11-02"^^xsd:date ;
+    sdo:deathPlace "Oosterbeek" ;
+    sdo:familyName "Borgman" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Bernardus Johannes Maria" ;
+    sdo:name "Bernardus Johannes Maria Borgman" .
+

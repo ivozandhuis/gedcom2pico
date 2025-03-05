@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1249> a sdo:ArchiveComponent ;
+    sdo:name "MS 14e Reg. Inf. van Linie (Frankrijk) stamboeknummer 11506" ;
+    sdo:url "https://www.openarchieven.nl/nim:6c684ffe-1381-72b5-c62f-8b984b7fc9c3" .
+

@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004745> a picom:PersonReconstruction ;
+    sdo:birthDate "1803-06-03"^^xsd:date ;
+    sdo:birthPlace "Valkenburg" ;
+    sdo:deathDate "1804-08-13"^^xsd:date ;
+    sdo:deathPlace "Valkenburg" ;
+    sdo:familyName "Scheres" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Gertrudis" ;
+    sdo:name "Gertrudis Scheres" .
+

@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0140> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0676> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0675> ] ;
+    sdo:birthDate "1836-06-20"^^xsd:date ;
+    sdo:birthPlace "Boskoop" ;
+    sdo:deathDate "1836-06-21"^^xsd:date ;
+    sdo:deathPlace "Boskoop" ;
+    sdo:familyName "Brandt" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Albertus" ;
+    sdo:name "Albertus Brandt" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1183> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijlre Huw. Reg. 1890 nr. 10 (dd. 13-10-1890)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:ab8f8a8a-7489-b07c-630f-86e28c222bef" .
+

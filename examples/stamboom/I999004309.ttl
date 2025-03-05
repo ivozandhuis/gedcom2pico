@@ -1,0 +1,22 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004309> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1106> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1105> ] ;
+    sdo:birthDate "1811-01-25"^^xsd:date ;
+    sdo:birthPlace "Leek" ;
+    sdo:children <https://gen.example.com/stamboom/I999004293>,
+        <https://gen.example.com/stamboom/I999004559> ;
+    sdo:deathDate "1883-12-20"^^xsd:date ;
+    sdo:deathPlace "Groningen" ;
+    sdo:familyName "Raven" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Trijntje Hindriks" ;
+    sdo:name "Trijntje Hindriks Raven" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004308> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1139> a sdo:ArchiveComponent ;
+    sdo:name "BS Roden Huw. Reg. 1837 nr. 12 (dd. 30-12-1837)" ;
+    sdo:url "https://www.openarchieven.nl/dar:5baeb0a6-ef0a-4357-bb14-42a9d31baa66" .
+

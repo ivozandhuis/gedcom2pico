@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1181> a sdo:ArchiveComponent ;
+    sdo:name "BS Oud-Valkenburg Geb. Reg. 1869 nr. 13 (dd. 24-10-1869)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:fa71a432-d809-491e-f79a-77d3440058b3" .
+

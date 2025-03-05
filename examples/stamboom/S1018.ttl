@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1018> a sdo:ArchiveComponent ;
+    sdo:name "BS Bodegraven Geb. Reg. 1844 nr. 66 (dd. 14-8-1844)" ;
+    sdo:url "https://www.openarchieven.nl/rel:29e66a85-3a9b-713d-8849-869989659eb4" .
+

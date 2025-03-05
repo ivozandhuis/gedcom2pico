@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1171> a sdo:ArchiveComponent ;
+    sdo:name "BS Monster Huw. Reg. 1919 nr. 21 (dd. 12-7-1919)" ;
+    sdo:url "https://www.openarchieven.nl/haw:d95aa367-c8bf-4e65-b126-9dcc80e9bfed" .
+

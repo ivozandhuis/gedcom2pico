@@ -1,0 +1,18 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004398> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004374>,
+        <https://gen.example.com/stamboom/I999004667>,
+        <https://gen.example.com/stamboom/I999004668>,
+        <https://gen.example.com/stamboom/I999004669>,
+        <https://gen.example.com/stamboom/I999004671>,
+        <https://gen.example.com/stamboom/I999004672>,
+        <https://gen.example.com/stamboom/I999004673> ;
+    sdo:familyName "van den Helm" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Krijn Cornelis" ;
+    sdo:name "Krijn Cornelis van den Helm" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004399>,
+        <https://gen.example.com/stamboom/I999004670> .
+

@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0838> a sdo:ArchiveComponent ;
+    sdo:name "MR Lemsterland 1866 nr. 9" ;
+    sdo:url "https://allefriezen.nl/zoeken/deeds/0f8e2535-bd43-4917-b6e7-a4f7dd7d0605",
+        "https://www.openarchieven.nl/frl:0f8e2535-bd43-4917-b6e7-a4f7dd7d0605" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1047> a sdo:ArchiveComponent ;
+    sdo:name "BS Naaldwijk Geb. Reg. 1858 nr. 13 (dd. 6-2-1858)" ;
+    sdo:url "https://www.openarchieven.nl/haw:412f3892-8aae-4564-b671-0cf254cc7d10" .
+

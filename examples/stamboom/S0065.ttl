@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0065> a sdo:ArchiveComponent ;
+    sdo:name "BS Schipluiden Geb. Reg. 1821 nr. 4 (dd. 14-3-1821)" ;
+    sdo:url "https://hdl.handle.net/21.12115/NL-DtAD126117590",
+        "https://www.wiewaswie.nl/nl/detail/20756213" .
+

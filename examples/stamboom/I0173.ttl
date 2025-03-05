@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0173> a picom:PersonReconstruction ;
+    sdo:familyName "De Wolf" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Alfred Jean Anne Ghislain" ;
+    sdo:name "Alfred Jean Anne Ghislain De Wolf" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0167> .
+

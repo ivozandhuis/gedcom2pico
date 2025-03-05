@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0133> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Huw. Reg. 1887 nr. 183 (dd. 27-7-1887)" ;
+    sdo:url "https://www.openarchieven.nl/elo:4e607423-fcc9-6497-cfe2-d002e9d2f13e" .
+

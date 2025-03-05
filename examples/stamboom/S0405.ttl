@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0405> a sdo:ArchiveComponent ;
+    sdo:name "BS Sneek Ovl. Reg. 1963 nr. 22 (dd. 14-1-1963)" ;
+    sdo:url "https://www.openarchieven.nl/frl:7bf63c10-8cd6-4a2a-a838-30c2a4d26eb2" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1057> a sdo:ArchiveComponent ;
+    sdo:name "BS Loosduinen Huw. Reg. 1879 nr. 11" ;
+    sdo:url "https://www.openarchieven.nl/hga:490EE382-EEAF-4067-AC46-1DDC52D21C98" .
+

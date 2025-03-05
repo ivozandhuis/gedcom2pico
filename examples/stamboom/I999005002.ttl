@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005002> a picom:PersonReconstruction ;
+    sdo:deathDate "1866-08-14"^^xsd:date ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Stephanus" ;
+    sdo:name "Stephanus van der Sloot" .
+

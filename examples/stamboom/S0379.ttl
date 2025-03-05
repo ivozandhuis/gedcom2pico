@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0379> a sdo:ArchiveComponent ;
+    sdo:name "CAO Persoonskaart MEIJER, Hendricus Cornelis (1893-1980)" .
+

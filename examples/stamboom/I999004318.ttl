@@ -1,0 +1,23 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004318> a picom:PersonReconstruction ;
+    sdo:birthDate "1812-03-18"^^xsd:date ;
+    sdo:birthPlace "Oude Pekela" ;
+    sdo:children <https://gen.example.com/stamboom/I999004292>,
+        <https://gen.example.com/stamboom/I999004582>,
+        <https://gen.example.com/stamboom/I999004583>,
+        <https://gen.example.com/stamboom/I999004584>,
+        <https://gen.example.com/stamboom/I999004585> ;
+    sdo:deathDate "1871-03-07"^^xsd:date ;
+    sdo:deathPlace "Oude Pekela" ;
+    sdo:familyName "Hateboer" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Harm Jurjens" ;
+    sdo:hasOccupation "pelmolenaarsknecht",
+        "touwslagersknecht" ;
+    sdo:name "Harm Jurjens Hateboer" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004319>,
+        <https://gen.example.com/stamboom/I999004581> .
+

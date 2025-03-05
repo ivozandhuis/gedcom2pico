@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005238> a picom:PersonReconstruction ;
+    sdo:birthDate "1778-05-01"^^xsd:date ;
+    sdo:birthPlace "Maastricht" ;
+    sdo:children <https://gen.example.com/stamboom/I999005234> ;
+    sdo:deathDate "1839-08-17"^^xsd:date ;
+    sdo:deathPlace "'s-Hertogenbosch" ;
+    sdo:familyName "Mullekes" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria Elisabeth" ;
+    sdo:hasOccupation "slagster" ;
+    sdo:name "Maria Elisabeth Mullekes" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005237> .
+

@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0136> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0652> ] ;
+    sdo:birthDate "1803-11-19"^^xsd:date ;
+    sdo:birthPlace "Oude Pekela" ;
+    sdo:familyName "Dijk" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Menne Jans" ;
+    sdo:name "Menne Jans Dijk" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0135> .
+

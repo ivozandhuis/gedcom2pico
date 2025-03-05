@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0007> a sdo:ArchiveComponent ;
+    sdo:name "DTB Rotterdam Doopboek GK 1676-apr 1682" ;
+    sdo:url "https://hdl.handle.net/21.12133/D06801C3EA8B44E88C151BE0DA186534" .
+

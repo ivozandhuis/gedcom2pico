@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005160> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0310> ] ;
+    sdo:birthPlace "Weerselo" ;
+    sdo:children <https://gen.example.com/stamboom/I999005159> ;
+    sdo:deathDate "1880-09-09"^^xsd:date ;
+    sdo:deathPlace "Almelo Ambt" ;
+    sdo:familyName "Schutte" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Gerrit" ;
+    sdo:hasOccupation "landbouwer" ;
+    sdo:name "Gerrit Schutte" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005163>,
+        <https://gen.example.com/stamboom/I999005191> .
+

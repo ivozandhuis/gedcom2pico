@@ -1,0 +1,30 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005523> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0094> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0332> ] ;
+    sdo:birthDate "1860-07-09"^^xsd:date ;
+    sdo:birthPlace "Raalte" ;
+    sdo:children <https://gen.example.com/stamboom/I0077>,
+        <https://gen.example.com/stamboom/I0078>,
+        <https://gen.example.com/stamboom/I0079>,
+        <https://gen.example.com/stamboom/I0080>,
+        <https://gen.example.com/stamboom/I0082>,
+        <https://gen.example.com/stamboom/I1068662457>,
+        <https://gen.example.com/stamboom/I1068662459>,
+        <https://gen.example.com/stamboom/I1068662460>,
+        <https://gen.example.com/stamboom/I999005394> ;
+    sdo:deathDate "1940-11-11"^^xsd:date ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "Harms" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Antonius" ;
+    sdo:hasOccupation "arbeider" ;
+    sdo:name "Antonius Harms" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005524> .
+

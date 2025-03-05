@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0092> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0504> ] ;
+    sdo:birthDate "1891-10-18"^^xsd:date ;
+    sdo:birthPlace "Naaldwijk" ;
+    sdo:familyName "Bouwhuizen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Johanna Wilhelmina" ;
+    sdo:name "Johanna Wilhelmina Bouwhuizen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1068535743> .
+

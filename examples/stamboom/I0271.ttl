@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0271> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1165> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1164> ] ;
+    sdo:birthDate "1899-10-26"^^xsd:date ;
+    sdo:birthPlace "Monster" ;
+    sdo:deathDate "1900-02-26"^^xsd:date ;
+    sdo:deathPlace "Monster" ;
+    sdo:familyName "Meijer" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Petrus Willebrordus" ;
+    sdo:name "Petrus Willebrordus Meijer" .
+

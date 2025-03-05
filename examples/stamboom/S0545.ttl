@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0545> a sdo:ArchiveComponent ;
+    sdo:name "Leidsch Dagblad 21-04-1898 | pagina 2" ;
+    sdo:url "https://leiden.courant.nu/issue/LD/1898-04-21/edition/0/page/2" .
+

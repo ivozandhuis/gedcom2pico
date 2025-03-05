@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1454> a sdo:ArchiveComponent ;
+    sdo:name "BS Heino Ovl. Reg. 1892 nr. 29" ;
+    sdo:url "https://www.openarchieven.nl/hco:DB130DA8-21B3-41C4-8875-0170297DFB95" .
+

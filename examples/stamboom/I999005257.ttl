@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005257> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1043> ] ;
+    sdo:birthDate "1866-03-28"^^xsd:date ;
+    sdo:birthPlace "Den Haag (Loosduinen)" ;
+    sdo:children <https://gen.example.com/stamboom/I0393>,
+        <https://gen.example.com/stamboom/I0394>,
+        <https://gen.example.com/stamboom/I999005092> ;
+    sdo:deathDate "1898-10-22"^^xsd:date ;
+    sdo:deathPlace "Schipluiden" ;
+    sdo:familyName "Vollebregt" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Anna Maria" ;
+    sdo:name "Anna Maria Vollebregt" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005256> .
+

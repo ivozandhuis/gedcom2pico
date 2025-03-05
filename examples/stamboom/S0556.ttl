@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0556> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Stad Geb. Reg. 1912 nr. 159 (dd. 13-9-1912)" ;
+    sdo:url "https://www.openarchieven.nl/hco:CB442E4E-8944-4DD6-A76D-C2DC7A26AACA" .
+

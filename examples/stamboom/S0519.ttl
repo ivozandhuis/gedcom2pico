@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0519> a sdo:ArchiveComponent ;
+    sdo:name "BS Naaldwijk Huw. Reg. 1920 nr. (dd. 19-6-1920)" ;
+    sdo:url "https://www.openarchieven.nl/haw:ffd9a394-4135-4600-9432-e2b02f289a58" .
+

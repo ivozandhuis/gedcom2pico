@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1060868175> a picom:PersonReconstruction ;
+    sdo:birthPlace "Wanneperveen" ;
+    sdo:children <https://gen.example.com/stamboom/I1060868111> ;
+    sdo:deathDate "1832-03-28"^^xsd:date ;
+    sdo:deathPlace "Oudehaske" ;
+    sdo:familyName "Steenbergen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hendrik Jans" ;
+    sdo:hasOccupation "veenbaas" ;
+    sdo:name "Hendrik Jans Steenbergen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060868178> .
+

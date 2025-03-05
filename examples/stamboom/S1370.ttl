@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1370> a sdo:ArchiveComponent ;
+    sdo:name "BS Monster Geb. Reg. 1835 nr. 34" ;
+    sdo:url "https://www.openarchieven.nl/haw:82561642-e1ea-4267-868c-0bc2feaf87bf" .
+

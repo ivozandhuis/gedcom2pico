@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0257> a sdo:ArchiveComponent ;
+    sdo:name "BS Schipluiden Ovl. Reg. 1858 nr. 9 (dd. 06-04-1858)" ;
+    sdo:url "https://hdl.handle.net/21.12115/NL-DtAD133043550" .
+

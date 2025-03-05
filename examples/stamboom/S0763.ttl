@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0763> a sdo:ArchiveComponent ;
+    sdo:name "BS Sneek Geb. Reg. 1839 nr. 46 (dd. 15-5-1839)" ;
+    sdo:url "https://www.openarchieven.nl/frl:d8cc4941-50c6-9096-f473-d5cc07875e62" .
+

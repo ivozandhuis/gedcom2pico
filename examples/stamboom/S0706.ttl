@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0706> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijlre Geb. Reg. 1827 nr. 46 (dd. 19-10-1827)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:5077761c-6398-a2bc-0a9d-dea925beab07" .
+

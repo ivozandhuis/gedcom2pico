@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0027> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Geb. Reg. 1916 nr. 165" ;
+    sdo:url "https://www.openarchieven.nl/frl:67bd4ed2-dcbd-9652-54b8-966e760d14e7" .
+

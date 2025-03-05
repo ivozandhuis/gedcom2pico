@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0891> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Ovl. Reg. 1897 nr. 836 (dd. 24-12-1897)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:a0bb34d8-365d-e9ad-ca12-43e6251937fb" .
+

@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0243> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1110> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1111> ] ;
+    sdo:birthDate "1817-04-16"^^xsd:date ;
+    sdo:birthPlace "Leek" ;
+    sdo:deathDate "1817-06-24"^^xsd:date ;
+    sdo:deathPlace "Leek" ;
+    sdo:familyName "Raven" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Geertje" ;
+    sdo:name "Geertje Raven" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0500> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Gravenhage Ovl. Reg. 1947 nr. A2320 (dd. 20-11-1947)" ;
+    sdo:url "https://www.openarchieven.nl/hga:009762C5-6391-4821-AABA-490A6DCB5BB7" .
+

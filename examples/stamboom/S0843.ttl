@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0843> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1826 nr. 776 (dd. 18-7-1826)" ;
+    sdo:url "https://www.openarchieven.nl/elo:6a3bd63f-7a24-069d-83ac-9dd9cadc8d64" .
+

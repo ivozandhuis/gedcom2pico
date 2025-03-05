@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0717> a sdo:ArchiveComponent ;
+    sdo:name "BS Oud-Valkenburg Ovl. Reg. 1878 nr. 8 (dd. 5-7-1878)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:4fee34e8-e419-de4e-3ae6-c1dbc247ef2b" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0378> a sdo:ArchiveComponent ;
+    sdo:name "BS Olst Ovl. Reg. 1928 nr. 1 (dd. 6-1-1928)" ;
+    sdo:url "https://www.openarchieven.nl/hco:97EB3661-D8D8-42B8-B87A-E91FD1DE7A42" .
+

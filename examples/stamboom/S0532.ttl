@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0532> a sdo:ArchiveComponent ;
+    sdo:name "Nieuwsblad van Friesland : Hepkema's courant 12-04-1913" ;
+    sdo:url "https://resolver.kb.nl/resolve?urn=ddd:010762672:mpeg21:a0049" .
+

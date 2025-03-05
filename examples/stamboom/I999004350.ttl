@@ -1,0 +1,30 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004350> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0198> ] ;
+    sdo:birthDate "1810-03-29"^^xsd:date ;
+    sdo:birthPlace "Reeuwijk" ;
+    sdo:children <https://gen.example.com/stamboom/I0214>,
+        <https://gen.example.com/stamboom/I0215>,
+        <https://gen.example.com/stamboom/I999004345>,
+        <https://gen.example.com/stamboom/I999004607>,
+        <https://gen.example.com/stamboom/I999004608>,
+        <https://gen.example.com/stamboom/I999004609>,
+        <https://gen.example.com/stamboom/I999004610>,
+        <https://gen.example.com/stamboom/I999004611>,
+        <https://gen.example.com/stamboom/I999004612>,
+        <https://gen.example.com/stamboom/I999004613>,
+        <https://gen.example.com/stamboom/I999004614>,
+        <https://gen.example.com/stamboom/I999004615> ;
+    sdo:deathDate "1891-03-24"^^xsd:date ;
+    sdo:deathPlace "Leiden" ;
+    sdo:familyName "van der Helm" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Lena" ;
+    sdo:name "Lena van der Helm" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004349> .
+

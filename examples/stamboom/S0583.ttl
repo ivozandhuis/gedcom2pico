@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0583> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Huw. Reg. 1856 nr. 5 (dd. 29-3-1856)" ;
+    sdo:url "https://www.openarchieven.nl/hco:4BADC5C4-0884-4350-8C5E-F19CC0541B94" .
+

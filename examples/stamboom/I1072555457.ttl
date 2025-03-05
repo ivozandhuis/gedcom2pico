@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555457> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0363> ] ;
+    sdo:birthDate "1873"^^xsd:gYear ;
+    sdo:deathDate "1950-10-17"^^xsd:date ;
+    sdo:deathPlace "Oudenhoorn" ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hendrikus Louwerens" ;
+    sdo:name "Hendrikus Louwerens van der Sloot" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555487> .
+

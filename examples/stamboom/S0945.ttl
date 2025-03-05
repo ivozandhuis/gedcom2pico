@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0945> a sdo:ArchiveComponent ;
+    sdo:name "CAO Persoonskaart BOUHUIZEN, Wilhelmina (1896-1970)" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1166> a sdo:ArchiveComponent ;
+    sdo:name "BS Monster Geb. Reg. 1901 nr. 48 (dd. 2-4-1901)" ;
+    sdo:url "https://www.openarchieven.nl/haw:8df85817-8b6f-4199-8114-1bf599692d67" .
+

@@ -1,0 +1,36 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005261> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0273> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1315> ] ;
+    sdo:birthDate "1835-09-19"^^xsd:date ;
+    sdo:birthPlace "'s-Gravenzande" ;
+    sdo:children <https://gen.example.com/stamboom/I0094>,
+        <https://gen.example.com/stamboom/I0333>,
+        <https://gen.example.com/stamboom/I0334>,
+        <https://gen.example.com/stamboom/I0335>,
+        <https://gen.example.com/stamboom/I0336>,
+        <https://gen.example.com/stamboom/I0337>,
+        <https://gen.example.com/stamboom/I0338>,
+        <https://gen.example.com/stamboom/I0339>,
+        <https://gen.example.com/stamboom/I0340>,
+        <https://gen.example.com/stamboom/I0341>,
+        <https://gen.example.com/stamboom/I0342>,
+        <https://gen.example.com/stamboom/I0343>,
+        <https://gen.example.com/stamboom/I0344>,
+        <https://gen.example.com/stamboom/I0345>,
+        <https://gen.example.com/stamboom/I999005209> ;
+    sdo:deathDate "1924-03-19"^^xsd:date ;
+    sdo:deathPlace "'s-Gravenzande" ;
+    sdo:familyName "Westhoff" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Willem" ;
+    sdo:hasOccupation "arbeider" ;
+    sdo:name "Willem Westhoff" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005262> .
+

@@ -1,0 +1,22 @@
+# Find Marriage event with different date in marriage certificate and the date in the reconstruction.
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX pico: <https://personsincontext.org/model#>
+PREFIX sdo: <https://schema.org/>
+PREFIX bio: <http://purl.org/vocab/bio/0.1/>
+
+select * where {
+	?event a bio:Marriage ;
+    	prov:hadPrimarySource ?source ;
+    	bio:date ?pr_date .
+    
+        ?source owl:sameAs ?oa_source ;
+            sdo:url ?oa_url .
+    
+    	?oa_event prov:hadPrimarySource ?oa_source ;
+    		a bio:Marriage ;
+    		bio:date ?po_date .
+
+    FILTER(?pr_date != ?po_date)    
+} 

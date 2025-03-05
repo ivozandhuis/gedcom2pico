@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0271> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Ovl. Reg. 1873 nr. 150 (dd. 22-11-1873)" ;
+    sdo:url "https://www.openarchieven.nl/hco:731EA56D-40C7-4A3A-9281-5F88D5C20C49" .
+

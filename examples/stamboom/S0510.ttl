@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0510> a sdo:ArchiveComponent ;
+    sdo:name "BS Naaldwijk Geb. Reg. 1896 nr. 166" ;
+    sdo:url "https://www.openarchieven.nl/haw:32904b19-6543-4b6e-9464-0cf5e9659471" .
+

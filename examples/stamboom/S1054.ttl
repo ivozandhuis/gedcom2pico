@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1054> a sdo:ArchiveComponent ;
+    sdo:name "BS Monster Ovl. Reg. 1863 nr. 97" ;
+    sdo:url "https://www.openarchieven.nl/haw:8f898ecd-7795-40c0-8a2b-89239622af11" .
+

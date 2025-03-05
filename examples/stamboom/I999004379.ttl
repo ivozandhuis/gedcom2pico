@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004379> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004360>,
+        <https://gen.example.com/stamboom/I999004641>,
+        <https://gen.example.com/stamboom/I999004642>,
+        <https://gen.example.com/stamboom/I999004643>,
+        <https://gen.example.com/stamboom/I999004644> ;
+    sdo:familyName "Peereboom" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Marijtje Cornelis" ;
+    sdo:name "Marijtje Cornelis Peereboom" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004378> .
+

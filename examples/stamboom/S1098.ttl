@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1098> a sdo:ArchiveComponent ;
+    sdo:name "BS Baarn Ovl. Reg. 1948 nr. 2 (dd. 3-1-1948)" ;
+    sdo:url "https://www.openarchieven.nl/hua:7E03F971-25AC-45F5-9D46-A46F41F2D1D6" .
+

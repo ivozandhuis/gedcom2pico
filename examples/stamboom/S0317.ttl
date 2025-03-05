@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0317> a sdo:ArchiveComponent ;
+    sdo:name "CAO Persoonskaart KLUIVERS, Hendrika Elisabeth (1864-1954)" .
+

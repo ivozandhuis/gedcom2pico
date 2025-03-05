@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999005175> a picom:PersonReconstruction ;
+    sdo:birthPlace "Raalte" ;
+    sdo:children <https://gen.example.com/stamboom/I0074>,
+        <https://gen.example.com/stamboom/I0075>,
+        <https://gen.example.com/stamboom/I0076> ;
+    sdo:familyName "Heetkamp" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Antonia" ;
+    sdo:hasOccupation "dienstmeid" ;
+    sdo:name "Antonia Heetkamp" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005096>,
+        <https://gen.example.com/stamboom/I999005178> .
+

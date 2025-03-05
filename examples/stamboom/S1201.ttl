@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1201> a sdo:ArchiveComponent ;
+    sdo:name "Grafschrift Algemene Begraafplaats Naaldwijk, graftombes.nl fotonr. a128" ;
+    sdo:url "https://graftombe.nl/names/info/1360640/bouhuisen" .
+

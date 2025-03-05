@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0122> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Huw. Reg. 1828 nr. 6 (dd. 30-4-1828)" ;
+    sdo:url "https://www.openarchieven.nl/hco:1205F10D-7665-4169-8F88-75E46CC90BF5" .
+

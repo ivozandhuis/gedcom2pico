@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1395> a sdo:ArchiveComponent ;
+    sdo:name "BS Apeldoorn Geb. Reg. 1910 nr. 213" ;
+    sdo:url "https://www.openarchieven.nl/gld:C063D185-19DC-4150-B70C-2E27C5D10521" .
+

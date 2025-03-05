@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0985> a sdo:ArchiveComponent ;
+    sdo:name "BS Udenhout Ovl. Reg. 1928 nr. 44" ;
+    sdo:url "https://www.openarchieven.nl/bhi:4415a805-c0c0-dce2-18c0-643c985e1dfc",
+        "https://www.openarchieven.nl/rat:6567a32a-3864-11e0-bcd1-8edf61960649" .
+

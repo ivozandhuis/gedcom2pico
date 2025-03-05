@@ -1,0 +1,14 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004739> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1792-04-01"^^xsd:date ;
+            bio:place "Valkenburg" ] ;
+    sdo:familyName "Scheres" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Henricus" ;
+    sdo:name "Henricus Scheres" .
+

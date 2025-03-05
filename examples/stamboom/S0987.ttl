@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0987> a sdo:ArchiveComponent ;
+    sdo:name "BS Haarlem Huw. Reg. 1933 nr. 293 (dd. 17-5-1933)" ;
+    sdo:url "https://www.openarchieven.nl/nha:3C7D8E00-A7CC-4923-A87D-1A4BF9C2DEC5" .
+

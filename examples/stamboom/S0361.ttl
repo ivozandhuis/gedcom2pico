@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0361> a sdo:ArchiveComponent ;
+    sdo:name "BS Doornspijk Ovl. Reg. 1900 nr. 9 (dd. 20-01-1900)" ;
+    sdo:url "https://www.openarchieven.nl/gld:C6B05326-5281-4789-9297-2FD4060197AE" .
+

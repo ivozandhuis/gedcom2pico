@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0396> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1399> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1398> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1390> ] ;
+    sdo:birthDate "1901-12-04"^^xsd:date ;
+    sdo:birthPlace "Schipluiden" ;
+    sdo:deathDate "1940-08-31"^^xsd:date ;
+    sdo:deathPlace "Leiden" ;
+    sdo:familyName "Gordijn" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Anna Maria Wilhelmina" ;
+    sdo:name "Anna Maria Wilhelmina Gordijn" .
+

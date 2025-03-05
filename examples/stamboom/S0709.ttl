@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0709> a sdo:ArchiveComponent ;
+    sdo:name "BS Nuth Huw. Reg. 1826 nr. 56 (dd. 19-10-1826)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:d9a9cd27-7eca-c1a5-bdb6-c8ab0ee9997e" .
+

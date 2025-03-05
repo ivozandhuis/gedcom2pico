@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1130> a sdo:ArchiveComponent ;
+    sdo:name "DTB Roden Doopboek dd. 11-8-1811" ;
+    sdo:url "https://www.openarchieven.nl/dar:ee6db4ab-dece-1a97-9787-ccf19b35696c" .
+

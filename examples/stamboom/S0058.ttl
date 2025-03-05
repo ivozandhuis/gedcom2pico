@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0058> a sdo:ArchiveComponent ;
+    sdo:name "BS Wormerveer Geb. Reg. 1833 (dd. 13-6-1833)" ;
+    sdo:url "https://www.openarchieven.nl/gaz:BB29C55B-F0FD-4635-8DB9-1D49A5A2E7B6" .
+

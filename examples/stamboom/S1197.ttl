@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1197> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1879 nr. 392 (dd. 29-5-1879)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:9406d0d6-5c68-1edd-32a0-7efdbb18a4f3" .
+

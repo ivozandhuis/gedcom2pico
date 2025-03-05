@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0305> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1222> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1241> ] ;
+    sdo:birthDate "1825-06-10"^^xsd:date ;
+    sdo:birthPlace "'s-Hertogenbosch" ;
+    sdo:deathDate "1868-08-25"^^xsd:date ;
+    sdo:deathPlace "'s-Hertogenbosch" ;
+    sdo:familyName "Sprangemeijer" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Lamberdina" ;
+    sdo:name "Lamberdina Sprangemeijer" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0316> .
+

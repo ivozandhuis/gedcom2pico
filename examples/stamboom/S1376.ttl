@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1376> a sdo:ArchiveComponent ;
+    sdo:name "BS Monster Huw. Reg. 1862 nr. 18" ;
+    sdo:url "https://www.openarchieven.nl/haw:4ca935a5-c535-4ccb-be36-eb324ec4be3c" .
+

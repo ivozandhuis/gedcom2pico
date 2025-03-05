@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1277> a sdo:ArchiveComponent ;
+    sdo:name "DTB Wouw RK Begraafregister 1783-1811 (dd. 19-1-1803)" ;
+    sdo:url "https://www.openarchieven.nl/wba:f08325f6-5430-7869-a262-79ba19c62dd9" .
+

@@ -1,0 +1,32 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005209> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0318> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0057> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0318> ] ;
+    sdo:birthDate "1864-05-25"^^xsd:date ;
+    sdo:birthPlace "'s-Gravenzande" ;
+    sdo:children <https://gen.example.com/stamboom/I0091>,
+        <https://gen.example.com/stamboom/I0092>,
+        <https://gen.example.com/stamboom/I1068535737>,
+        <https://gen.example.com/stamboom/I1068535739>,
+        <https://gen.example.com/stamboom/I1068535740>,
+        <https://gen.example.com/stamboom/I1072555454>,
+        <https://gen.example.com/stamboom/I999005095>,
+        <https://gen.example.com/stamboom/I999005485>,
+        <https://gen.example.com/stamboom/I999005487>,
+        <https://gen.example.com/stamboom/I999005488> ;
+    sdo:deathDate "1949-03-13"^^xsd:date ;
+    sdo:deathPlace "Den Haag" ;
+    sdo:familyName "Westhoff" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Cornelia" ;
+    sdo:name "Cornelia Westhoff" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005208> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0277> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1875 nr. 497 (dd. 4-5-1875)" ;
+    sdo:url "https://www.openarchieven.nl/elo:474272eb-f5ba-8e19-e8b1-0aa3dd859172" .
+

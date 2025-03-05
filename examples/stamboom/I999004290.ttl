@@ -1,0 +1,26 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004290> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0878> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0879> ] ;
+    sdo:birthDate "1830-03-15"^^xsd:date ;
+    sdo:birthPlace "Lemmer" ;
+    sdo:children <https://gen.example.com/stamboom/I0405>,
+        <https://gen.example.com/stamboom/I0406>,
+        <https://gen.example.com/stamboom/I0407>,
+        <https://gen.example.com/stamboom/I0408>,
+        <https://gen.example.com/stamboom/I999004285> ;
+    sdo:deathDate "1864-10-13"^^xsd:date ;
+    sdo:deathPlace "Lemmer" ;
+    sdo:familyName "Duit" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Lammert Tjitzes" ;
+    sdo:hasOccupation "arbeider" ;
+    sdo:name "Lammert Tjitzes Duit" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004291> .
+

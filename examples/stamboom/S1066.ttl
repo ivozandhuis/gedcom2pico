@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1066> a sdo:ArchiveComponent ;
+    sdo:name "BS Opsterland Ovl. Reg. 1823 nr. 6 (dd. 3-3-1823)" ;
+    sdo:url "https://www.openarchieven.nl/frl:c59fef7f-185c-51d9-ea2f-8f022fcc0c01" .
+

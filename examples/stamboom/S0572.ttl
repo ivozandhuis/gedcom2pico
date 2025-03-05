@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0572> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Geb. Reg. 1823 nr. 14 (dd. 7-2-1823)" ;
+    sdo:url "https://www.openarchieven.nl/hco:D7CE5015-BD80-453E-9259-A7A43E464078" .
+

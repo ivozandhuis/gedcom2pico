@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1151> a sdo:ArchiveComponent ;
+    sdo:name "BS Monster Geb. Reg. 1887 nr. 113 (dd. 23-7-1887)" ;
+    sdo:url "https://www.openarchieven.nl/haw:71a55ff9-5a3f-4d71-8df8-001cca9df6b3" .
+

@@ -1,0 +1,11 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/F0524> a bio:Marriage ;
+    bio:date "1802-06-04"^^xsd:date ;
+    bio:partner <https://gen.example.com/stamboom/I1072555202>,
+        <https://gen.example.com/stamboom/I1072555204> ;
+    bio:place "Rotem" ;
+    prov:hadPrimarySource <https://gen.example.com/stamboom/S1062> .
+

@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1068535772> a picom:PersonReconstruction ;
+    sdo:familyName "van Rijn" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Cornelia Adriana" ;
+    sdo:name "Cornelia Adriana van Rijn" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1068535727> .
+

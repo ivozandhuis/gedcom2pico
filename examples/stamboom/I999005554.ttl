@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005554> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0334> ] ;
+    sdo:birthDate "1790"^^xsd:gYear ;
+    sdo:birthPlace "Raalte" ;
+    sdo:children <https://gen.example.com/stamboom/I999005542> ;
+    sdo:deathDate "1868-11-01"^^xsd:date ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "Klomp" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria" ;
+    sdo:name "Maria Klomp" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005553> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1192> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Ovl. Reg. 1875 nr. 680 (dd. 30-9-1875)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:727f2dc9-8bac-9749-b033-73bb5f3cde8e" .
+

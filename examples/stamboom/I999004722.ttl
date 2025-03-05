@@ -1,0 +1,23 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004722> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0439> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0442> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1185> ] ;
+    sdo:birthDate "1875-06-14"^^xsd:date ;
+    sdo:birthPlace "Maastricht" ;
+    sdo:deathDate "1943-09-29"^^xsd:date ;
+    sdo:deathPlace "Maastricht" ;
+    sdo:familyName "Verheijde" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Laurent Hubertus" ;
+    sdo:hasOccupation "kastelein" ;
+    sdo:name "Laurent Hubertus Verheijde" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555484> .
+

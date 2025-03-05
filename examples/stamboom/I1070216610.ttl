@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1070216610> a picom:PersonReconstruction ;
+    sdo:familyName "Kalthof" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Cornelis" ;
+    sdo:name "Cornelis Kalthof" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1068662496> .
+

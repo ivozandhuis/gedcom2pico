@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1211> a sdo:ArchiveComponent ;
+    sdo:name "BS Groningen Huw. Reg. 1836 nr. 215 (dd. 15-9-1836)" ;
+    sdo:url "https://www.openarchieven.nl/gra:f84f419f-1068-9fae-52f3-ca247991a1cf" .
+

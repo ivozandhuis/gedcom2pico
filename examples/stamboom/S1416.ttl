@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1416> a sdo:ArchiveComponent ;
+    sdo:name "BS Sloten (F) Geb. Reg. 1885  nr. 14" ;
+    sdo:url "https://www.openarchieven.nl/frl:f9ccc8e6-eefd-03bc-75b0-4f63bf7d5ed8" .
+

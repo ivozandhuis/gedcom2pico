@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0976> a sdo:ArchiveComponent ;
+    sdo:name "BS Heerde Huw. Reg. 1837 nr. 33 (dd. 2-12-1837)" ;
+    sdo:url "https://www.openarchieven.nl/gld:664C4CC2-1B6D-4902-8111-A05FAD5CBE00" .
+

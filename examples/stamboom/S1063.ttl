@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1063> a sdo:ArchiveComponent ;
+    sdo:name "BS Rotem Geb. Reg. dd. 22 Frimaire XII (dd. 14-12-1803)" .
+

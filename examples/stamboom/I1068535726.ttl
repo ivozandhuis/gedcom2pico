@@ -1,0 +1,13 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1068535726> a picom:PersonReconstruction ;
+    sdo:birthDate "1903-06-23"^^xsd:date ;
+    sdo:birthPlace "Boskoop" ;
+    sdo:familyName "Colla" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Johanna Cornelia" ;
+    sdo:name "Johanna Cornelia Colla" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1068535769> .
+

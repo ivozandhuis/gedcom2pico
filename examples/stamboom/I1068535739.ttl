@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1068535739> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0514> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0521> ] ;
+    sdo:birthDate "1904-01-18"^^xsd:date ;
+    sdo:birthPlace "Naaldwijk" ;
+    sdo:deathDate "1927-01-16"^^xsd:date ;
+    sdo:deathPlace "Delft" ;
+    sdo:familyName "Bouhuizen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Hendrika Wilhelmina" ;
+    sdo:name "Hendrika Wilhelmina Bouhuizen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0096> .
+

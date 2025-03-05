@@ -1,0 +1,30 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005432> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0465> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0081> ] ;
+    sdo:birthDate "1883-10-16"^^xsd:date ;
+    sdo:birthPlace "Wijhe (Tongeren)" ;
+    sdo:children <https://gen.example.com/stamboom/I999005377>,
+        <https://gen.example.com/stamboom/I999005378>,
+        <https://gen.example.com/stamboom/I999005381>,
+        <https://gen.example.com/stamboom/I999005383>,
+        <https://gen.example.com/stamboom/I999005425>,
+        <https://gen.example.com/stamboom/I999005428>,
+        <https://gen.example.com/stamboom/I999005431>,
+        <https://gen.example.com/stamboom/I999005435>,
+        <https://gen.example.com/stamboom/I999005441> ;
+    sdo:deathDate "1960-09-09"^^xsd:date ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "Borgman" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Johannes" ;
+    sdo:hasOccupation "pakhuisknecht" ;
+    sdo:name "Johannes Borgman" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005394> .
+

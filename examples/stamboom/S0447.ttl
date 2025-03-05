@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0447> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Ovl. Reg. 1866 nr. 770 (dd. 21-10-1866)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:400d2aa2-0f3e-1aad-da1a-22dd1b53d559" .
+

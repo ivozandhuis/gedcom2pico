@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0587> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Ovl. Reg. 1866 nr. 97 (dd. 13-10-1866)" ;
+    sdo:url "https://www.openarchieven.nl/hco:8FBB4D89-34D9-4394-8BDF-39CA3FF9BCBF" .
+

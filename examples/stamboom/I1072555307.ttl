@@ -1,0 +1,21 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555307> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1750-11-19"^^xsd:date ;
+            bio:place "Logabirum (Ostfriesland, D)" ],
+        [ a bio:Burial ;
+            bio:date "1784-12-15"^^xsd:date ;
+            bio:place "Leer (Ostfriesland, D)" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004323> ;
+    sdo:deathDate "1784-12-10"^^xsd:date ;
+    sdo:deathPlace "Leer (Ostfriesland, D)" ;
+    sdo:familyName "" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Arend Arents" ;
+    sdo:name "Arend Arents " ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555308> .
+

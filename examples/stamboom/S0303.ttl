@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0303> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1872 nr. 1008 (dd. 7-11-1872)" ;
+    sdo:url "https://www.openarchieven.nl/elo:a930c404-d12f-e01b-3eeb-2f8e77561f7b" .
+

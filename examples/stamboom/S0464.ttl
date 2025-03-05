@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0464> a sdo:ArchiveComponent ;
+    sdo:name "BS Oldebroek Ovl. Reg. 1960 nr. 26 (dd. 17-5-1960)" ;
+    sdo:url "https://www.openarchieven.nl/gld:49CCB80A-233A-4349-A570-FECCF982C14A" .
+

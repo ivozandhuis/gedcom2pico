@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0426> a sdo:ArchiveComponent ;
+    sdo:name "BS Bolsward Ovl. Reg. 1966 nr. 6 (dd. 2-2-1966)" ;
+    sdo:url "https://www.openarchieven.nl/frl:3dc30608-71b0-1c1a-decb-3f4d4384d827" .
+

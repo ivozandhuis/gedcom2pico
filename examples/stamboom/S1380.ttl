@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1380> a sdo:ArchiveComponent ;
+    sdo:name "BS Loosduinen Ovl. Reg. 1911 nr. 43" ;
+    sdo:url "https://www.openarchieven.nl/hga:23A04EB4-853E-48E8-8E44-9B0C43C8E73D" .
+

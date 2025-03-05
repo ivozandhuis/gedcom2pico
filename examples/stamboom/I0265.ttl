@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0265> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1174> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1153> ] ;
+    sdo:birthDate "1890-06-04"^^xsd:date ;
+    sdo:birthPlace "Monster" ;
+    sdo:deathDate "1964-12-05"^^xsd:date ;
+    sdo:deathPlace "Den Haag" ;
+    sdo:familyName "Meijer" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Johannes Leonardus" ;
+    sdo:name "Johannes Leonardus Meijer" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0275> .
+

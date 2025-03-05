@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0686> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Ovl. Reg. 1928 nr. 12 (dd. 13-2-1928)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:d6c2952a-aceb-433b-9d1c-f480cd8ff445" .
+

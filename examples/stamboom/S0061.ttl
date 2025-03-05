@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0061> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Huw. Reg. 1823 nr. 61 (dd. 14-6-1823)" ;
+    sdo:url "https://hdl.handle.net/21.12121/39144947",
+        "https://www.openarchieven.nl/bhi:7208a3c4-9e99-b15e-8faf-ca4e54aef47a" .
+

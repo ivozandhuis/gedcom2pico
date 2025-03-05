@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1060770136> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1060770118> ;
+    sdo:familyName "van der Marck" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pieter Hendricksz" ;
+    sdo:name "Pieter Hendricksz van der Marck" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060770140> .
+

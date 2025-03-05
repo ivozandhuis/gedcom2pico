@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0503> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Gravenzande Geb. Reg. 1890 nr. 118 (dd. 9-8-1890)" ;
+    sdo:url "https://www.openarchieven.nl/haw:ed16f53e-9db1-4c72-912d-000c4c5073ae" .
+

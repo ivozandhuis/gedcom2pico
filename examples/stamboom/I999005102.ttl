@@ -1,0 +1,18 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005102> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0287> ] ;
+    sdo:children <https://gen.example.com/stamboom/I999005098> ;
+    sdo:deathDate "1834-01-15"^^xsd:date ;
+    sdo:deathPlace "Dalfsen" ;
+    sdo:familyName "Borgman" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Joannes Jans" ;
+    sdo:hasOccupation "bouwman" ;
+    sdo:name "Joannes Jans Borgman" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005103> .
+

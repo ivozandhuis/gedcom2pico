@@ -1,0 +1,19 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004998> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1804-07-22"^^xsd:date ;
+            bio:place "Gouda" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999005000>,
+        <https://gen.example.com/stamboom/I999005001>,
+        <https://gen.example.com/stamboom/I999005002> ;
+    sdo:deathDate "1859-10-10"^^xsd:date ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Dirk" ;
+    sdo:name "Dirk van der Sloot" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004999> .
+

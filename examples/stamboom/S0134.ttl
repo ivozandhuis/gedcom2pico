@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0134> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Huw. Reg. 1843 nr. 62 (dd. 27-4-1843)" ;
+    sdo:url "https://www.openarchieven.nl/elo:d48d6634-3b42-b483-3846-4b929d4944fe",
+        "https://www.openarchieven.nl/rzh:00965a44-6e84-498e-b029-0c33f0825fd9" .
+

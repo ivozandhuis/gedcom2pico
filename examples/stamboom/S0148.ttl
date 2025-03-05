@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0148> a sdo:ArchiveComponent ;
+    sdo:name "BS Oldebroek Huw. Reg. 1871 nr. 9" ;
+    sdo:url "https://www.openarchieven.nl/gld:732BCD2E-E699-4FA9-9829-B2F6D60F5721" .
+

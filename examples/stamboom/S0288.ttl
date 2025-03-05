@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0288> a sdo:ArchiveComponent ;
+    sdo:name "BS Dalfsen Ovl. Reg. 1834 nr. 44 (dd. 27-5-1834)" ;
+    sdo:url "https://www.openarchieven.nl/hco:FABBCCF0-8B33-4037-8109-74D77DC88086" .
+

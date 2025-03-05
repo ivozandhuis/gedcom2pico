@@ -1,0 +1,7 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+
+<https://gen.example.com/stamboom/F0451> a bio:Marriage ;
+    bio:partner <https://gen.example.com/stamboom/I1060868119>,
+        <https://gen.example.com/stamboom/I1060868121> ;
+    bio:place "Woudsend" .
+

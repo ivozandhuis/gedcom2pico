@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0739> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Huw. Reg. 1848 nr. 138 (dd. 16-8-1848)" ;
+    sdo:url "https://www.openarchieven.nl/elo:9aeebdbf-2228-7eed-d1a4-e89c6908d781" .
+

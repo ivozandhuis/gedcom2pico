@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0054> a sdo:ArchiveComponent ;
+    sdo:name "BS Wateringen Huw. Reg. 1824 nr. 10 (dd. 28-5-1824) (huw. bijlage)" .
+

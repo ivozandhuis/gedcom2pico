@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0288> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1192> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1191> ] ;
+    sdo:birthDate "1875-08-23"^^xsd:date ;
+    sdo:birthPlace "'s-Hertogenbosch" ;
+    sdo:deathDate "1875-09-30"^^xsd:date ;
+    sdo:deathPlace "'s-Hertogenbosch" ;
+    sdo:familyName "Bouhuisen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Henricus Franciscus" ;
+    sdo:name "Henricus Franciscus Bouhuisen" .
+

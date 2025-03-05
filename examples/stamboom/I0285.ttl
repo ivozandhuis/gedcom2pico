@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0285> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1186> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1187> ] ;
+    sdo:birthDate "1869-12-22"^^xsd:date ;
+    sdo:birthPlace "'s-Hertogenbosch" ;
+    sdo:deathDate "1871-02-22"^^xsd:date ;
+    sdo:deathPlace "'s-Hertogenbosch" ;
+    sdo:familyName "Bouhuisen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Petronella" ;
+    sdo:name "Petronella Bouhuisen" .
+

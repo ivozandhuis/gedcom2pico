@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0828> a sdo:ArchiveComponent ;
+    sdo:name "MR Leiden 1868 nr. 134" ;
+    sdo:url "https://www.openarchieven.nl/elo:9c631a41-aeeb-40db-8f3d-804eeb088965" .
+

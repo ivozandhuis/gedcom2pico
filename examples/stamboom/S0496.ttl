@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0496> a sdo:ArchiveComponent ;
+    sdo:name "BS Raalte Huw. Reg. 1814 nr. 9 (dd. 6-5-1814)" ;
+    sdo:url "https://www.openarchieven.nl/hco:CEE57CCB-267E-4FD2-AF76-0ADB51A7F2D5" .
+

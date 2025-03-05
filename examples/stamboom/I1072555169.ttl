@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555169> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1355> ] ;
+    sdo:birthDate "1774-11-11"^^xsd:date ;
+    sdo:birthPlace "Pijnacker" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555162> ;
+    sdo:deathDate "1831-06-19"^^xsd:date ;
+    sdo:deathPlace "Monster" ;
+    sdo:familyName "Vollebregt" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hendricus" ;
+    sdo:name "Hendricus Vollebregt" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555170>,
+        <https://gen.example.com/stamboom/I1072555409> .
+

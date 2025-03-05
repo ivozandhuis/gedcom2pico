@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0386> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Ovl. Reg. 1884 nr. 71 (dd. 04-11-1884)" ;
+    sdo:url "https://www.openarchieven.nl/hco:EBFA8199-DFEA-40A8-A379-47040A537768" .
+

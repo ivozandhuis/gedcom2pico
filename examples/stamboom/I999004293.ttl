@@ -1,0 +1,24 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004293> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1095> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1089> ] ;
+    sdo:birthDate "1843-10-02"^^xsd:date ;
+    sdo:birthPlace "Leek" ;
+    sdo:children <https://gen.example.com/stamboom/I0234>,
+        <https://gen.example.com/stamboom/I0235>,
+        <https://gen.example.com/stamboom/I0236>,
+        <https://gen.example.com/stamboom/I999004286> ;
+    sdo:deathDate "1925-10-30"^^xsd:date ;
+    sdo:deathPlace "Groningen" ;
+    sdo:familyName "van der Velde" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Jantje" ;
+    sdo:name "Jantje van der Velde" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004292> .
+

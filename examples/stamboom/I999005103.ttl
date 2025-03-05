@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005103> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0288> ] ;
+    sdo:birthPlace "Dalfsen" ;
+    sdo:children <https://gen.example.com/stamboom/I999005098> ;
+    sdo:deathDate "1834-05-25"^^xsd:date ;
+    sdo:deathPlace "Dalfsen" ;
+    sdo:familyName "Gerrits" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Zwaane" ;
+    sdo:hasOccupation "bouwvrouw",
+        "kaasvrouw" ;
+    sdo:name "Zwaane Gerrits" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005102> .
+

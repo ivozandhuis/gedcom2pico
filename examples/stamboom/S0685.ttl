@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0685> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Ovl. Reg. 1910 nr. 55 (dd. 20-9-1910)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:8a8a6238-b272-4a86-85d7-120833bc102e" .
+

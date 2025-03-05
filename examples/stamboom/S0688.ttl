@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0688> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijlre Geb. Reg. 1831 nr. 23 (dd. 15-5-1831)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:3ec99c36-6866-9f60-b583-1e8fba147967" .
+

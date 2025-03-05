@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004919> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999005015>,
+        <https://gen.example.com/stamboom/I999005016>,
+        <https://gen.example.com/stamboom/I999005017>,
+        <https://gen.example.com/stamboom/I999005018>,
+        <https://gen.example.com/stamboom/I999005019>,
+        <https://gen.example.com/stamboom/I999005020> ;
+    sdo:deathDate "1773-02-15"^^xsd:date ;
+    sdo:deathPlace "Gouda" ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jan" ;
+    sdo:name "Jan van der Sloot" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005014>,
+        <https://gen.example.com/stamboom/I999005021> .
+

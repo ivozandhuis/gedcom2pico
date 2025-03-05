@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1060868229> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1060868167> ;
+    sdo:familyName "Geerts" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Wytze" ;
+    sdo:name "Wytze Geerts" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060868231> .
+

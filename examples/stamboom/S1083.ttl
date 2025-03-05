@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1083> a sdo:ArchiveComponent ;
+    sdo:name "Paspoort Jan Zandhuis, stamboeknummer 61698" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0594> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Ovl. Reg. 1869 nr. 66 (dd. 3-5-1869)" ;
+    sdo:url "https://www.openarchieven.nl/hco:67DDB5A9-8F80-43AB-8C4D-810F02BCF39E" .
+

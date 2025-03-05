@@ -1,0 +1,22 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1060768886> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0228> ] ;
+    sdo:birthDate "1835-03-07"^^xsd:date ;
+    sdo:birthPlace "Maasland" ;
+    sdo:children <https://gen.example.com/stamboom/I0375>,
+        <https://gen.example.com/stamboom/I0376>,
+        <https://gen.example.com/stamboom/I0377>,
+        <https://gen.example.com/stamboom/I999005257> ;
+    sdo:deathDate "1917-03-16"^^xsd:date ;
+    sdo:deathPlace "Maasland" ;
+    sdo:familyName "Roem" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Martina" ;
+    sdo:name "Martina Roem" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060768884> .
+

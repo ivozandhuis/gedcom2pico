@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1441> a sdo:ArchiveComponent ;
+    sdo:name "BS Raalte Geb. Reg. 1827 nr. 142" ;
+    sdo:url "https://www.openarchieven.nl/hco:947D8315-B15A-4581-AABA-34A46F691928" .
+

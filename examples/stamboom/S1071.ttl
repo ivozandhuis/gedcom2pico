@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1071> a sdo:ArchiveComponent ;
+    sdo:name "BS Opsterland Geb. Reg. 1813 fol. 21 (dd. 18-9-1813)" ;
+    sdo:url "https://www.openarchieven.nl/frl:c78b3da5-2d7b-bef6-fec5-f197526ab593" .
+

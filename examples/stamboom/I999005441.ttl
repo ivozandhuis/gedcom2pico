@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005441> a picom:PersonReconstruction ;
+    sdo:birthDate "1916-03-26"^^xsd:date ;
+    sdo:birthPlace "Olst (Boskamp)" ;
+    sdo:deathDate "1968-01-03"^^xsd:date ;
+    sdo:deathPlace "Zutphen" ;
+    sdo:familyName "Borgman" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Wilhelmus Jozephus" ;
+    sdo:hasOccupation "horeca-ondernemer",
+        "kruidenier" ;
+    sdo:name "Wilhelmus Jozephus Borgman" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005410> .
+

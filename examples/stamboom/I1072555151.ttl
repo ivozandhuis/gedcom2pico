@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1072555151> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1057686502>,
+        <https://gen.example.com/stamboom/I1072555152>,
+        <https://gen.example.com/stamboom/I1072555153>,
+        <https://gen.example.com/stamboom/I1072555154>,
+        <https://gen.example.com/stamboom/I1072555155>,
+        <https://gen.example.com/stamboom/I1072555156>,
+        <https://gen.example.com/stamboom/I1072555157> ;
+    sdo:familyName "Bellekom" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Johanna" ;
+    sdo:name "Johanna Bellekom" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555150> .
+

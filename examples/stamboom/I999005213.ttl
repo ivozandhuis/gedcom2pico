@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005213> a picom:PersonReconstruction ;
+    sdo:birthDate "1923-02-28"^^xsd:date ;
+    sdo:birthPlace "Maasland" ;
+    sdo:familyName "Gordijn" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Cornelis Martinus" ;
+    sdo:name "Cornelis Martinus Gordijn" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1032> a sdo:ArchiveComponent ;
+    sdo:name "BS Barradeel 1897 nr. 12 (dd. 8-5-1897)" ;
+    sdo:url "https://www.openarchieven.nl/frl:cd491e2e-9205-59e9-b8c1-786a89c01b72" .
+

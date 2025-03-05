@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0138> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Huw. Reg. 1867 nr. 156 (dd. 21-9-1867)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:ac573867-2c5a-621f-d482-88d5bb67ba4a" .
+

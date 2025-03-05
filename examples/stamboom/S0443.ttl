@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0443> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Ovl. Reg. 1947 nr. 179 (dd. 4-3-1947)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:0428c59e-796a-c02d-7a89-7226463f00c4" .
+

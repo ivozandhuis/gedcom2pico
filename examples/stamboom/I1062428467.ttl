@@ -1,0 +1,18 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1062428467> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0323> ] ;
+    sdo:birthPlace "Leiden" ;
+    sdo:children <https://gen.example.com/stamboom/I999005152> ;
+    sdo:deathDate "1827-03-20"^^xsd:date ;
+    sdo:deathPlace "Leiden" ;
+    sdo:familyName "Zitman" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Johanna" ;
+    sdo:name "Johanna Zitman" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1062428465> .
+

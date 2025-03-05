@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0125> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Huw. Reg. 1877 nr. 6 (dd. 1-6-1877)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:d7a7df83-e9dd-4923-b406-aaec6244fdab" .
+

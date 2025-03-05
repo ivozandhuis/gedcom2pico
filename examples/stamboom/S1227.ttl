@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1227> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1834 nr. 203 (dd. 10-4-1834)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:4e241a2b-e4e7-3418-9873-052c6f2d5dce" .
+

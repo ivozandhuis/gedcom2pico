@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1278> a sdo:ArchiveComponent ;
+    sdo:name "DTB Wouw Ned. Ger. Begraafregister (dd. 24-1-1803)" ;
+    sdo:url "https://www.openarchieven.nl/wba:101cc67b-a8e2-309f-7376-a29ec5a2e5a4" .
+

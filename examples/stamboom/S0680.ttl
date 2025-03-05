@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0680> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Ovl. Reg. 1840 nr. 32 (dd. 21-7-1840)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:ecc4955f-8732-4036-a07b-7ae6506dc23d" .
+

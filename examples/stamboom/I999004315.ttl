@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004315> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004310>,
+        <https://gen.example.com/stamboom/I999004572>,
+        <https://gen.example.com/stamboom/I999004573>,
+        <https://gen.example.com/stamboom/I999004574>,
+        <https://gen.example.com/stamboom/I999004575>,
+        <https://gen.example.com/stamboom/I999004576>,
+        <https://gen.example.com/stamboom/I999004577>,
+        <https://gen.example.com/stamboom/I999004578>,
+        <https://gen.example.com/stamboom/I999004579>,
+        <https://gen.example.com/stamboom/I999004580> ;
+    sdo:familyName "Sytzes" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Antje" ;
+    sdo:name "Antje Sytzes" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004314> .
+

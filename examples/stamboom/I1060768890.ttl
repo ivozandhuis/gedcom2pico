@@ -1,0 +1,24 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1060768890> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1783-10-28"^^xsd:date ;
+            bio:place "Delft" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1284> ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0320> ] ;
+    sdo:children <https://gen.example.com/stamboom/I999005258> ;
+    sdo:deathDate "1849-04-08"^^xsd:date ;
+    sdo:deathPlace "Schipluiden" ;
+    sdo:familyName "Gordijn" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Cornelis" ;
+    sdo:hasOccupation "boerenknecht",
+        "bouwman" ;
+    sdo:name "Cornelis Gordijn" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060768892> .
+

@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1055435171> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1068> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1069> ] ;
+    sdo:birthDate "1826-08-02"^^xsd:date ;
+    sdo:birthPlace "Opsterland" ;
+    sdo:deathDate "1826-10-19"^^xsd:date ;
+    sdo:deathPlace "Opsterland" ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Wytske Pieters" ;
+    sdo:name "Wytske Pieters van der Werf" .
+

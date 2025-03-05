@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0588> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Stad Ovl. Reg. 1877 nr. 53 (dd. 4-6-1877)" ;
+    sdo:url "https://www.openarchieven.nl/hco:39FA22B7-F34C-417C-94EB-8EBDD700B8FF" .
+

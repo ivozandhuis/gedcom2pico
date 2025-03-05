@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0790> a sdo:ArchiveComponent ;
+    sdo:name "BS Wormerveer Huw. Reg. 1858 nr. 22 (dd. 24-10-1858)" ;
+    sdo:url "https://www.openarchieven.nl/nha:49929BEC-A2DD-4A33-BF98-4D75D6F5244B" .
+

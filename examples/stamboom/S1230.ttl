@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1230> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Ovl. Reg. 1835 nr. 336" ;
+    sdo:url "https://www.openarchieven.nl/bhi:1df42be5-e848-2db9-ccdc-76bef24bdf47" .
+

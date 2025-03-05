@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1060770084> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1060770047> ;
+    sdo:familyName "van Leeuwen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Willem Cornelis" ;
+    sdo:name "Willem Cornelis van Leeuwen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060770087> .
+

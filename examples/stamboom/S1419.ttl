@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1419> a sdo:ArchiveComponent ;
+    sdo:name "BS Schoterland Huw. Reg. 1889 nr. 5" ;
+    sdo:url "https://www.openarchieven.nl/frl:cafcf0d4-228a-1143-e6ed-a102a78e5c96" .
+

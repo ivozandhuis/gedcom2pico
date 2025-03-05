@@ -1,0 +1,24 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004408> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1677-08-15"^^xsd:date ;
+            bio:place "Gouda" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004394>,
+        <https://gen.example.com/stamboom/I999004704>,
+        <https://gen.example.com/stamboom/I999004705>,
+        <https://gen.example.com/stamboom/I999004706>,
+        <https://gen.example.com/stamboom/I999004707>,
+        <https://gen.example.com/stamboom/I999004708>,
+        <https://gen.example.com/stamboom/I999004709>,
+        <https://gen.example.com/stamboom/I999004710> ;
+    sdo:deathPlace "Rotterdam?" ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jan Bouwense" ;
+    sdo:name "Jan Bouwense van der Sloot" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004409> .
+

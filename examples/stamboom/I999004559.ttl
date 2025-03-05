@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004559> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1103> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1102> ] ;
+    sdo:birthDate "1845-05-12"^^xsd:date ;
+    sdo:birthPlace "Leek" ;
+    sdo:deathDate "1845-12-14"^^xsd:date ;
+    sdo:deathPlace "Leek" ;
+    sdo:familyName "van der Velde" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hendrik Raven" ;
+    sdo:name "Hendrik Raven van der Velde" .
+

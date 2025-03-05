@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0544> a sdo:ArchiveComponent ;
+    sdo:name "Leidsch Dagblad 06-07-1974" .
+

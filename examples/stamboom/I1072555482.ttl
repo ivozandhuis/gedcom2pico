@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555482> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0344> ] ;
+    sdo:birthDate "1910"^^xsd:gYear ;
+    sdo:birthPlace "Deventer" ;
+    sdo:deathDate "1910-06-26"^^xsd:date ;
+    sdo:deathPlace "Heerde" ;
+    sdo:familyName "van Bruggen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Arendina Johanna" ;
+    sdo:name "Arendina Johanna van Bruggen" .
+

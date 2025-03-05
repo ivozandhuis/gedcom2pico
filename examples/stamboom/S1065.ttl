@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1065> a sdo:ArchiveComponent ;
+    sdo:name "BS Opsterland Geb. Reg. 1822 nr. 127 (dd. 6-11-1822)" ;
+    sdo:url "https://www.openarchieven.nl/frl:a7c5f41b-70f2-a81f-5917-c01bf46ef2ed" .
+

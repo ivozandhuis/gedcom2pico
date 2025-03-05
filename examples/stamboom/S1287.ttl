@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1287> a sdo:ArchiveComponent ;
+    sdo:name "BS 's Gravenzande Geb. Reg. 1860 nr. 46 (dd. 22-5-1860)" ;
+    sdo:url "https://www.openarchieven.nl/haw:c119987d-c601-445c-8175-039c81cc1063" .
+

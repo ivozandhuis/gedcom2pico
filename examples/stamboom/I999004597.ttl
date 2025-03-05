@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004597> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1001> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0995> ] ;
+    sdo:birthDate "1861-09-19"^^xsd:date ;
+    sdo:birthPlace "Alphen aan den Rijn" ;
+    sdo:deathDate "1870-10-17"^^xsd:date ;
+    sdo:deathPlace "Alphen aan den Rijn" ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hendrikus" ;
+    sdo:name "Hendrikus van der Sloot" .
+

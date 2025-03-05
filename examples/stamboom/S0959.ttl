@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0959> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Ovl. Reg. 1891 nr. 38 (dd. 12-5-1891)" ;
+    sdo:url "https://www.openarchieven.nl/hco:F36F7249-2FA9-4535-BCA2-AEE58BFDC149" .
+

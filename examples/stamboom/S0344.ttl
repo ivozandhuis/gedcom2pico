@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0344> a sdo:ArchiveComponent ;
+    sdo:name "BS Heerde Ovl. Reg. 1910 nr. 80 (dd. 27-06-1910)" ;
+    sdo:url "https://www.openarchieven.nl/gld:E8BD023E-472F-4A3D-A3BE-6C8C08D5F740" .
+

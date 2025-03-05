@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0606> a sdo:ArchiveComponent ;
+    sdo:name "BS Kampen Ovl. Reg. 1926 nr. 179 (dd. 4-9-1926)" ;
+    sdo:url "https://www.openarchieven.nl/hco:93FAC58A-F06C-41B9-822F-7FCE1997332C" .
+

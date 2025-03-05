@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1067174841> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1067174845>,
+        <https://gen.example.com/stamboom/I1067174847>,
+        <https://gen.example.com/stamboom/I1067174849>,
+        <https://gen.example.com/stamboom/I1067174851>,
+        <https://gen.example.com/stamboom/I1067174855>,
+        <https://gen.example.com/stamboom/I1067174856>,
+        <https://gen.example.com/stamboom/I1067174858>,
+        <https://gen.example.com/stamboom/I1067174860> ;
+    sdo:deathDate "1767"^^xsd:gYear ;
+    sdo:deathPlace "Olst (Hengforden)" ;
+    sdo:familyName "" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Geertruy Jansen" ;
+    sdo:name "Geertruy Jansen " ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004253> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0302> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1899 nr. 310 (dd. 12-4-1899)" ;
+    sdo:url "https://www.openarchieven.nl/elo:de989d85-0326-828d-f8fd-8e248d4d2d21" .
+

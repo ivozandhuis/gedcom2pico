@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0971> a sdo:ArchiveComponent ;
+    sdo:name "BS Heerde Geb. Reg. 1821 nr. 101 (dd. 11-12-1821)" ;
+    sdo:url "https://www.openarchieven.nl/gld:40121E3F-D166-471C-85E6-8859A69FA6B8" .
+

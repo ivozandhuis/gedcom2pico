@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0620> a sdo:ArchiveComponent ;
+    sdo:name "BS Zwolle Huw. Reg. 1871 nr. 25 (dd. 27-4-1871)" ;
+    sdo:url "https://www.openarchieven.nl/hco:17186942-2568-43AC-A3C8-0BCB65D52164" .
+

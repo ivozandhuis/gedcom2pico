@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0478> a sdo:ArchiveComponent ;
+    sdo:name "BS Raalte Huw. Reg. 1910 nr. 15 (dd. 4-6-1910)" ;
+    sdo:url "https://www.openarchieven.nl/hco:B7A60646-4338-4792-A30D-BFCB1B34BCC0" .
+

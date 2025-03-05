@@ -1,0 +1,17 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005021> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1712-01-20"^^xsd:date ] ;
+    sdo:deathDate "1763-05-17"^^xsd:date ;
+    sdo:deathPlace "Gouda" ;
+    sdo:familyName "Bourgonjon" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Ariaantie" ;
+    sdo:name "Ariaantie Bourgonjon" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004919>,
+        <https://gen.example.com/stamboom/I999005024> .
+

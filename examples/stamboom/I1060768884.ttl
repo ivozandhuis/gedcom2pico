@@ -1,0 +1,26 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1060768884> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1363> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0227> ] ;
+    sdo:birthDate "1828-04-26"^^xsd:date ;
+    sdo:birthPlace "Monster" ;
+    sdo:children <https://gen.example.com/stamboom/I0375>,
+        <https://gen.example.com/stamboom/I0376>,
+        <https://gen.example.com/stamboom/I0377>,
+        <https://gen.example.com/stamboom/I999005257> ;
+    sdo:deathDate "1891-01-19"^^xsd:date ;
+    sdo:deathPlace "Maasland" ;
+    sdo:familyName "Vollebregt" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hendrik" ;
+    sdo:hasOccupation "broodbakker" ;
+    sdo:name "Hendrik Vollebregt" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060768886>,
+        <https://gen.example.com/stamboom/I1072555171> .
+

@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555181> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0245> ] ;
+    sdo:birthDate "1765-10-29"^^xsd:date ;
+    sdo:birthPlace "Monster" ;
+    sdo:children <https://gen.example.com/stamboom/I999005246> ;
+    sdo:deathDate "1826-10-11"^^xsd:date ;
+    sdo:deathPlace "Monster" ;
+    sdo:familyName "van Kampen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Antje Gijse" ;
+    sdo:name "Antje Gijse van Kampen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555180> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0812> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Huw. Reg. 1919 nr. 29 (dd. 25-09-1919)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:48e1bae6-0eaa-4cb1-98ae-55c182e2f3e7" .
+

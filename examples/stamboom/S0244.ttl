@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0244> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Gravenzande Ovl. Reg. 1867 nr. 90 (dd. 21-12-1867)" ;
+    sdo:url "https://www.openarchieven.nl/haw:99b4e1ba-bc9d-426d-9c2f-56132eef9795" .
+

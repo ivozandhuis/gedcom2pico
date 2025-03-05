@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0668> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Ovl. Reg. 1868 nr. 31 (dd. 27-4-1868)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:b249c5d1-ee95-48e4-bdf0-176d1b9461f5" .
+

@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0318> a sdo:ArchiveComponent ;
+    sdo:name "CAO Persoonskaart WESTHOFF, Cornelia (1864-1949)" .
+

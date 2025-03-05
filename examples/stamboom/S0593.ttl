@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0593> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Ovl. Reg. 1904 nr. 116 (dd. 3-12-1904)" ;
+    sdo:url "https://www.openarchieven.nl/hco:1CF7948F-3883-4EBF-8F24-A8D9D1E946C1" .
+

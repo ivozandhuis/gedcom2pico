@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1067174826> a picom:PersonReconstruction ;
+    sdo:birthDate "1685"^^xsd:gYear ;
+    sdo:birthPlace "Monster" ;
+    sdo:children <https://gen.example.com/stamboom/I1067174803> ;
+    sdo:deathDate "1722-01-30"^^xsd:date ;
+    sdo:deathPlace "Monster" ;
+    sdo:familyName "Bom" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria Arentse" ;
+    sdo:name "Maria Arentse Bom" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1067174824> .
+

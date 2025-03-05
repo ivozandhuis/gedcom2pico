@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004734> a picom:PersonReconstruction ;
+    sdo:familyName "Franssen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Arnold Frans" ;
+    sdo:hasOccupation "kledemaker" ;
+    sdo:name "Arnold Frans Franssen" .
+

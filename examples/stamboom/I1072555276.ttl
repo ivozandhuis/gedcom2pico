@@ -1,0 +1,24 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555276> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1756-04-03"^^xsd:date ;
+            bio:place "Eersel" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1430> ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1425> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1428> ] ;
+    sdo:children <https://gen.example.com/stamboom/I1072555165> ;
+    sdo:deathDate "1816-07-02"^^xsd:date ;
+    sdo:deathPlace "Maasland" ;
+    sdo:familyName "Peters" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Martijntje Dirkse" ;
+    sdo:name "Martijntje Dirkse Peters" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555275> .
+

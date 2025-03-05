@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0461> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Ovl. Reg. 1888 nr. 112 (dd. 8-12-1888)" ;
+    sdo:url "https://www.openarchieven.nl/hco:E0B561DE-D836-4B33-BB30-C0ED6BDD5A71" .
+

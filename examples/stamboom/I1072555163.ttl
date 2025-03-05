@@ -1,0 +1,25 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555163> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0233> ] ;
+    sdo:birthDate "1804-08-20"^^xsd:date ;
+    sdo:birthPlace "Monster" ;
+    sdo:children <https://gen.example.com/stamboom/I0379>,
+        <https://gen.example.com/stamboom/I0380>,
+        <https://gen.example.com/stamboom/I0381>,
+        <https://gen.example.com/stamboom/I0382>,
+        <https://gen.example.com/stamboom/I0383>,
+        <https://gen.example.com/stamboom/I0384>,
+        <https://gen.example.com/stamboom/I1060768884> ;
+    sdo:deathDate "1837-05-26"^^xsd:date ;
+    sdo:deathPlace "Monster" ;
+    sdo:familyName "van der Valk" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Adriana" ;
+    sdo:name "Adriana van der Valk" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555162> .
+

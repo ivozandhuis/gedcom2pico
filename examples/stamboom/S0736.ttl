@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0736> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1844 nr. 141 (dd. 2-2-1844)" ;
+    sdo:url "https://www.openarchieven.nl/elo:3d8a9cde-2b39-9bd3-93ca-2fd98189080c" .
+

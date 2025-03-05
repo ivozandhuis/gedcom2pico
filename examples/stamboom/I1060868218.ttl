@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1060868218> a picom:PersonReconstruction ;
+    sdo:birthPlace "Driesem" ;
+    sdo:children <https://gen.example.com/stamboom/I1060868150> ;
+    sdo:familyName "Jacobs" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Floris" ;
+    sdo:hasOccupation "schoenmaker" ;
+    sdo:name "Floris Jacobs" .
+

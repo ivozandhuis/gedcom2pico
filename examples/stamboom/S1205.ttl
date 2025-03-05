@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1205> a sdo:ArchiveComponent ;
+    sdo:name "Voorwaarts : sociaal-democratisch dagblad 03-06-1931, p. 11." ;
+    sdo:url "https://resolver.kb.nl/resolve?urn=ddd:010213101:mpeg21:a0050" .
+

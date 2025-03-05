@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0526> a sdo:ArchiveComponent ;
+    sdo:name "BS Naaldwijk Ovl. Reg. 1954 nr. 53" ;
+    sdo:url "https://www.openarchieven.nl/haw:aaff4eba-c3a6-42de-bcdf-90fd10de6abb" .
+

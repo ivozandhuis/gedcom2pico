@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004428> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004420>,
+        <https://gen.example.com/stamboom/I999004732> ;
+    sdo:deathDate "1830-06-04"^^xsd:date ;
+    sdo:deathPlace "Maastricht" ;
+    sdo:familyName "Verheijde" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Cornelis" ;
+    sdo:hasOccupation "stadsambtenaar" ;
+    sdo:name "Cornelis Verheijde" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004429> .
+

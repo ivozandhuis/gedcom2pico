@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0863> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Huw. Reg. 1859 nr. 123 (dd. 18-5-1859)" ;
+    sdo:url "https://www.openarchieven.nl/elo:b78b2928-256c-182a-f096-7db5534cfa96" .
+

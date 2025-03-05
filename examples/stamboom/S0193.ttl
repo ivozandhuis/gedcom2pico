@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0193> a sdo:ArchiveComponent ;
+    sdo:name "BS Alphen Ovl. Reg. 1912 nr. 87 (dd. 30-11-1912)" ;
+    sdo:url "https://proxy.archieven.nl/105/A3249EF75489483AAF68CBE483EFA7D8" .
+

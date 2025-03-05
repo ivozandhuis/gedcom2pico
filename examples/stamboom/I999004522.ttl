@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004522> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0968> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0970> ] ;
+    sdo:birthDate "1820-02-03"^^xsd:date ;
+    sdo:birthPlace "Heerde (Markluiden)" ;
+    sdo:deathDate "1821-06-26"^^xsd:date ;
+    sdo:deathPlace "Heerde (Markluiden)" ;
+    sdo:familyName "Zandhuis" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Teunis" ;
+    sdo:name "Teunis Zandhuis" .
+

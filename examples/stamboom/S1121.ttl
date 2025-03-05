@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1121> a sdo:ArchiveComponent ;
+    sdo:name "BS Groningen Huw. Reg. 1834 nr. 248 (dd. 9-11-1834)" ;
+    sdo:url "https://www.openarchieven.nl/gra:0dc4c245-aefb-08a6-ea99-c260e8ca46b1" .
+

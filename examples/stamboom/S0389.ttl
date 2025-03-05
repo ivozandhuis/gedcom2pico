@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0389> a sdo:ArchiveComponent ;
+    sdo:name "BS Voorburg Ovl. Reg. 1925 nr. 82" ;
+    sdo:url "https://www.openarchieven.nl/hga:F769C72F-1A12-4119-9E10-B130A5E111B0" .
+

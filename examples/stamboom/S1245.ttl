@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1245> a sdo:ArchiveComponent ;
+    sdo:name "BS Berg en Terblijt Geb. Reg. 1800 nr. 5 (dd. 22-12-1800)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:d404a4fb-fad4-9bde-fb03-4a9435cdb90b" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0499> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Gravenhage Huw. Reg. 1935 nr. L64 (dd. 27-11-1935)" ;
+    sdo:url "https://www.openarchieven.nl/hga:9E42D278-067C-45F7-90DC-A20890E1B315" .
+

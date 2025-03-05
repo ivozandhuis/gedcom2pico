@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1060770118> a picom:PersonReconstruction ;
+    sdo:birthPlace "Wateringen" ;
+    sdo:children <https://gen.example.com/stamboom/I1060770092>,
+        <https://gen.example.com/stamboom/I1072555139>,
+        <https://gen.example.com/stamboom/I1072555141> ;
+    sdo:deathDate "1723-04-25"^^xsd:date ;
+    sdo:deathPlace "Rijswijk" ;
+    sdo:familyName "van der Marck" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Grietie Pieters" ;
+    sdo:name "Grietie Pieters van der Marck" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060770115> .
+

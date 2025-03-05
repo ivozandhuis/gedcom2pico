@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005015> a picom:PersonReconstruction ;
+    sdo:deathDate "1733-12-28"^^xsd:date ;
+    sdo:deathPlace "Gouda" ;
+    sdo:familyName "" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "N.N." ;
+    sdo:name "N.N. " .
+

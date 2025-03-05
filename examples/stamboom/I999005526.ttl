@@ -1,0 +1,24 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005526> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0484> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0487> ] ;
+    sdo:birthDate "1829-02-09"^^xsd:date ;
+    sdo:birthPlace "Dalfsen" ;
+    sdo:children <https://gen.example.com/stamboom/I0084>,
+        <https://gen.example.com/stamboom/I0085>,
+        <https://gen.example.com/stamboom/I999005523> ;
+    sdo:deathDate "1866-04-04"^^xsd:date ;
+    sdo:deathPlace "Dalfsen (Oosterdalfsen)" ;
+    sdo:familyName "Harms" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Joannes" ;
+    sdo:hasOccupation "landbouwer" ;
+    sdo:name "Joannes Harms" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005527> .
+

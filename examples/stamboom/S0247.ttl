@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0247> a sdo:ArchiveComponent ;
+    sdo:name "BS Wateringen Ovl. Reg. 1828 nr. 53 (dd. 21-11-1828)" ;
+    sdo:url "https://www.openarchieven.nl/haw:11990860-e086-45f8-9cd7-0c1ba2fc1d51" .
+

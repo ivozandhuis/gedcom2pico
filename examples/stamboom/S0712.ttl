@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0712> a sdo:ArchiveComponent ;
+    sdo:name "BS Oud-Valkenburg Geb. Reg. 1844 nr. 2 (dd. 24-01-1844)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:6c7cc4d0-4da0-588e-1476-9463d15971df" .
+

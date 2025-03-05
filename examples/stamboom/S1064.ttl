@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1064> a sdo:ArchiveComponent ;
+    sdo:name "BS Idaarderadeel Geb. Reg. 1820 nr. 7 (dd. 20-1-1820)" ;
+    sdo:url "https://www.openarchieven.nl/frl:08a2a66f-8732-fb9b-e18e-206341ec2524" .
+

@@ -1,0 +1,24 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004908> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1677-04-15"^^xsd:date ;
+            bio:place "Gouda" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004911>,
+        <https://gen.example.com/stamboom/I999004912>,
+        <https://gen.example.com/stamboom/I999004913>,
+        <https://gen.example.com/stamboom/I999004914>,
+        <https://gen.example.com/stamboom/I999004915>,
+        <https://gen.example.com/stamboom/I999004916>,
+        <https://gen.example.com/stamboom/I999004917>,
+        <https://gen.example.com/stamboom/I999004918>,
+        <https://gen.example.com/stamboom/I999004919> ;
+    sdo:familyName "Daniels" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Hester Anton" ;
+    sdo:name "Hester Anton Daniels" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004907> .
+

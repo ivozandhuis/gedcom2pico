@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1319> a sdo:ArchiveComponent ;
+    sdo:name "BS 's Gravenzande Geb. Reg. 1818 nr. 31 (dd. 27-7-1818)" ;
+    sdo:url "https://www.openarchieven.nl/haw:5cb36e6e-b744-43ee-9fbe-b3e3c293596f" .
+

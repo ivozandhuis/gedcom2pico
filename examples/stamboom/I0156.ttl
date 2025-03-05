@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0156> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0720> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0723> ] ;
+    sdo:birthDate "1820-02-26"^^xsd:date ;
+    sdo:birthPlace "Leiden" ;
+    sdo:deathDate "1851-02-01"^^xsd:date ;
+    sdo:deathPlace "Leiden" ;
+    sdo:familyName "Loozen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Clasina" ;
+    sdo:name "Clasina Loozen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0157> .
+

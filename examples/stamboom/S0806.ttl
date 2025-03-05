@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0806> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Huw. Reg. 1910 nr. 282 (dd. 17-8-1910)" ;
+    sdo:url "https://www.openarchieven.nl/elo:ebb757cf-017f-3baf-5dec-30ffe428f330" .
+

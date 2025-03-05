@@ -1,0 +1,27 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004248> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1790-06-13"^^xsd:date ;
+            bio:place "Raalte" ] ;
+    sdo:children <https://gen.example.com/stamboom/I0429>,
+        <https://gen.example.com/stamboom/I0430>,
+        <https://gen.example.com/stamboom/I0431>,
+        <https://gen.example.com/stamboom/I0432>,
+        <https://gen.example.com/stamboom/I0433>,
+        <https://gen.example.com/stamboom/I0434>,
+        <https://gen.example.com/stamboom/I0435>,
+        <https://gen.example.com/stamboom/I0437>,
+        <https://gen.example.com/stamboom/I0440>,
+        <https://gen.example.com/stamboom/I999004234> ;
+    sdo:deathDate "1852-03-08"^^xsd:date ;
+    sdo:deathPlace "Olst (Wesepe)" ;
+    sdo:familyName "van der Sluis" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Antonia" ;
+    sdo:name "Antonia van der Sluis" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004247> .
+

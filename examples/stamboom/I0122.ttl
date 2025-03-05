@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0122> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0609> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0617> ] ;
+    sdo:birthDate "1828-10-13"^^xsd:date ;
+    sdo:birthPlace "Wijhe" ;
+    sdo:deathDate "1847-10-17"^^xsd:date ;
+    sdo:deathPlace "Wijhe (Wijnvoorden)" ;
+    sdo:familyName "Klumper" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Hendrika" ;
+    sdo:name "Hendrika Klumper" .
+

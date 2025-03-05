@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1281> a sdo:ArchiveComponent ;
+    sdo:name "BS Delft Huw. Reg. 1845 nr. 34" ;
+    sdo:url "https://www.openarchieven.nl/ade:fc18d600-4024-11e5-be5d-c70e6c646b2c" .
+

@@ -1,0 +1,29 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555236> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0877> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0876> ] ;
+    sdo:birthDate "1853-05-02"^^xsd:date ;
+    sdo:birthPlace "Oudega" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555237>,
+        <https://gen.example.com/stamboom/I1072555238>,
+        <https://gen.example.com/stamboom/I1072555239>,
+        <https://gen.example.com/stamboom/I1072555240>,
+        <https://gen.example.com/stamboom/I1072555241>,
+        <https://gen.example.com/stamboom/I1072555242>,
+        <https://gen.example.com/stamboom/I1072555243>,
+        <https://gen.example.com/stamboom/I1072555244>,
+        <https://gen.example.com/stamboom/I1072555245> ;
+    sdo:deathDate "1924-04-22"^^xsd:date ;
+    sdo:deathPlace "Balk" ;
+    sdo:familyName "Doorn" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Foekje Manus" ;
+    sdo:name "Foekje Manus Doorn" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555193> .
+

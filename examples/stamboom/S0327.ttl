@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0327> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1849 nr. 205 (dd. 12-3-1849)" ;
+    sdo:url "https://www.openarchieven.nl/elo:15506e14-499c-cebe-db59-56841b76d915" .
+

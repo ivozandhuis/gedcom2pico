@@ -1,0 +1,26 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0040> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0384> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0389> ] ;
+    sdo:birthDate "1872-02-25"^^xsd:date ;
+    sdo:birthPlace "Wijhe (Marle)" ;
+    sdo:children <https://gen.example.com/stamboom/I0369>,
+        <https://gen.example.com/stamboom/I0370>,
+        <https://gen.example.com/stamboom/I0371>,
+        <https://gen.example.com/stamboom/I0372>,
+        <https://gen.example.com/stamboom/I0373>,
+        <https://gen.example.com/stamboom/I0374> ;
+    sdo:deathDate "1925-07-08"^^xsd:date ;
+    sdo:deathPlace "Voorburg" ;
+    sdo:familyName "Düthler" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Gerrigje" ;
+    sdo:name "Gerrigje Düthler" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0041> .
+

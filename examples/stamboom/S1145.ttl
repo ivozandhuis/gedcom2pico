@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1145> a sdo:ArchiveComponent ;
+    sdo:name "BS Marum Ovl. Reg. 1859 nr. 9 (dd. 21-2-1859)" ;
+    sdo:url "https://www.openarchieven.nl/gra:40cea9dc-3df6-df7e-2013-13c42a3b7e45" .
+

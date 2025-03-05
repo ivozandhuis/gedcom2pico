@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0721> a sdo:ArchiveComponent ;
+    sdo:name "BS Alkemade Huw. Reg. 1819 nr. 10 (dd. 5-5-1819)" ;
+    sdo:url "https://www.openarchieven.nl/elo:9a1da04c-4a3b-e3f5-e63d-dd5613c6d345" .
+

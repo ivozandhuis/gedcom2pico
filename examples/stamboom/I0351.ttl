@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0351> a picom:PersonReconstruction ;
+    sdo:familyName "Ouwendijk" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Huibert" ;
+    sdo:name "Huibert Ouwendijk" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0345> .
+

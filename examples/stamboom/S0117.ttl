@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0117> a sdo:ArchiveComponent ;
+    sdo:name "BS Schoterland Huw. Reg. 1892 nr. 67 (dd. 26-5-1892)" ;
+    sdo:url "https://www.openarchieven.nl/frl:14985b07-6f6a-8b1b-2c27-a9db63129137" .
+

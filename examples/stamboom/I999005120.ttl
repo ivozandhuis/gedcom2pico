@@ -1,0 +1,18 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005120> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0216> ] ;
+    sdo:children <https://gen.example.com/stamboom/I999005117> ;
+    sdo:deathDate "1855-12-27"^^xsd:date ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "Oosterbroek" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Teunis" ;
+    sdo:hasOccupation "landman" ;
+    sdo:name "Teunis Oosterbroek" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005121> .
+

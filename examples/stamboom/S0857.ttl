@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0857> a sdo:ArchiveComponent ;
+    sdo:name "MR Leiden 1845 nr. 54" ;
+    sdo:url "https://www.openarchieven.nl/elo:0b983acb-4ef8-4a9e-a26e-ecfe25e6b8b5" .
+

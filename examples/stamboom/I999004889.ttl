@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004889> a picom:PersonReconstruction ;
+    sdo:birthDate "1802-12-04"^^xsd:date ;
+    sdo:birthPlace "Wijhe" ;
+    sdo:familyName "Wonink" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Johanna" ;
+    sdo:name "Johanna Wonink" .
+

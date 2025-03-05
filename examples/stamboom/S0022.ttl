@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0022> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Huw. Reg. 1871, huw. bijl. bij nr 37, extract van BS Rothem (Belgisch Limburg) Geb. Reg. 1837 nr 25" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1109> a sdo:ArchiveComponent ;
+    sdo:name "BS Leek Geb. Reg. 1815 nr. 23 (dd. 21-2-1815)" ;
+    sdo:url "https://www.openarchieven.nl/gra:48faf3be-67a0-16f2-59b2-be249926d5a7" .
+

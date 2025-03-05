@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1092> a sdo:ArchiveComponent ;
+    sdo:name "BS Groningen Geb. Reg. 1878 nr. 536 (dd. 16-4-1878)" ;
+    sdo:url "https://www.openarchieven.nl/gra:6fbcb6d4-6809-6fde-62a0-b75d5ce5ab0f" .
+

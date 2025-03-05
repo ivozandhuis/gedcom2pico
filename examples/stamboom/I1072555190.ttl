@@ -1,0 +1,26 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555190> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0780> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0766> ] ;
+    sdo:birthDate "1844-10-26"^^xsd:date ;
+    sdo:birthPlace "Lemmer" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555222>,
+        <https://gen.example.com/stamboom/I1072555223>,
+        <https://gen.example.com/stamboom/I1072555224>,
+        <https://gen.example.com/stamboom/I1072555225>,
+        <https://gen.example.com/stamboom/I1072555226>,
+        <https://gen.example.com/stamboom/I1072555227> ;
+    sdo:deathDate "1900-02-18"^^xsd:date ;
+    sdo:deathPlace "Warga" ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Johannes" ;
+    sdo:name "Johannes Wagenmakers" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555221> .
+

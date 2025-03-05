@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1095> a sdo:ArchiveComponent ;
+    sdo:name "BS Groningen Ovl. Reg. 1925 nr. 1144 (dd. 31-10-1925)" ;
+    sdo:url "https://www.openarchieven.nl/gra:3ddc50f0-9568-5341-b994-7d28bfc5db26" .
+

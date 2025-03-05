@@ -1,0 +1,23 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005252> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0222> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0269> ] ;
+    sdo:birthDate "1795-07-12"^^xsd:date ;
+    sdo:birthPlace "Monster" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555369>,
+        <https://gen.example.com/stamboom/I999005250> ;
+    sdo:deathDate "1828-04-26"^^xsd:date ;
+    sdo:deathPlace "Wateringen" ;
+    sdo:familyName "van Lingen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Andries" ;
+    sdo:hasOccupation "arbeider" ;
+    sdo:name "Andries van Lingen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005253> .
+

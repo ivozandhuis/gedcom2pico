@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0753> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijckel Ovl. Reg. 1878 nr. 105 (dd. 30-12-1878)" ;
+    sdo:url "https://www.openarchieven.nl/frl:9c8c9b62-dbe1-19ea-626c-a5ec5c2da520" .
+

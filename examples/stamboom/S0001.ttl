@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0001> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Geb. Reg. 1879 nr. 88 (dd. 6-9-1879)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:5ea06551-fcc7-4b4f-bf32-68cec4873225" .
+

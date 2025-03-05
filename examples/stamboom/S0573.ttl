@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0573> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Geb. Reg. 1824 nr. 86 (dd. 26-11-1824)" ;
+    sdo:url "https://www.openarchieven.nl/hco:40B40D4A-15E8-44EA-AEA8-99259B87C2D3" .
+

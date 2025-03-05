@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0467> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Geb. Reg. 1890 nr. 111 (dd. 16-12-1890)" ;
+    sdo:url "https://www.openarchieven.nl/hco:DDF40CB3-D26F-4BC3-95AB-41366EFC5C8B" .
+

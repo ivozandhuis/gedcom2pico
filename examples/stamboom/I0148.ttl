@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0148> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0707> ] ;
+    sdo:birthDate "1827-05-22"^^xsd:date ;
+    sdo:birthPlace "Oud-Valkenburg" ;
+    sdo:familyName "Scheres" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Catharina Elisabeth" ;
+    sdo:name "Catharina Elisabeth Scheres" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0149> .
+

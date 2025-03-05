@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0591> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Stad Ovl. Reg. 1893 nr. 80 (dd. 5-6-1893)" ;
+    sdo:url "https://www.openarchieven.nl/hco:C6A6F936-987F-4FAD-80E3-14D7C4CDFA16" .
+

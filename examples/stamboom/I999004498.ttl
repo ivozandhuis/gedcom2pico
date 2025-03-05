@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004498> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1072555481>,
+        <https://gen.example.com/stamboom/I1072555482> ;
+    sdo:familyName "van Bruggen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Gerrit Jan" ;
+    sdo:name "Gerrit Jan van Bruggen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004494> .
+

@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005243> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999005101> ;
+    sdo:deathDate "1787-07-24"^^xsd:date ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "Langkamp" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Teunis Teunissen" ;
+    sdo:name "Teunis Teunissen Langkamp" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005244> .
+

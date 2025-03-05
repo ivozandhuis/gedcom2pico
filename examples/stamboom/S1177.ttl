@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1177> a sdo:ArchiveComponent ;
+    sdo:name "Begraafplaats Lemmer L. rij 005 nr-116" ;
+    sdo:url "https://www.online-begraafplaatsen.nl/graf/1240685" .
+

@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004271> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004247>,
+        <https://gen.example.com/stamboom/I999004793>,
+        <https://gen.example.com/stamboom/I999004794>,
+        <https://gen.example.com/stamboom/I999004795>,
+        <https://gen.example.com/stamboom/I999004796>,
+        <https://gen.example.com/stamboom/I999004797> ;
+    sdo:deathDate "1832-03-04"^^xsd:date ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "Smeink" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Roelof Hendriks" ;
+    sdo:hasOccupation "landbouwer" ;
+    sdo:name "Roelof Hendriks Smeink" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004272> .
+

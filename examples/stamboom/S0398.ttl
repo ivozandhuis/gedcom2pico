@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0398> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Geb. Reg. 1903 nr. 164 (dd. 18-11-1903)" ;
+    sdo:url "https://www.openarchieven.nl/frl:9b600f0e-09ce-11e5-b5b3-03530658d2d0" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0522> a sdo:ArchiveComponent ;
+    sdo:name "BS Naaldwijk Huw. Reg. 1928 nr. 60 (dd. 3-11-1928)" ;
+    sdo:url "https://www.openarchieven.nl/haw:6704580e-c515-49eb-ba4c-0cbe0989f2a2" .
+

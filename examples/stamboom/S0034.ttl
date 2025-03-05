@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0034> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Geb. Reg. 1893 nr. 42" ;
+    sdo:url "https://www.openarchieven.nl/frl:a3512f43-c0b7-25c7-ad62-885797960e7e" .
+

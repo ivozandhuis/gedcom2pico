@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0834> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1852 nr. 171 (dd. 8-2-1852)" ;
+    sdo:url "https://www.openarchieven.nl/elo:3618230a-26a3-7bc2-5ced-bf6365eaf7d0" .
+

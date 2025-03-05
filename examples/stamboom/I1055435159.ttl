@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1055435159> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1076> ] ;
+    sdo:birthDate "1810-12-16"^^xsd:date ;
+    sdo:birthPlace "Gorredijk" ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Geeske Pieters" ;
+    sdo:name "Geeske Pieters van der Werf" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0225>,
+        <https://gen.example.com/stamboom/I0229> .
+

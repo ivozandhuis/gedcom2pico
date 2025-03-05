@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0382> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1369> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1378> ] ;
+    sdo:birthDate "1834-02-21"^^xsd:date ;
+    sdo:birthPlace "Monster" ;
+    sdo:deathDate "1900-02-17"^^xsd:date ;
+    sdo:deathPlace "Monster" ;
+    sdo:familyName "Vollebregt" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Johannis Cornelis" ;
+    sdo:name "Johannis Cornelis Vollebregt" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0387> .
+

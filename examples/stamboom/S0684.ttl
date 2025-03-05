@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0684> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Ovl. Reg. 1869 nr. 11 (dd. 1869-02-22)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:ec9fca97-fd74-47ed-bed2-0faf06998664" .
+

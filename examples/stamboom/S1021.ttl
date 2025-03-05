@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1021> a sdo:ArchiveComponent ;
+    sdo:name "BS Bodegraven Geb. Reg. 1848 nr. 88 (dd. 22-12-1848)" ;
+    sdo:url "https://www.openarchieven.nl/rel:d5092abf-623e-acde-175f-e275c5cdb07e" .
+

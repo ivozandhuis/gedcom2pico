@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1072555419> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1072555413> ;
+    sdo:familyName "van Diest" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Arentige Jansdr." ;
+    sdo:name "Arentige Jansdr. van Diest" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555418> .
+

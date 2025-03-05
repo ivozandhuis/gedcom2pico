@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1072555264> a picom:PersonReconstruction ;
+    sdo:familyName "Egberts" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria Wilhelmina" ;
+    sdo:name "Maria Wilhelmina Egberts" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1049630711> .
+

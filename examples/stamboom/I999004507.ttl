@@ -1,0 +1,9 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004507> a picom:PersonReconstruction ;
+    sdo:familyName "Wonink" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Arend Jan" ;
+    sdo:name "Arend Jan Wonink" .
+

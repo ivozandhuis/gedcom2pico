@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1212> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Huw. Reg. 1856 nr. 27 (dd. 12-4-1856)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:cd9f8d3d-e23b-019a-d852-c5a47d3ae273" .
+

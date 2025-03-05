@@ -1,0 +1,26 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004513> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0978> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0966> ] ;
+    sdo:birthDate "1813-11-22"^^xsd:date ;
+    sdo:birthPlace "Heerde (Markluiden)" ;
+    sdo:children <https://gen.example.com/stamboom/I999004515>,
+        <https://gen.example.com/stamboom/I999004516>,
+        <https://gen.example.com/stamboom/I999004517>,
+        <https://gen.example.com/stamboom/I999004518>,
+        <https://gen.example.com/stamboom/I999004519> ;
+    sdo:deathDate "1846-09-01"^^xsd:date ;
+    sdo:deathPlace "Heerde (Hoorn)" ;
+    sdo:familyName "Zandhuis" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hermannus" ;
+    sdo:hasOccupation "landarbeider" ;
+    sdo:name "Hermannus Zandhuis" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004514> .
+

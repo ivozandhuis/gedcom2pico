@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0353> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Geb. Reg. 1902 nr. 342 (dd. 03-04-1902)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:0057e680-cfdd-dcbb-b41d-d9a10917bb18" .
+

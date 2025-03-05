@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0010> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999005235> ;
+    sdo:familyName "Ketelaars" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Cornelia" ;
+    sdo:name "Cornelia Ketelaars" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0009> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0553> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Huw. Reg. 1934 nr. 129" ;
+    sdo:url "https://www.openarchieven.nl/hco:9217CD9B-EFB9-4678-83EE-4E390762E4E6" .
+

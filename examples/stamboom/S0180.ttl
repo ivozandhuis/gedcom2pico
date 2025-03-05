@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0180> a sdo:ArchiveComponent ;
+    sdo:name "DTB Leiden Schepenhuwelijken fol. 019" .
+

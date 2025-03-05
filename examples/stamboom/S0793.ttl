@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0793> a sdo:ArchiveComponent ;
+    sdo:name "BS Wormerveer Ovl. Reg. 1890 nr. 72 (dd. 7-11-1890)" ;
+    sdo:url "https://www.openarchieven.nl/nha:9074D6EA-E083-458A-B473-765AB74EC755" .
+

@@ -1,0 +1,24 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004348> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0197> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0011> ] ;
+    sdo:birthDate "1850-06-17"^^xsd:date ;
+    sdo:birthPlace "Boskoop" ;
+    sdo:children <https://gen.example.com/stamboom/I0063>,
+        <https://gen.example.com/stamboom/I0064>,
+        <https://gen.example.com/stamboom/I1072555267>,
+        <https://gen.example.com/stamboom/I999004344> ;
+    sdo:deathDate "1884-04-18"^^xsd:date ;
+    sdo:deathPlace "Boskoop" ;
+    sdo:familyName "Brand" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Mathilda" ;
+    sdo:name "Mathilda Brand" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004347> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1080> a sdo:ArchiveComponent ;
+    sdo:name "BS Smallingerland Ovl. Reg. 1911 nr. 7 (dd. 11-1-1911)" ;
+    sdo:url "https://www.openarchieven.nl/frl:2d5accf6-2d02-48ec-4c05-b2719a1c179a" .
+

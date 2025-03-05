@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0540> a sdo:ArchiveComponent ;
+    sdo:name "Leydse Courant 13-08-1847 | pagina 7" ;
+    sdo:url "https://leiden.courant.nu/issue/LYC/1847-08-13/edition/0/page/7" .
+

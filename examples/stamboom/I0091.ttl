@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0091> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0503> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1202> ] ;
+    sdo:birthDate "1890-08-09"^^xsd:date ;
+    sdo:birthPlace "'s-Gravenzande" ;
+    sdo:deathDate "1973-12-26"^^xsd:date ;
+    sdo:deathPlace "Naaldwijk" ;
+    sdo:familyName "Bouhuisen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Cornelia" ;
+    sdo:name "Cornelia Bouhuisen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0095> .
+

@@ -1,0 +1,17 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004377> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1744-03-07"^^xsd:date ;
+            bio:place "Bleskensgraaf" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004359>,
+        <https://gen.example.com/stamboom/I999004640> ;
+    sdo:familyName "van Houweling" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Jannigje Leendertse" ;
+    sdo:name "Jannigje Leendertse van Houweling" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004376> .
+

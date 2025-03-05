@@ -1,0 +1,7 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+
+<https://gen.example.com/stamboom/F0551> a bio:Marriage ;
+    bio:partner <https://gen.example.com/stamboom/I1072555309>,
+        <https://gen.example.com/stamboom/I1072555310> ;
+    bio:place "Hallum" .
+

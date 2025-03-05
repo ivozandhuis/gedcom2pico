@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0466> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Huw. Reg. 1889 nr. 17 (dd. 25-5-1889)" ;
+    sdo:url "https://www.openarchieven.nl/hco:A9C49A30-9D51-4D09-8D13-AE413404800D" .
+

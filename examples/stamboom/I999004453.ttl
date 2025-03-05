@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004453> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004445>,
+        <https://gen.example.com/stamboom/I999004768>,
+        <https://gen.example.com/stamboom/I999004769>,
+        <https://gen.example.com/stamboom/I999004770>,
+        <https://gen.example.com/stamboom/I999004771>,
+        <https://gen.example.com/stamboom/I999004772> ;
+    sdo:familyName "Haenen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Alexandrina" ;
+    sdo:name "Alexandrina Haenen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004452> .
+

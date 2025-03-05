@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1353> a sdo:ArchiveComponent ;
+    sdo:name "BS Boxtel Huw. Reg. 1854 nr. 29" ;
+    sdo:url "https://www.openarchieven.nl/bhi:7bb9f2d3-2437-3800-6d1a-4e0ef2b903ea" .
+

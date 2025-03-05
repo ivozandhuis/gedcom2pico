@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1060770152> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1060770132> ;
+    sdo:familyName "Witteman" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Louris Meesz" ;
+    sdo:name "Louris Meesz Witteman" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060770155> .
+

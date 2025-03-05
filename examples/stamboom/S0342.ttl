@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0342> a sdo:ArchiveComponent ;
+    sdo:name "BS Tubbergen Ovl. Reg. 1823 nr. 48 (dd. 28-4-1823)" ;
+    sdo:url "https://www.openarchieven.nl/hco:13A197F4-CD7D-4E6E-82A3-61888209D687" .
+

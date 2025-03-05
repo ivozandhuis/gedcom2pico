@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005517> a picom:PersonReconstruction ;
+    sdo:birthDate "1859"^^xsd:gYear ;
+    sdo:birthPlace "Doornspijk" ;
+    sdo:familyName "Kroeze" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Antonia" ;
+    sdo:name "Antonia Kroeze" .
+

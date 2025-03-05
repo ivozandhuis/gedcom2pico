@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1313> a sdo:ArchiveComponent ;
+    sdo:name "BS Delft Ovl. Reg. 1926 nr. 341" ;
+    sdo:url "https://www.openarchieven.nl/ade:629b33aa-4025-11e5-99d3-73ecf2dbb8f4" .
+

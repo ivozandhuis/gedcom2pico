@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0405> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0037> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1402> ] ;
+    sdo:birthDate "1858-12-21"^^xsd:date ;
+    sdo:birthPlace "Lemmer" ;
+    sdo:deathDate "1861-05-18"^^xsd:date ;
+    sdo:deathPlace "Lemmer" ;
+    sdo:familyName "Duit" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Janke" ;
+    sdo:name "Janke Duit" .
+

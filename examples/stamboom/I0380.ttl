@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0380> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1365> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1366> ] ;
+    sdo:birthDate "1831-05-23"^^xsd:date ;
+    sdo:birthPlace "Monster" ;
+    sdo:deathDate "1832-07-03"^^xsd:date ;
+    sdo:deathPlace "Monster" ;
+    sdo:familyName "Vollebregt" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Clazina Johanna" ;
+    sdo:name "Clazina Johanna Vollebregt" .
+

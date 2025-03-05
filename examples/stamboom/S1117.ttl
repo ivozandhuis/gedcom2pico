@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1117> a sdo:ArchiveComponent ;
+    sdo:name "BS Leek Ovl. Reg. 1873 nr. 24 (dd. 22-3-1873)" ;
+    sdo:url "https://www.openarchieven.nl/gra:ff6c8639-f550-58c2-fde3-f5f4724eacc1" .
+

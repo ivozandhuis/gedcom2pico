@@ -1,0 +1,27 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005482> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0315> ] ;
+    sdo:birthPlace "Wormer" ;
+    sdo:children <https://gen.example.com/stamboom/I999005232>,
+        <https://gen.example.com/stamboom/I999005497>,
+        <https://gen.example.com/stamboom/I999005498>,
+        <https://gen.example.com/stamboom/I999005499>,
+        <https://gen.example.com/stamboom/I999005500>,
+        <https://gen.example.com/stamboom/I999005501>,
+        <https://gen.example.com/stamboom/I999005502>,
+        <https://gen.example.com/stamboom/I999005503>,
+        <https://gen.example.com/stamboom/I999005504>,
+        <https://gen.example.com/stamboom/I999005505> ;
+    sdo:deathDate "1825-10-20"^^xsd:date ;
+    sdo:deathPlace "Wormerveer" ;
+    sdo:familyName "Nek" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Trijntje" ;
+    sdo:name "Trijntje Nek" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005481> .
+

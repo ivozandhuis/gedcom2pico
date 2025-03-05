@@ -1,0 +1,30 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555174> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0241> ] ;
+    sdo:birthPlace "'s-Gravenzande" ;
+    sdo:children <https://gen.example.com/stamboom/I0353>,
+        <https://gen.example.com/stamboom/I0354>,
+        <https://gen.example.com/stamboom/I0355>,
+        <https://gen.example.com/stamboom/I0356>,
+        <https://gen.example.com/stamboom/I0357>,
+        <https://gen.example.com/stamboom/I0358>,
+        <https://gen.example.com/stamboom/I0359>,
+        <https://gen.example.com/stamboom/I0360>,
+        <https://gen.example.com/stamboom/I0361>,
+        <https://gen.example.com/stamboom/I0364>,
+        <https://gen.example.com/stamboom/I0365>,
+        <https://gen.example.com/stamboom/I999005262> ;
+    sdo:deathDate "1859-10-15"^^xsd:date ;
+    sdo:deathPlace "'s-Gravenzande" ;
+    sdo:familyName "van den Berg" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Johannes" ;
+    sdo:hasOccupation "arbeider" ;
+    sdo:name "Johannes van den Berg" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555175> .
+

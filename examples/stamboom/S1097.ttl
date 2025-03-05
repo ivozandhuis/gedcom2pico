@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1097> a sdo:ArchiveComponent ;
+    sdo:name "BS Groningen Ovl. Reg. 1944 nr. 570 (dd. 28-3-1944)" ;
+    sdo:url "https://www.openarchieven.nl/gra:18a57823-27a6-f4f6-73d7-05d652bf7ee3" .
+

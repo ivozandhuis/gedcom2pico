@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1060868132> a picom:PersonReconstruction ;
+    sdo:birthDate "1755-07-01"^^xsd:date ;
+    sdo:birthPlace "Balk" ;
+    sdo:children <https://gen.example.com/stamboom/I1060868127> ;
+    sdo:deathDate "1827-01-16"^^xsd:date ;
+    sdo:deathPlace "Balk" ;
+    sdo:familyName "Betzema" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Bauke Betzes" ;
+    sdo:hasOccupation "werkman" ;
+    sdo:name "Bauke Betzes Betzema" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060868136> .
+

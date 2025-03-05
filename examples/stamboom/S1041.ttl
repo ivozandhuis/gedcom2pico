@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1041> a sdo:ArchiveComponent ;
+    sdo:name "BS Zwammerdam Geb. Reg. 1871 nr. 37 (dd. 14-8-1871)" ;
+    sdo:url "https://proxy.archieven.nl/105/F6F7EEB8CFC245A5AABA86CDD1AA6247" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0673> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Huw. Reg. 1826 nr. 4 (dd. 26-4-1826)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:aa0a3775-e2a9-4617-9ee6-f3d2bbbf7284" .
+

@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555440> a picom:PersonReconstruction ;
+    sdo:birthPlace "De Lier" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555407> ;
+    sdo:deathDate "1761-08-19"^^xsd:date ;
+    sdo:deathPlace "Naaldwijk" ;
+    sdo:familyName "Ouwerkerk" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Hildegundis Cornelisdr" ;
+    sdo:name "Hildegundis Cornelisdr Ouwerkerk" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555439> .
+

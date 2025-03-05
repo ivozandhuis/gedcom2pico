@@ -1,0 +1,13 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1068662487> a picom:PersonReconstruction ;
+    sdo:birthDate "1914-01-31"^^xsd:date ;
+    sdo:birthPlace "Almelo Stad" ;
+    sdo:familyName "Slag" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Johanna Maria" ;
+    sdo:name "Johanna Maria Slag" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1068662516> .
+

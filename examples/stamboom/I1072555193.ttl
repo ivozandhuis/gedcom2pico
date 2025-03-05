@@ -1,0 +1,30 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555193> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0769> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0782> ] ;
+    sdo:birthDate "1852-05-15"^^xsd:date ;
+    sdo:birthPlace "Lemmer" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555237>,
+        <https://gen.example.com/stamboom/I1072555238>,
+        <https://gen.example.com/stamboom/I1072555239>,
+        <https://gen.example.com/stamboom/I1072555240>,
+        <https://gen.example.com/stamboom/I1072555241>,
+        <https://gen.example.com/stamboom/I1072555242>,
+        <https://gen.example.com/stamboom/I1072555243>,
+        <https://gen.example.com/stamboom/I1072555244>,
+        <https://gen.example.com/stamboom/I1072555245> ;
+    sdo:deathDate "1942-09-30"^^xsd:date ;
+    sdo:deathPlace "Balk" ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Imke" ;
+    sdo:name "Imke Wagenmakers" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555235>,
+        <https://gen.example.com/stamboom/I1072555236> .
+

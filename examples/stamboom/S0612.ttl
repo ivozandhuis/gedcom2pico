@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0612> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Ovl. Reg. 1834 nr. 65 (dd. 11-10-1834)" ;
+    sdo:url "https://www.openarchieven.nl/hco:893B8A02-3FFE-4B4F-A977-CEB2212DD45D" .
+

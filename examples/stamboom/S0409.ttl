@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0409> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Geb. Reg. 1897 nr. 1 (dd. 4-1-1897)" ;
+    sdo:url "https://www.openarchieven.nl/frl:13f632ad-b54e-3053-de42-f01900f5f3e1" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0847> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1833 nr. 1125 (dd. 28-11-1833)" ;
+    sdo:url "https://www.openarchieven.nl/elo:d967f8fb-f124-5c63-fbf2-3120bb8908f0" .
+

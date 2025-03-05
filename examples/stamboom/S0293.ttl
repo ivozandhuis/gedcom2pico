@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0293> a sdo:ArchiveComponent ;
+    sdo:name "BS Olst Ovl. Reg. 1847 nr. 11 (dd. 26-1-1847)" ;
+    sdo:url "https://www.openarchieven.nl/hco:74D413C8-F6C1-49A2-A9BD-3D3F280A96C2" .
+

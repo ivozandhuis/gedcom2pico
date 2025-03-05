@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0367> a picom:PersonReconstruction ;
+    sdo:familyName "van Straaten" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pieter" ;
+    sdo:name "Pieter van Straaten" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0364> .
+

@@ -1,0 +1,25 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004427> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0718> ] ;
+    sdo:birthDate "1800-07-27"^^xsd:date ;
+    sdo:birthPlace "Nuth" ;
+    sdo:children <https://gen.example.com/stamboom/I0148>,
+        <https://gen.example.com/stamboom/I0150>,
+        <https://gen.example.com/stamboom/I0151>,
+        <https://gen.example.com/stamboom/I0152>,
+        <https://gen.example.com/stamboom/I0153>,
+        <https://gen.example.com/stamboom/I0155>,
+        <https://gen.example.com/stamboom/I999004419> ;
+    sdo:deathDate "1879-03-22"^^xsd:date ;
+    sdo:deathPlace "Maastricht" ;
+    sdo:familyName "Moonen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria Catherina" ;
+    sdo:name "Maria Catherina Moonen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004426> .
+

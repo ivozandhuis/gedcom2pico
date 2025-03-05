@@ -1,0 +1,35 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005221> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1798-11-24"^^xsd:date ;
+            bio:place "Rijpwetering" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0724> ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0277> ] ;
+    sdo:children <https://gen.example.com/stamboom/I0156>,
+        <https://gen.example.com/stamboom/I0159>,
+        <https://gen.example.com/stamboom/I0161>,
+        <https://gen.example.com/stamboom/I0162>,
+        <https://gen.example.com/stamboom/I0163>,
+        <https://gen.example.com/stamboom/I0164>,
+        <https://gen.example.com/stamboom/I0165>,
+        <https://gen.example.com/stamboom/I0166>,
+        <https://gen.example.com/stamboom/I0167>,
+        <https://gen.example.com/stamboom/I0168>,
+        <https://gen.example.com/stamboom/I999005141> ;
+    sdo:deathDate "1875-05-02"^^xsd:date ;
+    sdo:deathPlace "Leiden" ;
+    sdo:familyName "Hulsmeijer" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maartje" ;
+    sdo:hasOccupation "melkverkoopster" ;
+    sdo:name "Maartje Hulsmeijer" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0158>,
+        <https://gen.example.com/stamboom/I0160>,
+        <https://gen.example.com/stamboom/I999005220> .
+

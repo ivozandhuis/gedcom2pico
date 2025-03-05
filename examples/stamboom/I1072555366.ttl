@@ -1,0 +1,14 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555366> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1767-12-05"^^xsd:date ;
+            bio:place "'s-Hertogenbosch" ] ;
+    sdo:familyName "Passier" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Antonius" ;
+    sdo:name "Antonius Passier" .
+

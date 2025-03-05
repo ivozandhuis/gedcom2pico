@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0224> a sdo:ArchiveComponent ;
+    sdo:name "BS Monster Ovl. Reg. 1920 nr. 71 (dd. 07-10-1920)" ;
+    sdo:url "https://www.openarchieven.nl/haw:fb66edde-439b-49db-9311-fabcd551fbf7" .
+

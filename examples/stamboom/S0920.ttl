@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0920> a sdo:ArchiveComponent ;
+    sdo:name "DTB Bodegraven Doopboek fol. 7" ;
+    sdo:url "https://www.openarchieven.nl/rel:23309aab-83aa-8008-d6fc-932f8cb6192e" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0432> a sdo:ArchiveComponent ;
+    sdo:name "BS Ter Aar Ovl. Reg. 1960 nr. 11 (dd. 16-9-1960)" ;
+    sdo:url "https://www.openarchieven.nl/elo:bf06cd6d-93f8-d4b8-fd4f-5b14a35295e1" .
+

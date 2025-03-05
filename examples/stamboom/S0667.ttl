@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0667> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Ovl. Reg. 1860 nr. 53 (dd. 28-7-1860)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:546ed0b0-f77b-46fc-b625-e8351fcf3792" .
+

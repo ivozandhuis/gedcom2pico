@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1396> a sdo:ArchiveComponent ;
+    sdo:name "BS Haastrecht Ovl. Reg. 1914 nr. 13" ;
+    sdo:url "https://www.openarchieven.nl/smh:993291d1-502f-db43-a474-604611cc741d" .
+

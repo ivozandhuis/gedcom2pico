@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0331> a sdo:ArchiveComponent ;
+    sdo:name "BS Haaksbergen Ovl. Reg. 1858 nr. 80 (dd. 3-9-1858)" ;
+    sdo:url "https://www.openarchieven.nl/hco:4981D832-B5F8-49F6-8B91-963A629DCA9C" .
+

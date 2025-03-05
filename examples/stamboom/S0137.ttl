@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0137> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Huw. Reg. 1907 nr 71 (dd. 27-9-1907)" ;
+    sdo:url "https://www.openarchieven.nl/hco:27db4885-742d-556c-97c0-f36dda0fc2bd" .
+

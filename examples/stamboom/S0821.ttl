@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0821> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1859 nr. 00 (30-3-1859)" ;
+    sdo:url "https://www.openarchieven.nl/elo:0433aec7-c7d0-30ed-bb71-026289d42ba0" .
+

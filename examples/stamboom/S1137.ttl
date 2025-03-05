@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1137> a sdo:ArchiveComponent ;
+    sdo:name "BS Roden Ovl. Reg. 1835 nr. 3 (dd. 6-3-1835)" ;
+    sdo:url "https://www.openarchieven.nl/dar:c8d72c8d-6618-4753-9c97-2e7a364aef64" .
+

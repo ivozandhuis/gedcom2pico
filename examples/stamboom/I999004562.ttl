@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004562> a picom:PersonReconstruction ;
+    sdo:birthDate "1787-10-12"^^xsd:date ;
+    sdo:birthPlace "Sneek" ;
+    sdo:deathDate "1826-06-27"^^xsd:date ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Leendert Sytzes" ;
+    sdo:hasOccupation "arbeider" ;
+    sdo:name "Leendert Sytzes Wagenmakers" .
+

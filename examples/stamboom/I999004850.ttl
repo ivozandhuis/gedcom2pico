@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004850> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004842>,
+        <https://gen.example.com/stamboom/I999004852>,
+        <https://gen.example.com/stamboom/I999004853>,
+        <https://gen.example.com/stamboom/I999004854>,
+        <https://gen.example.com/stamboom/I999004855> ;
+    sdo:familyName "Brandt" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Albert Knelisse" ;
+    sdo:name "Albert Knelisse Brandt" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004851> .
+

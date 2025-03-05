@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0566> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Stad Huw. Reg. 1902 nr. 35 (dd. 12-6-1902)" ;
+    sdo:url "https://www.openarchieven.nl/hco:240f1e7c-0195-6fb6-b54a-c16608e13d77" .
+

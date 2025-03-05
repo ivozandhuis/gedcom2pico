@@ -1,0 +1,14 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004659> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1780-10-23"^^xsd:date ;
+            bio:place "Schipluiden" ] ;
+    sdo:familyName "Delfgauw" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Agnes" ;
+    sdo:name "Agnes Delfgauw" .
+

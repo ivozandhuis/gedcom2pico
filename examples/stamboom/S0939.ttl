@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0939> a sdo:ArchiveComponent ;
+    sdo:name "CAO Persoonskaart HARMS, Antonia (1893-1970)" .
+

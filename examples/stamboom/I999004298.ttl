@@ -1,0 +1,38 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004298> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1780-07-06"^^xsd:date ;
+            bio:place "Gorredijk" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0045> ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0143> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0045> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0009> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0128> ] ;
+    sdo:birthDate "1780-06-19"^^xsd:date ;
+    sdo:birthPlace "Gorredijk" ;
+    sdo:children <https://gen.example.com/stamboom/I1055435159>,
+        <https://gen.example.com/stamboom/I1055435162>,
+        <https://gen.example.com/stamboom/I1055435164>,
+        <https://gen.example.com/stamboom/I1055435166>,
+        <https://gen.example.com/stamboom/I1055435169>,
+        <https://gen.example.com/stamboom/I1055435171>,
+        <https://gen.example.com/stamboom/I1055435173>,
+        <https://gen.example.com/stamboom/I999004289> ;
+    sdo:deathDate "1864-02-28"^^xsd:date ;
+    sdo:deathPlace "Opsterland" ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pieter Joukes" ;
+    sdo:hasOccupation "schippersknecht" ;
+    sdo:name "Pieter Joukes van der Werf" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004299> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1040> a sdo:ArchiveComponent ;
+    sdo:name "BS Haarlem Ovl. Reg. 1933 nr. 1193 (dd. 21-11-1933)" ;
+    sdo:url "https://www.openarchieven.nl/nha:AB561291-D067-46B9-992F-ECB759422A6D" .
+

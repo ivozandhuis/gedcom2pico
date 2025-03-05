@@ -1,0 +1,21 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0249> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1799-10-13"^^xsd:date ;
+            bio:place "Midwolde" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1126> ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1147> ] ;
+    sdo:deathDate "1857-11-17"^^xsd:date ;
+    sdo:deathPlace "Tolbert (Leek)" ;
+    sdo:familyName "van der Velde" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Willem Bijmholt" ;
+    sdo:name "Willem Bijmholt van der Velde" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0256> .
+

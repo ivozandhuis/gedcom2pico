@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004727> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0697> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0693> ] ;
+    sdo:birthDate "1829-08-02"^^xsd:date ;
+    sdo:birthPlace "Wijlre" ;
+    sdo:deathDate "1896-07-26"^^xsd:date ;
+    sdo:deathPlace "Oud-Valkenburg" ;
+    sdo:familyName "Lambrix" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria Anna" ;
+    sdo:name "Maria Anna Lambrix" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0146> .
+

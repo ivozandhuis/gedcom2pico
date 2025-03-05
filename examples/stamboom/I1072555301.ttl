@@ -1,0 +1,18 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555301> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1700-11-26"^^xsd:date ;
+            bio:place "Harich" ] ;
+    sdo:children <https://gen.example.com/stamboom/I1072555299>,
+        <https://gen.example.com/stamboom/I1072555305>,
+        <https://gen.example.com/stamboom/I1072555306> ;
+    sdo:familyName "" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Yke Christiaans" ;
+    sdo:name "Yke Christiaans " ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555300> .
+

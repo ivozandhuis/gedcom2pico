@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1266> a sdo:ArchiveComponent ;
+    sdo:name "BS Wouw Ovl. Reg. 1861 nr. 42 (dd. 4-8-1861)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:f86f84ea-4ed5-4545-efe6-9a667d333809",
+        "https://www.openarchieven.nl/wba:0c7ea898-8b2a-c511-dd89-330a0bfaef42" .
+

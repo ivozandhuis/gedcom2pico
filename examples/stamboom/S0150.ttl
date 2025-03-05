@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0150> a sdo:ArchiveComponent ;
+    sdo:name "BS Heerde Huw. Reg. 1905 nr. 48 (dd. 9-9-1905)" ;
+    sdo:url "https://www.openarchieven.nl/gld:5093CE71-5259-4413-8A82-5FEF4E3C97C5" .
+

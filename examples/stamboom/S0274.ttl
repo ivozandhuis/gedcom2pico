@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0274> a sdo:ArchiveComponent ;
+    sdo:name "BS Tubbergen Ovl. Reg. 1833 nr. 96 (dd. 17-9-1833)" ;
+    sdo:url "https://www.openarchieven.nl/hco:2473E5DB-0B84-4369-B7BA-5B84DF96356E" .
+

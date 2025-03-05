@@ -1,0 +1,27 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005394> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0082> ] ;
+    sdo:birthDate "1893-11-15"^^xsd:date ;
+    sdo:birthPlace "Raalte (Boetele)" ;
+    sdo:children <https://gen.example.com/stamboom/I999005377>,
+        <https://gen.example.com/stamboom/I999005378>,
+        <https://gen.example.com/stamboom/I999005381>,
+        <https://gen.example.com/stamboom/I999005383>,
+        <https://gen.example.com/stamboom/I999005425>,
+        <https://gen.example.com/stamboom/I999005428>,
+        <https://gen.example.com/stamboom/I999005431>,
+        <https://gen.example.com/stamboom/I999005435>,
+        <https://gen.example.com/stamboom/I999005441> ;
+    sdo:deathDate "1970-05-07"^^xsd:date ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "Harms" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Antonia" ;
+    sdo:name "Antonia Harms" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005432> .
+

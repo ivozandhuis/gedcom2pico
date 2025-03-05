@@ -1,0 +1,18 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004595> a picom:PersonReconstruction ;
+    bio:event [ a bio:Burial ;
+            bio:date "2008-01-11"^^xsd:date ;
+            bio:place "Oud-Geleen" ] ;
+    sdo:birthDate "1920-04-17"^^xsd:date ;
+    sdo:birthPlace "Alphen aan den Rijn" ;
+    sdo:deathDate "2008-01-06"^^xsd:date ;
+    sdo:deathPlace "Geleen" ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Anna Allegonda" ;
+    sdo:name "Anna Allegonda van der Sloot" .
+

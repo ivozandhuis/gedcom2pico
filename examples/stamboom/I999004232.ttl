@@ -1,0 +1,32 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004232> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1803-01-02"^^xsd:date ;
+            bio:place "Dalfsen" ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0014> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0204> ] ;
+    sdo:birthDate "1802-12-18"^^xsd:date ;
+    sdo:birthPlace "Dalfsen (Rechteren)" ;
+    sdo:children <https://gen.example.com/stamboom/I0122>,
+        <https://gen.example.com/stamboom/I0123>,
+        <https://gen.example.com/stamboom/I0124>,
+        <https://gen.example.com/stamboom/I0125>,
+        <https://gen.example.com/stamboom/I0126>,
+        <https://gen.example.com/stamboom/I0127>,
+        <https://gen.example.com/stamboom/I999004226> ;
+    sdo:deathDate "1876-12-30"^^xsd:date ;
+    sdo:deathPlace "Wijhe (Marle)" ;
+    sdo:familyName "Janssen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Janna" ;
+    sdo:hasOccupation "dienstmeid" ;
+    sdo:name "Janna Janssen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004231> .
+

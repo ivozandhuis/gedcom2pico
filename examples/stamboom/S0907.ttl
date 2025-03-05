@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0907> a sdo:ArchiveComponent ;
+    sdo:name "BS Oude Pekela Huw. Reg. 1866 nr. 30 (dd. 6-9-1866)" ;
+    sdo:url "https://www.openarchieven.nl/gra:1333fe57-735d-fa3b-90a0-a4fba52abdf1" .
+

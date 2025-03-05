@@ -1,0 +1,26 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004353> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0200> ] ;
+    sdo:birthDate "1826-05-11"^^xsd:date ;
+    sdo:birthPlace "Bodegraven" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555325>,
+        <https://gen.example.com/stamboom/I1072555489>,
+        <https://gen.example.com/stamboom/I1072555490>,
+        <https://gen.example.com/stamboom/I1072555492>,
+        <https://gen.example.com/stamboom/I1072555493>,
+        <https://gen.example.com/stamboom/I1072555494>,
+        <https://gen.example.com/stamboom/I999004347> ;
+    sdo:deathDate "1862-12-18"^^xsd:date ;
+    sdo:deathPlace "Aarlanderveen" ;
+    sdo:familyName "Verhaar" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Alida" ;
+    sdo:hasOccupation "naaister" ;
+    sdo:name "Alida Verhaar" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004352> .
+

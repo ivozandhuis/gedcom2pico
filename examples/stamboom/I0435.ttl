@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0435> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1452> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1442> ] ;
+    sdo:birthDate "1815-01-27"^^xsd:date ;
+    sdo:birthPlace "Raalte" ;
+    sdo:deathDate "1878-06-29"^^xsd:date ;
+    sdo:deathPlace "Olst (Wesepe)" ;
+    sdo:familyName "Smeenk" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hendricus" ;
+    sdo:name "Hendricus Smeenk" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0436> .
+

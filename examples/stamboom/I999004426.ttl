@@ -1,0 +1,29 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004426> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1789-11-27"^^xsd:date ;
+            bio:place "Valkenburg (Sibbe)" ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0349> ] ;
+    sdo:children <https://gen.example.com/stamboom/I0148>,
+        <https://gen.example.com/stamboom/I0150>,
+        <https://gen.example.com/stamboom/I0151>,
+        <https://gen.example.com/stamboom/I0152>,
+        <https://gen.example.com/stamboom/I0153>,
+        <https://gen.example.com/stamboom/I0155>,
+        <https://gen.example.com/stamboom/I999004419> ;
+    sdo:deathDate "1878-12-08"^^xsd:date ;
+    sdo:deathPlace "Oud-Valkenburg" ;
+    sdo:familyName "Scheres" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Christiaan" ;
+    sdo:hasOccupation "rademaker",
+        "timmerman" ;
+    sdo:name "Christiaan Scheres" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004427> .
+

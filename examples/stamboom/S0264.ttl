@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0264> a sdo:ArchiveComponent ;
+    sdo:name "BS Loosduinen Ovl. Reg. 1816 nr. 7 (dd. 09-02-1816)" ;
+    sdo:url "https://www.openarchieven.nl/hga:50A65924-C274-4F79-BACB-F22097076329" .
+

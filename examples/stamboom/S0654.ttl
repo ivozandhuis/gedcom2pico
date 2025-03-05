@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0654> a sdo:ArchiveComponent ;
+    sdo:name "BS Amsterdam Huw. Reg. 1911 reg. 5 fol. 18 (dd. 25-1-1911)" ;
+    sdo:url "https://www.openarchieven.nl/nha:214D7BA1-172A-4E4F-A7C7-A87E46165105" .
+

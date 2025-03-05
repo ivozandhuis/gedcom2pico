@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555291> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1072555278> ;
+    sdo:deathDate "1768-12-27"^^xsd:date ;
+    sdo:deathPlace "Oirsbeek" ;
+    sdo:familyName "Douven" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Petronilla" ;
+    sdo:name "Petronilla Douven" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555279> .
+

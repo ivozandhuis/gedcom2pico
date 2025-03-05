@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0795> a sdo:ArchiveComponent ;
+    sdo:name "BS Breda Ovl. Reg. 1907 nr. 255 (dd. 23-5-1907)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:c8cc1dbb-16c5-e584-69ff-2593ad6e7d38",
+        "https://www.openarchieven.nl/brd:8058cbe8-74f0-32cd-8984-c166939667d9" .
+

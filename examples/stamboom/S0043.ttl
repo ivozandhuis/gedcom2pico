@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0043> a sdo:ArchiveComponent ;
+    sdo:name "BS Schoterland Geb. Reg. 1840 nr. 4 (dd. 1840-01-03)" ;
+    sdo:url "https://www.openarchieven.nl/frl:58a30670-3230-eb31-6464-2a58e2f494aa" .
+

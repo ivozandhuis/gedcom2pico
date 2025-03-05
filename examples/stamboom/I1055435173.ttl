@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1055435173> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1070> ] ;
+    sdo:birthDate "1828-04-19"^^xsd:date ;
+    sdo:birthPlace "Opsterland" ;
+    sdo:familyName "van der Werf" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Grietje Pieters" ;
+    sdo:name "Grietje Pieters van der Werf" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0231> .
+

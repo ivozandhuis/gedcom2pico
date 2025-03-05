@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005431> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0451> ] ;
+    sdo:birthDate "1929-05-10"^^xsd:date ;
+    sdo:birthPlace "Raalte" ;
+    sdo:deathDate "1947-10-10"^^xsd:date ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "Borgman" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hermanus Hendricus" ;
+    sdo:name "Hermanus Hendricus Borgman" .
+

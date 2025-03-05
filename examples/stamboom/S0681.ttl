@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0681> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Geb. Reg. 1842 nr. 7 (dd. 11-2-1842)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:bce1c418-7fdb-4c1f-88b7-fd74ff212a6a" .
+

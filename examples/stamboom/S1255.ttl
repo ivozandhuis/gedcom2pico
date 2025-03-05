@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1255> a sdo:ArchiveComponent ;
+    sdo:name "DTB Steenbergen RK doopboek 1773-1794 (dd. 9-10-1790)" ;
+    sdo:url "https://www.openarchieven.nl/wba:9bfcc412-4865-11e1-9853-b7a7dd2b6a2a" .
+

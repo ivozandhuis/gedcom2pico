@@ -1,0 +1,23 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0364> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1332> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1332> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1334> ] ;
+    sdo:birthDate "1813-01-23"^^xsd:date ;
+    sdo:birthPlace "'s-Gravenzande" ;
+    sdo:deathDate "1889-01-07"^^xsd:date ;
+    sdo:deathPlace "Monster" ;
+    sdo:familyName "van den Berg" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Gooserina Petronella" ;
+    sdo:name "Gooserina Petronella van den Berg" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0366>,
+        <https://gen.example.com/stamboom/I0367> .
+

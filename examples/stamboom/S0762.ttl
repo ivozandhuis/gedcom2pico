@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0762> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Ovl. Reg. 1880 nr. 56 (dd. 3-5-1880)" ;
+    sdo:url "https://www.openarchieven.nl/frl:a4e803ca-6bfd-7f4a-339d-647b73cfa2c2" .
+

@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0947> a sdo:ArchiveComponent ;
+    sdo:name "CAO Persoonskaart BORGMAN, Johannes (1883-1960)" .
+

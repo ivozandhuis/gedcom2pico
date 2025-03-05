@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0516> a sdo:ArchiveComponent ;
+    sdo:name "BS Naaldwijk Huw. Reg. 1909 nr. 18 (dd. 12-6-1909)" ;
+    sdo:url "https://www.openarchieven.nl/haw:e12f780c-3573-4b90-b0f9-5ba2d445fe1e" .
+

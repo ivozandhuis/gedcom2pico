@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0152> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0717> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0712> ] ;
+    sdo:birthDate "1844-01-23"^^xsd:date ;
+    sdo:birthPlace "Oud-Valkenburg" ;
+    sdo:deathDate "1878-07-05"^^xsd:date ;
+    sdo:deathPlace "Oud-Valkenburg" ;
+    sdo:familyName "Scheres" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria Hubertina" ;
+    sdo:name "Maria Hubertina Scheres" .
+

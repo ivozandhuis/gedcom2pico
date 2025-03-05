@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0983> a sdo:ArchiveComponent ;
+    sdo:name "DTB Veessen Doopboek fol. 78" ;
+    sdo:url "https://www.openarchieven.nl/gld:E95D66D0-A0A1-419D-A9E3-3D6635F4A757" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0040> a sdo:ArchiveComponent ;
+    sdo:name "BS Schoterland Geb. Reg. 1869 nr. 248 (dd. 20-9-1869)" ;
+    sdo:url "https://www.openarchieven.nl/frl:90a13b27-b196-245b-6d98-f7be2dd54dc2" .
+

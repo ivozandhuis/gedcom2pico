@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0623> a sdo:ArchiveComponent ;
+    sdo:name "BS Zwolle Ovl. Reg. 1929 nr. 150 (dd. 20-3-1929)" ;
+    sdo:url "https://www.openarchieven.nl/hco:4F4FFF5D-3988-4A8C-ABB7-D93EF667A6E3" .
+

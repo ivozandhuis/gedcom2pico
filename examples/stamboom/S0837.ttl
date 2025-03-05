@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0837> a sdo:ArchiveComponent ;
+    sdo:name "MR Lemsterland 1864 nr. 35" ;
+    sdo:url "https://allefriezen.nl/zoeken/deeds/2033ec24-c5ae-4811-b14f-808f76766a7c",
+        "https://www.openarchieven.nl/frl:2033ec24-c5ae-4811-b14f-808f76766a7c" .
+

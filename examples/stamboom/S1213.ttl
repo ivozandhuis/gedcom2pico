@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1213> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Ovl. Reg. 1877 nr. 323 (dd. 14-6-1877)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:6b171d79-4df3-dc71-8dc7-7e85a60ac59f" .
+

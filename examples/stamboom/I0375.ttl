@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0375> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1356> ] ;
+    sdo:birthDate "1864-04-09"^^xsd:date ;
+    sdo:birthPlace "Den Haag (Loosduinen)" ;
+    sdo:familyName "Vollebregt" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Nicolaas Johannes" ;
+    sdo:name "Nicolaas Johannes Vollebregt" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0378> .
+

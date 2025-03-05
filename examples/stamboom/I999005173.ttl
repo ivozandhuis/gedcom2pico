@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005173> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0593> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0574> ] ;
+    sdo:birthDate "1827-01-07"^^xsd:date ;
+    sdo:birthPlace "Almelo Ambt" ;
+    sdo:children <https://gen.example.com/stamboom/I999005171> ;
+    sdo:deathDate "1904-12-02"^^xsd:date ;
+    sdo:deathPlace "Almelo Ambt" ;
+    sdo:familyName "Leus" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Hendrika" ;
+    sdo:name "Hendrika Leus" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005172> .
+

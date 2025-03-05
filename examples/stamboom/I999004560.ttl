@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004560> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1129> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1148> ] ;
+    sdo:birthDate "1807-05-23"^^xsd:date ;
+    sdo:birthPlace "Roden (Ter Heijl)" ;
+    sdo:deathDate "1881-08-26"^^xsd:date ;
+    sdo:deathPlace "Hardenberg Stad" ;
+    sdo:familyName "van der Velde" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Harm Boukes" ;
+    sdo:hasOccupation "winkelier" ;
+    sdo:name "Harm Boukes van der Velde" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004561> .
+

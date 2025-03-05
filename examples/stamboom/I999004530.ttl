@@ -1,0 +1,19 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004530> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1772-03-29"^^xsd:date ;
+            bio:place "Olst" ] ;
+    sdo:deathDate "1822-09-28"^^xsd:date ;
+    sdo:deathPlace "Olst" ;
+    sdo:familyName "Willighagen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jannes Jans" ;
+    sdo:hasOccupation "klompenmaker",
+        "landbouwer" ;
+    sdo:name "Jannes Jans Willighagen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004531> .
+

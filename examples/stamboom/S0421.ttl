@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0421> a sdo:ArchiveComponent ;
+    sdo:name "BS Amsterdam Huw. Reg. 1921 reg. 2b nr. 21 (dd. 30-3-1921)" ;
+    sdo:url "https://www.openarchieven.nl/nha:B788FF64-16D8-4F85-8AF3-1D888021D0AB" .
+

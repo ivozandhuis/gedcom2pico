@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1320> a sdo:ArchiveComponent ;
+    sdo:name "BS 's Gravenzande Geb. Reg. 1820 nr. 16 (dd. 13-3-1820)" ;
+    sdo:url "https://www.openarchieven.nl/haw:6499a5ff-9037-4302-8eb1-d8728f4b8e58" .
+

@@ -1,0 +1,8 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0372> a sdo:ArchiveComponent ;
+    sdo:name "BS Heerewaarden Ovl. Reg. 1821 nr. 11 (dd. 13-12-1821)" ;
+    sdo:url "https://www.openarchieven.nl/gld:572C7A0E-1374-426C-B10F-D6379E7121EA",
+        "https://www.openarchieven.nl/rar:58A299A8-B73B-4509-858D-A3340E334FE6",
+        "https://www.openarchieven.nl/rar:ae751452-a290-763a-4a61-310d3c0dd519" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0480> a sdo:ArchiveComponent ;
+    sdo:name "BS Raalte Huw. Reg. 1922 nr. 10 (dd. 29-4-1922)" ;
+    sdo:url "https://www.openarchieven.nl/hco:0593CBA8-F63C-4A95-8822-B1D3218B219F" .
+

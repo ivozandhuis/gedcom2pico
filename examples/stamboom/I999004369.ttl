@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004369> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004355> ;
+    sdo:deathDate "1817-01-01"^^xsd:date ;
+    sdo:deathPlace "Wateringen" ;
+    sdo:familyName "van Hoek" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Johanna" ;
+    sdo:name "Johanna van Hoek" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004368> .
+

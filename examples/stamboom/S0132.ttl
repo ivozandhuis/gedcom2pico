@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0132> a sdo:ArchiveComponent ;
+    sdo:name "BS Olst Huw. Reg. 1825 nr. 1 (dd. 19-1-1825)" ;
+    sdo:url "https://www.openarchieven.nl/hco:A7E4FD70-4C7F-4A6D-BBF2-E44628E0C8E3" .
+

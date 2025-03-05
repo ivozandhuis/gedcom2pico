@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0475> a sdo:ArchiveComponent ;
+    sdo:name "BS Raalte Ovl. Reg. 1900 nr. 36 (dd. 3-5-1900)" ;
+    sdo:url "https://www.openarchieven.nl/hco:65DB26B7-CDB9-4FA1-83E5-C19F668A72CB" .
+

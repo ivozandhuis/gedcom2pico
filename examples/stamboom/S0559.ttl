@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0559> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Geb. Reg. 1895 nr. 50 (dd. 7-3-1895)" ;
+    sdo:url "https://www.openarchieven.nl/hco:D25C8E98-51A8-4299-8F74-BD9594648ABB" .
+

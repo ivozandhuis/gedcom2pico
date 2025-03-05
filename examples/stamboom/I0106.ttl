@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0106> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0571> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0588> ] ;
+    sdo:birthDate "1821-03-09"^^xsd:date ;
+    sdo:birthPlace "Almelo Ambt" ;
+    sdo:deathDate "1877-06-04"^^xsd:date ;
+    sdo:deathPlace "Almelo Stad" ;
+    sdo:familyName "Leus" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Albertus" ;
+    sdo:name "Albertus Leus" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0112>,
+        <https://gen.example.com/stamboom/I0118> .
+

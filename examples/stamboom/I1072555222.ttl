@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555222> a picom:PersonReconstruction ;
+    sdo:birthDate "1872-01-10"^^xsd:date ;
+    sdo:birthPlace "Lemmer" ;
+    sdo:deathDate "1878-12-25"^^xsd:date ;
+    sdo:deathPlace "Warga" ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Johannes" ;
+    sdo:name "Johannes Wagenmakers" .
+

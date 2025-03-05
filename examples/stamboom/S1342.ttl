@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1342> a sdo:ArchiveComponent ;
+    sdo:name "BS 's Hertogenbosch Ovl. Reg. 1874 nr. 460 (dd. 19-9-1874)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:e447bd6d-8615-cc9f-aa75-b9e83b382495" .
+

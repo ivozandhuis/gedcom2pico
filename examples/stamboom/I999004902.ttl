@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004902> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004904>,
+        <https://gen.example.com/stamboom/I999004907>,
+        <https://gen.example.com/stamboom/I999004909> ;
+    sdo:deathDate "1740-07-11"^^xsd:date ;
+    sdo:deathPlace "Gouda" ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Steven Huibertsz" ;
+    sdo:name "Steven Huibertsz van der Sloot" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004903> .
+

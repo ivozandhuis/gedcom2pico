@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0794> a sdo:ArchiveComponent ;
+    sdo:name "BS Wormerveer Ovl. Reg. 1904 nr. 2 (dd. 13-1-1904)" ;
+    sdo:url "https://www.openarchieven.nl/nha:BD44CA7B-0D1C-430B-897C-4E934A707A01" .
+

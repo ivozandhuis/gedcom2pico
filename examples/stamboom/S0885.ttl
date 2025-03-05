@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0885> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Ovl. Reg. 1814 nr. 1482 (dd. 2-4-1814)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:cccbb2a1-b746-a4d6-1edf-39a4ffceebc2" .
+

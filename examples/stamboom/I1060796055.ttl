@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1060796055> a picom:PersonReconstruction ;
+    sdo:birthPlace "Suameer" ;
+    sdo:children <https://gen.example.com/stamboom/I999004333> ;
+    sdo:familyName "Wolters" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Akke" ;
+    sdo:name "Akke Wolters" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060796052> .
+

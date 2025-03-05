@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1198> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Ovl. Reg. 1879 nr. 466 (dd. 18-7-1879)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:a871858f-2140-47e8-3a79-373318a93f7f" .
+

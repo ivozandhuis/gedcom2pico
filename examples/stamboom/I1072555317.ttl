@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555317> a picom:PersonReconstruction ;
+    sdo:birthDate "1677-09-21"^^xsd:date ;
+    sdo:birthPlace "Winschoten" ;
+    sdo:children <https://gen.example.com/stamboom/I999004338> ;
+    sdo:familyName "" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jan Willems" ;
+    sdo:name "Jan Willems " ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555318> .
+

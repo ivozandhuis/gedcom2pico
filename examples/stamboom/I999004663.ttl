@@ -1,0 +1,22 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004663> a picom:PersonReconstruction ;
+    bio:event [ a bio:Burial ;
+            bio:date "1726-03-22"^^xsd:date ;
+            bio:place "Oudewater" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0916> ],
+        [ a bio:Baptism ;
+            bio:date "1726-03-03"^^xsd:date ;
+            bio:place "Oudewater" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0915> ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0916> ] ;
+    sdo:familyName "Ockerse" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria" ;
+    sdo:name "Maria Ockerse" .
+

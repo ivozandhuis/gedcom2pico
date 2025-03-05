@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0439> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Geb. Reg. 1875 nr. 493 (dd. 14-6-1875)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:c1fd5874-7837-3ea0-4b36-2a33abbfda09" .
+

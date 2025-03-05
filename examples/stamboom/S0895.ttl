@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0895> a sdo:ArchiveComponent ;
+    sdo:name "BR  Haastrecht 1900-1922 dl. 4 fol. 125" ;
+    sdo:url "https://www.openarchieven.nl/smh:235bcb55-ffcc-2c8d-a719-47684dde46ce" .
+

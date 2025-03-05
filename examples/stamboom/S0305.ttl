@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0305> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1883 nr. 48 (dd. 12-1-1883)" ;
+    sdo:url "https://www.openarchieven.nl/elo:e7a4c207-6c18-ec9f-d2fb-f0e193151381" .
+

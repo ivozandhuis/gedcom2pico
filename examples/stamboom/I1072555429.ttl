@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1072555429> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1072555427> ;
+    sdo:familyName "van der Helm" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Harper Danielsz" ;
+    sdo:name "Harper Danielsz van der Helm" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555430> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0835> a sdo:ArchiveComponent ;
+    sdo:name "BS Alkmaar Huw. Reg. 1881 nr. 28 (dd. 8-5-1881)" ;
+    sdo:url "https://www.openarchieven.nl/nha:3F480BEB-314B-445F-B197-FA7DFAC9C622" .
+

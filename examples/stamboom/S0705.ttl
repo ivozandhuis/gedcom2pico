@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0705> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijlre Geb. Reg. 1838 nr. 6 (dd. 6-3-1838)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:ce65dc76-3747-a0b7-343c-d86e5e81f70f" .
+

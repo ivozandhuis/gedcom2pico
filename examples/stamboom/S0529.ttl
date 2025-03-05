@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0529> a sdo:ArchiveComponent ;
+    sdo:name "Nieuwsblad van het Noorden 23-01-1906" .
+

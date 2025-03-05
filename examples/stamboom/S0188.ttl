@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0188> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Ovl. Reg. 1920 nr. 55 (dd. 5-10-1920)" ;
+    sdo:url "https://www.openarchieven.nl/hco:85AA7B71-ABE2-42AF-A2F6-6B3D584E454A" .
+

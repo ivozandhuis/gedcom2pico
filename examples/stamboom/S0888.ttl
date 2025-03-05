@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0888> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Ovl. Reg. 1836 nr. 157 (dd. 26-3-1836)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:a64e5f40-7ca6-621d-a743-855e44a82afe" .
+

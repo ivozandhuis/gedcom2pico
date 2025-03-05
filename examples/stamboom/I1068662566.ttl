@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1068662566> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0416> ] ;
+    sdo:birthDate "1907-08-27"^^xsd:date ;
+    sdo:birthPlace "Lemmer" ;
+    sdo:familyName "Hateboer" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Harm" ;
+    sdo:name "Harm Hateboer" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0061> .
+

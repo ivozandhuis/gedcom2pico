@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1103> a sdo:ArchiveComponent ;
+    sdo:name "BS Leek Ovl. Reg. 1845 nr. 78 (dd. 17-12-1845)" ;
+    sdo:url "https://www.openarchieven.nl/gra:8e078d82-7928-a932-7c8b-0a563a865720" .
+

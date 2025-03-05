@@ -1,0 +1,30 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004253> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0597> ] ;
+    sdo:children <https://gen.example.com/stamboom/I1067174845>,
+        <https://gen.example.com/stamboom/I1067174847>,
+        <https://gen.example.com/stamboom/I1067174849>,
+        <https://gen.example.com/stamboom/I1067174851>,
+        <https://gen.example.com/stamboom/I1067174855>,
+        <https://gen.example.com/stamboom/I1067174856>,
+        <https://gen.example.com/stamboom/I1067174858>,
+        <https://gen.example.com/stamboom/I1067174860>,
+        <https://gen.example.com/stamboom/I999004237>,
+        <https://gen.example.com/stamboom/I999004529>,
+        <https://gen.example.com/stamboom/I999004530>,
+        <https://gen.example.com/stamboom/I999004532> ;
+    sdo:deathDate "1778"^^xsd:gYear ;
+    sdo:deathPlace "Olst (Hengforden)" ;
+    sdo:familyName "Zandhuis" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jan Lubberts" ;
+    sdo:hasOccupation "landbouwer" ;
+    sdo:name "Jan Lubberts Zandhuis" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1067174841>,
+        <https://gen.example.com/stamboom/I999004254> .
+

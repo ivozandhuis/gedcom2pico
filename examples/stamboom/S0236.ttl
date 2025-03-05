@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0236> a sdo:ArchiveComponent ;
+    sdo:name "BS Maasland Ovl. Reg. 1884 nr.  65 (dd. 17-11-1884)" ;
+    sdo:url "https://hdl.handle.net/21.12115/NL-DtAD132844684" .
+

@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0174> a picom:PersonReconstruction ;
+    sdo:familyName "Fisser" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Lena Agatha" ;
+    sdo:name "Lena Agatha Fisser" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0159> .
+

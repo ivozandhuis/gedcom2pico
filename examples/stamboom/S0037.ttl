@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0037> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Geb. Reg. 1858 nr. 78 (dd. 23-12-1858)" ;
+    sdo:url "https://www.openarchieven.nl/frl:ce47cbc7-1723-4cac-866d-325e9555be5c" .
+

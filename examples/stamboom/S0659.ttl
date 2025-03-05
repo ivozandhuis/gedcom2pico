@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0659> a sdo:ArchiveComponent ;
+    sdo:name "DTB Reeuwijk Doopboek inv.nr. 9 fol. 63" ;
+    sdo:url "https://www.openarchieven.nl/rel:296ff745-8c86-a9c7-5649-0b930fab2844" .
+

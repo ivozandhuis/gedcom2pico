@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004955> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004956>,
+        <https://gen.example.com/stamboom/I999004957>,
+        <https://gen.example.com/stamboom/I999004958>,
+        <https://gen.example.com/stamboom/I999004959>,
+        <https://gen.example.com/stamboom/I999004960> ;
+    sdo:familyName "Bosland" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria" ;
+    sdo:name "Maria Bosland" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004914> .
+

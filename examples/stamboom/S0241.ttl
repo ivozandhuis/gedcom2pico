@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0241> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Gravenzande Ovl. Reg. 1859 nr. 74 (dd.18-10-1859)" ;
+    sdo:url "https://www.openarchieven.nl/haw:338fb5c4-ae98-46c8-af55-0b942802da1b" .
+

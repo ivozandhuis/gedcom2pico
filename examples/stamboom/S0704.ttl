@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0704> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijlre Ovl. Reg. 1855 nr. 25 (dd. 15-11-1855)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:8c4565d3-7cc2-e312-0f06-4ff528bfd26c" .
+

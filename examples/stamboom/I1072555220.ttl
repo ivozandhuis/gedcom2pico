@@ -1,0 +1,13 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1072555220> a picom:PersonReconstruction ;
+    sdo:birthPlace "Barneveld" ;
+    sdo:deathPlace "Amersfoort" ;
+    sdo:familyName "Tabernal" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Willem Hendrik Frederik" ;
+    sdo:hasOccupation "smid" ;
+    sdo:name "Willem Hendrik Frederik Tabernal" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555189> .
+

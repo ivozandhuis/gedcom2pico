@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0489> a sdo:ArchiveComponent ;
+    sdo:name "BS Dalfsen Geb. Reg. 1833 nr. 104 (dd. 2-10-1833)" ;
+    sdo:url "https://www.openarchieven.nl/hco:F049EAAE-9DB6-4562-9959-8BE52C1809E2" .
+

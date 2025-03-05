@@ -1,0 +1,24 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004417> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0022> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0212> ] ;
+    sdo:birthDate "1837-04-17"^^xsd:date ;
+    sdo:birthPlace "Rotem" ;
+    sdo:children <https://gen.example.com/stamboom/I999004414>,
+        <https://gen.example.com/stamboom/I999004720>,
+        <https://gen.example.com/stamboom/I999004722> ;
+    sdo:deathDate "1907-06-05"^^xsd:date ;
+    sdo:deathPlace "Maastricht" ;
+    sdo:familyName "Severijns" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria Anna Elisabeth" ;
+    sdo:hasOccupation "kookvrouw" ;
+    sdo:name "Maria Anna Elisabeth Severijns" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004416> .
+

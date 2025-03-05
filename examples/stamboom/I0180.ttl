@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0180> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999005120> ;
+    sdo:familyName "Kleine Oosterbroek" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Willem" ;
+    sdo:name "Willem Kleine Oosterbroek" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0181> .
+

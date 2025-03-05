@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0487> a sdo:ArchiveComponent ;
+    sdo:name "BS Dalfsen Geb. Reg. 1829 nr. 17 (dd. 11-2-1829)" ;
+    sdo:url "https://www.openarchieven.nl/hco:E5F44CBC-947D-4553-A07C-CC0B8A2882C2" .
+

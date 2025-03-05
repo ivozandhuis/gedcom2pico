@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0301> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1841 nr. 348 (dd. 13-4-1841)" ;
+    sdo:url "https://www.openarchieven.nl/elo:c66a30ae-7556-bc59-82ce-c0cd2fb89509" .
+

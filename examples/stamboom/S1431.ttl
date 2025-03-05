@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1431> a sdo:ArchiveComponent ;
+    sdo:name "DTB Eersel RK Trouwboek fol. 12v" ;
+    sdo:url "https://www.openarchieven.nl/bhi:997cdf80-2439-b94f-6c7b-264441ade62f" .
+

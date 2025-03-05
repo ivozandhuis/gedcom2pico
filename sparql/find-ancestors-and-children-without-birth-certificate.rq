@@ -1,0 +1,33 @@
+# Find individuals without source for the birth date
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX pico: <https://personsincontext.org/model#>
+PREFIX sdo: <https://schema.org/>
+
+select distinct ?pr ?givenName ?name ?pr_birth_date	where {
+	?ancestor a pico:PersonReconstruction ;
+#    	sdo:children+ <https://gen.example.com/export/I999004468> . # Hendrikus Zandhuis
+#		sdo:children+ <https://gen.example.com/export/I999004470> . # Renske Wagenmakers
+#		sdo:children+ <https://gen.example.com/export/I999004471> . # Joannes Franciscus van der Sloot
+#		sdo:children+ <https://gen.example.com/export/I999004473> . # Maria Elisabeth Verheijde 
+#		sdo:children+ <https://gen.example.com/export/I999005441> . # Wilhelmus Jozephus Borgman
+#		sdo:children+ <https://gen.example.com/export/I999005410> . # Gerritdina Johanna Slag
+		sdo:children+ <https://gen.example.com/export/I999005082> . # Jacobus Wilhelmus Johannes Meijer
+#		sdo:children+ <https://gen.example.com/export/I999005085> . # Anna Maria Gordijn
+   
+        ?ancestor sdo:children ?pr .
+
+    ?pr a pico:PersonReconstruction ;
+		sdo:givenName ?givenName ;
+    	sdo:familyName ?name ;
+    	sdo:birthDate ?pr_birth_date .
+     
+    FILTER NOT EXISTS {
+	    ?pr prov:wasDerivedFrom ?bn_po .        
+    }
+
+    FILTER(?pr_birth_date > "1813-01-01"^^xsd:date)
+    FILTER(?pr_birth_date < "1913-01-01"^^xsd:date)
+} 

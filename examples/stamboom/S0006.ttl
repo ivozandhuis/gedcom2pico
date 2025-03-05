@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0006> a sdo:ArchiveComponent ;
+    sdo:name "BS Bodegraven Geb. Reg. 1836 nr. 72 (dd. 29-9-1836)" ;
+    sdo:url "https://www.openarchieven.nl/rel:204eb329-5f8e-7f6f-6641-d2d9ed0176cb" .
+

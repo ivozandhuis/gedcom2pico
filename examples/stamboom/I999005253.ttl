@@ -1,0 +1,22 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005253> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0270> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0222> ] ;
+    sdo:birthDate "1798-11-07"^^xsd:date ;
+    sdo:birthPlace "Wateringen" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555369>,
+        <https://gen.example.com/stamboom/I999005250> ;
+    sdo:deathDate "1833-11-23"^^xsd:date ;
+    sdo:deathPlace "Wateringen" ;
+    sdo:familyName "van Rijn" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Agatha" ;
+    sdo:name "Agatha van Rijn" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005252> .
+

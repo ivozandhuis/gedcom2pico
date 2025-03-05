@@ -1,0 +1,13 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005533> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999005529> ;
+    sdo:deathDate "1813-05-09"^^xsd:date ;
+    sdo:familyName "Harms (Seine)" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Janna" ;
+    sdo:name "Janna Harms (Seine)" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005532> .
+

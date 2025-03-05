@@ -1,0 +1,16 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0301> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1803-09-17"^^xsd:date ;
+            bio:place "'s-Hertogenbosch" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1217> ] ;
+    sdo:familyName "Sprangemeijer" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Carolina Jacoba" ;
+    sdo:name "Carolina Jacoba Sprangemeijer" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0810> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Huw. Reg. 1928 nr. 2 (dd. 26-1-1928)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:17bf8e4f-18fe-4371-a309-604a3cb2601d" .
+

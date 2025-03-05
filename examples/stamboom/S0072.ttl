@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0072> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1862 nr. 51 (dd. 13-01-1862)" ;
+    sdo:url "https://www.openarchieven.nl/elo:0c81de0b-62c3-d3b2-f2c9-4697593d0295" .
+

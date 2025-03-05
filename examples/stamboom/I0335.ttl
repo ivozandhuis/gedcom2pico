@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0335> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1311> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1288> ] ;
+    sdo:birthDate "1861-05-30"^^xsd:date ;
+    sdo:birthPlace "'s-Gravenzande" ;
+    sdo:deathDate "1917-07-30"^^xsd:date ;
+    sdo:deathPlace "Den Haag" ;
+    sdo:familyName "Westhoff" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Bernardus" ;
+    sdo:name "Bernardus Westhoff" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0347> .
+

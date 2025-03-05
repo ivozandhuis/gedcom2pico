@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0229> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Ovl. Reg. 1951 nr. 56 (dd. 31-10-1951)" ;
+    sdo:url "https://www.openarchieven.nl/frl:ca0e2bcb-4b06-da9f-71a9-5f97eadb3166" .
+

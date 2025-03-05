@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0313> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1233> ] ;
+    sdo:birthDate "1837"^^xsd:gYear ;
+    sdo:deathDate "1838-05-06"^^xsd:date ;
+    sdo:deathPlace "'s-Hertogenbosch" ;
+    sdo:familyName "Sprangemeijer" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Wilhelmina" ;
+    sdo:name "Wilhelmina Sprangemeijer" .
+

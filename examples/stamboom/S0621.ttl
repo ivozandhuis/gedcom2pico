@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0621> a sdo:ArchiveComponent ;
+    sdo:name "BS Zwolle Ovl. Reg. 1904 nr. 106 (dd. 7-3-1904)" ;
+    sdo:url "https://www.openarchieven.nl/hco:6A8FBCF6-BC3D-455E-930F-F78697AC0679" .
+

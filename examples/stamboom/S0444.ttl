@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0444> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Geb. Reg. 1860 nr. 434 (dd. 18-6-1860)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:18dd62d0-df2a-388f-8d8f-48e1d9aa3f67" .
+

@@ -1,0 +1,30 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555175> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0244> ] ;
+    sdo:birthPlace "'s-Gravenzande" ;
+    sdo:children <https://gen.example.com/stamboom/I0353>,
+        <https://gen.example.com/stamboom/I0354>,
+        <https://gen.example.com/stamboom/I0355>,
+        <https://gen.example.com/stamboom/I0356>,
+        <https://gen.example.com/stamboom/I0357>,
+        <https://gen.example.com/stamboom/I0358>,
+        <https://gen.example.com/stamboom/I0359>,
+        <https://gen.example.com/stamboom/I0360>,
+        <https://gen.example.com/stamboom/I0361>,
+        <https://gen.example.com/stamboom/I0364>,
+        <https://gen.example.com/stamboom/I0365>,
+        <https://gen.example.com/stamboom/I999005262> ;
+    sdo:deathDate "1867-12-20"^^xsd:date ;
+    sdo:deathPlace "'s-Gravenzande" ;
+    sdo:familyName "van den Ende" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Cornelia" ;
+    sdo:hasOccupation "dienstbode" ;
+    sdo:name "Cornelia van den Ende" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555174> .
+

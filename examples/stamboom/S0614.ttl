@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0614> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Geb. Reg. 1839 nr. 73 (dd. 30-8-1839)" ;
+    sdo:url "https://www.openarchieven.nl/hco:DF2DBC0D-97F1-4459-BC4C-7F235F9C02D3" .
+

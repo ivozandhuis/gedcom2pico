@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005014> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999005015>,
+        <https://gen.example.com/stamboom/I999005016>,
+        <https://gen.example.com/stamboom/I999005017>,
+        <https://gen.example.com/stamboom/I999005018>,
+        <https://gen.example.com/stamboom/I999005019>,
+        <https://gen.example.com/stamboom/I999005020> ;
+    sdo:deathDate "1761-06-16"^^xsd:date ;
+    sdo:deathPlace "Gouda" ;
+    sdo:familyName "Willebeek" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria" ;
+    sdo:name "Maria Willebeek" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004919> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1118> a sdo:ArchiveComponent ;
+    sdo:name "BS Groningen Ovl. Reg. 1880 nr. 760 (dd. 4-8-1880)" ;
+    sdo:url "https://www.openarchieven.nl/gra:378a2a18-4baf-07af-ded6-7527cb5a04d2" .
+

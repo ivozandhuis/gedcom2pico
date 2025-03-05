@@ -1,0 +1,21 @@
+# Find individuals without source for the birth date
+
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX pico: <https://personsincontext.org/model#>
+PREFIX sdo: <https://schema.org/>
+
+select ?pr ?givenName ?name ?pr_birth_date	where {
+	?pr a pico:PersonReconstruction ;
+		sdo:givenName ?givenName ;
+    	sdo:familyName ?name ;
+		sdo:birthDate ?pr_birth_date .
+    
+    FILTER NOT EXISTS {
+	    ?pr prov:wasDerivedFrom ?bn_po .        
+    }
+
+    FILTER(?pr_birth_date > "1813-01-01"^^xsd:date)
+    FILTER(?pr_birth_date < "1913-01-01"^^xsd:date)
+} 

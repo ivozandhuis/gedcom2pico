@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0408> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Ovl. Reg. 1895 nr. 90 (dd. 13-11-1895)" ;
+    sdo:url "https://www.openarchieven.nl/frl:2cf80b66-155e-593a-de31-65ee3923cf38" .
+

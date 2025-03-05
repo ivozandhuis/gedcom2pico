@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004599> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1010> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0999> ] ;
+    sdo:birthDate "1868-08-17"^^xsd:date ;
+    sdo:birthPlace "Alphen aan den Rijn" ;
+    sdo:deathDate "1898-08-25"^^xsd:date ;
+    sdo:deathPlace "Alphen aan den Rijn" ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Helena Johanna" ;
+    sdo:name "Helena Johanna van der Sloot" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1049630711> .
+

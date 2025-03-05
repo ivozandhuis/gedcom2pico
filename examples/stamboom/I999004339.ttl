@@ -1,0 +1,17 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004339> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1697-07-11"^^xsd:date ;
+            bio:place "Kommerzijl" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004335> ;
+    sdo:familyName "Hendriks" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Liefke" ;
+    sdo:name "Liefke Hendriks" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004338>,
+        <https://gen.example.com/stamboom/I999004587> .
+

@@ -1,0 +1,22 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1060770148> a picom:PersonReconstruction ;
+    bio:event [ a bio:Burial ;
+            bio:date "1638-04-14"^^xsd:date ;
+            bio:place "Delft" ] ;
+    sdo:birthDate "1589"^^xsd:gYear ;
+    sdo:birthPlace "Rijswijk" ;
+    sdo:children <https://gen.example.com/stamboom/I1060770129> ;
+    sdo:deathDate "1638-04-10"^^xsd:date ;
+    sdo:deathPlace "Hof van Delft" ;
+    sdo:familyName "Gardijn" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Adriaen Lenerts" ;
+    sdo:hasOccupation "bouwman",
+        "waard" ;
+    sdo:name "Adriaen Lenerts Gardijn" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060770150> .
+

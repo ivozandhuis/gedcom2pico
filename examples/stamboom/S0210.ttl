@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0210> a sdo:ArchiveComponent ;
+    sdo:name "BS Olst Ovl. Reg. 1890 nr. 16 (dd. 14-2-1890)" ;
+    sdo:url "https://www.openarchieven.nl/hco:03382B09-B5B8-46E1-8772-5A64DE903353" .
+

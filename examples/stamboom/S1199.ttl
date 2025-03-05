@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1199> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1882 nr. 90 (dd. 1-2-1882)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:71b86953-986d-5ad5-ac96-90875242d587" .
+

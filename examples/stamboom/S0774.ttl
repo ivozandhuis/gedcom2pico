@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0774> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Ovl. Reg. 1871 fol. 13 (dd. 26-4-1871)" ;
+    sdo:url "https://www.openarchieven.nl/frl:a1990cab-ae84-8d4c-a2b1-b6bd8ee57579" .
+

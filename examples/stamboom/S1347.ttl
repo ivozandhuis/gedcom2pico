@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1347> a sdo:ArchiveComponent ;
+    sdo:name "BS Kampen Geb. Reg. 1894 nr. 344" ;
+    sdo:url "https://www.openarchieven.nl/hco:4C5179E1-451F-4B42-AED7-CC2453F81B09" .
+

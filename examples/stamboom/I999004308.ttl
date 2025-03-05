@@ -1,0 +1,23 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004308> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1104> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1100> ] ;
+    sdo:birthDate "1813-06-06"^^xsd:date ;
+    sdo:birthPlace "Roden (Ter Heijl)" ;
+    sdo:children <https://gen.example.com/stamboom/I999004293>,
+        <https://gen.example.com/stamboom/I999004559> ;
+    sdo:deathDate "1846-01-19"^^xsd:date ;
+    sdo:deathPlace "Leek" ;
+    sdo:familyName "van der Velde" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Albert Boukes" ;
+    sdo:hasOccupation "arbeider" ;
+    sdo:name "Albert Boukes van der Velde" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004309> .
+

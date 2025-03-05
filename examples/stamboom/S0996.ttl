@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0996> a sdo:ArchiveComponent ;
+    sdo:name "BS Alphen Geb. Reg. 1863 nr. 94 (dd. 4-8-1863)" ;
+    sdo:url "https://proxy.archieven.nl/105/FB42342A66324464952E96A7FCDFAA64" .
+

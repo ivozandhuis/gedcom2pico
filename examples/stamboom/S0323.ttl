@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0323> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1827 nr. 241 (dd. 20-03-1827)" ;
+    sdo:url "https://www.openarchieven.nl/elo:02571a81-1beb-6d60-60c9-33df57003640" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0562> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Stad Geb. Reg. 1879 nr. 78 (dd. 11-6-1879)" ;
+    sdo:url "https://www.openarchieven.nl/hco:1351EA89-8D22-4F71-9A0C-B901FCE36D7C" .
+

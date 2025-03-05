@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1142> a sdo:ArchiveComponent ;
+    sdo:name "BS Marum Huw. Reg. 1844 nr. 15 (dd. 24-10-1844)" ;
+    sdo:url "https://www.openarchieven.nl/gra:a81c5aea-acb8-28b5-db28-cf7c4026ef45" .
+

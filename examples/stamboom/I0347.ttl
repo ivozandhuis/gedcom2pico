@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0347> a picom:PersonReconstruction ;
+    sdo:familyName "Storm" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Geertruida Clasina" ;
+    sdo:name "Geertruida Clasina Storm" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0335> .
+

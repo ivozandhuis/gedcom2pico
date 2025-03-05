@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0484> a sdo:ArchiveComponent ;
+    sdo:name "BS Dalfsen Ovl. Reg. 1866 nr. 23 (dd. 5-4-1866)" ;
+    sdo:url "https://www.openarchieven.nl/hco:0CB86FAB-A636-436A-A5D5-F21346F62F64" .
+

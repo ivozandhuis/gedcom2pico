@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0874> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Geb. Reg. 1868 nr. 540 (dd. 4-7-1868)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:df470a91-60a9-acd7-f410-bf245f90e5f5" .
+

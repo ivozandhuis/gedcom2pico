@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0595> a sdo:ArchiveComponent ;
+    sdo:name "BS Amsterdam Huw. Reg. 1907 reg. 5 fol. 30" ;
+    sdo:url "https://www.openarchieven.nl/nha:E21D77C5-5BE7-4D01-AA5E-50D767D67104" .
+

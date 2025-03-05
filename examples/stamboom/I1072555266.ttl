@@ -1,0 +1,13 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555266> a picom:PersonReconstruction ;
+    sdo:birthDate "1854-10-11"^^xsd:date ;
+    sdo:birthPlace "Mijdrecht" ;
+    sdo:familyName "Sluis" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Cornelis" ;
+    sdo:name "Cornelis Sluis" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004614> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0901> a sdo:ArchiveComponent ;
+    sdo:name "BS Oude Pekela Huw. Reg. 1871 nr. 4 (dd. 24-1-1871)" ;
+    sdo:url "https://www.openarchieven.nl/gra:aba5bf45-a3db-91c9-5911-101b2818babb" .
+

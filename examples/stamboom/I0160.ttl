@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0160> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0727> ] ;
+    sdo:birthDate "1803-03-24"^^xsd:date ;
+    sdo:birthPlace "Roeselare (B)" ;
+    sdo:children <https://gen.example.com/stamboom/I0161>,
+        <https://gen.example.com/stamboom/I0162> ;
+    sdo:deathDate "1832-09-09"^^xsd:date ;
+    sdo:deathPlace "Leiden" ;
+    sdo:familyName "Boucquaert" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Desiré Edmond" ;
+    sdo:name "Desiré Edmond Boucquaert" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005221> .
+

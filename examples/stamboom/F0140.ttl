@@ -1,0 +1,9 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/F0140> a bio:Marriage ;
+    bio:date "1684-06-11"^^xsd:date ;
+    bio:partner <https://gen.example.com/stamboom/I999004458>,
+        <https://gen.example.com/stamboom/I999004459> ;
+    bio:place "Berg en Terblijt" .
+

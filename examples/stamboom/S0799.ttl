@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0799> a sdo:ArchiveComponent ;
+    sdo:name "BS Sloten Ovl. Reg. 1896 nr. 47 (dd. 13-5-1896)" ;
+    sdo:url "https://www.openarchieven.nl/nha:93F9B0D4-915A-4B88-879C-502C1EA36387" .
+

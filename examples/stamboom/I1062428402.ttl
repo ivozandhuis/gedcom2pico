@@ -1,0 +1,24 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1062428402> a picom:PersonReconstruction ;
+    sdo:birthDate "1873-05-01"^^xsd:date ;
+    sdo:birthPlace "Overschie" ;
+    sdo:children <https://gen.example.com/stamboom/I0395>,
+        <https://gen.example.com/stamboom/I0396>,
+        <https://gen.example.com/stamboom/I0397>,
+        <https://gen.example.com/stamboom/I0398>,
+        <https://gen.example.com/stamboom/I0399>,
+        <https://gen.example.com/stamboom/I0401>,
+        <https://gen.example.com/stamboom/I0402>,
+        <https://gen.example.com/stamboom/I0403>,
+        <https://gen.example.com/stamboom/I0404> ;
+    sdo:deathDate "1944-04-02"^^xsd:date ;
+    sdo:deathPlace "Hazerswoude" ;
+    sdo:familyName "van Rijn" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria Johanna Margaretha" ;
+    sdo:name "Maria Johanna Margaretha van Rijn" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005256> .
+

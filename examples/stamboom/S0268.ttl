@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0268> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Ovl. Reg. 1877 nr. 62 (dd. 2-5-1877)" ;
+    sdo:url "https://www.openarchieven.nl/hco:3C9881B2-6840-434C-AF65-5D08B501C28A" .
+

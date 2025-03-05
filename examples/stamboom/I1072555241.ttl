@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555241> a picom:PersonReconstruction ;
+    sdo:birthDate "1887-07-31"^^xsd:date ;
+    sdo:birthPlace "Balk" ;
+    sdo:deathDate "1938-03-24"^^xsd:date ;
+    sdo:deathPlace "Amsterdam" ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Renske" ;
+    sdo:name "Renske Wagenmakers" .
+

@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005512> a picom:PersonReconstruction ;
+    sdo:birthDate "1873"^^xsd:gYear ;
+    sdo:birthPlace "Heerde" ;
+    sdo:familyName "Haverkamp" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Christina" ;
+    sdo:name "Christina Haverkamp" .
+

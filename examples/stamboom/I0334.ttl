@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0334> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1289> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1287> ] ;
+    sdo:birthDate "1860-05-21"^^xsd:date ;
+    sdo:birthPlace "'s-Gravenzande" ;
+    sdo:deathDate "1861-11-05"^^xsd:date ;
+    sdo:deathPlace "'s-Gravenzande" ;
+    sdo:familyName "Westhoff" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Johanna Cornelia" ;
+    sdo:name "Johanna Cornelia Westhoff" .
+

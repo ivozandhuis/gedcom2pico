@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0935> a sdo:ArchiveComponent ;
+    sdo:name "CAO Persoonskaart LAMBRICKS, Anna Maria (1866-1951)" .
+

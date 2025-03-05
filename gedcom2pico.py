@@ -58,7 +58,7 @@ def get_ISOyear(gedcom_date: str):
 
 
 # Initialize file handling
-name = 'export'
+name = 'stamboom'
 file_path = 'examples/' + name + '.ged'
 dir = 'examples/' + name + '/'
 try: os.makedirs(dir)
@@ -95,7 +95,7 @@ for element in root_child_elements:
 
     # Create a Graph
     g = Graph()
-    g.bind("pico", PICO)
+    g.bind("picom", PICO)
     g.bind("sdo", SDO)
     g.bind("prov", PROV)
     g.bind("bio", BIO)
@@ -114,6 +114,12 @@ for element in root_child_elements:
         # sdo:name
         (first, last) = element.get_name()
         g.add((subject, SDO.name, Literal(first + " " + last)))
+
+        # sdo:familyName
+        g.add((subject, SDO.familyName, Literal(last)))
+
+        # sdo:givenName
+        g.add((subject, SDO.givenName, Literal(first)))
 
         # sdo:birthDate
         birth_date = element.get_birth_date()
@@ -139,30 +145,62 @@ for element in root_child_elements:
         if death_place != "":
             g.add((subject, SDO.deathPlace, Literal(death_place)))
 
-        # read baptism date as sdo:birthDate and burial as sdo:deathDate
+        # bio:Baptism / bio:Burial / sdo:hasOccupation
         for child_element in child_elements:
             tag = child_element.get_tag()
+
             if tag == "BAPM":
+                blank_node = BNode()
+                g.add((subject, BIO.event, blank_node))
+
+                # rdf:type
+                g.add((blank_node, RDF.type, BIO.Baptism))
                 grandchild_elements = child_element.get_child_elements()
                 for grandchild_element in grandchild_elements:
                     tag = grandchild_element.get_tag()
 
                     if tag == "DATE":
-                        # sdo:birthDate (only take the year from the baptism as birthdate)
-                        ISOyear = get_ISOyear(grandchild_element.get_value())
-                        if len(ISOyear[0]) > 0:
-                            g.add((subject, SDO.birthDate, Literal(ISOyear[0], datatype = ISOyear[1])))
+                        # bio:date
+                        ISOdate = get_ISOdate(grandchild_element.get_value())
+                        if len(ISOdate[0]) > 0:
+                            g.add((blank_node, BIO.date, Literal(ISOdate[0], datatype = ISOdate[1])))
+
+                    if tag == "PLAC":
+                        # bio:place
+                        g.add((blank_node, BIO.place, Literal(grandchild_element.get_value())))
+
+                    if tag == "SOUR":
+                        # prov:hadPrimarySource
+                        src = grandchild_element.get_value()[1:-1]
+                        g.add((blank_node, PROV.hadPrimarySource, URIRef(baseUri + src)))
 
             if tag == "BURI":
+                blank_node = BNode()
+                g.add((subject, BIO.event, blank_node))
+
+                # rdf:type
+                g.add((blank_node, RDF.type, BIO.Burial))
+
                 grandchild_elements = child_element.get_child_elements()
                 for grandchild_element in grandchild_elements:
                     tag = grandchild_element.get_tag()
-
                     if tag == "DATE":
-                        # sdo:deathDate (only take the year from the burial as deathdate)
-                        ISOyear = get_ISOyear(grandchild_element.get_value())
-                        if len(ISOyear[0]) > 0:
-                            g.add((subject, SDO.deathDate, Literal(ISOyear[0], datatype = ISOyear[1])))
+                        # bio:date
+                        ISOdate = get_ISOdate(grandchild_element.get_value())
+                        if len(ISOdate[0]) > 0:
+                            g.add((blank_node, BIO.date, Literal(ISOdate[0], datatype = ISOdate[1])))
+
+                    if tag == "PLAC":
+                        # bio:place
+                        g.add((blank_node, BIO.place, Literal(grandchild_element.get_value())))
+
+                    if tag == "SOUR":
+                        # prov:hadPrimarySource
+                        src = grandchild_element.get_value()[1:-1]
+                        g.add((blank_node, PROV.hadPrimarySource, URIRef(baseUri + src)))
+
+            if tag == "OCCU":
+                g.add((subject, SDO.hasOccupation, Literal(child_element.get_value())))
 
         # prov:wasDerivedFrom
         list = element.get_sources_by_tag_and_values(tag = gedcom.tags.GEDCOM_TAG_BIRTH)
@@ -263,6 +301,11 @@ for element in root_child_elements:
                     if tag == "PLAC":
                         # bio:place
                         g.add((subject, BIO.place, Literal(grandchild_element.get_value())))
+
+                    if tag == "SOUR":
+                        # prov:hadPrimarySource
+                        src = grandchild_element.get_value()[1:-1]
+                        g.add((subject, PROV.hadPrimarySource, URIRef(baseUri + src)))
 
     else:
         pass

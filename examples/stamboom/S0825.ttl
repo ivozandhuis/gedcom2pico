@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0825> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1865 nr. 275 (dd. 24-2-1865)" ;
+    sdo:url "https://www.openarchieven.nl/elo:bf312fed-d0c0-f4bc-4836-dbb42c8028a1" .
+

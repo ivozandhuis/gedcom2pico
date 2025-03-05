@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0823> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1861 nr. 131 (30-1-1861)" ;
+    sdo:url "https://www.openarchieven.nl/elo:859bc91e-d386-4ead-1ba2-8e5ee7aadb66" .
+

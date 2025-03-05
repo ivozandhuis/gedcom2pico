@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1195> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1878 nr. 305 (dd. 6-5-1878)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:278af08c-f55a-a644-2dca-411e6c688a3f" .
+

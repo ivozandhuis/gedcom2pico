@@ -1,0 +1,18 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004606> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0437> ] ;
+    sdo:children <https://gen.example.com/stamboom/I0065>,
+        <https://gen.example.com/stamboom/I1072555268> ;
+    sdo:deathDate "1891-07-26"^^xsd:date ;
+    sdo:deathPlace "Boskoop" ;
+    sdo:familyName "Span" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Anna" ;
+    sdo:name "Anna Span" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004347> .
+

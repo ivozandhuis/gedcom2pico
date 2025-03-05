@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1060770095> a picom:PersonReconstruction ;
+    sdo:birthDate "1700"^^xsd:gYear ;
+    sdo:birthPlace "Pijnacker" ;
+    sdo:children <https://gen.example.com/stamboom/I1060770045>,
+        <https://gen.example.com/stamboom/I1072555131>,
+        <https://gen.example.com/stamboom/I1072555133>,
+        <https://gen.example.com/stamboom/I1072555135> ;
+    sdo:deathDate "1766-01-01"^^xsd:date ;
+    sdo:deathPlace "Rijswijk" ;
+    sdo:familyName "Braack" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Annetje Jans" ;
+    sdo:name "Annetje Jans Braack" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060770092> .
+

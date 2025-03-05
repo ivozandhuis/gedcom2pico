@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1270> a sdo:ArchiveComponent ;
+    sdo:name "BS Oude Tonge Huw. Reg. 1824 nr. 27 (dd. 22-10-1824)" ;
+    sdo:url "https://www.openarchieven.nl/sgo:8ACB4B0C-C3F5-4A4A-A043-A374E94D5844" .
+

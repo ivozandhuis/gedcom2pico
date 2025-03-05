@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0552> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1921 nr. 947 (dd. 4-12-1921)" ;
+    sdo:url "https://www.openarchieven.nl/elo:2e1a3227-0046-ca2d-69cd-97599d28c10e" .
+

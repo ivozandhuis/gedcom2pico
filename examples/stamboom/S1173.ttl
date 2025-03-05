@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1173> a sdo:ArchiveComponent ;
+    sdo:name "BS Zwolle Huw. Reg. 1925 nr. 69" ;
+    sdo:url "https://www.openarchieven.nl/hco:1B30D81E-C646-4904-ABFC-0F7B06C68CC9" .
+

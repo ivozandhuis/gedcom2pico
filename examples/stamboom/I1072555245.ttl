@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555245> a picom:PersonReconstruction ;
+    sdo:birthDate "1895-07-18"^^xsd:date ;
+    sdo:birthPlace "Balk" ;
+    sdo:deathDate "1984-03-17"^^xsd:date ;
+    sdo:deathPlace "Balk" ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jan" ;
+    sdo:name "Jan Wagenmakers" .
+

@@ -1,0 +1,24 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004230> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0012> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0201> ] ;
+    sdo:birthDate "1815-05-18"^^xsd:date ;
+    sdo:birthPlace "Heerde (Hoorn)" ;
+    sdo:children <https://gen.example.com/stamboom/I999004225>,
+        <https://gen.example.com/stamboom/I999004351>,
+        <https://gen.example.com/stamboom/I999004502>,
+        <https://gen.example.com/stamboom/I999004503> ;
+    sdo:deathDate "1856-02-16"^^xsd:date ;
+    sdo:deathPlace "Epe" ;
+    sdo:familyName "van Lohuizen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Stina" ;
+    sdo:name "Stina van Lohuizen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004229> .
+

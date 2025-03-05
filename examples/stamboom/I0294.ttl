@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0294> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1208> ] ;
+    sdo:birthDate "1813-12-24"^^xsd:date ;
+    sdo:birthPlace "'s-Hertogenbosch" ;
+    sdo:familyName "Sprangemeijer" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Pierre Antoine" ;
+    sdo:name "Pierre Antoine Sprangemeijer" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0298>,
+        <https://gen.example.com/stamboom/I0299> .
+

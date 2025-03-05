@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0108> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0587> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0573> ] ;
+    sdo:birthDate "1824-11-24"^^xsd:date ;
+    sdo:birthPlace "Almelo Ambt" ;
+    sdo:deathDate "1866-10-11"^^xsd:date ;
+    sdo:deathPlace "Almelo Ambt" ;
+    sdo:familyName "Leus" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Gerardus Bernardus" ;
+    sdo:name "Gerardus Bernardus Leus" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0114> .
+

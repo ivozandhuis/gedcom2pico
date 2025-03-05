@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004926> a picom:PersonReconstruction ;
+    sdo:familyName "van Donswijk" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Hendrikje Albertse" ;
+    sdo:name "Hendrikje Albertse van Donswijk" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004925> .
+

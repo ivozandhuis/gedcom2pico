@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0273> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1167> ] ;
+    sdo:birthDate "1903-02-23"^^xsd:date ;
+    sdo:birthPlace "Monster" ;
+    sdo:familyName "Meijer" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Elisabeth Cornelia" ;
+    sdo:name "Elisabeth Cornelia Meijer" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0278> .
+

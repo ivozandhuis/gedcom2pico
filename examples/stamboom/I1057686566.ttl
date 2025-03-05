@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1057686566> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0626> ] ;
+    sdo:deathDate "1969-12-22"^^xsd:date ;
+    sdo:deathPlace "Den Haag" ;
+    sdo:familyName "Zuiderwijk" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Cornelia Adriana" ;
+    sdo:name "Cornelia Adriana Zuiderwijk" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1057667968> .
+

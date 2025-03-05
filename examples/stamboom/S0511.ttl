@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0511> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Gravenzande Huw. Reg. 1891 nr. 4 (dd. 10-4-1891)" ;
+    sdo:url "https://www.openarchieven.nl/haw:a0c32879-ef78-4fe4-9ece-024695299882" .
+

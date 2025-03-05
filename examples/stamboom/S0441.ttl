@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0441> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Huw. Reg. 1898 nr. 174 (dd. 26-10-1898)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:06829e46-ada0-0274-52d9-eb1c7f333291" .
+

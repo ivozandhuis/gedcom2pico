@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0114> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Huw. Reg. 1877 nr. 11 (dd. 15-9-1877)" ;
+    sdo:url "https://www.openarchieven.nl/hco:5B2912E9-2F34-47ED-BC04-9CC48652DD82" .
+

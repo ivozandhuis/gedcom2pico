@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0748> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1893 nr. 127 (dd. 11-2-1893)" ;
+    sdo:url "https://www.openarchieven.nl/elo:f02a1e97-d919-9d51-d6d2-5efc98977e8e" .
+

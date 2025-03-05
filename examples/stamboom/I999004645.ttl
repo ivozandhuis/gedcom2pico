@@ -1,0 +1,21 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004645> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1782-09-07"^^xsd:date ;
+            bio:place "Wouw" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1251> ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1264> ] ;
+    sdo:deathDate "1838-03-06"^^xsd:date ;
+    sdo:deathPlace "Wouw" ;
+    sdo:familyName "Binken" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Petrus" ;
+    sdo:name "Petrus Binken" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0327> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0951> a sdo:ArchiveComponent ;
+    sdo:name "BS Utrecht Ovl. Reg. 1956 nr. 2644 (dd. 29-12-1956)" ;
+    sdo:url "https://www.openarchieven.nl/hua:41F4BDF9-A526-4A4A-88A9-3AE254C6EAEA" .
+

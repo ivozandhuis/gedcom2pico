@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0178> a sdo:ArchiveComponent ;
+    sdo:name "BS Schipluiden Huw. Reg. 1856 nr. 5 (dd. 18-4-1856)" ;
+    sdo:url "https://hdl.handle.net/21.12115/NL-DtAD132644522" .
+

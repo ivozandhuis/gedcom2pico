@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1072555324> a picom:PersonReconstruction ;
+    sdo:familyName "Roons" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Gerrit Evert" ;
+    sdo:name "Gerrit Evert Roons" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555322> .
+

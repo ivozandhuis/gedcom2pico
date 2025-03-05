@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004412> a picom:PersonReconstruction ;
+    sdo:birthPlace "Reeuwijk" ;
+    sdo:children <https://gen.example.com/stamboom/I999004408> ;
+    sdo:familyName "Sloot" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Boudewijn Huijbertsz" ;
+    sdo:name "Boudewijn Huijbertsz Sloot" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004413> .
+

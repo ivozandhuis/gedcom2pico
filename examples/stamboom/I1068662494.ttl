@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1068662494> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0557> ] ;
+    sdo:birthDate "1919-05-20"^^xsd:date ;
+    sdo:birthPlace "Almelo" ;
+    sdo:deathDate "1919-10-19"^^xsd:date ;
+    sdo:deathPlace "Almelo" ;
+    sdo:familyName "Slag" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Gerhardus Frederikus Maria" ;
+    sdo:name "Gerhardus Frederikus Maria Slag" .
+

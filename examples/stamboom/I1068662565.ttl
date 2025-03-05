@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1068662565> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0415> ] ;
+    sdo:birthDate "1905-04-10"^^xsd:date ;
+    sdo:birthPlace "Lemmer" ;
+    sdo:familyName "Hateboer" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Trijntje" ;
+    sdo:name "Trijntje Hateboer" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0062> .
+

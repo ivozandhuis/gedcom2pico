@@ -1,0 +1,26 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004395> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1710-06-26"^^xsd:date ;
+            bio:place "Rotterdam" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0639> ],
+        [ a bio:Burial ;
+            bio:date "1777-03-28"^^xsd:date ;
+            bio:place "Rotterdam" ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0638> ] ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0638> ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004370>,
+        <https://gen.example.com/stamboom/I999004661>,
+        <https://gen.example.com/stamboom/I999004662> ;
+    sdo:familyName "Zijdenbosch" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Grietje" ;
+    sdo:name "Grietje Zijdenbosch" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004394> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0781> a sdo:ArchiveComponent ;
+    sdo:name "BS Baarderadeel Ovl. Reg. 1929 nr. 48 (dd. 19-8-1929)" ;
+    sdo:url "https://www.openarchieven.nl/frl:a1849155-4917-bfbe-e3d4-7b1b8ef0ccd8" .
+

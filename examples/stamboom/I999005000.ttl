@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005000> a picom:PersonReconstruction ;
+    sdo:deathDate "1839-04-12"^^xsd:date ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Diderica" ;
+    sdo:name "Diderica van der Sloot" .
+

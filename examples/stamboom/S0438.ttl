@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0438> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Geb. Reg. 1874 nr. 333 (dd. 20-4-1874)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:d25b9d17-0cae-d08e-548d-f30d4cf15d0e" .
+

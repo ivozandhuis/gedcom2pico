@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1304> a sdo:ArchiveComponent ;
+    sdo:name "BS 's Gravenzande Geb. Reg. 1879 nr. 76 (dd. 18-4-1879)" ;
+    sdo:url "https://www.openarchieven.nl/haw:806e60db-b991-42bd-9870-75b36cd138bb" .
+

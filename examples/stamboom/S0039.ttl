@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0039> a sdo:ArchiveComponent ;
+    sdo:name "BS Oude Pekela Geb. Reg. 1871 nr. 122 (dd. 10-10-1871)" ;
+    sdo:url "https://www.openarchieven.nl/gra:51ff7b10-3cb4-001c-a985-e29653be6ce3" .
+

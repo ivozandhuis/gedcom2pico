@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0135> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0652> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0653> ] ;
+    sdo:birthDate "1799-06-25"^^xsd:date ;
+    sdo:birthPlace "Leer (Ostfriesland, D)" ;
+    sdo:deathDate "1835-03-09"^^xsd:date ;
+    sdo:deathPlace "Oude Pekela" ;
+    sdo:familyName "Eisernach" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Trientje" ;
+    sdo:name "Trientje Eisernach" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0136> .
+

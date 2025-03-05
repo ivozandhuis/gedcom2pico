@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1009> a sdo:ArchiveComponent ;
+    sdo:name "BS Alphen Huw. Reg. 1894 nr. 20 (dd. 9-8-1894)" ;
+    sdo:url "https://proxy.archieven.nl/105/CAFCBA69F9C84B59A0D3CF351BF27670" .
+

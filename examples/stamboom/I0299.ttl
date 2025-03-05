@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0299> a picom:PersonReconstruction ;
+    sdo:familyName "Schilthuijsen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Allegonda Maria Anna" ;
+    sdo:name "Allegonda Maria Anna Schilthuijsen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0294> .
+

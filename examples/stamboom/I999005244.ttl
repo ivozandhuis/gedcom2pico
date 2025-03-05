@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005244> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999005101> ;
+    sdo:deathDate "1784-07-30"^^xsd:date ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "Jansen Schrijver" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Zwane" ;
+    sdo:name "Zwane Jansen Schrijver" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005243> .
+

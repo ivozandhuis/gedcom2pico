@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0420> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Huw. Reg. 1920 nr. 39 (dd. 3-6-1920)" ;
+    sdo:url "https://www.openarchieven.nl/frl:093f8868-4592-2aff-9b78-6300e67f5e14" .
+

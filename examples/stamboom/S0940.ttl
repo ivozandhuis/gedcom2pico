@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0940> a sdo:ArchiveComponent ;
+    sdo:name "CAO Persoonskaart HARINGSMA, Geeske (1869-1944)" .
+

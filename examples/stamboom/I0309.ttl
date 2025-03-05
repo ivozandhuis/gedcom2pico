@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0309> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1238> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1226> ] ;
+    sdo:birthDate "1832-06-10"^^xsd:date ;
+    sdo:birthPlace "'s-Hertogenbosch" ;
+    sdo:deathDate "1866-07-13"^^xsd:date ;
+    sdo:deathPlace "'s-Hertogenbosch" ;
+    sdo:familyName "Sprangemeijer" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Petrus Jacobus Wilhelmus" ;
+    sdo:name "Petrus Jacobus Wilhelmus Sprangemeijer" .
+

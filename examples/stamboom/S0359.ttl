@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0359> a sdo:ArchiveComponent ;
+    sdo:name "BS Raalte Ovl. Reg. 1896 nr. 119 (dd. 04-12-1896)" ;
+    sdo:url "https://www.openarchieven.nl/hco:AFAFB2C8-18BD-4B56-B6CC-A53E10D5A752" .
+

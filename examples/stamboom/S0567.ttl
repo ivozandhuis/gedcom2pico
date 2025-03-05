@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0567> a sdo:ArchiveComponent ;
+    sdo:name "BS Wierden Huw. Reg. 1909 nr. 22 (dd. 2-7-1909)" ;
+    sdo:url "https://www.openarchieven.nl/hco:E14AB377-69F2-4FA4-9968-58257AE4429D" .
+

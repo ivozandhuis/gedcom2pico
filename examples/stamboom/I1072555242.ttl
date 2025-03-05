@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555242> a picom:PersonReconstruction ;
+    sdo:birthDate "1889-09-11"^^xsd:date ;
+    sdo:birthPlace "Balk" ;
+    sdo:deathDate "1981-09-08"^^xsd:date ;
+    sdo:deathPlace "Hilversum" ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Oetsche" ;
+    sdo:name "Oetsche Wagenmakers" .
+

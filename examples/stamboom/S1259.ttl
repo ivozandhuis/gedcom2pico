@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1259> a sdo:ArchiveComponent ;
+    sdo:name "BS Ossendrecht Huw. Reg. 1812 nr. 6 (dd. 13-8-1812)" ;
+    sdo:url "https://www.openarchieven.nl/wba:4a49f814-7dd1-53d8-508c-3dd445fee9b4" .
+

@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0219> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1048> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1052> ] ;
+    sdo:birthDate "1859-08-08"^^xsd:date ;
+    sdo:birthPlace "Naaldwijk" ;
+    sdo:deathDate "1862-06-28"^^xsd:date ;
+    sdo:deathPlace "Monster" ;
+    sdo:familyName "Meijer" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Nicolaas Gerardus" ;
+    sdo:name "Nicolaas Gerardus Meijer" .
+

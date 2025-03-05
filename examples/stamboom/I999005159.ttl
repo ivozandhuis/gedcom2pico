@@ -1,0 +1,24 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005159> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0080> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0309> ] ;
+    sdo:birthDate "1851-09-21"^^xsd:date ;
+    sdo:birthPlace "Almelo Ambt" ;
+    sdo:children <https://gen.example.com/stamboom/I0101>,
+        <https://gen.example.com/stamboom/I0102>,
+        <https://gen.example.com/stamboom/I999005080>,
+        <https://gen.example.com/stamboom/I999005174> ;
+    sdo:deathDate "1912-01-31"^^xsd:date ;
+    sdo:deathPlace "Almelo Stad" ;
+    sdo:familyName "Schutte" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria" ;
+    sdo:name "Maria Schutte" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005154> .
+

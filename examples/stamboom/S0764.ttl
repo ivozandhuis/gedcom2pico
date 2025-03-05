@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0764> a sdo:ArchiveComponent ;
+    sdo:name "BS Sneek Ovl. Reg. 1839 fol. 20 (dd. 1-7-1839)" ;
+    sdo:url "https://www.openarchieven.nl/frl:89c0d5a6-ff62-c486-c3ae-fe114f57eed7" .
+

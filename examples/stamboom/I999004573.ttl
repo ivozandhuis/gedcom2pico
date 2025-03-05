@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004573> a picom:PersonReconstruction ;
+    sdo:birthDate "1757-10-14"^^xsd:date ;
+    sdo:birthPlace "Sneek" ;
+    sdo:familyName "Wagenmakers" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Ynske" ;
+    sdo:name "Ynske Wagenmakers" .
+

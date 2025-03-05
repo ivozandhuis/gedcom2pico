@@ -1,0 +1,22 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004842> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1715-11-08"^^xsd:date ;
+            bio:place "Reeuwijk" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004388>,
+        <https://gen.example.com/stamboom/I999004844>,
+        <https://gen.example.com/stamboom/I999004845>,
+        <https://gen.example.com/stamboom/I999004846>,
+        <https://gen.example.com/stamboom/I999004847>,
+        <https://gen.example.com/stamboom/I999004848>,
+        <https://gen.example.com/stamboom/I999004849> ;
+    sdo:familyName "Brandt" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Thomas Alberse" ;
+    sdo:name "Thomas Alberse Brandt" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004843> .
+

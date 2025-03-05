@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555283> a picom:PersonReconstruction ;
+    sdo:birthDate "1683-12-29"^^xsd:date ;
+    sdo:birthPlace "Reeuwijk (Middelburg)" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555282> ;
+    sdo:deathDate "1734-10-24"^^xsd:date ;
+    sdo:deathPlace "Reeuwijk (Randenburg)" ;
+    sdo:familyName "Verbeij" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Nicolaus Abrahamsz." ;
+    sdo:name "Nicolaus Abrahamsz. Verbeij" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555297> .
+

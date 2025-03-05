@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1413> a sdo:ArchiveComponent ;
+    sdo:name "BS Schoterland Geb. Reg. 1872 nr. 175" ;
+    sdo:url "https://www.openarchieven.nl/frl:b109717b-eff7-700d-1906-e94c74ba292f" .
+

@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0839> a sdo:ArchiveComponent ;
+    sdo:name "MR Lemsterland 1872 nr. 43" ;
+    sdo:url "https://allefriezen.nl/zoeken/deeds/645520eb-d6a0-4664-b729-57853dc04521",
+        "https://www.openarchieven.nl/frl:645520eb-d6a0-4664-b729-57853dc04521" .
+

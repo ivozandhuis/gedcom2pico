@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0488> a sdo:ArchiveComponent ;
+    sdo:name "BS Dalfsen Geb. Reg. 1830 nr. 133 (dd. 21-10-1830)" ;
+    sdo:url "https://www.openarchieven.nl/hco:AC245940-607C-4CD2-8B14-29ECFD12F312" .
+

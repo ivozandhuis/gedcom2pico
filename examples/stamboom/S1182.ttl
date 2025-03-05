@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1182> a sdo:ArchiveComponent ;
+    sdo:name "BS Bunde Ovl. Reg. 1964 nr. 8 (dd. 11-8-1964)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:f46b2970-9352-0750-3559-448bc9a27572" .
+

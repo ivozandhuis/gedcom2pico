@@ -1,0 +1,14 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004372> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I0206>,
+        <https://gen.example.com/stamboom/I0207>,
+        <https://gen.example.com/stamboom/I999004357>,
+        <https://gen.example.com/stamboom/I999004624> ;
+    sdo:familyName "Matze" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hendrik Stevense" ;
+    sdo:name "Hendrik Stevense Matze" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004373> .
+

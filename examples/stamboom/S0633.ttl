@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0633> a sdo:ArchiveComponent ;
+    sdo:name "BS Aarlanderveen Huw. Reg. 1850 nr. 19" ;
+    sdo:url "https://proxy.archieven.nl/105/84394B51E22147E59FDEDE11B3699B65" .
+

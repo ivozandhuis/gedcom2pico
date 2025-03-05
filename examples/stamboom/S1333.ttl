@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1333> a sdo:ArchiveComponent ;
+    sdo:name "BS Naaldwijk Ovl. Reg. 1897 nr. 70" ;
+    sdo:url "https://www.openarchieven.nl/haw:6d3b66c2-5cda-42c9-94bd-f7a6df20246d" .
+

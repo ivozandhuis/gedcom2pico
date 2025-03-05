@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1223> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1827 nr. 94 (dd. 20-2-1827)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:8377ff85-5ab0-ab12-5f09-17d3003543c3" .
+

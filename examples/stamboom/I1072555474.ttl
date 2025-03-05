@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555474> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0372> ] ;
+    sdo:birthDate "1742"^^xsd:gYear ;
+    sdo:birthPlace "Heerewaarden" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555472> ;
+    sdo:deathDate "1821-12-11"^^xsd:date ;
+    sdo:deathPlace "Heerewaarden" ;
+    sdo:familyName "Ton" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Petronella" ;
+    sdo:name "Petronella Ton" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555473> .
+

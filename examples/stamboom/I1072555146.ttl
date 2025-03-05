@@ -1,0 +1,19 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555146> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1605-07-14"^^xsd:date ;
+            bio:place "Roosendaal" ],
+        [ a bio:Burial ;
+            bio:date "1677-10-10"^^xsd:date ;
+            bio:place "Roosendaal" ] ;
+    sdo:children <https://gen.example.com/stamboom/I1072555144> ;
+    sdo:familyName "van Osta" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Leonardus" ;
+    sdo:name "Leonardus van Osta" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555147> .
+

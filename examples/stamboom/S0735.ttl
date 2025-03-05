@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0735> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1842 nr. 226 (dd. 18-2-1842)" ;
+    sdo:url "https://www.openarchieven.nl/elo:9ce6b873-b0e5-12dd-a91d-3234e24bd683" .
+

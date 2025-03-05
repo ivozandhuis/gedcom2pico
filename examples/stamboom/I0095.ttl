@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0095> a picom:PersonReconstruction ;
+    sdo:familyName "Metzelaar" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Johannes Bernardus" ;
+    sdo:name "Johannes Bernardus Metzelaar" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0091> .
+

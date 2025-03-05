@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1204> a sdo:ArchiveComponent ;
+    sdo:name "De tribune : soc. dem. weekblad 18-08-1930" ;
+    sdo:url "https://resolver.kb.nl/resolve?urn=ddd:010467126:mpeg21:a0013" .
+

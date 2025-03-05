@@ -1,0 +1,18 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004439> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1768-06-02"^^xsd:date ;
+            bio:place "Schinnen" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004427> ;
+    sdo:deathDate "1837-04-21"^^xsd:date ;
+    sdo:deathPlace "Nuth (Grijzegrubben)" ;
+    sdo:familyName "Schouwmans" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Catherina Elisabeth" ;
+    sdo:name "Catherina Elisabeth Schouwmans" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004438> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1170> a sdo:ArchiveComponent ;
+    sdo:name "BS Monster Huw. Reg. 1917 nr. 29 (dd. 11-8-1917)" ;
+    sdo:url "https://www.openarchieven.nl/haw:bf292ca0-2579-4f37-b6ab-cc6343792027" .
+

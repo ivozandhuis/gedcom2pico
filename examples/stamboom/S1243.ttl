@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1243> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Ovl. Reg. 1906 nr. 694 (dd. 18-12-1906)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:32ca8e7b-af01-e3a3-c772-edf0d24e5a36" .
+

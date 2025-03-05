@@ -1,0 +1,4 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+
+<https://gen.example.com/stamboom/F0180> prov:hadPrimarySource <https://gen.example.com/stamboom/S0987> .
+

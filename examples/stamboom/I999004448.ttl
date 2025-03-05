@@ -1,0 +1,20 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004448> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1706-09-09"^^xsd:date ;
+            bio:place "Berg en Terblijt" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004441>,
+        <https://gen.example.com/stamboom/I999004765>,
+        <https://gen.example.com/stamboom/I999004766>,
+        <https://gen.example.com/stamboom/I999004767> ;
+    sdo:deathPlace "Berg en Terblijt?" ;
+    sdo:familyName "Curvers" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Petrus" ;
+    sdo:name "Petrus Curvers" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004449> .
+

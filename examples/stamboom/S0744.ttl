@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0744> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Huw. Reg. 1873 nr. 39 (dd. 5-3-1873)" ;
+    sdo:url "https://www.openarchieven.nl/elo:f93aaf95-7457-0090-dedb-86e5f9441cfc" .
+

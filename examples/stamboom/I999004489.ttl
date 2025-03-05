@@ -1,0 +1,18 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004489> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0627> ] ;
+    sdo:birthDate "1919-03-25"^^xsd:date ;
+    sdo:birthPlace "Wijhe" ;
+    sdo:deathDate "2015-04-17"^^xsd:date ;
+    sdo:deathPlace "Olst" ;
+    sdo:familyName "Zandhuis" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Gerrigje" ;
+    sdo:name "Gerrigje Zandhuis" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004490> .
+

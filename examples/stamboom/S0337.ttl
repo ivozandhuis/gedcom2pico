@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0337> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Huw. Reg. 1817 nr. 19 (dd. 20-11-1817)" ;
+    sdo:url "https://www.openarchieven.nl/hco:c62895ec-1b24-b5dc-6c54-ad83dfe6ccaa" .
+

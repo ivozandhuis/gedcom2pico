@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004506> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0378> ] ;
+    sdo:deathDate "1928-01-05"^^xsd:date ;
+    sdo:deathPlace "Olst" ;
+    sdo:familyName "Derks" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Albertus Hendrikus" ;
+    sdo:hasOccupation "meubelmaker" ;
+    sdo:name "Albertus Hendrikus Derks" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0037> .
+

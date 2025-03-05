@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0163> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Huw. Reg. 1857 nr. 13 (dd. 6-6-1857)" ;
+    sdo:url "https://www.openarchieven.nl/hco:218B2D8F-E50C-4351-8424-4A8619110EFE" .
+

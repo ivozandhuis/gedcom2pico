@@ -1,0 +1,29 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004226> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0002> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0188> ] ;
+    sdo:birthDate "1846-06-08"^^xsd:date ;
+    sdo:birthPlace "Wijhe" ;
+    sdo:children <https://gen.example.com/stamboom/I0038>,
+        <https://gen.example.com/stamboom/I0039>,
+        <https://gen.example.com/stamboom/I0040>,
+        <https://gen.example.com/stamboom/I999004223>,
+        <https://gen.example.com/stamboom/I999004493>,
+        <https://gen.example.com/stamboom/I999004494>,
+        <https://gen.example.com/stamboom/I999004495>,
+        <https://gen.example.com/stamboom/I999004496> ;
+    sdo:deathDate "1920-10-04"^^xsd:date ;
+    sdo:deathPlace "Wijhe (Marle)" ;
+    sdo:familyName "Klumper" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Gerrigje" ;
+    sdo:name "Gerrigje Klumper" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004225>,
+        <https://gen.example.com/stamboom/I999004491> .
+

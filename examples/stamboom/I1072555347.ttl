@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555347> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0869> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0850> ] ;
+    sdo:birthDate "1837-03-22"^^xsd:date ;
+    sdo:birthPlace "Leiden" ;
+    sdo:deathDate "1906-05-27"^^xsd:date ;
+    sdo:deathPlace "Leiden" ;
+    sdo:familyName "Colla" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Nicolaas" ;
+    sdo:name "Nicolaas Colla" .
+

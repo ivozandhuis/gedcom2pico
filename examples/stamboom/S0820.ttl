@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0820> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1857 nr. 1273 (dd. 20-11-1857)" ;
+    sdo:url "https://www.openarchieven.nl/elo:135d795f-3e02-0626-4573-778df9b83671" .
+

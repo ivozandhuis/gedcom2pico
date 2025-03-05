@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0077> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1830 nr. 1146 (dd. 26-11-1830)" ;
+    sdo:url "https://www.openarchieven.nl/elo:edc7bf65-0023-b901-3cad-67a0a64770a7" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0549> a sdo:ArchiveComponent ;
+    sdo:name "Leidse Courant 18-06-1952 | pagina 6" ;
+    sdo:url "https://leiden.courant.nu/issue/LLC/1952-06-18/edition/0/page/6" .
+

@@ -1,0 +1,29 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004349> a picom:PersonReconstruction ;
+    sdo:birthDate "1805-09-07"^^xsd:date ;
+    sdo:birthPlace "Bodegraven" ;
+    sdo:children <https://gen.example.com/stamboom/I0214>,
+        <https://gen.example.com/stamboom/I0215>,
+        <https://gen.example.com/stamboom/I999004345>,
+        <https://gen.example.com/stamboom/I999004607>,
+        <https://gen.example.com/stamboom/I999004608>,
+        <https://gen.example.com/stamboom/I999004609>,
+        <https://gen.example.com/stamboom/I999004610>,
+        <https://gen.example.com/stamboom/I999004611>,
+        <https://gen.example.com/stamboom/I999004612>,
+        <https://gen.example.com/stamboom/I999004613>,
+        <https://gen.example.com/stamboom/I999004614>,
+        <https://gen.example.com/stamboom/I999004615> ;
+    sdo:deathDate "1859-02-26"^^xsd:date ;
+    sdo:deathPlace "Bodegraven" ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hendrik" ;
+    sdo:hasOccupation "arbeider",
+        "werkman" ;
+    sdo:name "Hendrik van der Sloot" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004350> .
+

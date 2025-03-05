@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0504> a sdo:ArchiveComponent ;
+    sdo:name "BS Naaldwijk Geb. Reg. 1891 nr. 140 (dd. 20-10-1891)" ;
+    sdo:url "https://www.openarchieven.nl/haw:b3b554f4-51ad-407c-09e9-b62ebacb2813" .
+

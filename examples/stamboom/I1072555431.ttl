@@ -1,0 +1,11 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1072555431> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I1072555428> ;
+    sdo:familyName "van Duijnen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Adriaen Claesz." ;
+    sdo:name "Adriaen Claesz. van Duijnen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555432> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0073> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1864 nr. 482 (dd. 11-4-1864)" ;
+    sdo:url "https://www.openarchieven.nl/elo:3020073c-a8a2-aeef-b342-fa17eef20c18" .
+

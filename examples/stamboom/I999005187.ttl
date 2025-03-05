@@ -1,0 +1,16 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005187> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0813> ] ;
+    sdo:birthDate "1886-01-01"^^xsd:date ;
+    sdo:birthPlace "Leiden" ;
+    sdo:familyName "Colla" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Paulus Petrus Franciscus" ;
+    sdo:name "Paulus Petrus Franciscus Colla" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0189> .
+

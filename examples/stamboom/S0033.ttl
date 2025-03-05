@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0033> a sdo:ArchiveComponent ;
+    sdo:name "DTB Den Ham inv. nr. 178 fol.63." .
+

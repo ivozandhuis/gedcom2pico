@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0875> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Ovl. Reg. 1943 nr. 240 (dd. 6-4-1943)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:ae4018aa-3fab-10b6-75dd-f5b5e232d60b" .
+

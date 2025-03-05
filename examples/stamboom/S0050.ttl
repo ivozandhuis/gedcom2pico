@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0050> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Ambt Geb. Reg. 1861 nr. 3 (2-1-1861)" ;
+    sdo:url "https://www.openarchieven.nl/hco:901823F9-EB4E-4CC8-AC53-EAC4CEF1FB6D" .
+

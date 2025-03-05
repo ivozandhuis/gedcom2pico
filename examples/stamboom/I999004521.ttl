@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004521> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0969> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0967> ] ;
+    sdo:birthDate "1818-02-04"^^xsd:date ;
+    sdo:birthPlace "Heerde (Markluiden)" ;
+    sdo:deathDate "1821-03-16"^^xsd:date ;
+    sdo:deathPlace "Heerde (Markluiden)" ;
+    sdo:familyName "Zandhuis" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Geertruy" ;
+    sdo:name "Geertruy Zandhuis" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0506> a sdo:ArchiveComponent ;
+    sdo:name "BS Naaldwijk Ovl. Reg. 1892 nr. 128" ;
+    sdo:url "https://www.openarchieven.nl/haw:abc4028b-1bbc-4eda-a6e6-ce1e40b9e097" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0513> a sdo:ArchiveComponent ;
+    sdo:name "BS Naaldwijk Geb. Reg. 1902 nr. 91 (dd. 17-7-1902)" ;
+    sdo:url "https://www.openarchieven.nl/haw:0c41e485-1a63-46ac-89e2-f4b35792f9d3" .
+

@@ -1,0 +1,17 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004447> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004440>,
+        <https://gen.example.com/stamboom/I999004762>,
+        <https://gen.example.com/stamboom/I999004763>,
+        <https://gen.example.com/stamboom/I999004764> ;
+    sdo:deathDate "1750-08-19"^^xsd:date ;
+    sdo:deathPlace "Houthem" ;
+    sdo:familyName "Duisinghs" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Anna Catharina" ;
+    sdo:name "Anna Catharina Duisinghs" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004446> .
+

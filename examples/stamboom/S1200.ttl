@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1200> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Ovl. Reg. 1882 nr. 174 (dd. 18-3-1882)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:b78785e5-bf7c-5df8-fa4f-a075c1206291" .
+

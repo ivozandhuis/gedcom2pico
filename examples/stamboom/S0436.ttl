@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0436> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Ovl. Reg. 1887 nr. 59 (dd. 31-10-1887)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:6c7db6ad-56fb-45b9-b42e-862a6a2f82f5" .
+

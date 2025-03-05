@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0226> a sdo:ArchiveComponent ;
+    sdo:name "BS Amersfoort Ovl. Reg. 1910 nr. 48 (dd. 01-02-1910)" ;
+    sdo:url "https://www.openarchieven.nl/hua:D16A6E84-98E4-42A9-B1CD-F4285C7C677B" .
+

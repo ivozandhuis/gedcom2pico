@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0416> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Geb. Reg. 1907 nr. 135 (dd. 28-8-1907)" ;
+    sdo:url "https://www.openarchieven.nl/frl:9b6169a8-09ce-11e5-b8a7-2bebaba2ad6a" .
+

@@ -1,0 +1,16 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004454> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1660-04-08"^^xsd:date ;
+            bio:place "Houthem" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004446> ;
+    sdo:familyName "Lambricks" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Thomas" ;
+    sdo:name "Thomas Lambricks" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004455> .
+

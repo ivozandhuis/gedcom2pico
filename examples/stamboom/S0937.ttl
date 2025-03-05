@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0937> a sdo:ArchiveComponent ;
+    sdo:name "CAO Persoonskaart HATEBOER, Aaltje (1894-1985)" .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0445> a sdo:ArchiveComponent ;
+    sdo:name "BS Maastricht Geb. Reg. 1864 nr. 535 (dd. 19-7-1864)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:15225f8a-d2d7-a931-8dcf-3b83ab673446" .
+

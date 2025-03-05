@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555216> a picom:PersonReconstruction ;
+    sdo:birthPlace "Elen" ;
+    sdo:children <https://gen.example.com/stamboom/I1072555212> ;
+    sdo:deathDate "1724-05-01"^^xsd:date ;
+    sdo:deathPlace "Rotem" ;
+    sdo:familyName "Severijns" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Mathias" ;
+    sdo:name "Mathias Severijns" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555217> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1308> a sdo:ArchiveComponent ;
+    sdo:name "BS 's Gravenzande Huw. Reg. 1899 nr. 12 (dd. 12-5-1899)" ;
+    sdo:url "https://www.openarchieven.nl/haw:cd62ce86-efdb-4125-b066-064bdcdc5720" .
+

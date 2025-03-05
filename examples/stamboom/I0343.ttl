@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0343> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1300> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1299> ] ;
+    sdo:birthDate "1875-02-06"^^xsd:date ;
+    sdo:birthPlace "'s-Gravenzande" ;
+    sdo:deathDate "1875-07-11"^^xsd:date ;
+    sdo:deathPlace "'s-Gravenzande" ;
+    sdo:familyName "Westhoff" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Arie" ;
+    sdo:name "Arie Westhoff" .
+

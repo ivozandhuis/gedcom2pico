@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0818> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Ovl. Reg. 1851 nr. 166 (dd. 12-2-1851)" ;
+    sdo:url "https://www.openarchieven.nl/elo:18a42cb2-8a00-1ae7-29b2-cd54b44599fb" .
+

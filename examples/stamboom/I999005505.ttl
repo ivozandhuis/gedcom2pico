@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005505> a picom:PersonReconstruction ;
+    sdo:birthDate "1791-01-28"^^xsd:date ;
+    sdo:birthPlace "Wormerveer" ;
+    sdo:familyName "Room" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Gerbregt" ;
+    sdo:name "Gerbregt Room" .
+

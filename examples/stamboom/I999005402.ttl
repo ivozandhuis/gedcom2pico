@@ -1,0 +1,15 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005402> a picom:PersonReconstruction ;
+    sdo:birthDate "1933-08-01"^^xsd:date ;
+    sdo:birthPlace "Mariënheem" ;
+    sdo:deathDate "1993-08-04"^^xsd:date ;
+    sdo:deathPlace "Deventer" ;
+    sdo:familyName "Middag" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Annie" ;
+    sdo:name "Annie Middag" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005435> .
+

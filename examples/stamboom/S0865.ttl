@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0865> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Huw. Reg. 1863 nr. 65 (dd. 15-4-1863)" ;
+    sdo:url "https://www.openarchieven.nl/elo:85552f06-76d8-90ae-05c1-73b7263874d1" .
+

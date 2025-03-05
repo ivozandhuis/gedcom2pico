@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0384> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Geb. Reg. 1872 nr. 23 (dd. 26-02-1872)" ;
+    sdo:url "https://www.openarchieven.nl/hco:0500637B-7684-42BC-BC65-6808DC1E1E41" .
+

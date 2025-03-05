@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0669> a sdo:ArchiveComponent ;
+    sdo:name "BS Boskoop Ovl. Reg. 1878 nr. 75 (dd. 8-10-1878)" ;
+    sdo:url "https://www.openarchieven.nl/rzh:7c8572a4-56ef-411a-b3e9-e63c0e0bdea4" .
+

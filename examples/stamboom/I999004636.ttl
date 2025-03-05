@@ -1,0 +1,13 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999004636> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999004372>,
+        <https://gen.example.com/stamboom/I999004637>,
+        <https://gen.example.com/stamboom/I999004638> ;
+    sdo:familyName "Spruyt" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Trijntje Cornelisse" ;
+    sdo:name "Trijntje Cornelisse Spruyt" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004635> .
+

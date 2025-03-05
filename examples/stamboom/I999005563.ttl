@@ -1,0 +1,26 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005563> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0578> ] ;
+    sdo:birthDate "1792"^^xsd:gYear ;
+    sdo:birthPlace "Almelo Ambt" ;
+    sdo:children <https://gen.example.com/stamboom/I0105>,
+        <https://gen.example.com/stamboom/I0106>,
+        <https://gen.example.com/stamboom/I0107>,
+        <https://gen.example.com/stamboom/I0108>,
+        <https://gen.example.com/stamboom/I0109>,
+        <https://gen.example.com/stamboom/I0110>,
+        <https://gen.example.com/stamboom/I0111>,
+        <https://gen.example.com/stamboom/I999005173> ;
+    sdo:deathDate "1839-05-02"^^xsd:date ;
+    sdo:deathPlace "Almelo Ambt" ;
+    sdo:familyName "Bekhuis" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Euphemia Barbara" ;
+    sdo:name "Euphemia Barbara Bekhuis" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005562> .
+

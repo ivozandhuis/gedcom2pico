@@ -1,0 +1,25 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005154> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0306> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0078> ] ;
+    sdo:birthDate "1847-06-17"^^xsd:date ;
+    sdo:birthPlace "Almelo Ambt" ;
+    sdo:children <https://gen.example.com/stamboom/I0101>,
+        <https://gen.example.com/stamboom/I0102>,
+        <https://gen.example.com/stamboom/I999005080>,
+        <https://gen.example.com/stamboom/I999005174> ;
+    sdo:deathDate "1886-07-17"^^xsd:date ;
+    sdo:deathPlace "Almelo Stad" ;
+    sdo:familyName "Slag" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Bernardus" ;
+    sdo:hasOccupation "koopman" ;
+    sdo:name "Bernardus Slag" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005159> .
+

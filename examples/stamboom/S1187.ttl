@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1187> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Ovl. Reg.  nr.  (dd. 24-2-1871)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:26524bea-79fa-15ae-c244-67866dac4f26" .
+

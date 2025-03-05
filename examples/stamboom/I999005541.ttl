@@ -1,0 +1,22 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005541> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0096> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0359> ] ;
+    sdo:birthDate "1821-07-09"^^xsd:date ;
+    sdo:birthPlace "Raalte" ;
+    sdo:children <https://gen.example.com/stamboom/I999005524> ;
+    sdo:deathDate "1896-12-03"^^xsd:date ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "Hondman" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Joannes" ;
+    sdo:hasOccupation "landbouwer" ;
+    sdo:name "Joannes Hondman" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005542> .
+

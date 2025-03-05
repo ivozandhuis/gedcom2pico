@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004614> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1023> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1037> ] ;
+    sdo:birthDate "1849-12-31"^^xsd:date ;
+    sdo:birthPlace "Bodegraven" ;
+    sdo:deathDate "1900-12-20"^^xsd:date ;
+    sdo:deathPlace "Alphen aan den Rijn" ;
+    sdo:familyName "van der Sloot" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Catharina" ;
+    sdo:name "Catharina van der Sloot" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555266> .
+

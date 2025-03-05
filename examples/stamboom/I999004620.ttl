@@ -1,0 +1,21 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004620> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0685> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0681> ] ;
+    sdo:birthDate "1842-02-10"^^xsd:date ;
+    sdo:birthPlace "Boskoop" ;
+    sdo:deathDate "1910-09-19"^^xsd:date ;
+    sdo:deathPlace "Boskoop" ;
+    sdo:familyName "Brand" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Petrus" ;
+    sdo:hasOccupation "boomkweker" ;
+    sdo:name "Petrus Brand" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555259> .
+

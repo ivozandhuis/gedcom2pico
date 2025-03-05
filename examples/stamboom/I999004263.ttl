@@ -1,0 +1,18 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004263> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1746-04-08"^^xsd:date ;
+            bio:place "Olst" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004242>,
+        <https://gen.example.com/stamboom/I999004863>,
+        <https://gen.example.com/stamboom/I999004869> ;
+    sdo:familyName "Oosterkamp" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hendrikus Jansen" ;
+    sdo:name "Hendrikus Jansen Oosterkamp" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004264> .
+

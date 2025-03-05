@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I0144> a picom:PersonReconstruction ;
+    sdo:familyName "Clignet" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Leonardus Josephus" ;
+    sdo:name "Leonardus Josephus Clignet" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004729> .
+

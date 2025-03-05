@@ -1,0 +1,12 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I999005551> a picom:PersonReconstruction ;
+    sdo:children <https://gen.example.com/stamboom/I999005545> ;
+    sdo:deathPlace "Raalte" ;
+    sdo:familyName "Jansen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Willemina" ;
+    sdo:name "Willemina Jansen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005550> .
+

@@ -1,0 +1,24 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004421> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0348> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0882> ] ;
+    sdo:birthDate "1808-08-08"^^xsd:date ;
+    sdo:birthPlace "Maastricht" ;
+    sdo:children <https://gen.example.com/stamboom/I999004416>,
+        <https://gen.example.com/stamboom/I999004723>,
+        <https://gen.example.com/stamboom/I999004724> ;
+    sdo:deathDate "1891-09-25"^^xsd:date ;
+    sdo:deathPlace "Maastricht" ;
+    sdo:familyName "Franssen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Maria Gertrudis" ;
+    sdo:hasOccupation "naaister" ;
+    sdo:name "Maria Gertrudis Franssen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004420> .
+

@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0385> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Ovl. Reg. 1873 nr. 40 (dd. 02-04-1873)" ;
+    sdo:url "https://www.openarchieven.nl/hco:3EC2A8D6-C0CE-4F66-A849-A253E2878E71" .
+

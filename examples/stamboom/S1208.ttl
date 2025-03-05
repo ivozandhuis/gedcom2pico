@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1208> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1813 nr. 457 (dd. 24-12-1813)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:bbf738bc-a6ba-74fc-aa7f-e1a66ffbbe84" .
+

@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1267> a sdo:ArchiveComponent ;
+    sdo:name "BS Wouw Ovl. Reg. 1865 nr. 13 (dd. 27-2-1865)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:6312bb3e-26e4-3ae4-47fe-e0c41a9500b5",
+        "https://www.openarchieven.nl/wba:e07f1a8a-3f23-50f9-8e38-42c805a69704" .
+

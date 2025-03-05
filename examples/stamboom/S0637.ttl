@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0637> a sdo:ArchiveComponent ;
+    sdo:name "BS Olst Huw. Reg. 1917 nr. 40 (dd. 24-11-1917)" ;
+    sdo:url "https://www.openarchieven.nl/hco:43BA0BD3-7E84-4363-A168-8C2F8ABD372D" .
+

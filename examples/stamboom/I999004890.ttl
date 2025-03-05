@@ -1,0 +1,18 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004890> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1697-04-17"^^xsd:date ;
+            bio:place "Kruisland" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004381> ;
+    sdo:familyName "van Gunst" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Petrus" ;
+    sdo:name "Petrus van Gunst" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004892>,
+        <https://gen.example.com/stamboom/I999004893>,
+        <https://gen.example.com/stamboom/I999004894> .
+

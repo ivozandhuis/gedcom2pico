@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1271> a sdo:ArchiveComponent ;
+    sdo:name "BS Wouw Ovl. Reg. 1832 nr. 69 (dd. 20-11-1832)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:1ae42ca3-db1f-a8ae-1aa6-a667876625a3" .
+

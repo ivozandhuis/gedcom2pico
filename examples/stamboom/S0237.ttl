@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0237> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Ovl. Reg. 1954 nr. 60 (dd. 1-11-1954)" ;
+    sdo:url "https://www.openarchieven.nl/frl:2df9ac92-a5d4-be39-4687-1773c7b2e702" .
+

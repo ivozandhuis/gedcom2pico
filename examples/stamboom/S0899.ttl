@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0899> a sdo:ArchiveComponent ;
+    sdo:name "BS Muiden Huw. Reg. 1874 nr. 8 (dd. 12-7-1874)" ;
+    sdo:url "https://www.openarchieven.nl/nha:45155632-DD93-48F2-ACE0-A1A0AD7DDAE2" .
+

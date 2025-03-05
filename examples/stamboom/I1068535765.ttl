@@ -1,0 +1,10 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/I1068535765> a picom:PersonReconstruction ;
+    sdo:familyName "van der Star" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Geertruida Johanna" ;
+    sdo:name "Geertruida Johanna van der Star" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005185> .
+

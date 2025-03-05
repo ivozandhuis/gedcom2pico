@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1072555166> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0236> ] ;
+    sdo:birthDate "1801"^^xsd:gYear ;
+    sdo:birthPlace "Wateringen" ;
+    sdo:children <https://gen.example.com/stamboom/I1060768886> ;
+    sdo:deathDate "1884-11-13"^^xsd:date ;
+    sdo:deathPlace "Maasland" ;
+    sdo:familyName "Vermeulen" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Johanna" ;
+    sdo:name "Johanna Vermeulen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1072555165> .
+

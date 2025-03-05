@@ -1,0 +1,20 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004307> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1804-09-30"^^xsd:date ;
+            bio:place "Oudehaske" ] ;
+    sdo:birthDate "1804-09-13"^^xsd:date ;
+    sdo:birthPlace "Oudehaske" ;
+    sdo:children <https://gen.example.com/stamboom/I999004295> ;
+    sdo:deathDate "1874-07-04"^^xsd:date ;
+    sdo:deathPlace "Oudehaske" ;
+    sdo:familyName "Kamp" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Annigje Wytzes" ;
+    sdo:name "Annigje Wytzes Kamp" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004306> .
+

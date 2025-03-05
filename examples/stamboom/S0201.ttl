@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0201> a sdo:ArchiveComponent ;
+    sdo:name "BS Epe Ovl. Reg. 1856 nr. 27 (dd. 18-2-1856)" ;
+    sdo:url "https://www.openarchieven.nl/gld:A712DD60-EED0-4163-B388-3006DF2D093D" .
+

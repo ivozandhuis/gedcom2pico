@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0223> a sdo:ArchiveComponent ;
+    sdo:name "BS Schipluiden Huw. Reg. 1828 nr. 1 (dd. 13-02-1828)" ;
+    sdo:url "https://hdl.handle.net/21.12115/NL-DtAD132640735" .
+

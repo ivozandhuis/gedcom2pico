@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1172> a sdo:ArchiveComponent ;
+    sdo:name "BS Monster Huw. Reg. 1923 nr. 45" ;
+    sdo:url "https://www.openarchieven.nl/haw:a8c08538-a1f8-4db2-a13e-01469451efa7" .
+

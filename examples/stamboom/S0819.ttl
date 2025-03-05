@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0819> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Geb. Reg. 1855 nr. 337 (dd. 26-3-1855)" ;
+    sdo:url "https://www.openarchieven.nl/elo:1f5c4478-386a-e09f-6b87-cd18792844e3" .
+

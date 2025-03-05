@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0870> a sdo:ArchiveComponent ;
+    sdo:name "BS Haarlem Ovl. Reg. 1907 nr. 801 (dd. 10-10-1907)" ;
+    sdo:url "https://www.openarchieven.nl/nha:64A47AD5-E245-414B-B585-B5FB1039E0B6" .
+

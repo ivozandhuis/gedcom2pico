@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1244> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijlre Huw. Reg. 1844 nr. 9 (dd. 12-10-1844)" ;
+    sdo:url "https://www.openarchieven.nl/rhl:ce78aac1-5610-3487-753d-5aac42715d8b" .
+

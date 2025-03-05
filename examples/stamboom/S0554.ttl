@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0554> a sdo:ArchiveComponent ;
+    sdo:name "BS Almelo Stad Geb. Reg. 1908 nr. 220 (dd. 2-11-1908)" ;
+    sdo:url "https://www.openarchieven.nl/hco:488778DC-8DD5-451F-A132-EC0A9F96229B" .
+

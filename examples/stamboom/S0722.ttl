@@ -1,0 +1,7 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0722> a sdo:ArchiveComponent ;
+    sdo:name "BS Leiden Huw. Reg. 1840 nr. 120 (dd. 4-6-1840)" ;
+    sdo:url "https://www.openarchieven.nl/elo:30ca4646-2be2-4981-d2a2-0e34a9a2b7b9",
+        "https://www.openarchieven.nl/rzh:662387e8-64ab-41a2-bc91-5d7f00f979a7" .
+

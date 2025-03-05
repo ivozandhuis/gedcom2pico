@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0197> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0894> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0893> ] ;
+    sdo:birthDate "1806-07-28"^^xsd:date ;
+    sdo:birthPlace "Maastricht" ;
+    sdo:deathDate "1808-05-11"^^xsd:date ;
+    sdo:deathPlace "Maastricht" ;
+    sdo:familyName "Franssen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Anne Gertrude" ;
+    sdo:name "Anne Gertrude Franssen" .
+

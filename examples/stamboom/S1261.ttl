@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1261> a sdo:ArchiveComponent ;
+    sdo:name "BS Brussel Huw. Reg. 1820 nr. 264 (dd. 14-6-1820)" ;
+    sdo:url "https://www.openarchieven.nl/abb:08186091-09fc-8328-33fb-b572e57086a4" .
+

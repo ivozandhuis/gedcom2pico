@@ -1,0 +1,35 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999005208> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1205> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1203> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0169> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0056> ] ;
+    sdo:birthDate "1868-07-14"^^xsd:date ;
+    sdo:birthPlace "'s-Hertogenbosch" ;
+    sdo:children <https://gen.example.com/stamboom/I0091>,
+        <https://gen.example.com/stamboom/I0092>,
+        <https://gen.example.com/stamboom/I1068535737>,
+        <https://gen.example.com/stamboom/I1068535739>,
+        <https://gen.example.com/stamboom/I1068535740>,
+        <https://gen.example.com/stamboom/I1072555454>,
+        <https://gen.example.com/stamboom/I999005095>,
+        <https://gen.example.com/stamboom/I999005485>,
+        <https://gen.example.com/stamboom/I999005487>,
+        <https://gen.example.com/stamboom/I999005488> ;
+    sdo:deathDate "1953-03-21"^^xsd:date ;
+    sdo:deathPlace "Naaldwijk" ;
+    sdo:familyName "Bouhuisen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jacobus Wilhelmus" ;
+    sdo:hasOccupation "sigarenmaker" ;
+    sdo:name "Jacobus Wilhelmus Bouhuisen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999005209> .
+

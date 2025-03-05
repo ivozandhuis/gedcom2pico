@@ -1,0 +1,23 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004277> a picom:PersonReconstruction ;
+    bio:event [ a bio:Burial ;
+            bio:date "1778-11-25"^^xsd:date ;
+            bio:place "Heerde" ] ;
+    sdo:birthDate "1715-05-12"^^xsd:date ;
+    sdo:children <https://gen.example.com/stamboom/I999004257>,
+        <https://gen.example.com/stamboom/I999004542>,
+        <https://gen.example.com/stamboom/I999004543>,
+        <https://gen.example.com/stamboom/I999004544>,
+        <https://gen.example.com/stamboom/I999004545> ;
+    sdo:deathDate "1778-09-19"^^xsd:date ;
+    sdo:deathPlace "Heerde" ;
+    sdo:familyName "van Loohuisen" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Jan Arents" ;
+    sdo:name "Jan Arents van Loohuisen" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004278> .
+

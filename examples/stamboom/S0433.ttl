@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0433> a sdo:ArchiveComponent ;
+    sdo:name "BS Wormerveer Huw. Reg. 1884 nr. 37 (dd. 9-11-1884)" ;
+    sdo:url "https://www.openarchieven.nl/nha:44241F14-F624-4168-9720-5A2491B7ADFA" .
+

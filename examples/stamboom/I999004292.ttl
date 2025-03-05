@@ -1,0 +1,27 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004292> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0530> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0898> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0900> ] ;
+    sdo:birthDate "1845-03-11"^^xsd:date ;
+    sdo:birthPlace "Oude Pekela" ;
+    sdo:children <https://gen.example.com/stamboom/I0234>,
+        <https://gen.example.com/stamboom/I0235>,
+        <https://gen.example.com/stamboom/I0236>,
+        <https://gen.example.com/stamboom/I999004286> ;
+    sdo:deathDate "1914-11-29"^^xsd:date ;
+    sdo:deathPlace "Groningen" ;
+    sdo:familyName "Hateboer" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Harm" ;
+    sdo:hasOccupation "zeeman" ;
+    sdo:name "Harm Hateboer" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004293> .
+

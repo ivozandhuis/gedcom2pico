@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1236> a sdo:ArchiveComponent ;
+    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1846 nr. 141 (dd. 16-3-1846)" ;
+    sdo:url "https://www.openarchieven.nl/bhi:9078f3cf-247f-6621-4087-69e276d7b61a" .
+

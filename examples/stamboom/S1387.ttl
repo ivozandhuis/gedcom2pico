@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1387> a sdo:ArchiveComponent ;
+    sdo:name "BS Schipluiden Geb. Reg. 1894 nr. 28" ;
+    sdo:url "https://hdl.handle.net/21.12115/NL-DtAD126175240" .
+

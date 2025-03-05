@@ -1,0 +1,28 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I999004311> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1762-03-28"^^xsd:date ;
+            bio:place "Sneek" ] ;
+    sdo:children <https://gen.example.com/stamboom/I999004296>,
+        <https://gen.example.com/stamboom/I999004562>,
+        <https://gen.example.com/stamboom/I999004563>,
+        <https://gen.example.com/stamboom/I999004564>,
+        <https://gen.example.com/stamboom/I999004565>,
+        <https://gen.example.com/stamboom/I999004566>,
+        <https://gen.example.com/stamboom/I999004567>,
+        <https://gen.example.com/stamboom/I999004568>,
+        <https://gen.example.com/stamboom/I999004569>,
+        <https://gen.example.com/stamboom/I999004570> ;
+    sdo:deathDate "1843-02-28"^^xsd:date ;
+    sdo:deathPlace "Sneek" ;
+    sdo:familyName "Oppendijk" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Claaske Cornelis" ;
+    sdo:name "Claaske Cornelis Oppendijk" ;
+    sdo:spouse <https://gen.example.com/stamboom/I999004310>,
+        <https://gen.example.com/stamboom/I999004571> .
+

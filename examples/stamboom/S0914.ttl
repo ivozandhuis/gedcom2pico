@@ -1,0 +1,8 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0914> a sdo:ArchiveComponent ;
+    sdo:name "DTB  Hoenkoop Trouwboek fol. 7\\6-7 / fol. 63" ;
+    sdo:url "https://www.openarchieven.nl/hua:4998A5B7-1D0A-6277-E053-4701000A9520",
+        "https://www.openarchieven.nl/hua:4998A5B7-1D62-6277-E053-4701000A9520",
+        "https://www.openarchieven.nl/hua:4998A5B7-1D63-6277-E053-4701000A9520" .
+

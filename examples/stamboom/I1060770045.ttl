@@ -1,0 +1,20 @@
+@prefix bio: <http://purl.org/vocab/bio/0.1/> .
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1060770045> a picom:PersonReconstruction ;
+    bio:event [ a bio:Baptism ;
+            bio:date "1728-02-13"^^xsd:date ;
+            bio:place "Delft" ] ;
+    sdo:children <https://gen.example.com/stamboom/I1060768890>,
+        <https://gen.example.com/stamboom/I1072555126>,
+        <https://gen.example.com/stamboom/I1072555128> ;
+    sdo:deathDate "1798-10-31"^^xsd:date ;
+    sdo:deathPlace "Rijswijk" ;
+    sdo:familyName "Gordijn" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Joannes" ;
+    sdo:name "Joannes Gordijn" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060770047> .
+

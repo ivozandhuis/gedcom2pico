@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0343> a sdo:ArchiveComponent ;
+    sdo:name "BS Den Haag Ovl. Reg. 1829 nr.1420" ;
+    sdo:url "https://www.openarchieven.nl/hga:39897E70-4CD0-44C7-87B6-C967DAE37078" .
+

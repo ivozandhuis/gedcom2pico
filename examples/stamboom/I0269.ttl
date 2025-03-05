@@ -1,0 +1,19 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0269> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1159> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1161> ] ;
+    sdo:birthDate "1897-03-24"^^xsd:date ;
+    sdo:birthPlace "Monster" ;
+    sdo:deathDate "1897-07-28"^^xsd:date ;
+    sdo:deathPlace "Monster" ;
+    sdo:familyName "Meijer" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Anna Cornelia" ;
+    sdo:name "Anna Cornelia Meijer" .
+

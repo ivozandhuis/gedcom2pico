@@ -1,0 +1,20 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I0085> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0485> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0486> ] ;
+    sdo:birthDate "1866-08-05"^^xsd:date ;
+    sdo:birthPlace "Dalfsen" ;
+    sdo:deathDate "1934-05-13"^^xsd:date ;
+    sdo:deathPlace "Deventer" ;
+    sdo:familyName "Harms" ;
+    sdo:gender sdo:Female ;
+    sdo:givenName "Johanna" ;
+    sdo:name "Johanna Harms" ;
+    sdo:spouse <https://gen.example.com/stamboom/I0205> .
+

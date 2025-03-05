@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0340> a sdo:ArchiveComponent ;
+    sdo:name "BS Raalte Ovl. Reg. 1891 nr. 71 (dd. 13-5-1891)" ;
+    sdo:url "https://www.openarchieven.nl/hco:D18A0918-1B03-4E02-834B-8A1ADE542944" .
+

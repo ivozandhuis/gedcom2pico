@@ -1,0 +1,5 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0771> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Geb. Reg. 1859 nr. 32 (dd. 28-3-1859)" .
+

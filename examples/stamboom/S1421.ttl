@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1421> a sdo:ArchiveComponent ;
+    sdo:name "BS Schoterland Huw. Reg. 1895 nr. 15" ;
+    sdo:url "https://www.openarchieven.nl/frl:a9134a2e-e4d8-7127-25b1-483adc9caeec" .
+

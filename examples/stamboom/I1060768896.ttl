@@ -1,0 +1,22 @@
+@prefix picom: <https://personsincontext.org/model#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix sdo: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://gen.example.com/stamboom/I1060768896> a picom:PersonReconstruction ;
+    prov:wasDerivedFrom [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S1401> ],
+        [ a picom:PersonObservation ;
+            prov:hadPrimarySource <https://gen.example.com/stamboom/S0230> ] ;
+    sdo:birthDate "1787-03-14"^^xsd:date ;
+    sdo:birthPlace "Merzen (Osnabruck, D)" ;
+    sdo:children <https://gen.example.com/stamboom/I999005259> ;
+    sdo:deathDate "1858-09-08"^^xsd:date ;
+    sdo:deathPlace "Schipluiden" ;
+    sdo:familyName "Holtkamp" ;
+    sdo:gender sdo:Male ;
+    sdo:givenName "Hermanus" ;
+    sdo:hasOccupation "arbeider" ;
+    sdo:name "Hermanus Holtkamp" ;
+    sdo:spouse <https://gen.example.com/stamboom/I1060768898> .
+

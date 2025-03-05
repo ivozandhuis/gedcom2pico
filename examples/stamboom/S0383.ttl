@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0383> a sdo:ArchiveComponent ;
+    sdo:name "BS Wijhe Geb. Reg. 1869 nr. 60 (dd. 02-08-1869)" ;
+    sdo:url "https://www.openarchieven.nl/hco:9C2A2D99-C6F2-4236-91ED-A83DE8BE273A" .
+

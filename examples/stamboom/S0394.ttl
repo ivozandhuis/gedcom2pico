@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S0394> a sdo:ArchiveComponent ;
+    sdo:name "BS Lemsterland Geb. Reg. 1887 nr. 205 (dd. 19-11-1887)" ;
+    sdo:url "https://www.openarchieven.nl/frl:bcb52d1b-147c-aa6c-a1c7-8f9a51baef13" .
+

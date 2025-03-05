@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1148> a sdo:ArchiveComponent ;
+    sdo:name "BS Hardenberg Stad Ovl. Reg. 1881 nr. 28 (dd. 27-8-1881)" ;
+    sdo:url "https://www.openarchieven.nl/hco:1A6421E6-BE9E-4F75-BC2C-F11A219B5EB2" .
+

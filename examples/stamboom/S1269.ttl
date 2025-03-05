@@ -1,0 +1,6 @@
+@prefix sdo: <https://schema.org/> .
+
+<https://gen.example.com/stamboom/S1269> a sdo:ArchiveComponent ;
+    sdo:name "BS Steenbergen Geb. Reg. 1815 nr. 99 (dd. 25-7-1815)" ;
+    sdo:url "https://www.openarchieven.nl/wba:ef32dd3e-4864-11e1-9853-b7a7dd2b6a2a" .
+
