@@ -1,9 +1,0 @@
-@prefix bio: <http://purl.org/vocab/bio/0.1/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-<https://gen.example.com/stamboom/F0550> a bio:Marriage ;
-    bio:date "1772-12-27"^^xsd:date ;
-    bio:partner <https://gen.example.com/stamboom/I1072555307>,
-        <https://gen.example.com/stamboom/I1072555308> ;
-    bio:place "Leer (Ostfriesland, D)" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0429> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Geb. Reg. 1883 nr. 95 (dd. 19-11-1883)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:50986666-ca2e-4702-8c5d-b1e37e03a06c" .
-

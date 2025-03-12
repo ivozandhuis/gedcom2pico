@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1093> a sdo:ArchiveComponent ;
-    sdo:name "BS Groningen Huw. Reg. 1897 nr. 256 (dd. 13-6-1897)" ;
-    sdo:url "https://www.openarchieven.nl/gra:bd99212c-aa11-8c44-0121-436b2114c0b4" .
-

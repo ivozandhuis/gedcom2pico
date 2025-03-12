@@ -1,7 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1264> a sdo:ArchiveComponent ;
-    sdo:name "BS Wouw Ovl. Reg. 1838 nr. 8 (dd. 6-3-1838)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:c9b56768-7e04-cffb-f900-05bf40082143",
-        "https://www.openarchieven.nl/wba:dd2ce7d9-c2b4-a8e6-f4fd-1fe2e51e849a" .
-

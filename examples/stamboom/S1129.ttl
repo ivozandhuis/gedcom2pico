@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1129> a sdo:ArchiveComponent ;
-    sdo:name "DTB Roden Doopboek dd. 7-6-1807" ;
-    sdo:url "https://www.openarchieven.nl/dar:66ede89f-8607-442a-40b9-9a43b1d11569" .
-

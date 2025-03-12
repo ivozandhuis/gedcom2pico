@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0493> a sdo:ArchiveComponent ;
-    sdo:name "BS Dalfsen Ovl. Reg. 1873 nr. 115 (dd. 6-12-1873)" ;
-    sdo:url "https://www.openarchieven.nl/hco:089D9660-25F7-42C3-B958-A93906544E87" .
-

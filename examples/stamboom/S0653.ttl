@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0653> a sdo:ArchiveComponent ;
-    sdo:name "BS Oude Pekela Ovl. Reg. 1835 nr. 17 (dd. 10-3-1835)" ;
-    sdo:url "https://www.openarchieven.nl/gra:f8baeca5-dfe7-de54-cae5-fc3a6263cd1c" .
-

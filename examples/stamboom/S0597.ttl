@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0597> a sdo:ArchiveComponent ;
-    sdo:name "ORA Schoutambt Olst (archief 67) Momberstellingen inv. nr. 20 fol. 278 (dd. 24-01-1767)" ;
-    sdo:url "https://proxy.archieven.nl/20/7246263028104092833C993428A78163" .
-

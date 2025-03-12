@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0817> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Geb. Reg. 1850 nr. 1035 (dd. 13-10-1850)" ;
-    sdo:url " https://www.openarchieven.nl/elo:81125b49-e3d9-d4a6-6a96-5bb82f3e41a6" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1383> a sdo:ArchiveComponent ;
-    sdo:name "BS Monster Ovl. Reg. 1840 nr. 73" ;
-    sdo:url "https://www.openarchieven.nl/haw:8105d442-b676-44c4-949e-e6d6a5f2136f" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0375> a sdo:ArchiveComponent ;
-    sdo:name "BS Olst Huw. Reg. 1905 nr. 37 (dd. 11-11-1905)" ;
-    sdo:url "https://www.openarchieven.nl/hco:F19FFD04-AC05-457A-95AA-55900F007439" .
-

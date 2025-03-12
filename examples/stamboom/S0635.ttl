@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0635> a sdo:ArchiveComponent ;
-    sdo:name "BS Berg en Terblijt Ovl. Reg. 1843 nr. 10 (dd. 4-10-1843)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:fe8980aa-2490-b854-9cf4-b13c1f7ad6c9" .
-

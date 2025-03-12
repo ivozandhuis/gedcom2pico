@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1428> a sdo:ArchiveComponent ;
-    sdo:name "BS Maasland Ovl. Reg. 1816 nr. 21" ;
-    sdo:url "https://hdl.handle.net/21.12115/NL-DtAD132745678" .
-

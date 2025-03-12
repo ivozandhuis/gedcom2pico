@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1029> a sdo:ArchiveComponent ;
-    sdo:name "BS Woerden Huw. Reg. 1872 nr. 1 (dd. 22-1-1872)" ;
-    sdo:url "https://www.openarchieven.nl/rel:b8b2ad9d-057b-5eef-2fde-59030be6d8cb" .
-

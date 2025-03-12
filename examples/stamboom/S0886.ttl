@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0886> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Geb. Reg. 1815 nr. 495 (dd. 23-8-1815)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:1623aa3e-6b5f-057b-376d-881b4a17dffb" .
-

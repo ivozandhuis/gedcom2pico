@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1077> a sdo:ArchiveComponent ;
-    sdo:name "BS Smallingerland Huw. Reg. 1853 nr. 50 (dd. 21-5-1853)" ;
-    sdo:url "https://www.openarchieven.nl/frl:310aad49-a3bf-3bc7-147f-584dbb80416e" .
-

@@ -1,7 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0738> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Huw. Reg. 1848 nr. 65 (dd. 10-5-1848)" ;
-    sdo:url "https://www.openarchieven.nl/elo:30eddc88-cde0-7f99-de0b-c0a2ace3b8e6",
-        "https://www.openarchieven.nl/rzh:84072f42-fa1b-43d1-8cd6-f8525677c8d7" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0046> a sdo:ArchiveComponent ;
-    sdo:name "BS Heerde Geb. Reg. 1848 nr. 49 (dd. 13-5-1848)" ;
-    sdo:url "https://www.openarchieven.nl/gld:75315AB4-3A4A-4538-9419-74DA343B5113" .
-

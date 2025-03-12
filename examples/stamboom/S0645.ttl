@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0645> a sdo:ArchiveComponent ;
-    sdo:name "BS Oude Pekela Geb. Reg. 1813 nr. 12 (dd. 13-2-1813)" ;
-    sdo:url "https://www.openarchieven.nl/gra:13ac4103-5fa3-d2d5-5af1-ab418680dc3e" .
-

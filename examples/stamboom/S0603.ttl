@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0603> a sdo:ArchiveComponent ;
-    sdo:name "BS Heerde Huw. Reg. 1875 nr. 11 (dd. 27-3-1875)" ;
-    sdo:url "https://www.openarchieven.nl/gld:C6650302-B10D-413D-92CF-561E48B5D410" .
-

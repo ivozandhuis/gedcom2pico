@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0151> a sdo:ArchiveComponent ;
-    sdo:name "BS Elburg Huw. Reg. 1883 nr. 15" ;
-    sdo:url "https://www.openarchieven.nl/gld:0850A9A1-E52E-4D5D-A817-6F90C45083FE" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0878> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Geb. Reg. 1830 fol. 20 (dd. 16-3-1830)" ;
-    sdo:url "https://www.openarchieven.nl/frl:7d0a03a7-7e5f-4818-146b-3305808dac3c" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0167> a sdo:ArchiveComponent ;
-    sdo:name "BS Gorssel Huw. Reg. 1844 nr. 16 (dd. 17-5-1844)" ;
-    sdo:url "https://www.openarchieven.nl/gld:18991010-F2F4-410F-AFFB-BF7260B42F09" .
-

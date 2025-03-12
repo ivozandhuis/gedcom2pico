@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1360> a sdo:ArchiveComponent ;
-    sdo:name "BS Boxtel Ovl. Reg. 1856 nr. 17" ;
-    sdo:url "https://www.openarchieven.nl/bhi:f74c873a-7a95-48e2-0dcc-791811c24a6e" .
-

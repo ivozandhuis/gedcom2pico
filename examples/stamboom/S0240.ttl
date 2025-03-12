@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0240> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Ovl. Reg. 1944 nr. 13 (dd. 2-3-1944)" ;
-    sdo:url "https://www.openarchieven.nl/frl:5e0cf630-cf42-4578-b88b-338334798b22" .
-

@@ -1,5 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0016> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Geb. Reg. 1818 nr ? (dd. 7-9-1818)" .
-

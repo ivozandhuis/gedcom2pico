@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0514> a sdo:ArchiveComponent ;
-    sdo:name "BS Naaaldwijk Geb. Reg. 1904 nr. 9 (dd. 19-1-1904)" ;
-    sdo:url "https://www.openarchieven.nl/haw:73d5b4fb-798f-4396-87bd-09311e04892a" .
-

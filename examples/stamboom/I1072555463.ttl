@@ -1,9 +1,0 @@
-@prefix picom: <https://personsincontext.org/model#> .
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/I1072555463> a picom:PersonReconstruction ;
-    sdo:familyName "" ;
-    sdo:gender sdo:Male ;
-    sdo:givenName "Heijndrick Bouwensz" ;
-    sdo:name "Heijndrick Bouwensz " .
-

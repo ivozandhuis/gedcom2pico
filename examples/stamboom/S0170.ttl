@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0170> a sdo:ArchiveComponent ;
-    sdo:name "BS Monster Huw. Reg. 1885 nr. 23 (dd. 30-5-1885)" ;
-    sdo:url "https://www.openarchieven.nl/haw:81305e0f-8925-44be-865c-139a4cdf1628" .
-

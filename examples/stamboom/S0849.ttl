@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0849> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Geb. Reg. 1835 nr. 46 (dd. 11-1-1835)" ;
-    sdo:url "https://www.openarchieven.nl/elo:49284beb-cf59-e9f9-98a6-9954f78579e5" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1449> a sdo:ArchiveComponent ;
-    sdo:name "BS Hellendoorn Ovl. Reg. 1866 nr. 28" ;
-    sdo:url "https://www.openarchieven.nl/hco:305D3105-4D05-409C-A936-D8C433DB63FA" .
-

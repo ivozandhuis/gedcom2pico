@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0415> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Geb. Reg. 1905 nr. 57 (dd. 11-4-1905)" ;
-    sdo:url "https://www.openarchieven.nl/frl:9b608f38-09ce-11e5-b6cb-b7b97e34c834" .
-

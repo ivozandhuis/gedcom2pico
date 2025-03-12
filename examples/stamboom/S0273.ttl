@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0273> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Gravenzande Ovl. Reg. 1924 nr. 24 (dd. 20-03-1924)" ;
-    sdo:url "https://www.openarchieven.nl/haw:2598dba3-e283-423a-a484-e86aef4214fa" .
-

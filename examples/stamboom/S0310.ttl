@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0310> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Ambt Ovl. Reg. 1880 nr. 64 (dd. 10-9-1880)" ;
-    sdo:url "https://www.openarchieven.nl/hco:E99DE468-81FC-45D4-8EA4-6C5CA49FF2CE" .
-

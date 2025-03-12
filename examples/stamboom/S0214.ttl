@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0214> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijlre Ovl. Reg. 1917 nr. 13 (dd. 29-4-1917)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:b7abac5d-1eda-3bb5-fad4-dcae81636566" .
-

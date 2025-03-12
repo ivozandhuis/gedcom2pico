@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0871> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Geb. Reg. 1831 nr. 1060 (dd. 7-12-1831)" ;
-    sdo:url "https://www.openarchieven.nl/elo:385dfddf-ddaf-632e-7c73-13dd0fe69cd8" .
-

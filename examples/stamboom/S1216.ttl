@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1216> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Begraafboek RK Kruiskerk dd.16-11-1802" ;
-    sdo:url "https://hdl.handle.net/21.12121/192212972" .
-

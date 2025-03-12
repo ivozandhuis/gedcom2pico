@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0851> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Geb. Reg. 1838 nr. 1458 (dd. 11-12-1838)" ;
-    sdo:url "https://www.openarchieven.nl/elo:b370acb8-0f95-264b-7b72-712271b24f86" .
-

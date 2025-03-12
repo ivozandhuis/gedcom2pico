@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0304> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1869 nr. 573 (dd. 28-6-1869)" ;
-    sdo:url "https://www.openarchieven.nl/elo:f1b91802-473a-093d-2b7b-fc5096da88cc" .
-

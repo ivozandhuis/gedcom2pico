@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0222> a sdo:ArchiveComponent ;
-    sdo:name "BS Wateringen Huw. Reg. 1823 nr. 9 (dd. 16-05-1823)" ;
-    sdo:url "https://www.openarchieven.nl/haw:46b80ce2-2c03-4bc8-9c77-48276998377f" .
-

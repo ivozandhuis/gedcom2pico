@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0732> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1839 nr. 277 (dd. 23-3-1839)" ;
-    sdo:url "https://www.openarchieven.nl/elo:2df189f5-cc63-0fe5-e437-9b5a8c2eaa61" .
-

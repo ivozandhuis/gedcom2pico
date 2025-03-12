@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1017> a sdo:ArchiveComponent ;
-    sdo:name "BS Bodegraven Geb. Reg. 1842 nr. 59 (dd. 17-8-1842)" ;
-    sdo:url "https://www.openarchieven.nl/rel:535988d7-187a-0970-b701-a8074023d527" .
-

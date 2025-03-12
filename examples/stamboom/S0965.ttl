@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0965> a sdo:ArchiveComponent ;
-    sdo:name "BS Heerde Ovl. Reg. 1813 nr. 25 (dd. 20-11-1813)" ;
-    sdo:url "https://www.openarchieven.nl/gld:55D33870-50AB-4E75-A4F1-E08D3AA3F834" .
-

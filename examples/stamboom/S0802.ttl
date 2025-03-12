@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0802> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Geb. Reg. 1901 nr. 10 (dd. 17-1-1901)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:ece78969-ee48-4625-aabb-139c2158ac43" .
-

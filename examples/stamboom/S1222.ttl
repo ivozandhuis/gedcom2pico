@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1222> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1825 nr. 318 (dd. 11-6-1825)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:07db9b90-175f-4afa-6b6c-800712dd5aa1" .
-

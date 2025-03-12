@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0164> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Ambt Huw. Reg. 1818 nr. 2 (dd. 22-1-1818)" ;
-    sdo:url "https://www.openarchieven.nl/hco:934B2EFD-1790-4FA2-A56F-BD19FCB3766F" .
-

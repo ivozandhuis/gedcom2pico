@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0604> a sdo:ArchiveComponent ;
-    sdo:name "BS Kampen Huw. Reg. 1905 nr. 2 (dd. 26-1-1905)" ;
-    sdo:url "https://www.openarchieven.nl/hco:6C22006F-6E3D-4638-9A9E-E6893629D377" .
-

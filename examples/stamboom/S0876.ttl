@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0876> a sdo:ArchiveComponent ;
-    sdo:name "BS Hemelumer Oldeferd Geb. Reg. 1853 nr. 54 (dd. 4-5-1853)" ;
-    sdo:url "https://www.openarchieven.nl/frl:06260fed-13c3-69be-a343-b8b879191ef7" .
-

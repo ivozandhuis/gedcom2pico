@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0827> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1866 nr. 1188 (dd. 19-6-1866)" ;
-    sdo:url "https://www.openarchieven.nl/elo:4b1678ee-f0db-0d38-cdfe-7ae063d2b6fc" .
-

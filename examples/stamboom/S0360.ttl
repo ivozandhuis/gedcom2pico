@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0360> a sdo:ArchiveComponent ;
-    sdo:name "BS Elburg Ovl. Reg. 1892 nr. 72 (dd. 09-09-1892)" ;
-    sdo:url "https://www.openarchieven.nl/gld:FA6EDA81-A073-40B9-93F8-D4F4D06FB1F5" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0699> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijlre Ovl. Reg. 1841 nr. 22 (dd. 12-8-1841)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:b1f740fa-b9e8-5517-6268-e7c07e57a9c4" .
-

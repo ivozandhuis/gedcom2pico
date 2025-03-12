@@ -1,7 +1,0 @@
-@prefix bio: <http://purl.org/vocab/bio/0.1/> .
-
-<https://gen.example.com/stamboom/F0128> a bio:Marriage ;
-    bio:partner <https://gen.example.com/stamboom/I999004436>,
-        <https://gen.example.com/stamboom/I999004437> ;
-    bio:place "Valkenburg (Sibbe)" .
-

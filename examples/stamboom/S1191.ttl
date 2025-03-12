@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1191> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1875 nr. 567 (dd. 24-8-1875)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:b88da7b0-e8a1-c1a2-b350-f136170c6493" .
-

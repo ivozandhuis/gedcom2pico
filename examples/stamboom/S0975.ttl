@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0975> a sdo:ArchiveComponent ;
-    sdo:name "BS Heerde Ovl. Reg. 1837 nr. 71 (dd. 23-10-1837)" ;
-    sdo:url "https://www.openarchieven.nl/gld:CF57A265-203B-42C2-BE22-B5554681BC51" .
-

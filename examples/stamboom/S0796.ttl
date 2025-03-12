@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0796> a sdo:ArchiveComponent ;
-    sdo:name "BS Wormerveer Ovl. Reg. 1926 nr. 11 (dd. 24-2-1926)" ;
-    sdo:url "https://www.openarchieven.nl/nha:4D0F1902-5FCC-437F-BA4C-1BEA5F7F6B63" .
-

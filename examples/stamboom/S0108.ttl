@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0108> a sdo:ArchiveComponent ;
-    sdo:name "BS Utrecht Huw. Reg. 1937 nr. 997" ;
-    sdo:url "https://www.openarchieven.nl/hua:F6C0F0E4-0850-E53E-E043-4701000A1872" .
-

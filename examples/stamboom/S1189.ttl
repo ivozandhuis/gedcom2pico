@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1189> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1874 nr. 80 (dd. 9-2-1874)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:ed9220b8-b162-7b2a-1d21-d53d538ed13d" .
-

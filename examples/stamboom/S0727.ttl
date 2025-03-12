@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0727> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1832 nr. 957 (dd. 9-9-1832)" ;
-    sdo:url "https://www.openarchieven.nl/elo:42da5ea8-456b-c1a9-51fe-40112ca5540f" .
-

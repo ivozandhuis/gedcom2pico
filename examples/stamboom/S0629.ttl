@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0629> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Huw. Reg. 1885 nr. 4 (dd. 12-2-1885)" ;
-    sdo:url "https://www.openarchieven.nl/hco:08E669E5-7463-4D44-B802-EBD9BA4962E8" .
-

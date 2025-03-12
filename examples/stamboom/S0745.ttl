@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0745> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Huw. Reg. 1875 nr. 349 (dd. 1-12-1875)" ;
-    sdo:url "https://www.openarchieven.nl/elo:ef3e7a50-4770-6a8e-1fc1-83a90c8dae46" .
-

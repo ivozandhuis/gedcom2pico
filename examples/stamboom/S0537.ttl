@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0537> a sdo:ArchiveComponent ;
-    sdo:name "Friesch dagblad 08-04-1935" ;
-    sdo:url "https://resolver.kb.nl/resolve?urn=MMTRES02:000023053:mpeg21:a0027" .
-

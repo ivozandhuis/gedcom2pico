@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0805> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Ovl. Reg. 1906 nr. 22 (dd. 5-3-1906)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:1ba4f77c-5f00-475f-b161-b7dc8f7b22a3" .
-

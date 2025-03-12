@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0524> a sdo:ArchiveComponent ;
-    sdo:name "BS Delft Ovl. Reg. 1968 nr. 389" ;
-    sdo:url "https://www.openarchieven.nl/ade:31720170-e4c3-1286-e388-7b319c875930" .
-

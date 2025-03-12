@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0782> a sdo:ArchiveComponent ;
-    sdo:name "BS Gaasterland Ovl. Reg. 1942 nr. 61 (dd. 1-10-1942)" ;
-    sdo:url "https://www.openarchieven.nl/frl:578fa6f0-0a56-f7b4-46b4-27ff0a49d53f" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0650> a sdo:ArchiveComponent ;
-    sdo:name "BS Oude Pekela Ovl. Reg. 1819 nr. 33 (dd. 29-6-1819)" ;
-    sdo:url "https://www.openarchieven.nl/gra:4d3b85ad-3d1e-a55a-a47a-c7ba1fd1a3ab" .
-

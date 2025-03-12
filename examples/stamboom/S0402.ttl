@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0402> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Huw. Reg. 1927 nr. 46 (dd. 13-10-1927)" ;
-    sdo:url "https://www.openarchieven.nl/frl:e1415b8e-09d0-11e5-9ed7-1be5c9ace808" .
-

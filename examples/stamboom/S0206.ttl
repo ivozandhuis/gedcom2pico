@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0206> a sdo:ArchiveComponent ;
-    sdo:name "BS Olst Ovl. Reg. 1867 nr. 93 (dd. 18-11-1867)" ;
-    sdo:url "https://www.openarchieven.nl/hco:3B10A5DD-D525-4F9D-9694-EB8406C34F5B" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1155> a sdo:ArchiveComponent ;
-    sdo:name "BS Monster Geb. Reg. 1891 nr. 99 (dd. 8-7-1891)" ;
-    sdo:url "https://www.openarchieven.nl/haw:75e04042-9171-41f7-a885-f4881d5db0a2" .
-

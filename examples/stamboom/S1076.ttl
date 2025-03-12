@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1076> a sdo:ArchiveComponent ;
-    sdo:name "BS Groningen Huw. Reg. 1852 nr. 181 (dd. 19-9-1852)" ;
-    sdo:url "https://www.openarchieven.nl/gra:11532de8-3c70-3a86-e0cb-a3af8c6bb81a" .
-

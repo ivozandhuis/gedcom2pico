@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0189> a sdo:ArchiveComponent ;
-    sdo:name "BS Olst Ovl. Reg. 1917 nr. 44 (dd. 12-6-1917)" ;
-    sdo:url "https://www.openarchieven.nl/hco:D39524DF-F261-4845-BE22-16CE0B6BA0AA" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0884> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Geb. Reg. 1813 nr. 354 (dd. 19-7-1813)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:8d3fb4c5-baf6-d6e3-71cf-6595e6c6f075" .
-

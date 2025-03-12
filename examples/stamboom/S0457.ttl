@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0457> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Geb. Reg. 1887 nr. 65 (dd. 7-9-1887)" ;
-    sdo:url "https://www.openarchieven.nl/hco:678AC088-EC5D-4C72-A589-BF8CA7A24B22" .
-

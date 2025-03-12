@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1061> a sdo:ArchiveComponent ;
-    sdo:name "BS Wateringen Geb. Reg. 1824 nr. 26 (dd. 15-5-1824)" ;
-    sdo:url "https://www.openarchieven.nl/haw:e06dc6cb-9f5a-477f-a144-7e354048c779" .
-

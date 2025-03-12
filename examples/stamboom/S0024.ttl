@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0024> a sdo:ArchiveComponent ;
-    sdo:name "BS Oud Valkenburg Geb. Reg. 1831 nr. 7 (dd. 4-4-1831)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:ecc8d3b7-ceff-e874-63d3-084f44e00b92" .
-

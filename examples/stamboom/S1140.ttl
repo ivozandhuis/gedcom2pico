@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1140> a sdo:ArchiveComponent ;
-    sdo:name "BS 's Gravenhage Ovl. Reg. 1841 nr. 879 (dd. 10-7-1841)" ;
-    sdo:url "https://www.openarchieven.nl/hga:5A5121A3-F968-4A83-AF7B-B38535E78DF4" .
-

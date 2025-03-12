@@ -1,7 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0808> a sdo:ArchiveComponent ;
-    sdo:name "BS Rotterdam Huw. Reg. 1922 fol. c7 (dd. 22-2-1922)" ;
-    sdo:url "https://www.openarchieven.nl/srt:1b22adf8-6d34-2052-bd89-db567f6abb1c",
-        "https://www.openarchieven.nl/srt:A4134DC6-E2C0-40B4-A3E8-DFDFDED37C8F" .
-

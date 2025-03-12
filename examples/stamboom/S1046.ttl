@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1046> a sdo:ArchiveComponent ;
-    sdo:name "BS Naaldwijk Geb. Reg. 1856 nr. 75 (dd. 28-6-1856)" ;
-    sdo:url "https://www.openarchieven.nl/haw:ee4fc2d3-1dd4-4e05-a1fc-b21490dbb2f5" .
-

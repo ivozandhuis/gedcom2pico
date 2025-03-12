@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0804> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Ovl. Reg. 1901 nr. 25 (dd. 23-4-1901)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:ba4454b0-c376-485a-9c4e-658c428a014b" .
-

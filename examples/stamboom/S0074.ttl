@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0074> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Geb. Reg. 1823 nr. 720 (dd. 4-8-1823)" ;
-    sdo:url "https://www.openarchieven.nl/elo:7136a427-2052-5c1d-32b7-fdd506b9afa6" .
-

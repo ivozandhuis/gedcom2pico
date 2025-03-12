@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1207> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1811 nr. 70 (dd. 15-2-1811)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:b25b7109-cc46-46db-1e9a-60318351a447" .
-

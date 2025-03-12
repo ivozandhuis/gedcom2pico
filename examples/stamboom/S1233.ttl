@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1233> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Ovl. Reg. 1838 nr. 255" ;
-    sdo:url "https://www.openarchieven.nl/bhi:9feef569-7f49-c061-edfd-3c6bda20a2f2" .
-

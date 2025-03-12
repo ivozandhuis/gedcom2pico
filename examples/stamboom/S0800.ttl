@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0800> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Geb. Reg. 1899 nr. 28 (23-2-1899)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:d7692c22-046c-4651-b3a1-72b8b6f80c46" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0627> a sdo:ArchiveComponent ;
-    sdo:name "De Stentor, april 2015" ;
-    sdo:url "https://mensenlinq.nl/overlijdensberichten/gerrigje-(gerrie)-bakker-zandhuis-181474" .
-

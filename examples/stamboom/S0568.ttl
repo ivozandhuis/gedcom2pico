@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0568> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Ovl. Reg. 1953 nr. 229 (dd. 20-5-1953)" ;
-    sdo:url "https://www.openarchieven.nl/hco:975B1D1D-B280-416A-BEC8-DCFBC04A0280" .
-

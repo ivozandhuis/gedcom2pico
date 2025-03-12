@@ -1,7 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0211> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Ovl. Reg. 1887 nr. 305 (dd. 2-5-1887)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:19397627-31fc-13e4-7f25-c12227674c5e",
-        "https://www.openarchieven.nl/rhl:1c4ec395-f82c-436c-bbe1-301de1e55599" .
-

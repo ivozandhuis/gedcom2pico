@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0285> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Ovl. Reg. 1830 nr. 15 (dd. 11-2-1830)" ;
-    sdo:url "https://www.openarchieven.nl/hco:36F16D17-78B7-43C3-96AB-C9F686AB2B52" .
-

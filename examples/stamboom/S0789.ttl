@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0789> a sdo:ArchiveComponent ;
-    sdo:name "BS 's Hertogenbosch Huw. Reg. 1855 nr. 158 (dd. 3-11-1855)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:6b396b55-ffe0-5ccf-a1e0-8330f78157b5" .
-

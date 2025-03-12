@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0036> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Geb. Reg. 1862 nr. 148 (dd. 15-11-1862)" ;
-    sdo:url "https://www.openarchieven.nl/frl:09e701b0-a080-41df-a3d5-2fbcee6eb703" .
-

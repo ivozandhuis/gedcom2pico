@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0453> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Huw. Reg. 1837 nr. 99 (dd. 5-10-1837)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:19b87248-59d1-d459-9972-b1e8b2d4a828" .
-

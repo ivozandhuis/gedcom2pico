@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1388> a sdo:ArchiveComponent ;
-    sdo:name "BS Schipluiden Geb. Reg. 1896 nr. 9" ;
-    sdo:url "https://hdl.handle.net/21.12115/NL-DtAD126184231" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0452> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Ovl. Reg. 1838 nr. 20 (dd. 16-1-1838)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:e98c27a4-f8f8-e9d0-3825-27a153ff5269" .
-

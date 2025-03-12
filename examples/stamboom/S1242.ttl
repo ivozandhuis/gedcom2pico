@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1242> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Ovl. Reg. 1883 nr. 138 (dd. 7-3-1883)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:4d7089b6-3ba5-3243-6761-127398a67379" .
-

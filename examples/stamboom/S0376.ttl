@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0376> a sdo:ArchiveComponent ;
-    sdo:name "BS Heerde Huw. Reg. 1916 nr. 24 (dd. 1-7-1916)" ;
-    sdo:url "https://www.openarchieven.nl/gld:97A238E2-B942-4A44-B05E-EB4AE2AD2F65" .
-

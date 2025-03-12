@@ -1,5 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1246> a sdo:ArchiveComponent ;
-    sdo:name "BS Houthem Ovl. Reg. 1807 nr. 12 (dd. 30-4-1807)" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1346> a sdo:ArchiveComponent ;
-    sdo:name "BS Kampen Ovl. Reg. 1893 nr. 294" ;
-    sdo:url "https://www.openarchieven.nl/hco:F9A7CB34-8D45-43A7-8D75-9942530A8CDE" .
-

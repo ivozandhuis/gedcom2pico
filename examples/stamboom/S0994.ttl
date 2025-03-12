@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0994> a sdo:ArchiveComponent ;
-    sdo:name "BS Alphen Ovl. Reg. 1921 nr. 139 (dd. 18-7-1921)" ;
-    sdo:url "https://proxy.archieven.nl/105/F295EF3A407C45CA99758233E77CE118" .
-

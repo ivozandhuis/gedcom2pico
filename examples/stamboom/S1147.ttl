@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1147> a sdo:ArchiveComponent ;
-    sdo:name "BS Leek Ovl. Reg. 1857 vr. 74 (dd. 18-11-1857)" ;
-    sdo:url "https://www.openarchieven.nl/gra:697d9189-1052-c58b-bb4c-86e5c7e0aea3" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0081> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Geb. Reg. 1883 nr. 91 (dd. 16-10-1883)" ;
-    sdo:url "https://www.openarchieven.nl/hco:AFF20828-9C1A-402E-8A71-815FB4FF6B6D" .
-

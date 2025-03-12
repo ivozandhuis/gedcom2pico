@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0922> a sdo:ArchiveComponent ;
-    sdo:name "BS Bodegraven Ovl. Reg. 1850 nr. 21 (dd. 3-4-1850)" ;
-    sdo:url "https://www.openarchieven.nl/rel:b9b4ae8f-c2fb-49fd-0665-878db1123f44" .
-

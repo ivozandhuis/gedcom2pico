@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1432> a sdo:ArchiveComponent ;
-    sdo:name "DTN Eersel DTB boek fol. 32v." ;
-    sdo:url "https://www.openarchieven.nl/rhe:A426F0C6-FEE3-41D3-9763-C59950F493CD" .
-

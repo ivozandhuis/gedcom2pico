@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0185> a sdo:ArchiveComponent ;
-    sdo:name "BS Alphen a/d Rijn Huw. Reg. 1906 nr. 5" ;
-    sdo:url "https://proxy.archieven.nl/105/5EF2BED5D6474D009513426E206A9C5D" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0181> a sdo:ArchiveComponent ;
-    sdo:name "BS Naaldwijk Huw. Reg. 1827 nr. 12" ;
-    sdo:url "https://www.openarchieven.nl/haw:e272b178-e8dc-49a5-0bb5-0a475dbeb745" .
-

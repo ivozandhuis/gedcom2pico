@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1303> a sdo:ArchiveComponent ;
-    sdo:name "BS 's Gravenzande Geb. Reg. 1877 nr. 188 (dd. 27-12-1877)" ;
-    sdo:url "https://www.openarchieven.nl/haw:7cb76aea-3424-4eb8-90dc-284b6b9e7e62" .
-

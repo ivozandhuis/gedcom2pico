@@ -1,5 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0423> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Huw. Reg. 1925 nr. 29 (dd. 28-5-1925)" .
-

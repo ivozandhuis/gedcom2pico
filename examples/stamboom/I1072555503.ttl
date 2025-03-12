@@ -1,9 +1,0 @@
-@prefix picom: <https://personsincontext.org/model#> .
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/I1072555503> a picom:PersonReconstruction ;
-    sdo:familyName "van der Sloot" ;
-    sdo:gender sdo:Male ;
-    sdo:givenName "Jacob Claesz" ;
-    sdo:name "Jacob Claesz van der Sloot" .
-

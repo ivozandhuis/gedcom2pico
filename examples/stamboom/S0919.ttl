@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0919> a sdo:ArchiveComponent ;
-    sdo:name "DTB Oudewater Begraafboek fol. 228" ;
-    sdo:url "https://www.openarchieven.nl/hua:53F4FE3D-E39A-D31C-E053-4701000A0367" .
-

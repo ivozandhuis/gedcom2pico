@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0791> a sdo:ArchiveComponent ;
-    sdo:name "BS Wormerveer Huw. Reg. 1863 nr. 10 (dd. 17-5-1863)" ;
-    sdo:url "https://www.openarchieven.nl/nha:F13E80E9-0141-49C0-A56E-6F01D3CE7B4B" .
-

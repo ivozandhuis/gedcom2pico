@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0401> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Ovl. Reg. 1927 (dd. 8-8-1927)" ;
-    sdo:url "https://www.openarchieven.nl/frl:aeea93b3-2cf8-3dbf-a818-d02d66fccec0" .
-

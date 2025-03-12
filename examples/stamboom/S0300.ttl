@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0300> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1853 nr. 835 (dd. 10-10-1853)" ;
-    sdo:url "https://www.openarchieven.nl/elo:e8d3f5c3-5fee-afbb-8d9d-89ed84d5749e" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0520> a sdo:ArchiveComponent ;
-    sdo:name "BS Naaldwijk Huw. Reg. 1924 nr. 2 (dd. 12-1-1924)" ;
-    sdo:url "https://www.openarchieven.nl/haw:0069c559-3f15-47b6-8485-0d8ec015fadd" .
-

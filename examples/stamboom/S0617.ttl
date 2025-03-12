@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0617> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Ovl. Reg. 1847 nr. 92 (dd. 18-10-1847)" ;
-    sdo:url "https://www.openarchieven.nl/hco:10C24B04-CA58-4F33-96D1-941F8C36ACAA" .
-

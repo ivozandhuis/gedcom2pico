@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0880> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Huw. Reg. 1857 nr. 21" ;
-    sdo:url "https://www.openarchieven.nl/frl:3b2d0a7c-1d0c-03f7-f0c5-f209f0f9b110" .
-

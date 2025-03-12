@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0860> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1852 nr. 208 (dd. 2-3-1852)" ;
-    sdo:url "https://www.openarchieven.nl/elo:e30f3904-f6c4-eeca-fce3-faa5773f5afa" .
-

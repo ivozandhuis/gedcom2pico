@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1412> a sdo:ArchiveComponent ;
-    sdo:name "BS Schoterland Geb. Reg. 1868 nr. 53" ;
-    sdo:url "https://www.openarchieven.nl/frl:9ffd1e0b-c55e-3879-0263-ae9fa1687e07" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0696> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijlre Ovl. Reg. 1847 nr. 17" ;
-    sdo:url "https://www.openarchieven.nl/rhl:326de0fa-1670-42c8-9241-efb5696037d3" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0548> a sdo:ArchiveComponent ;
-    sdo:name "Leidse Courant 26-07-1947 | pagina 3" ;
-    sdo:url "https://leiden.courant.nu/issue/LLC/1947-07-26/edition/0/page/3" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0869> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1906 nr. 442 (dd. 27-5-1906)" ;
-    sdo:url "https://www.openarchieven.nl/elo:82f079b5-2fb9-e1a6-c4b2-0cb2efc903cb" .
-

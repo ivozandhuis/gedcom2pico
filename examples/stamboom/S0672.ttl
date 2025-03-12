@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0672> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Geb. Reg. 1816 nr. 18 (dd. 26-3-1816)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:55303546-5561-45a1-a68f-e11f487ff6d1" .
-

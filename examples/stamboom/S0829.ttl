@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0829> a sdo:ArchiveComponent ;
-    sdo:name "MR Leiden 1872 nr. 238" ;
-    sdo:url "https://www.openarchieven.nl/elo:6eb5ce78-b595-4467-ab77-ae78303e7fad" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0546> a sdo:ArchiveComponent ;
-    sdo:name "Leidsch Dagblad 15-07-1912 | pagina 3" ;
-    sdo:url "https://leiden.courant.nu/issue/LD/1912-07-15/edition/0/page/3" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1231> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1836 nr. 261 (dd. 29-4-1836)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:dfab2661-625d-e493-8ef3-3e53e932949f" .
-

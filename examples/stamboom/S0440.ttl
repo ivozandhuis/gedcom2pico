@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0440> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Huw. Reg. 1897 nr. 199 (dd. 9-11-1897)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:7ec07da3-30bd-b9bc-b66a-beb76f6af242" .
-

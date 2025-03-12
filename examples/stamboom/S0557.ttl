@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0557> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Ovl. Reg. 1919 nr. 214 (dd. 21-10-1919)" ;
-    sdo:url "https://www.openarchieven.nl/hco:5C764FEF-F168-4BDD-9536-8E1147D64FF2" .
-

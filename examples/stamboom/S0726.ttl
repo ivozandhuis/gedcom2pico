@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0726> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Huw. Reg. 1828 nr. 29 (dd. 27-2-1828)" ;
-    sdo:url "https://www.openarchieven.nl/elo:0456ad86-c9a1-18ec-f81e-bca4285f17f1" .
-

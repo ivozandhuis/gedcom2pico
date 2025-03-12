@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0062> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Ambt Geb. Reg. 1885 nr. 85 (dd. 29-7-1885)" ;
-    sdo:url "https://www.openarchieven.nl/hco:64A0B824-89C7-4274-A0CA-EA5668876D88" .
-

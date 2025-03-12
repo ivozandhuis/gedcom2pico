@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1263> a sdo:ArchiveComponent ;
-    sdo:name "BS Wouw Huw. Reg. 1822 nr. 8 (dd. 15-5-1822)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:9b65852c-5b66-69df-0d64-70008cd1e65f" .
-

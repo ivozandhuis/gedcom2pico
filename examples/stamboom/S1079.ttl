@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1079> a sdo:ArchiveComponent ;
-    sdo:name "BS Sneek Ovl. Reg. 1899 nr. 34 (dd. 28-2-1899)" ;
-    sdo:url "https://www.openarchieven.nl/frl:0f2952e6-4999-81ce-2544-c8b4663654d9" .
-

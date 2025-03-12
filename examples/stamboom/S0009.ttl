@@ -1,7 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0009> a sdo:ArchiveComponent ;
-    sdo:name "BS Opsterland Ovl. Reg. 1864 nr. 44 (1864-02-29)" ;
-    sdo:url "https://allefriezen.nl/zoeken/deeds/8f998b40-9d13-1861-62fe-feb667283688",
-        "https://www.openarchieven.nl/frl:8f998b40-9d13-1861-62fe-feb667283688" .
-

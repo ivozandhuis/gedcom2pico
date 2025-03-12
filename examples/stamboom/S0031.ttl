@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0031> a sdo:ArchiveComponent ;
-    sdo:name "BS Roermond Geb. Reg. 1903 nr. 291" ;
-    sdo:url "https://www.openarchieven.nl/rhl:ec7ecedf-22da-861f-6d59-e16e690aa614" .
-

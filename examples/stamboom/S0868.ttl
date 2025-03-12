@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0868> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1901 nr. 177 (dd. 13-2-1901)" ;
-    sdo:url "https://www.openarchieven.nl/elo:5b7fdbf7-0fef-1363-766f-6fff09a82038" .
-

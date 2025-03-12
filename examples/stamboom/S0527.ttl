@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0527> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1872 nr. 710 (dd. 4-11-1872)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:3a05f227-3976-5bad-fbbc-1b55db476e68" .
-

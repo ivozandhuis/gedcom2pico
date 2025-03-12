@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0833> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Geb. Reg. 1848 nr. 619 (dd. 5-7-1848)" ;
-    sdo:url "https://www.openarchieven.nl/elo:e3a8f446-9b81-8e2a-835e-20e73de01d84" .
-

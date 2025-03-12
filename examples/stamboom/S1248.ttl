@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1248> a sdo:ArchiveComponent ;
-    sdo:name "DTB Steenbergen NH Trouwboek Kruisland 1729-1785 (dd. 2-12-1781)" ;
-    sdo:url "https://www.openarchieven.nl/wba:befa7c2b-24c8-fa81-d478-5aa679a41c9f" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1400> a sdo:ArchiveComponent ;
-    sdo:name "BR Schipluiden 1890-1920 fol. 77" ;
-    sdo:url "https://hdl.handle.net/21.12115/NL-DtAD129524411" .
-

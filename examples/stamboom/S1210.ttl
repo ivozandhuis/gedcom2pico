@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1210> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Huw. Reg. 1836 nr. 48 (dd. 16-4-1836)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:4ef01ef2-6f96-b98a-7213-19929709c9d3" .
-

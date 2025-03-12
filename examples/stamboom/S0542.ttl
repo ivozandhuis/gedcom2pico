@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0542> a sdo:ArchiveComponent ;
-    sdo:name "Leidsch Dagblad 30-10-1885 | pagina 3" ;
-    sdo:url "https://leiden.courant.nu/issue/LD/1885-10-30/edition/0/page/3" .
-

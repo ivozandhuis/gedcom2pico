@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0381> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Geb. Reg. 1868 nr. 26 (dd. 24-02-1868)" ;
-    sdo:url "https://www.openarchieven.nl/hco:812A11A2-DE65-4477-82E8-026545C1431E" .
-

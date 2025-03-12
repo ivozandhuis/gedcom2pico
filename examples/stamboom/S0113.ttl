@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0113> a sdo:ArchiveComponent ;
-    sdo:name "BS Epe Huw. Reg. 1868 nr. 12" ;
-    sdo:url "https://www.openarchieven.nl/gld:DCD26AEB-40DA-49FD-904F-3C8B6799FDA8" .
-

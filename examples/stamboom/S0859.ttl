@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0859> a sdo:ArchiveComponent ;
-    sdo:name "MR Leiden 1847 nr. 69" ;
-    sdo:url "https://www.openarchieven.nl/elo:89430553-2d09-4179-8242-bfc086f54525" .
-

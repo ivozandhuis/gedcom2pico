@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0332> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Ovl. Reg. 1940 nr. 126 (dd. 12-11-1940)" ;
-    sdo:url "https://www.openarchieven.nl/hco:EE9C3685-C161-4733-8329-CF82346B5FAE" .
-

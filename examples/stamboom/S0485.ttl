@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0485> a sdo:ArchiveComponent ;
-    sdo:name "BS Dalfsen Geb. Reg. 1866 nr. 76 (dd. 8-8-1866)" ;
-    sdo:url "https://www.openarchieven.nl/hco:92293338-1999-4260-9B0A-9B64AF62E710" .
-

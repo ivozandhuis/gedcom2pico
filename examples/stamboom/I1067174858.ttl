@@ -1,9 +1,0 @@
-@prefix picom: <https://personsincontext.org/model#> .
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/I1067174858> a picom:PersonReconstruction ;
-    sdo:familyName "" ;
-    sdo:gender sdo:Female ;
-    sdo:givenName "Maria Jans" ;
-    sdo:name "Maria Jans " .
-

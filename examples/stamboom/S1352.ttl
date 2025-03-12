@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1352> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Ovl. Reg. 1907 nr. 66" ;
-    sdo:url "https://www.openarchieven.nl/hco:324810FC-D25D-45C5-83C9-C900A90D48A9" .
-

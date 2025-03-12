@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0463> a sdo:ArchiveComponent ;
-    sdo:name "BS Hellendoorn Ovl. Reg. 1915 nr. 54 (dd. 10-4-1915)" ;
-    sdo:url "https://www.openarchieven.nl/hco:C17357E1-CD45-42E2-AA12-F5765AD72A8E" .
-

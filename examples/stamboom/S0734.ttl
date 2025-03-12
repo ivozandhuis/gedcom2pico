@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0734> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Geb. Reg. 1840 nr. 36 (dd. 11-1-1840)" ;
-    sdo:url "https://www.openarchieven.nl/elo:43cc06f1-5dbc-30b9-7cd7-49e08b528cc6" .
-

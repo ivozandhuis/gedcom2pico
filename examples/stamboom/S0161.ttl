@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0161> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Ambt Huw. Reg. 1852 nr. 6 (dd. 28-4-1852)" ;
-    sdo:url "https://www.openarchieven.nl/hco:0AD5A0D7-1656-474E-86D3-F34078087398" .
-

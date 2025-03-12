@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0431> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Ovl. Reg. 1886 nr. 49 (dd. 25-6-1886)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:d71eaa87-199b-4cf9-b951-eed41daab391" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1144> a sdo:ArchiveComponent ;
-    sdo:name "BS Roden Ovl. Reg. 1854 nr. 34 (dd. 29-11-1854)" ;
-    sdo:url "https://www.openarchieven.nl/dar:32ae1370-81c4-4aff-8f56-cc77ea6fa295" .
-

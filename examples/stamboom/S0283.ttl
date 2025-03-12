@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0283> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Ovl. Reg. 1873 nr. 18 (dd. 10-2-1873)" ;
-    sdo:url "https://www.openarchieven.nl/hco:3ABE89C6-1813-4351-84E4-B472BA68DD1D" .
-

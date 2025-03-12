@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0700> a sdo:ArchiveComponent ;
-    sdo:name "BS Strucht Huw. Reg. 1855 nr. 2 (dd. 12-9-1855)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:4a03204a-f1bf-0c04-bac7-8cac4a426b5e" .
-

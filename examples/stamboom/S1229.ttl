@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1229> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogembosch Geb. Reg. 1835 nr. 223 (dd. 14-4-1835)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:139a10da-e9fa-aae5-56e5-598b4a09b19c" .
-

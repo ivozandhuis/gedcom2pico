@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0590> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Ambt Ovl. Reg. 1888 nr. 112 (dd. 17-12-1888)" ;
-    sdo:url "https://www.openarchieven.nl/hco:30160D08-3310-4AAA-A70A-B4ED0B738E8B" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0258> a sdo:ArchiveComponent ;
-    sdo:name "BS Monster Ovl. Reg. 1936 nr. 47 (dd. 01-07-1936)" ;
-    sdo:url "https://www.openarchieven.nl/haw:faab7d99-0908-40cf-bc40-ad216556a46c" .
-

@@ -1,7 +1,0 @@
-@prefix bio: <http://purl.org/vocab/bio/0.1/> .
-
-<https://gen.example.com/stamboom/F0464> a bio:Marriage ;
-    bio:partner <https://gen.example.com/stamboom/I1060868274>,
-        <https://gen.example.com/stamboom/I1060868276> ;
-    bio:place "Beulake" .
-

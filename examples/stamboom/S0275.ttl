@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0275> a sdo:ArchiveComponent ;
-    sdo:name "BS Tubbergen Ovl. Reg. 1828 nr. 63 (dd. 12-6-1828)" ;
-    sdo:url "https://www.openarchieven.nl/hco:4EFE3503-A818-47B6-B6AE-83480CCFAADB" .
-

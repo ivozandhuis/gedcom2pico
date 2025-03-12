@@ -1,5 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0942> a sdo:ArchiveComponent ;
-    sdo:name "CAO Persoonskaart GORDIJN, Anna Maria (1920-1972)" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0873> a sdo:ArchiveComponent ;
-    sdo:name "NA arch. 2.10.50 inv.nr. 129, stamboeknr. 16663" ;
-    sdo:url "https://www.openarchieven.nl/ghn:4531870d-0927-409f-4934-fe4454b3e4d2" .
-

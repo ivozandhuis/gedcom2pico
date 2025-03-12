@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0449> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Huw. Reg. 1915 nr. 6 (dd. 3-4-1915)" ;
-    sdo:url "https://www.openarchieven.nl/hco:5BFA6A9C-AB66-4B45-AA79-CF016C076447" .
-

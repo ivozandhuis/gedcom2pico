@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1343> a sdo:ArchiveComponent ;
-    sdo:name "BS Heerewaarden Geb. Reg. 1833 nr. 1" ;
-    sdo:url "https://www.openarchieven.nl/gld:59EC661D-7F3F-4FBA-8CAC-8DEB1FC79E73" .
-

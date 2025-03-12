@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0906> a sdo:ArchiveComponent ;
-    sdo:name "BS Oude Pekela Ovl. Reg. 1905 nr. 9 (dd. 14-1-1905)" ;
-    sdo:url "https://www.openarchieven.nl/gra:7affb6dc-ccba-8d70-c7c9-4ef40c65233a" .
-

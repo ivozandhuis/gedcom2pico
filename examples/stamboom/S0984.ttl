@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0984> a sdo:ArchiveComponent ;
-    sdo:name "BS Haarlem Huw. Reg. 1934 nr. 612" ;
-    sdo:url "https://www.openarchieven.nl/nha:9D4ABC60-EA01-444C-A5C8-546A38A94D87" .
-

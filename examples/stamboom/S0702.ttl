@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0702> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijlre Ovl. Reg. 1934 nr. 10 (dd. 13-3-1934)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:ba31054c-7c68-f2de-a0b3-03eb4829e6f7" .
-

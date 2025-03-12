@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0451> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Ovl. Reg. 1947 (dd. 11-10-1947)" ;
-    sdo:url "https://www.openarchieven.nl/hco:10DD8CE6-6EB8-4D8A-8403-58ED3DE074AC" .
-

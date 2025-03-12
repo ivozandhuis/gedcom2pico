@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0622> a sdo:ArchiveComponent ;
-    sdo:name "BS Arnhem Ovl. Reg. 1914 nr. 862 (dd. 21-12-1914)" ;
-    sdo:url "https://www.openarchieven.nl/gld:9737CCCF-7C21-4687-81AF-04731BD4D682" .
-

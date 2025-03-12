@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0388> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Huw. Reg. 1893 nr. 17 (dd. 9-6-1893)" ;
-    sdo:url "https://www.openarchieven.nl/hco:DB1A3014-B80A-4821-B300-67C695997018" .
-

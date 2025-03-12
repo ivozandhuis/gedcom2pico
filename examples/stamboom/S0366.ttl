@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0366> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Ovl. Reg. 1830 nr. 228  (dd. 21-05-1830)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:13388a37-7fb2-5b95-d3b0-eb4d525f4253" .
-

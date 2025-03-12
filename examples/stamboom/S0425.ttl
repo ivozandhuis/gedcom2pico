@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0425> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Huw. Reg. 1939 nr. 16 (dd. 4-5-1939)" ;
-    sdo:url "https://www.openarchieven.nl/frl:191384b4-5ef8-e6b3-a5bc-fcf5636c8ec5" .
-

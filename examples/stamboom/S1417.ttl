@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1417> a sdo:ArchiveComponent ;
-    sdo:name "BS Haskerland Ovl. Reg. 1887 nr. 80" ;
-    sdo:url "https://www.openarchieven.nl/frl:55d749ae-d054-a70b-5aff-b802628bfd92" .
-

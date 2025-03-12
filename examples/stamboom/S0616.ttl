@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0616> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Geb. Reg. 1843 nr. 4 (dd. 16-1-1843)" ;
-    sdo:url "https://www.openarchieven.nl/hco:2263FA67-C1A1-4624-9DE5-FDE53883465E" .
-

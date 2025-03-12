@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0760> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Geb. Reg. 1837 fol. 8" ;
-    sdo:url "https://www.openarchieven.nl/frl:c848936e-884b-c226-ae91-aa1cfea914f2" .
-

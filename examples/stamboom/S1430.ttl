@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1430> a sdo:ArchiveComponent ;
-    sdo:name "DTB Eersel RK Doopboek fol. 40" ;
-    sdo:url "https://www.openarchieven.nl/bhi:ce70e5b0-d4b2-a676-ce76-c443600e8d4e" .
-

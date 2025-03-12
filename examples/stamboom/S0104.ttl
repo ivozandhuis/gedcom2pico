@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0104> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Huw. Reg. 1871 nr. 37 (dd. 19-4-1871)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:e8c09b97-f990-7fcf-3cec-8168b2ba97b2" .
-

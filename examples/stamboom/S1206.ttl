@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1206> a sdo:ArchiveComponent ;
-    sdo:name "Westlandsche courant 31-05-1933" ;
-    sdo:url "https://resolver.kb.nl/resolve?urn=MMMAAS01:210198043:mpeg21:a00001" .
-

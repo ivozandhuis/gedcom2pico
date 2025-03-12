@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0772> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Ovl. Reg. 1863 fol. 3 (dd. 13-2-1863)" ;
-    sdo:url "https://www.openarchieven.nl/frl:3198b2a1-c05e-959a-22a7-df060952616c" .
-

@@ -1,5 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1420> a sdo:ArchiveComponent ;
-    sdo:name "BS Amsterdam Huw. Reg. 1894 14 fol. 46v" .
-

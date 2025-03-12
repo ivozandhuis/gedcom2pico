@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1016> a sdo:ArchiveComponent ;
-    sdo:name "BS Bodegraven Geb. Reg. 1840 nr. 53 (dd. 25-7-1840)" ;
-    sdo:url "https://www.openarchieven.nl/rel:1ca97fda-2527-c721-ce5c-8af381e9f75e" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0153> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Huw. Reg. 1859 nr. 30 (dd. 7-7-1859)" ;
-    sdo:url "https://www.openarchieven.nl/hco:7E3BC5B1-70E8-4DF5-8CF0-5143A3ACA45C" .
-

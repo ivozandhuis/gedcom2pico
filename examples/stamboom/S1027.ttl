@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1027> a sdo:ArchiveComponent ;
-    sdo:name "BS Bodegraven Ovl. Reg. 1852 nr. 58 (dd. 14-8-1852)" ;
-    sdo:url "https://www.openarchieven.nl/rel:9ceb61d8-a558-a6a5-1401-62a77d3655ac" .
-

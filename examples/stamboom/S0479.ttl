@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0479> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Huw. Reg. 1917 nr. 37 (dd. 23-6-1917)" ;
-    sdo:url "https://www.openarchieven.nl/hco:864DEAAE-21B2-4F8C-A92D-0A8F1074B62D" .
-

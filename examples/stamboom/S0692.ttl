@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0692> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijlre Ovl. Reg. 1858 nr. 33 (dd. 7-6-1858)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:0d18533f-01c4-2494-310e-0220e1e1bd01" .
-

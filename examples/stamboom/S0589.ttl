@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0589> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Ambt Ovl. Reg. 1886 nr. 93 (dd. 24-12-1886)" ;
-    sdo:url "https://www.openarchieven.nl/hco:97864560-B684-4F7D-BDE0-41EC0EF76741" .
-

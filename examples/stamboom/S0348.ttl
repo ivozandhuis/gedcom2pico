@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0348> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Ovl. Reg. 1891 nr. 714 (dd. 26-09-1891)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:582a9d08-9b69-18f8-849c-ffd33e205688" .
-

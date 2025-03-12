@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0352> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Geb. Reg. 1900 nr. 978 (dd. 22-10-1900)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:695357d8-b6f4-538d-1e7e-f99dcd7030b4" .
-

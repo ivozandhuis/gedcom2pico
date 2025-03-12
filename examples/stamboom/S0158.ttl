@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0158> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Ambt Huw. Reg. 1849 nr. 31" ;
-    sdo:url "https://www.openarchieven.nl/hco:11224f75-165d-14a6-3795-8468a36cb2c1" .
-

@@ -1,9 +1,0 @@
-@prefix bio: <http://purl.org/vocab/bio/0.1/> .
-@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
-
-<https://gen.example.com/stamboom/F0447> a bio:Marriage ;
-    bio:date "1714-03-31"^^xsd:date ;
-    bio:partner <https://gen.example.com/stamboom/I1060796071>,
-        <https://gen.example.com/stamboom/I1060796074> ;
-    bio:place "Suameer" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0988> a sdo:ArchiveComponent ;
-    sdo:name "BS Alphen Geb. Reg. 1913 nr. 88 (dd. 23-6-1913)" ;
-    sdo:url "https://proxy.archieven.nl/105/E60771CB9E624EB6BA006354AC64C891" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0652> a sdo:ArchiveComponent ;
-    sdo:name "BS Oude Pekela Huw. Reg. 1834 nr. 7 (dd. 15-4-1834)" ;
-    sdo:url "https://www.openarchieven.nl/gra:cfdd96ab-d69e-e899-f2ea-a2b5f8e0cb66" .
-

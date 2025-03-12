@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0569> a sdo:ArchiveComponent ;
-    sdo:name "BS Enschede Ovl. Reg. 1961 nr. 278 (dd. 27-3-1961)" ;
-    sdo:url "https://www.openarchieven.nl/hco:0C28F8C3-70BD-44B1-AC3A-83D771532596" .
-

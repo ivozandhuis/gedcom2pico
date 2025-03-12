@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1392> a sdo:ArchiveComponent ;
-    sdo:name "BS Schipluiden Geb. Reg. 1902 nr. 36" ;
-    sdo:url "https://hdl.handle.net/21.12115/NL-DtAD126191023" .
-

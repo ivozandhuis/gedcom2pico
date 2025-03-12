@@ -1,9 +1,0 @@
-@prefix picom: <https://personsincontext.org/model#> .
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/I1062428405> a picom:PersonReconstruction ;
-    sdo:familyName "Gordijn" ;
-    sdo:gender sdo:Male ;
-    sdo:givenName "" ;
-    sdo:name " Gordijn" .
-

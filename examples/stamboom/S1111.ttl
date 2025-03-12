@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1111> a sdo:ArchiveComponent ;
-    sdo:name "BS Leek Ovl. Reg. 1817 nr. 51 (dd. 24-6-1817)" ;
-    sdo:url "https://www.openarchieven.nl/gra:07886c62-f311-195c-1015-fddb3afc1bcb" .
-

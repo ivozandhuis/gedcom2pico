@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1305> a sdo:ArchiveComponent ;
-    sdo:name "BS Monster Huw. Reg. 1884 nr. 7 (dd. 8-3-1884)" ;
-    sdo:url "https://www.openarchieven.nl/haw:2f57ef4e-9f00-49bf-98a6-00a6de991571" .
-

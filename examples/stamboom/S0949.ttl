@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0949> a sdo:ArchiveComponent ;
-    sdo:name "BS Utrecht Huw. Reg. 1926 nr. 662 (19-8-1926)" ;
-    sdo:url "https://www.openarchieven.nl/hua:928F1702-8905-4345-AA62-708A4FCC6E09" .
-

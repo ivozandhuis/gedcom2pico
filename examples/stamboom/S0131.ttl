@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0131> a sdo:ArchiveComponent ;
-    sdo:name "BS Olst Huw. Reg. 1848 nr. 29 (dd. 23-11-1848)" ;
-    sdo:url "https://www.openarchieven.nl/hco:B01EFDD1-DF05-40DA-931B-4C778716B6FE" .
-

@@ -1,7 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1274> a sdo:ArchiveComponent ;
-    sdo:name "DTB Wouw Ger. trouwboek 1693-1744 dd. 1739" ;
-    sdo:url "https://www.openarchieven.nl/bhi:cb456a0b-6d53-7cb3-c276-8d80a29e412f",
-        "https://www.openarchieven.nl/wba:310d5a54-f552-def3-d982-ec31c8faeae8" .
-

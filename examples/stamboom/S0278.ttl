@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0278> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1832 nr. 325 (dd. 24-4-1832)" ;
-    sdo:url "https://www.openarchieven.nl/elo:b08d1721-7b0a-74a9-d3ae-91e7d2086044" .
-

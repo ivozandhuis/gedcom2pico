@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0691> a sdo:ArchiveComponent ;
-    sdo:name "BS Wittem Huw. Reg. 1857 nr. 16 (dd. 29-5-1857)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:47c3e593-4172-6492-2f4e-d58836c2f226" .
-

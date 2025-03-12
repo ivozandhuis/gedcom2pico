@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0639> a sdo:ArchiveComponent ;
-    sdo:name "DTB Rotterdam Doopregister (dd. 26-6-1710)" ;
-    sdo:url "https://www.openarchieven.nl/srt:6EAED0DE-FCAE-4671-A688-D8DCA23E8628" .
-

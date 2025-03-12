@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1072> a sdo:ArchiveComponent ;
-    sdo:name "BS Amsterdam Huw. Reg. 1837 reg. 4 nr. 84" ;
-    sdo:url "https://www.openarchieven.nl/nha:68EA411B-BAC7-4742-8CD5-F1DE95D5C964" .
-

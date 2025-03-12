@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1043> a sdo:ArchiveComponent ;
-    sdo:name "BS Loosduinen Geb. Reg. 1866 nr. 30" ;
-    sdo:url "https://www.openarchieven.nl/hga:5E9E9BA1-131A-46C7-B476-1345387E9B11" .
-

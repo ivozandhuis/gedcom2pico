@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1184> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Huw. Reg. 1917 nr. 2 (dd. 16-1-1917)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:03de4b95-52b8-455a-9877-629dc3969ef9" .
-

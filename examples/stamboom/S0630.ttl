@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0630> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Ovl. Reg. 1887 nr. 5 (dd. 11-1-1887)" ;
-    sdo:url "https://www.openarchieven.nl/hco:7E545480-D54B-4451-B202-F0A6676013C2" .
-

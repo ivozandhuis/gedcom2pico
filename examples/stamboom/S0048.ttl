@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0048> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Ambt Geb. Reg. 1821 nr. 7 (dd. 27-1-1821)" ;
-    sdo:url "https://www.openarchieven.nl/hco:A93056EB-0827-4541-ADC0-BD5AA48C63C8" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0115> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Huw. Reg. 1915 nr. 42" ;
-    sdo:url "https://www.openarchieven.nl/frl:dfd14fb6-db44-3a45-3041-d6bb51965d8a" .
-

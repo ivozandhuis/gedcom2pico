@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0599> a sdo:ArchiveComponent ;
-    sdo:name "BS Heerde Geb. Reg. 1850 nr. 185 (dd. 27-12-1850)" ;
-    sdo:url "https://www.openarchieven.nl/gld:FB11143A-26F8-41B4-857B-168ECFD13214" .
-

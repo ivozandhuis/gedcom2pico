@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0761> a sdo:ArchiveComponent ;
-    sdo:name "MvS arch 42 inv.nr. 12039 (Memories kantoor Lemmer) nr. 5788" ;
-    sdo:url "https://www.openarchieven.nl/frl:6d223972-f930-40a8-8cbc-1be036676a8f" .
-

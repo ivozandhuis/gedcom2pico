@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0533> a sdo:ArchiveComponent ;
-    sdo:name "Nieuwsblad van Friesland : Hepkema's courant 21-03-1930" ;
-    sdo:url "https://resolver.kb.nl/resolve?urn=ddd:010734942:mpeg21:a0294" .
-

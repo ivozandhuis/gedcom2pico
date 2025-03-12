@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0676> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Ovl. Reg. 1836 nr. 31 (dd. 21-6-1836)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:00466ead-7e76-487e-b4ab-4da99c9b00e6" .
-

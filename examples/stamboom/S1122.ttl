@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1122> a sdo:ArchiveComponent ;
-    sdo:name "BS Leek Huw. Reg. 1840 nr. 26 (dd. 19-7-1840)" ;
-    sdo:url "https://www.openarchieven.nl/gra:b0478629-6f2d-96e5-5058-68f3a58cce65" .
-

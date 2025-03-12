@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0049> a sdo:ArchiveComponent ;
-    sdo:name "BS Tubbergen Geb. Reg. 1820 nr. 26 (dd. 16-3-1820)" ;
-    sdo:url "https://www.openarchieven.nl/hco:E7929D1C-BC01-4816-9911-8FB166AC568B" .
-

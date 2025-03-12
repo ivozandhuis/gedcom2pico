@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0362> a sdo:ArchiveComponent ;
-    sdo:name "BS Roermond Ovl. Reg. 1907 nr. 182 (dd. 07-11-1907)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:e78de1a3-498a-cae7-d309-9ad041419501" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1026> a sdo:ArchiveComponent ;
-    sdo:name "BS Bodegraven Geb. Reg. 1852 nr. 46 (dd. 7-6-1852)" ;
-    sdo:url "https://www.openarchieven.nl/rel:a651129a-aecb-f9c5-fd2d-686688dd2a80" .
-

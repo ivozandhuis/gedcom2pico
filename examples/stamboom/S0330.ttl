@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0330> a sdo:ArchiveComponent ;
-    sdo:name "BS Haaksbergen  Ovl. Reg. 1856 nr. 38 (dd. 29-3-1856)" ;
-    sdo:url "https://www.openarchieven.nl/hco:87F498A3-B560-4DC4-A0FE-9BF037D8D048" .
-

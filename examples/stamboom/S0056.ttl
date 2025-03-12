@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0056> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1868 nr. 419 (dd. 14-7-1868)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:7aecd42a-af54-0d96-f63d-cdcc7e7a234c" .
-

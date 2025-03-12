@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0525> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Ovl. Reg. 1906 nr. 311 (dd. 7-6-1906)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:1fba08e4-02d5-520e-ef14-9e57882e9425" .
-

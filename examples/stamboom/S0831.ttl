@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0831> a sdo:ArchiveComponent ;
-    sdo:name "BS Delft Ovl. Reg. 1896 nr. 209" ;
-    sdo:url "https://www.openarchieven.nl/ade:621854f8-4025-11e5-a5ef-839bb411c881" .
-

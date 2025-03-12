@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1359> a sdo:ArchiveComponent ;
-    sdo:name "BS Loosduinen Ovl. Reg. 1870 nr. 27" ;
-    sdo:url "https://www.openarchieven.nl/hga:68098670-9D4F-4E84-A86C-68E5A97D9B60" .
-

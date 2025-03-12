@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0435> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Geb. Reg. 1887 nr. 42 (dd. 9-6-1887)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:4dff76f6-88e3-499c-aeaf-d201b319a1e2" .
-

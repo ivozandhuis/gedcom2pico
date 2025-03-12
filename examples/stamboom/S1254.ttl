@@ -1,7 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1254> a sdo:ArchiveComponent ;
-    sdo:name "DTB Wouw RK Doopregister 1784-1810 (dd. 22-8-1787)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:a128ffad-f740-81ca-1d56-4f9ff0284fd0",
-        "https://www.openarchieven.nl/wba:d7ad4af7-e5ee-dca9-ebed-60c3f1cb7d7c" .
-

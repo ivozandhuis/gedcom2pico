@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0580> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Ambt Huw. Reg. 1847 nr. 5 (dd. 28-4-1847)" ;
-    sdo:url "https://www.openarchieven.nl/hco:48169052-08a9-8731-dea0-6b122c175a7e" .
-

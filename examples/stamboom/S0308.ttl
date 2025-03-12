@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0308> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Stad Ovl. Reg. 1887 nr. 42 (dd. 14-4-1887)" ;
-    sdo:url "https://www.openarchieven.nl/hco:38E5A13E-BAE1-4ECA-A547-9801DE566F55" .
-

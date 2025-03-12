@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0364> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Ovl. Reg. 1878 nr. 228 (dd. 16-04-1878)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:97144fbf-da8e-d365-c610-216dd7e42b32" .
-

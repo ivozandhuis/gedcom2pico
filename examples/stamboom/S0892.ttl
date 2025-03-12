@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0892> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Huw. Reg. 1847 nr. 62 (dd. 6-7-1847)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:536bb5f3-6236-1a0c-1979-3f52f73f6832" .
-

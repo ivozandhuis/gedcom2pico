@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0424> a sdo:ArchiveComponent ;
-    sdo:name "BS Amsterdam Huw. Reg. 1930 reg. 4a fol. 38 (dd. 2-4-1930)" ;
-    sdo:url "https://www.openarchieven.nl/nha:AE2F41BA-F336-44B8-9C3F-9A5D25EA77DE" .
-

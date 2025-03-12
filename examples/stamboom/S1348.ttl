@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1348> a sdo:ArchiveComponent ;
-    sdo:name "BS Borculo Geb. Reg. 1896 nr. 78" ;
-    sdo:url "https://www.openarchieven.nl/gld:68F4FB41-FE7C-4D1C-AF69-881F5561D4BF" .
-

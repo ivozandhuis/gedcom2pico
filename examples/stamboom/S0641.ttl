@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0641> a sdo:ArchiveComponent ;
-    sdo:name "Staats und gelehrte zeitung des hamburgischen unpartheyischen correspondenten, no. 101, dd 25-6-1825" ;
-    sdo:url "https://books.google.nl/books?id=U2opAAAAYAAJ&pg=RA9-PA35" .
-

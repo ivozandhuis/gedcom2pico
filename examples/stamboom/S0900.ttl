@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0900> a sdo:ArchiveComponent ;
-    sdo:name "BS Groningen Ovl. Reg. 1914 nr. 1207 (dd. 30-11-1914)" ;
-    sdo:url "https://www.openarchieven.nl/gra:0fe49c36-01f7-35d6-d103-267b4fb55f70" .
-

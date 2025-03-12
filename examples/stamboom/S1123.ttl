@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1123> a sdo:ArchiveComponent ;
-    sdo:name "BS Leek Ovl. Reg. 1848 nr. 4 (dd. 8-1-1848)" ;
-    sdo:url "https://www.openarchieven.nl/gra:1d076b13-d65f-c04d-d0e1-5562b274364d" .
-

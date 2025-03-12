@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0149> a sdo:ArchiveComponent ;
-    sdo:name "BS Hattem Huw. Reg. 1873 nr. 28" ;
-    sdo:url "https://www.openarchieven.nl/gld:5FFA4898-4E75-4581-99BE-762A65499A8E" .
-

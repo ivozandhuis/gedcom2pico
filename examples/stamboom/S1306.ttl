@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1306> a sdo:ArchiveComponent ;
-    sdo:name "BS 's Gravenzande Huw. Reg. 1888 nr. 5 (dd. 11-5-1888)" ;
-    sdo:url "https://www.openarchieven.nl/haw:e50ea80c-91d8-4ad1-94fc-49d5b1685ecc" .
-

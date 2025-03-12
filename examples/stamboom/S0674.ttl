@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0674> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Ovl. Reg. 1827 nr. 20 (dd. 18-5-1827)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:c36626df-dfcc-49b2-a39e-dfb433fd493b" .
-

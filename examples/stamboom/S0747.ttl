@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0747> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Huw. Reg. 1886 nr. 296 (dd. 3-11-1886)" ;
-    sdo:url "https://www.openarchieven.nl/elo:78fcd52f-d943-3e70-40b8-b3613eb4d5fc" .
-

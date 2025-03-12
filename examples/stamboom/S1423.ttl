@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1423> a sdo:ArchiveComponent ;
-    sdo:name "BS Opsterland Ovl. Reg. 1954 nr. 176" ;
-    sdo:url "https://www.openarchieven.nl/frl:0a6530b8-0dae-11e5-bff9-e7742ad372fe" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1001> a sdo:ArchiveComponent ;
-    sdo:name "BS Alphen Ovl. Reg. 1870 nr. 102 (dd. 17-10-1870)" ;
-    sdo:url "https://proxy.archieven.nl/105/58B3BABF6309478F88E431A0EEBB98A3" .
-

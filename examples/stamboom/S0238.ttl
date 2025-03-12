@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0238> a sdo:ArchiveComponent ;
-    sdo:name "BS Maasland Ovl. Reg. 1890 nr. 1 (dd. 07-01-1890)" ;
-    sdo:url "https://hdl.handle.net/21.12115/NL-DtAD132851897" .
-

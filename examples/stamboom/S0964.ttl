@@ -1,7 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0964> a sdo:ArchiveComponent ;
-    sdo:name "BS Chaam Ovl. Reg. 1969 nr. 9 (dd. 16-5-1969)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:5fe808dd-14da-d916-1598-32a448388bc0",
-        "https://www.openarchieven.nl/rat:574d0b04-d4ac-f01a-1f33-1452331ca2f6" .
-

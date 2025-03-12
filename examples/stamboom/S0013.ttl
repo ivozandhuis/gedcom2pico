@@ -1,5 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0013> a sdo:ArchiveComponent ;
-    sdo:name "DTB Olst  Doopboek Ger. Kerk fol. 149 (1801)" .
-

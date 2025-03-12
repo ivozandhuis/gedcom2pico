@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0961> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Huw. Reg. 1906 nr. 15 (dd. 23-6-1906)" ;
-    sdo:url "https://www.openarchieven.nl/hco:E338B7A6-C1BE-45D9-BA03-35EFC5867026" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0741> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Huw. Reg. 1861 nr. 157 (dd. 19-6-1861)" ;
-    sdo:url "https://www.openarchieven.nl/elo:211b2442-c7f0-6572-db22-d7fac719595a" .
-

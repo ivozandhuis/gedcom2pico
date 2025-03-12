@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0403> a sdo:ArchiveComponent ;
-    sdo:name "BS Blokzijl Ovl. Reg. 1951 nr. 8 (dd. 24-3-1951)" ;
-    sdo:url "https://www.openarchieven.nl/hco:1629ABB7-FEC8-4C02-A575-59490F4D155C" .
-

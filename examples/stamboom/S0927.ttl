@@ -1,5 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0927> a sdo:ArchiveComponent ;
-    sdo:name "CAO Persoonskaart ZANDHUIS, Hendrikus (1917-1990)" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0842> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Geb. Reg. 1824 nr. 1173 (dd. 12-12-1824)" ;
-    sdo:url "https://www.openarchieven.nl/elo:a61ca299-8e4a-e26d-a02f-709885476ccd" .
-

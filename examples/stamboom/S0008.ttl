@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0008> a sdo:ArchiveComponent ;
-    sdo:name "BS Heerde Geb. Reg. 1811 nr. 44 (dd. 26-11-1811)" ;
-    sdo:url "https://www.openarchieven.nl/gld:DE22859F-E70B-4898-BC74-04E75CE8DDFC" .
-

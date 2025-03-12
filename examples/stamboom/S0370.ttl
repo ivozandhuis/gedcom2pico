@@ -1,5 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0370> a sdo:ArchiveComponent ;
-    sdo:name "BS Aarlanderveen Geb. Reg. 1854 nr. 93 (dd.19-12-1854)" .
-

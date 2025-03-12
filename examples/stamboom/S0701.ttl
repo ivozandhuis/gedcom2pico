@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0701> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijlre Huw. Reg. 1867 nr. 4" ;
-    sdo:url "https://www.openarchieven.nl/rhl:97f8c984-2441-f5d3-6cb2-752a21731ec9" .
-

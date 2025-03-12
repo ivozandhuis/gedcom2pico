@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0974> a sdo:ArchiveComponent ;
-    sdo:name "BS Heerde Ovl. Reg. 1832 nr. 6 (dd. 8-2-1832)" ;
-    sdo:url "https://www.openarchieven.nl/gld:3FD58520-C5A7-46B5-8972-9646BA9E0702" .
-

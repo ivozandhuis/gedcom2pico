@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0824> a sdo:ArchiveComponent ;
-    sdo:name "MR Leiden 1865 nr. 291" ;
-    sdo:url "https://www.openarchieven.nl/elo:49a6924b-c786-46d9-a063-127eb259962a" .
-

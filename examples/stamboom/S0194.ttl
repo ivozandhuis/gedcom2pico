@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0194> a sdo:ArchiveComponent ;
-    sdo:name "BS Epe Ovl. Reg. 1858 nr. 18 (dd. 5-2-1858)" ;
-    sdo:url "https://www.openarchieven.nl/gld:20F6A133-D34E-4558-AFA5-C25663799569" .
-

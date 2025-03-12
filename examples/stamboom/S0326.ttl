@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0326> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1847 nr. 823 (dd. 1-6-1847)" ;
-    sdo:url "https://www.openarchieven.nl/elo:409fc94f-501c-f701-b967-d5b1af60a8e1" .
-

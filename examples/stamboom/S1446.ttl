@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1446> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Huw. Reg. 1849 nr. 12" ;
-    sdo:url "https://www.openarchieven.nl/hco:CDB41EF0-6C4D-4843-B10E-74A43D9063A5" .
-

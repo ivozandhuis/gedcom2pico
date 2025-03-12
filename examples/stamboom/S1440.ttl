@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1440> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Geb. Reg. 1820 nr. 6" ;
-    sdo:url "https://www.openarchieven.nl/hco:EA974823-04D4-434D-ACF5-41D868CBE053" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0776> a sdo:ArchiveComponent ;
-    sdo:name "BS Idaarderadeel Huw. Reg. 1872 nr. 22 (dd. 11-5-1872)" ;
-    sdo:url "https://www.openarchieven.nl/frl:0f2ba849-e3c0-8129-bc61-5c4b6b5922fc" .
-

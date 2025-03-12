@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1194> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Ovl. Reg. 1877 nr. 364 (dd. 30-6-1877)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:8827b1c0-cc92-64fd-942c-a70a63d0351e" .
-

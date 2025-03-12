@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0235> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Ovl. Reg. 1938, nr. 16 (dd.16-04-1938)" ;
-    sdo:url "https://www.openarchieven.nl/hco:1D97A497-AB3F-4FF9-AB5F-74FC65A73821" .
-

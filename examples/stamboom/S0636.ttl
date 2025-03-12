@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0636> a sdo:ArchiveComponent ;
-    sdo:name "BS Berg en Terblijt Ovl. Reg. 1854 nr. 5 (dd. 1-3-1854)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:961f429e-4016-893c-89d8-b9830bf174f7" .
-

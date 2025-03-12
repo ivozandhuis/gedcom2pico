@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0561> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Huw. Reg. 1920 nr. 123 (dd. 11-6-1920)" ;
-    sdo:url "https://www.openarchieven.nl/hco:73F98A94-BD5C-4504-9670-E29AD18DC3D9" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1031> a sdo:ArchiveComponent ;
-    sdo:name "BS Delft Huw. Reg. 1882 nr. 55" ;
-    sdo:url "https://www.openarchieven.nl/ade:fc108946-4024-11e5-b357-576c21024784" .
-

@@ -1,7 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0030> a sdo:ArchiveComponent ;
-    sdo:name "DTB Gorredijk Lidmatenregister Herv. Gemeente (dd. 1816-01-26)" ;
-    sdo:url "https://allefriezen.nl/zoeken/deeds/62e671d5-7099-4851-9fb2-18abe21efe3d",
-        "https://www.openarchieven.nl/frl:62e671d5-7099-4851-9fb2-18abe21efe3d" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0564> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Stad Geb. Reg. 1886 nr. 135 (dd. 23-6-1886)" ;
-    sdo:url "https://www.openarchieven.nl/hco:6D4E4961-923B-43D4-AF0A-8A273538AE1A" .
-

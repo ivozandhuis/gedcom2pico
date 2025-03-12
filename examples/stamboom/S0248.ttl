@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0248> a sdo:ArchiveComponent ;
-    sdo:name "BS Naaldwijk Ovl. Reg. 1819 nr. 2 (dd.16-01-1819)" ;
-    sdo:url "https://www.openarchieven.nl/haw:7898c277-5bdb-4f7e-9ed5-7b2b2686229c" .
-

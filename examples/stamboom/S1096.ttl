@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1096> a sdo:ArchiveComponent ;
-    sdo:name "BS Groningen Ovl. Reg. 1943 nr. 116 (dd. 25-1-1943)" ;
-    sdo:url "https://www.openarchieven.nl/gra:85f58764-ac1c-d785-e118-29b9f1ea5fdf" .
-

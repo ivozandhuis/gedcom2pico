@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0329> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1834 nr. 761 (dd. 20-09-1834)" ;
-    sdo:url "https://www.openarchieven.nl/elo:fbf1f816-795b-a8d0-4e5a-c3f75225d6c4" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1268> a sdo:ArchiveComponent ;
-    sdo:name "BS Steenbergen Geb. Reg. 1813 nr. 108 (dd. 21-10-1813)" ;
-    sdo:url "https://www.openarchieven.nl/wba:ee8d2790-4864-11e1-9853-b7a7dd2b6a2a" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0749> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1895 nr. 456 (dd. 10-6-1895)" ;
-    sdo:url "https://www.openarchieven.nl/elo:ad9544ea-d4c5-f7c0-94e3-25a3061bb10a" .
-

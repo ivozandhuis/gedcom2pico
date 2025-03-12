@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0380> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Huw. Reg. 1867 nr. 8 (dd. 11-05-1867)" ;
-    sdo:url "https://www.openarchieven.nl/hco:759A27FF-1BF4-453C-B92A-BED6484B400E" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0245> a sdo:ArchiveComponent ;
-    sdo:name "BS Monster Ovl. Reg. 1826 nr. 60 (dd. 11-10-1826)" ;
-    sdo:url "https://www.openarchieven.nl/haw:7c27aa37-0f39-4791-89b9-069bbf4fa83a" .
-

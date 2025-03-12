@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1220> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1823 nr. 535 (dd. 8-10-1823)" ;
-    sdo:url "https://www.openarchieven.nl/bhi:e6e48aad-db85-eb98-a801-990e3eab3a3b" .
-

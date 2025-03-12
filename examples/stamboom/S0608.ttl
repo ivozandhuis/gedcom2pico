@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0608> a sdo:ArchiveComponent ;
-    sdo:name "BS Epe Geb. Reg. 1858 nr. 66 (dd. 27-3-1858)" ;
-    sdo:url "https://www.openarchieven.nl/gld:B7C8A656-FC28-415F-93FC-F07D5D4B21E3" .
-

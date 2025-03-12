@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0135> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Huw. Reg. 1821 nr. 96 (dd. 7-6-1821)" ;
-    sdo:url "https://www.openarchieven.nl/elo:6e50967f-614d-c8af-bd96-0f0a2a5fc2d0" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0586> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Stad Huw. Reg. 1862 nr. 2 (dd. 22-2-1862)" ;
-    sdo:url "https://www.openarchieven.nl/hco:b0b6eaf2-0214-9526-a0f0-239fecde6ba1" .
-

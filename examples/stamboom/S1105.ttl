@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1105> a sdo:ArchiveComponent ;
-    sdo:name "BS Groningen Ovl. Reg. 1883 nr. 1204 (dd. 21-12-1883)" ;
-    sdo:url "https://www.openarchieven.nl/gra:42e476c1-1d22-8e28-8c73-80250da73cb7" .
-

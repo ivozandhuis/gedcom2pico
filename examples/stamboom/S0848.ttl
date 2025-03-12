@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0848> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1834 nr. 361 (dd. 23-4-1834)" ;
-    sdo:url "https://www.openarchieven.nl/elo:079889cf-d503-df45-628b-74ce06fe181e" .
-

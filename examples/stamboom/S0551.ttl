@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0551> a sdo:ArchiveComponent ;
-    sdo:name "BS Den Haag Ovl. Reg. 1907 nr. 835 (dd. 1-3-1907)" ;
-    sdo:url "https://www.openarchieven.nl/hga:0ECF7F71-F25B-420B-86F1-5393037BF1D0" .
-

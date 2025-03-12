@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0159> a sdo:ArchiveComponent ;
-    sdo:name "BS Almelo Huw. Reg. 1885 nr. 1 (dd. 23-1-1885)" ;
-    sdo:url "https://www.openarchieven.nl/hco:3a3ee567-814e-e4fe-a05e-cdef01390d3c" .
-

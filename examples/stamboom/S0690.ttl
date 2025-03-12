@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0690> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijlre Ovl. Reg. 1842 nr. 6 (dd. 6-3-1842)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:35fa55e5-b8f9-fe1d-0059-a235b9d20907" .
-

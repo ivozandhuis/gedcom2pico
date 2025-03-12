@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1247> a sdo:ArchiveComponent ;
-    sdo:name "BS Oude-Tonge Huw. Reg. 1816 nr. 5 (dd. 9-5-1816)" ;
-    sdo:url "https://www.openarchieven.nl/sgo:2647C334-EDDE-4C46-AC6F-87218F2048BC" .
-

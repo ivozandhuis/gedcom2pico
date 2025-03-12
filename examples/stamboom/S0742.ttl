@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0742> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1867 nr. 340 (dd. 20-4-1867)" ;
-    sdo:url "https://www.openarchieven.nl/elo:b05e7dc4-02e2-81e2-6b17-99000650bfcc" .
-

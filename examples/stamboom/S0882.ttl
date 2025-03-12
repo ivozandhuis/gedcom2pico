@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0882> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Geb. Reg. 1808 nr. 359 (dd. 8-8-1808)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:9779a336-7784-6ea3-f800-7b0c7307a384" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0754> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Geb. Reg. 1833 nr. 56 (dd. 24-9-1833)" ;
-    sdo:url "https://www.openarchieven.nl/frl:a9351b86-7ea6-985c-f045-7be64397adbd" .
-

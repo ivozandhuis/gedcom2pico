@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1309> a sdo:ArchiveComponent ;
-    sdo:name "BS 's Gravenzande Huw. Reg. 1900 nr. 6 (dd. 23-2-1900)" ;
-    sdo:url "https://www.openarchieven.nl/haw:1135be71-607a-482c-b9a8-02ffdc6034d7" .
-

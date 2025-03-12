@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1014> a sdo:ArchiveComponent ;
-    sdo:name "BS Bodegraven Geb. Reg. 1839 nr. 46 (dd. 28-5-1839)" ;
-    sdo:url "https://www.openarchieven.nl/rel:f666cc83-bcce-2c3d-ee00-0d6d4c727558" .
-

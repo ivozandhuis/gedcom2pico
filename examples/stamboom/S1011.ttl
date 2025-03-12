@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1011> a sdo:ArchiveComponent ;
-    sdo:name "BS Bodegraven Huw. Reg. 1836 nr. 17" ;
-    sdo:url "https://www.openarchieven.nl/rel:87b67588-782b-9f24-dfdf-83776da40742" .
-

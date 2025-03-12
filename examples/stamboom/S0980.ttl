@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0980> a sdo:ArchiveComponent ;
-    sdo:name "BS Doornspijk Huw. Reg. 1857 nr. 12 (dd. 20-6-1857)" ;
-    sdo:url "https://www.openarchieven.nl/gld:C221113B-3A1D-46ED-ABDB-CAA866BAFE3E" .
-

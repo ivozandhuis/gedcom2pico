@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0740> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Huw. Reg. 1858 nr. 106 (dd. 19-5-1858)" ;
-    sdo:url "https://www.openarchieven.nl/elo:b3b2ea3f-4241-3bbc-3156-f2fec082999a" .
-

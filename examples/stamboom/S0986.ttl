@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0986> a sdo:ArchiveComponent ;
-    sdo:name "BS Haarlem Ovl. Reg. 1928 nr. 807 (dd. 9-8-1928)" ;
-    sdo:url "https://www.openarchieven.nl/nha:B23F49EF-6F91-4423-A9DF-402612BC7487" .
-

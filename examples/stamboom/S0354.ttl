@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0354> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Huw. Reg. 1860 nr. 74 (dd. 23-05-1860)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:e8990c4a-6ba0-a133-4814-3ead956a9c2e" .
-

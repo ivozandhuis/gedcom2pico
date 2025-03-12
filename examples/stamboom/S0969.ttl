@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0969> a sdo:ArchiveComponent ;
-    sdo:name "BS Heerde Ovl. Reg. 1821 nr. 26 (dd. 17-3-1821)" ;
-    sdo:url "https://www.openarchieven.nl/gld:3AA4D60E-A2E8-476A-82EA-0C476326EAE8" .
-

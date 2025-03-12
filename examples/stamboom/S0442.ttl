@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0442> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Ovl. Reg. 1943 nr. 604 (dd. 30-9-1943)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:fff4e46a-5f7e-b6ac-2308-587735415429" .
-

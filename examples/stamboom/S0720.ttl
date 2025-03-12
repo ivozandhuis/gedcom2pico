@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0720> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Geb. Reg. 1820 nr. 208 (dd. 26-2-1820)" ;
-    sdo:url "https://www.openarchieven.nl/elo:0f7fa55a-ea47-7113-592c-bf6fe9689592" .
-

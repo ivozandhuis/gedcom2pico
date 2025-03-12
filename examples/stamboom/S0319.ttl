@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0319> a sdo:ArchiveComponent ;
-    sdo:name "BS Wormerveer Ovl. Reg. 1849 (dd. 5-6-1849)" ;
-    sdo:url "https://www.openarchieven.nl/nha:16670D68-0DA1-42C5-8258-0CFD81F3B467" .
-

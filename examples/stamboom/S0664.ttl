@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0664> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Huw. Reg. 1835 nr. 8 (dd. 16-10-1835)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:398e2d6f-8204-429f-9ce9-3595624e8ddf" .
-

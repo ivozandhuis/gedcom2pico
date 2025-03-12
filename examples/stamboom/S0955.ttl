@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0955> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Geb. Reg. 1877 nr. 55 (dd. 23-6-1877)" ;
-    sdo:url "https://www.openarchieven.nl/hco:8547EDC2-5721-486A-9944-D05E95E7C1F5" .
-

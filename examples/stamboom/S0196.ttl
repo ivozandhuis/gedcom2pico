@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0196> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Ovl. Reg. 1927 nr. 33 (dd. 29-6-1927)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:e652d342-e44d-48b6-b142-343507695abe" .
-

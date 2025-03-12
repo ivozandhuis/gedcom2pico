@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1074> a sdo:ArchiveComponent ;
-    sdo:name "BS Schoterland Huw. Reg. 1845 nr. 2 (dd. 19-1-1845)" ;
-    sdo:url "https://www.openarchieven.nl/frl:58dff6b2-fd93-6388-c162-8f69014db57d" .
-

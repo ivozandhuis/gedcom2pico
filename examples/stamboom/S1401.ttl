@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1401> a sdo:ArchiveComponent ;
-    sdo:name "BS Loosduinen Huw. Reg. 1821 nr. 7" ;
-    sdo:url "https://www.openarchieven.nl/hga:810A8ED0-219A-43EA-99B2-5CF4CD30ACC0" .
-

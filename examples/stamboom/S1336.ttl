@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1336> a sdo:ArchiveComponent ;
-    sdo:name "BS 's Gravenzande Ovl. Reg. 1815 nr. 6" ;
-    sdo:url "https://www.openarchieven.nl/haw:2c9cad2f-c93c-4419-a92f-0a6b77a77a72" .
-

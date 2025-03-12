@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0714> a sdo:ArchiveComponent ;
-    sdo:name "BS Roosteren Huw. Reg. 1864 nr. 15 (dd. 1864-11-16)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:633cd65d-5a0a-8b55-cf46-2d0201c7ccfe" .
-

@@ -1,7 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0262> a sdo:ArchiveComponent ;
-    sdo:name "BS Monster Ovl. Reg. 1945 nr. 120 (dd. 27-08-1945)" ;
-    sdo:url "https://www.openarchieven.nl/haw:824afe86-e369-4cc9-828b-0064cd649c34",
-        "https://www.openarchieven.nl/hga:45085D6B-8585-46A7-9510-C55A140920A0" .
-

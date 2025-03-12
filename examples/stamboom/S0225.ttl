@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0225> a sdo:ArchiveComponent ;
-    sdo:name "BS Elburg Ovl. Reg. 1930 nr. 13 (dd.10-09-1930)" ;
-    sdo:url "https://www.openarchieven.nl/gld:E1A0E869-DB42-484B-9386-9939FAE439D7" .
-

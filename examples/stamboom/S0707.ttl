@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0707> a sdo:ArchiveComponent ;
-    sdo:name "BS Oud-Valkenburg Geb. Reg. 1827 nr. 10 (dd. 23-5-1827)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:6b11beff-9048-037a-a7fc-b3d09de18954" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1345> a sdo:ArchiveComponent ;
-    sdo:name "BS Kampen Geb. Reg. 1893 nr. 468" ;
-    sdo:url "https://www.openarchieven.nl/hco:1ED494BC-37A3-4EE3-B2BE-AFC02D6FF532" .
-

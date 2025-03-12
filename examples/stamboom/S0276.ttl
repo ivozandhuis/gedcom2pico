@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0276> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1825 nr. 1055 (dd. 24-10-1825)" ;
-    sdo:url "https://www.openarchieven.nl/elo:3cf1b9e5-aae2-2492-2be2-e27d90743470" .
-

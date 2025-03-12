@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0610> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Geb. Reg. 1831 nr. 77 (dd. 11-11-1831)" ;
-    sdo:url "https://www.openarchieven.nl/hco:5A228F5D-2227-46FF-8FA7-57439AF6E752" .
-

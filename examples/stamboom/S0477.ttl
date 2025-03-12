@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0477> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Geb. Reg. 1901 nr, 166 (dd. 25-11-1901)" ;
-    sdo:url "https://www.openarchieven.nl/hco:24C0D604-EF50-4DE7-8C81-E0B9FE93C770" .
-

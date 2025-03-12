@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1435> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Ovl. Reg. 1823 nr. 64" ;
-    sdo:url "https://www.openarchieven.nl/hco:CE1D27FE-9ABF-48C2-A272-520D799D4F82" .
-

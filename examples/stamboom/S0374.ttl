@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0374> a sdo:ArchiveComponent ;
-    sdo:name "DTB Oldebroek Begraafboek, grafnummer 153" ;
-    sdo:url "https://www.openarchieven.nl/snv:da3034b6-51d2-53a0-0bbd-cca20949901b" .
-

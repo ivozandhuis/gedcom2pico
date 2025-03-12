@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0059> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Geb. Reg. 1838 (dd. 5-12-1838)" ;
-    sdo:url "https://hdl.handle.net/21.12121/54203292" .
-

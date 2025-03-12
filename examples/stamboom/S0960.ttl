@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0960> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Huw. Reg. 1904 nr. 23 (dd. 16-7-1904)" ;
-    sdo:url "https://www.openarchieven.nl/hco:7D429284-428E-421C-98EA-A675E6B794BA" .
-

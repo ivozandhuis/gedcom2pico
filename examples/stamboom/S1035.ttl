@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1035> a sdo:ArchiveComponent ;
-    sdo:name "BS Alphen Huw. Reg. 1871 nr. 9 (dd. 12-5-1871)" ;
-    sdo:url "https://proxy.archieven.nl/105/1F2D47FFD0D943C687648025625D35E8" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1272> a sdo:ArchiveComponent ;
-    sdo:name "BS Oude Tonge Huw. Reg. 1838 nr. 6 (dd. 1-6-1838)" ;
-    sdo:url "https://www.openarchieven.nl/sgo:7F3F72A4-C6BA-4BF8-A1EA-569E4A9608B3" .
-

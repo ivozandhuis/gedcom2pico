@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0601> a sdo:ArchiveComponent ;
-    sdo:name "BS Epe Ovl. Reg. 1855 nr. 47 (dd. 30-3-1855)" ;
-    sdo:url "https://www.openarchieven.nl/gld:B89B01C7-CD8B-49A8-9B38-5665C4854080" .
-

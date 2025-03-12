@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1296> a sdo:ArchiveComponent ;
-    sdo:name "BS 's Gravenzande Geb. Reg. 1871 nr. 202 (dd. 20-12-1871)" ;
-    sdo:url "https://www.openarchieven.nl/haw:420b4392-35a4-458a-8cb0-95392716927b" .
-

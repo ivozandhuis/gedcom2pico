@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1240> a sdo:ArchiveComponent ;
-    sdo:name "BS 's-Hertogenbosch Huw. Reg. 1857 nr. 111" ;
-    sdo:url "https://www.openarchieven.nl/bhi:57671647-da92-2a0f-9bca-36065a496048" .
-

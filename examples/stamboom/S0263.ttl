@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0263> a sdo:ArchiveComponent ;
-    sdo:name "BS Monster Ovl. Reg. 1865 nr. 21 (dd. 18-02-1865)" ;
-    sdo:url "https://www.openarchieven.nl/haw:5d9d0d0e-9d2b-4301-0a9a-0d604d7edfed" .
-

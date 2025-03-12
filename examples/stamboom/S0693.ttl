@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0693> a sdo:ArchiveComponent ;
-    sdo:name "BS Oud-Valkenburg Ovl. Reg. 1896 nr. 7 (dd. 26-7-1896)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:42a5a9e2-6e37-ca60-def9-6e95e358524f" .
-

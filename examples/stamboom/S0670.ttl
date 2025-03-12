@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0670> a sdo:ArchiveComponent ;
-    sdo:name "BS Schoten Ovl. Reg. 1886 nr. 1 (dd. 27-2-1886)" ;
-    sdo:url "https://www.openarchieven.nl/nha:9744BA89-C1F2-4ACB-87B9-6C48D1485A41" .
-

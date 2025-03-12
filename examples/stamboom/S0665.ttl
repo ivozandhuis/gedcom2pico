@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0665> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Ovl. Reg. 1849 nr. 72 (dd. 14-7-1849)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:fd053322-556d-40c6-9d6e-0b37078d0b28" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0351> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Geb. Reg. 1899 nr. 341 (dd. 06-04-1899)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:3cfa48d3-d6b2-0d57-4226-593f52c72835" .
-

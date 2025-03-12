@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0830> a sdo:ArchiveComponent ;
-    sdo:name "MR Leiden 1882 nr. 253" ;
-    sdo:url "https://www.openarchieven.nl/elo:753e8fa8-354c-4dd0-a534-151424c7c561" .
-

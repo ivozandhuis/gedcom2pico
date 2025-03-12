@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0481> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Huw. Reg. 1927 nr. 9 (30-4-1927)" ;
-    sdo:url "https://www.openarchieven.nl/hco:B44B9530-61FA-4E42-BD42-C9F25C9F15A5" .
-

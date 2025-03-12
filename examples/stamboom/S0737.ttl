@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0737> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1844 nr. 517 (dd. 12-6-1844)" ;
-    sdo:url "https://www.openarchieven.nl/elo:fa3feb46-14bd-325e-ae6c-0273f4dd6516" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0765> a sdo:ArchiveComponent ;
-    sdo:name "BS Sneek Geb. Reg. 1842 fol. 102 (dd. 14-11-1842)" ;
-    sdo:url "https://www.openarchieven.nl/frl:48cc546e-fd26-ae4c-6fe3-b66ea7eb5a73" .
-

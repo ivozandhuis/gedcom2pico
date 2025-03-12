@@ -1,7 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0913> a sdo:ArchiveComponent ;
-    sdo:name "DTB Oudewater Doopboek fol. 38" ;
-    sdo:url "https://www.openarchieven.nl/hua:53F4FE3D-E7C5-D31C-E053-4701000A0367",
-        "https://www.openarchieven.nl/rel:1553fb4b-531d-624a-4030-89c31e87cbe5" .
-

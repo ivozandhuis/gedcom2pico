@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0792> a sdo:ArchiveComponent ;
-    sdo:name "BS Wormerveer Ovl. Reg. 1889 nr. 28 (dd. 19-6-1889)" ;
-    sdo:url "https://www.openarchieven.nl/nha:27ED0D57-3E2E-4342-A5C8-3050CAA899CD" .
-

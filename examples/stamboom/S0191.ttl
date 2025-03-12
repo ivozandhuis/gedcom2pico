@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0191> a sdo:ArchiveComponent ;
-    sdo:name "BS Haarlem Ovl. Reg. 1927 nr. 957 (dd. 8-9-1927)" ;
-    sdo:url "https://www.openarchieven.nl/nha:E6065A77-5453-4669-8796-64AB92EA7740" .
-

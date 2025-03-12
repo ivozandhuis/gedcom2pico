@@ -1,5 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1062> a sdo:ArchiveComponent ;
-    sdo:name "BS Rotem Huw. Reg. 28 Prairial X (dd. 17-06-1802)" .
-

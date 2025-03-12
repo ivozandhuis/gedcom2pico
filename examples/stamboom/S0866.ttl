@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0866> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1881 nr. 597 (dd. 11-6-1881)" ;
-    sdo:url "https://www.openarchieven.nl/elo:63acb11e-1910-e2c7-89f5-c5e1946477cf" .
-

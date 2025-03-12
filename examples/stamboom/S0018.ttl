@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0018> a sdo:ArchiveComponent ;
-    sdo:name "BS Maastricht Geb. Reg. 1872 nr. 146 (dd. 30-7-1872)" ;
-    sdo:url "https://www.openarchieven.nl/rhl:e5f19729-d92d-7ce4-6081-2361eef21e5b" .
-

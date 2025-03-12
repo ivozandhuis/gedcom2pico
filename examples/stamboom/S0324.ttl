@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0324> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1845 nr. 449 (dd. 09-05-1845)" ;
-    sdo:url "https://www.openarchieven.nl/elo:729495f4-4aae-5167-6c2b-ee4ae4a8dc7a" .
-

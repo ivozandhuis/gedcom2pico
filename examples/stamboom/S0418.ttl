@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0418> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Ovl. Reg. 1910 nr. 75 (dd. 4-11-1910)" ;
-    sdo:url "https://www.openarchieven.nl/frl:7251afda-003f-4287-4ea4-c00a6e0a1bce" .
-

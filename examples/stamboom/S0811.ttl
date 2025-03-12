@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0811> a sdo:ArchiveComponent ;
-    sdo:name "BS Katwijk Huw. Reg. 1928 nr. 33 (dd. 19-4-1928)" ;
-    sdo:url "https://www.openarchieven.nl/elo:7207a354-45f7-7f8d-fcf3-a87adcaf15f5" .
-

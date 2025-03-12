@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0000> a sdo:ArchiveComponent ;
-    sdo:name "BS Boskoop Geb. Reg. 1833 nr. 65 (dd. 17-9-1833)" ;
-    sdo:url "https://www.openarchieven.nl/rzh:2619be38-1c70-439f-bb17-4941ab943f09" .
-

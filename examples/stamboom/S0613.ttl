@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0613> a sdo:ArchiveComponent ;
-    sdo:name "BS Wijhe Geb. Reg. 1836 nr. 85 (dd. 17-8-1836)" ;
-    sdo:url "https://www.openarchieven.nl/hco:16DF148C-9592-4F4A-9774-FA7A2FD649AD" .
-

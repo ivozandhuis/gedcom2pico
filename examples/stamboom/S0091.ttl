@@ -1,7 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0091> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Huw. Reg. 1830 nr. 88 (dd. 24-6-1830)" ;
-    sdo:url "https://www.openarchieven.nl/elo:54ffe853-9f0c-e1f9-7d90-4289d18c604c",
-        "https://www.openarchieven.nl/rzh:f9f85947-9b3f-41f2-b08f-5cc2ff9c47d5" .
-

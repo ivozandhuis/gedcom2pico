@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0867> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Ovl. Reg. 1886 nr. 157 (dd. 18-2-1886)" ;
-    sdo:url "https://www.openarchieven.nl/elo:2895509c-5b6c-52a7-d6f8-0bfa731ca273" .
-

@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1100> a sdo:ArchiveComponent ;
-    sdo:name "BS Roden Geb. Reg. 1813 nr. 22 (dd.9-6-1813)" ;
-    sdo:url "https://www.openarchieven.nl/dar:c82c79e1-cbb3-4610-be13-8f55f15c7d0e" .
-

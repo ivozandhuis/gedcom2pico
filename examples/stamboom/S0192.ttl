@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0192> a sdo:ArchiveComponent ;
-    sdo:name "BS Haarlem Ovl. Reg. 1953 nr. A638 (dd. 16-5-1953)" ;
-    sdo:url "https://www.openarchieven.nl/nha:439C38CC-A510-4DA3-98F5-7ADEE290B519" .
-

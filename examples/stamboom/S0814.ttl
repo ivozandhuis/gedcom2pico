@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0814> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Geb. Reg. 1844 nr. 96 (dd. 4-4-1844)" ;
-    sdo:url "https://www.openarchieven.nl/elo:382bcd0c-d98c-400b-d8e1-94a1d83f785a" .
-

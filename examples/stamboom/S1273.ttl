@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1273> a sdo:ArchiveComponent ;
-    sdo:name "BS Brussel Huw. Reg. 1842 nr. 377 (dd. 11-5-1842)" ;
-    sdo:url "https://www.openarchieven.nl/abb:f3573b14-1cb8-740a-e5a2-3bb1655a3921" .
-

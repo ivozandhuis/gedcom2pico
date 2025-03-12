@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0992> a sdo:ArchiveComponent ;
-    sdo:name "BS Alphen Ovl. Reg. 1915 nr. 24 (dd. 27-4-1915)" ;
-    sdo:url "https://proxy.archieven.nl/105/4B4621D90E714484B87E2B1ECC44387C" .
-

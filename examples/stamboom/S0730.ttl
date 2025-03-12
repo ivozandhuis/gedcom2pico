@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0730> a sdo:ArchiveComponent ;
-    sdo:name "BS Leiden Geb. Reg. 1837 nr. 817 (dd. 24-7-1837)" ;
-    sdo:url "https://www.openarchieven.nl/elo:02a93e39-3906-c7af-f06f-2317b7c0868a" .
-

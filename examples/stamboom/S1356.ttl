@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1356> a sdo:ArchiveComponent ;
-    sdo:name "BS Loosduinen Geb. Reg. 1864 nr. 31" ;
-    sdo:url "https://www.openarchieven.nl/hga:0CDE6E3F-98BD-42CC-ABEB-DD739E20F977" .
-

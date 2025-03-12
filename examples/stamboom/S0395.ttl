@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0395> a sdo:ArchiveComponent ;
-    sdo:name "BS Lemsterland Geb. Reg. 1890 nr. 172 (dd. 6-12-1890)" ;
-    sdo:url "https://www.openarchieven.nl/frl:e6fe9d38-694b-59fe-b3c5-098d6ccd742c" .
-

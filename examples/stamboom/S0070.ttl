@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0070> a sdo:ArchiveComponent ;
-    sdo:name "BS Olst Geb. Reg. 1827 nr. 26 (dd. 28-2-1827)" ;
-    sdo:url "https://www.openarchieven.nl/hco:A5A795DE-B1AC-43BD-A300-FACE749CA6B5" .
-

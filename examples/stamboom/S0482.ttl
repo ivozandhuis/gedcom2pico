@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0482> a sdo:ArchiveComponent ;
-    sdo:name "BS Raalte Huw. Reg. 1932 nr. 44 (dd. 29-10--1932)" ;
-    sdo:url "https://www.openarchieven.nl/hco:D5EEE600-ACF0-494C-B2E0-9558C59C3F87" .
-

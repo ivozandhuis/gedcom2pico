@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1069> a sdo:ArchiveComponent ;
-    sdo:name "BS Opsterland Ovl. Reg. 1826 nr. 42/1-2" ;
-    sdo:url "https://www.openarchieven.nl/frl:d8179e54-fcd3-b3c5-1f58-f1997433c1aa" .
-

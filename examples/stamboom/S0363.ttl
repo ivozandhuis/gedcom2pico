@@ -1,5 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S0363> a sdo:ArchiveComponent ;
-    sdo:name "BS Oudenhoorn Ovl. Reg. 1950 nr. 11 (dd. 17-10-1950)" .
-

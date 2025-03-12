@@ -1,6 +1,0 @@
-@prefix sdo: <https://schema.org/> .
-
-<https://gen.example.com/stamboom/S1089> a sdo:ArchiveComponent ;
-    sdo:name "BS Leek Geb. Reg. 1843 nr. 94 (dd. 4-10-1843)" ;
-    sdo:url "https://www.openarchieven.nl/gra:407c7f6f-5fb2-d02b-dd00-e0cf934dbcb5" .
-
